@@ -10,14 +10,15 @@ namespace Roslynator.Documentation
         None = 0,
         Root = 1,
         ContainingType = 2,
-        ReturnType = 4,
-        BaseType = 8,
-        Attribute = 16,
-        DerivedType = 32,
-        ImplementedInterface = 64,
-        ImplementedMember = 128,
-        Exception = 256,
-        SeeAlso = 512,
+        Parameter = 4,
+        ReturnType = 8,
+        BaseType = 16,
+        Attribute = 32,
+        DerivedType = 64,
+        ImplementedInterface = 128,
+        ImplementedMember = 256,
+        Exception = 512,
+        SeeAlso = 1024,
         All = Root | ContainingType | ReturnType | BaseType | Attribute | DerivedType | ImplementedInterface | ImplementedMember | Exception | SeeAlso
     }
 }

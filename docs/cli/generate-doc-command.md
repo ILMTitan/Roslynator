@@ -155,7 +155,7 @@ Indicates whether symbols contained in `System` namespace should be ordered as a
 
 Indicates whether attribute arguments should be omitted when displaying an attribute.
 
-**`[--omit-containing-namespace-parts]`** `{root containing-type return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
+**`[--omit-containing-namespace-parts]`** `{root containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
 
 Defines parts that that should by displayed without containing namespace.
 

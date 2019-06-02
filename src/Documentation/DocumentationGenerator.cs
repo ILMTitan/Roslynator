@@ -381,15 +381,7 @@ namespace Roslynator.Documentation
             void WriteBulletItemLink(INamedTypeSymbol typeSymbol)
             {
                 writer.WriteStartBulletItem();
-
-                INamespaceSymbol containingNamespace = typeSymbol.ContainingNamespace;
-
-                if (!containingNamespace.IsGlobalNamespace)
-                {
-                    writer.WriteNamespaceSymbol(containingNamespace);
-                    writer.WriteString(".");
-                }
-
+                writer.WriteContainingNamespacePrefix(typeSymbol);
                 writer.WriteLink(typeSymbol, format);
                 writer.WriteEndBulletItem();
             }

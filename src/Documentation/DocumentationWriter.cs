@@ -578,6 +578,10 @@ namespace Roslynator.Documentation
                 while (true)
                 {
                     WriteBold(en.Current.Name);
+                    WriteSpace();
+                    WriteEntityRef("emsp");
+                    WriteSpace();
+                    WriteTypeLink(en.Current.Type, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Parameter));
 
                     XElement element = GetXmlDocumentation(en.Current.ContainingSymbol)?.Element(WellKnownXmlTags.Param, "name", en.Current.Name);
 

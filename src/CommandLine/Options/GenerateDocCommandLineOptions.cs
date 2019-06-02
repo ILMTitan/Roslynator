@@ -76,7 +76,7 @@ namespace Roslynator.CommandLine
         public bool OmitAttributeArguments { get; set; }
 
         [Option(longName: ParameterNames.OmitContainingNamespaceParts,
-            HelpText = "Defines parts that that should by displayed without containing namespace. Allowed values are root, containing-type, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
+            HelpText = "Defines parts that that should by displayed without containing namespace. Allowed values are root, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
             MetaValue = "<OMIT_CONTAINING_NAMESPACE_PARTS>")]
         public IEnumerable<string> OmitContainingNamespaceParts { get; set; }
 

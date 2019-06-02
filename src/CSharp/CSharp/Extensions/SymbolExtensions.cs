@@ -210,6 +210,12 @@ namespace Roslynator.CSharp
             if (namespaceSymbol.IsGlobalNamespace)
                 throw new ArgumentException("Global namespace does not support explicit declaration.", nameof(namespaceSymbol));
         }
+
+        internal static bool IsSystemNamespace(this INamespaceSymbol namespaceSymbol)
+        {
+            return string.Equals(namespaceSymbol.Name, "System", StringComparison.Ordinal)
+                && namespaceSymbol.ContainingNamespace.IsGlobalNamespace;
+        }
         #endregion INamespaceSymbol
 
         #region IParameterSymbol
