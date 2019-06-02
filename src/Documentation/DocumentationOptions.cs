@@ -18,6 +18,7 @@ namespace Roslynator.Documentation
             string rootDirectoryUrl = null,
             int maxDerivedTypes = DefaultValues.MaxDerivedTypes,
             bool includeClassHierarchy = DefaultValues.IncludeClassHierarchy,
+            bool includeSystemNamespace = DefaultValues.IncludeSystemNamespace,
             bool placeSystemNamespaceFirst = DefaultValues.PlaceSystemNamespaceFirst,
             bool formatDeclarationBaseList = DefaultValues.FormatDeclarationBaseList,
             bool formatDeclarationConstraints = DefaultValues.FormatDeclarationConstraints,
@@ -50,6 +51,7 @@ namespace Roslynator.Documentation
             RootDirectoryUrl = rootDirectoryUrl;
             MaxDerivedTypes = maxDerivedTypes;
             IncludeClassHierarchy = includeClassHierarchy;
+            IncludeSystemNamespace = includeSystemNamespace;
             PlaceSystemNamespaceFirst = placeSystemNamespaceFirst;
             FormatDeclarationBaseList = formatDeclarationBaseList;
             FormatDeclarationConstraints = formatDeclarationConstraints;
@@ -84,6 +86,8 @@ namespace Roslynator.Documentation
         public int MaxDerivedTypes { get; }
 
         public bool IncludeClassHierarchy { get; }
+
+        public bool IncludeSystemNamespace { get; }
 
         public bool PlaceSystemNamespaceFirst { get; }
 
@@ -175,6 +179,7 @@ namespace Roslynator.Documentation
             public const int MaxDerivedTypes = 5;
             public const bool OmitIEnumerable = true;
             public const bool PlaceSystemNamespaceFirst = true;
+            public const bool IncludeSystemNamespace = false;
             public const bool ScrollToContent = false;
         }
     }

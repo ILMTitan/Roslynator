@@ -926,7 +926,7 @@ namespace Roslynator.Documentation
         {
             (int startIndex, int endIndex, ISymbol s) = SymbolDefinitionWriterHelpers.FindDefinitionName(symbol, parts);
 
-            Debug.Assert(startIndex >= 0, parts.ToDisplayString());
+            Debug.Assert(startIndex >= 0 || (symbol.IsKind(SymbolKind.Namespace) && ((INamespaceSymbol)symbol).IsGlobalNamespace), parts.ToDisplayString());
 
             if (startIndex >= 0)
             {

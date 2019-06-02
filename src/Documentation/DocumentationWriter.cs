@@ -6,10 +6,12 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Text;
 using System.Xml.Linq;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Roslynator.CSharp;
+using Roslynator.Text;
 
 namespace Roslynator.Documentation
 {
@@ -275,16 +277,29 @@ namespace Roslynator.Documentation
             bool includeContainingNamespace = true,
             bool includeContainingTypes = true)
         {
-            if (includeContainingNamespace
-                && !typeSymbol.ContainingNamespace.IsGlobalNamespace)
-            {
-                WriteNamespaceSymbol(typeSymbol.ContainingNamespace);
-                WriteString(".");
-            }
+            if (includeContainingNamespace)
+                WriteContainingNamespacePrefix(typeSymbol);
 
             SymbolDisplayFormat format = SymbolDisplayFormats.GetTypeNameFormat(includeContainingTypes: includeContainingTypes, includeTypeParameters: true);
 
             WriteString(typeSymbol.ToDisplayString(format));
+        }
+
+        internal void WriteContainingNamespacePrefix(ISymbol symbol)
+        {
+            Debug.Assert(!symbol.IsKind(SymbolKind.Namespace), symbol.Kind.ToString());
+
+            INamespaceSymbol namespaceSymbol = symbol.ContainingNamespace;
+
+            if (namespaceSymbol?.IsGlobalNamespace == false)
+            {
+                if (Options.IncludeSystemNamespace
+                    || !namespaceSymbol.IsSystemNamespace())
+                {
+                    WriteNamespaceSymbol(namespaceSymbol);
+                    WriteString(".");
+                }
+            }
         }
 
         internal void WriteNamespaceSymbol(INamespaceSymbol namespaceSymbol)
@@ -463,7 +478,7 @@ namespace Roslynator.Documentation
                 shouldDisplayAttribute: (s, a) => DocumentationModel.Filter.IsMatch(s, a),
                 includeTrailingNewLine: true);
 
-            ImmutableArray<SymbolDisplayPart> parts = SymbolDefinitionDisplay.GetDisplayParts(
+            ImmutableArray<SymbolDisplayPart> declarationParts = SymbolDefinitionDisplay.GetDisplayParts(
                 symbol,
                 (symbol.GetFirstExplicitInterfaceImplementation() != null)
                     ? SymbolDisplayFormats.ExplicitImplementationFullDeclaration
@@ -474,58 +489,58 @@ namespace Roslynator.Documentation
                 additionalOptions: additionalOptions,
                 shouldDisplayAttribute: (s, a) => DocumentationModel.Filter.IsMatch(s, a));
 
-            if (symbol.IsKind(SymbolKind.NamedType))
-                RemoveContainingNamespace();
+            StringBuilder sb = StringBuilderCache.GetInstance(attributesParts.Length + declarationParts.Length);
 
-            string text = attributesParts.ToDisplayString() + parts.ToDisplayString();
+            AppendParts(attributesParts, false);
+            AppendParts(declarationParts, symbol.IsKind(SymbolKind.NamedType));
+
+            string text = StringBuilderCache.GetStringAndFree(sb);
 
             WriteCodeBlock(text, LanguageNames.CSharp);
 
-            void RemoveContainingNamespace()
+            void AppendParts(ImmutableArray<SymbolDisplayPart> parts, bool removeContainingNamespace)
             {
-                int i = 0;
-                int j = 0;
-
-                while (i < parts.Length)
+                for (int i = 0; i < parts.Length; i++)
                 {
-                    if (parts[i].IsTypeName())
-                        break;
-
-                    if (parts[i].Kind == SymbolDisplayPartKind.NamespaceName)
+                    if (parts[i].IsGlobalNamespace()
+                        && Peek(i).IsPunctuation("::"))
                     {
-                        j = i;
+                        i += 2;
 
-                        if (Peek().IsPunctuation("."))
+                        if (parts[i].Kind == SymbolDisplayPartKind.NamespaceName)
                         {
-                            j++;
-
-                            while (Peek().Kind == SymbolDisplayPartKind.NamespaceName
-                                && Peek(2).IsPunctuation())
+                            if (!Options.IncludeSystemNamespace
+                                && parts[i].Symbol is INamespaceSymbol namespaceSymbol
+                                && namespaceSymbol.IsSystemNamespace()
+                                && Peek(i).IsPunctuation(".")
+                                && Peek(i + 1).Kind != SymbolDisplayPartKind.NamespaceName)
                             {
-                                j += 2;
+                                i += 2;
+                            }
+                            else if (removeContainingNamespace
+                                && Peek(i).IsPunctuation("."))
+                            {
+                                i += 2;
+
+                                while (i + 1 < parts.Length
+                                    && parts[i].Kind == SymbolDisplayPartKind.NamespaceName
+                                    && parts[i + 1].IsPunctuation("."))
+                                {
+                                    i += 2;
+                                }
                             }
 
-                            Debug.Assert(Peek().IsTypeName(), Peek().Kind.ToString());
-
-                            if (Peek().IsTypeName())
-                            {
-                                parts = parts.RemoveRange(i, j - i + 1);
-                                return;
-                            }
+                            removeContainingNamespace = false;
                         }
-
-                        break;
                     }
 
-                    i++;
+                    sb.Append(parts[i].ToString());
                 }
 
-                SymbolDisplayPart Peek(int offset = 1)
+                SymbolDisplayPart Peek(int index)
                 {
-                    if (j < parts.Length - offset)
-                    {
-                        return parts[j + offset];
-                    }
+                    if (index + 1 < parts.Length)
+                        return parts[index + 1];
 
                     return default;
                 }
@@ -1641,11 +1656,9 @@ namespace Roslynator.Documentation
                     Debug.Assert(symbol.Kind == SymbolKind.Namespace || format.TypeQualificationStyle != SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces);
 
                     if (includeContainingNamespace
-                        && !symbol.ContainingNamespace.IsGlobalNamespace
                         && format.TypeQualificationStyle != SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces)
                     {
-                        WriteNamespaceSymbol(symbol.ContainingNamespace);
-                        WriteString(".");
+                        WriteContainingNamespacePrefix(symbol);
                     }
 
                     WriteLink(symbol.ToDisplayString(format, additionalOptions), url);
@@ -1684,13 +1697,7 @@ namespace Roslynator.Documentation
                     if (includeContainingNamespace
                         && symbol.IsKind(SymbolKind.NamedType))
                     {
-                        INamespaceSymbol containingNamespace = symbol.ContainingNamespace;
-
-                        if (containingNamespace?.IsGlobalNamespace == false)
-                        {
-                            WriteNamespaceSymbol(containingNamespace);
-                            WriteString(".");
-                        }
+                        WriteContainingNamespacePrefix(symbol);
                     }
 
                     bool includeTypeParameters = false;
