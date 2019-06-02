@@ -22,6 +22,11 @@ public class SyntaxListSelection<TNode> : Roslynator.ISelection<TNode> where TNo
 
 [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) &#x2192; SyntaxListSelection\<TNode>
 
+### Derived
+
+* Roslynator\.CSharp\.[MemberDeclarationListSelection](../CSharp/MemberDeclarationListSelection/README.md)
+* Roslynator\.CSharp\.[StatementListSelection](../CSharp/StatementListSelection/README.md)
+
 ### Implements
 
 * System\.Collections\.Generic\.[IEnumerable\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)
