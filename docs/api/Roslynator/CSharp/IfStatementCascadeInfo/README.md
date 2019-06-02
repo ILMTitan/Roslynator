@@ -20,7 +20,7 @@ public readonly struct IfStatementCascadeInfo : System.IEquatable<Roslynator.CSh
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<[IfStatementCascadeInfo](./README.md)>
+* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementCascadeInfo](./README.md)>
 
 ## Constructors
 

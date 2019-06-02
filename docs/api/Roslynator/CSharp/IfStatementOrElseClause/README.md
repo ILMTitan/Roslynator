@@ -20,7 +20,7 @@ public readonly struct IfStatementOrElseClause : System.IEquatable<Roslynator.CS
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<[IfStatementOrElseClause](./README.md)>
+* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementOrElseClause](./README.md)>
 
 ## Constructors
 

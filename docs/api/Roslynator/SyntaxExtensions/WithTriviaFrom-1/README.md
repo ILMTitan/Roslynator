@@ -58,7 +58,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> WithTriviaFrom<T
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SeparatedSyntaxList\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)
+Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
 ## WithTriviaFrom\<TNode>\(SyntaxList\<TNode>, SyntaxNode\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom__1_Microsoft_CodeAnalysis_SyntaxList___0__Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
@@ -83,7 +83,7 @@ public static Microsoft.CodeAnalysis.SyntaxList<TNode> WithTriviaFrom<TNode>(thi
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SyntaxList\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)
+Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
 ## WithTriviaFrom\<TNode>\(TNode, SyntaxToken\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom__1___0_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 

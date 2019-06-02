@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.St
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SyntaxList\<StatementSyntax>.Enumerator](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1.enumerator)
+Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>\.Enumerator
 

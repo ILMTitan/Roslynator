@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> UnderlyingList { get; }
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.[SeparatedSyntaxList\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)
+Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 

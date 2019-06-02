@@ -16,5 +16,5 @@ public System.Collections.Immutable.ImmutableArray<string> ContainingTypes { get
 
 ### Property Value
 
-System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<System\.[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 

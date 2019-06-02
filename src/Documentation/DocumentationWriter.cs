@@ -282,9 +282,7 @@ namespace Roslynator.Documentation
                 WriteString(".");
             }
 
-            SymbolDisplayFormat format = (includeContainingTypes)
-                ? SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters
-                : SymbolDisplayFormats.TypeNameAndTypeParameters;
+            SymbolDisplayFormat format = SymbolDisplayFormats.GetTypeNameFormat(includeContainingTypes: includeContainingTypes, includeTypeParameters: true);
 
             WriteString(typeSymbol.ToDisplayString(format));
         }
@@ -1661,28 +1659,6 @@ namespace Roslynator.Documentation
             bool includeContainingTypes = true,
             bool canCreateExternalUrl = true)
         {
-            if (typeSymbol is INamedTypeSymbol namedTypeSymbol)
-            {
-                WriteTypeLink(namedTypeSymbol, includeContainingNamespace: includeContainingNamespace, includeContainingTypes: includeContainingTypes, canCreateExternalUrl: canCreateExternalUrl);
-            }
-            else
-            {
-                string url = GetUrl(typeSymbol, canCreateExternalUrl);
-
-                SymbolDisplayFormat format = (includeContainingTypes)
-                    ? SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters
-                    : SymbolDisplayFormats.TypeNameAndTypeParameters;
-
-                WriteLinkOrText(typeSymbol.ToDisplayString(format), url);
-            }
-        }
-
-        internal void WriteTypeLink2(
-            ITypeSymbol typeSymbol,
-            bool includeContainingNamespace = true,
-            bool includeContainingTypes = true,
-            bool canCreateExternalUrl = true)
-        {
             ImmutableArray<SymbolDisplayPart> parts = typeSymbol.ToDisplayParts(SymbolDisplayFormats.TypeNameAndContainingTypesAndNamespacesAndGlobalNamespaceAndTypeParameters);
 
             for (int i = 0; i < parts.Length; i++)
@@ -1699,21 +1675,45 @@ namespace Roslynator.Documentation
                         i += 2;
                     }
 
-                    ISymbol symbol = parts[i].Symbol.OriginalDefinition;
+                    ISymbol symbol = parts[i].Symbol;
 
                     if (includeContainingNamespace
-                        && symbol.IsKind(SymbolKind.NamedType)
-                        && !symbol.ContainingNamespace.IsGlobalNamespace)
+                        && symbol.IsKind(SymbolKind.NamedType))
                     {
-                        WriteNamespaceSymbol(symbol.ContainingNamespace);
-                        WriteString(".");
+                        INamespaceSymbol containingNamespace = symbol.ContainingNamespace;
+
+                        if (containingNamespace?.IsGlobalNamespace == false)
+                        {
+                            WriteNamespaceSymbol(containingNamespace);
+                            WriteString(".");
+                        }
                     }
 
-                    string url = GetUrl(symbol, canCreateExternalUrl);
+                    bool includeTypeParameters = false;
 
-                    SymbolDisplayFormat format = (includeContainingTypes)
-                        ? SymbolDisplayFormats.TypeNameAndContainingTypes
-                        : SymbolDisplayFormats.TypeName;
+                    if (Peek(i).IsPunctuation("<")
+                        && symbol.IsDefinition
+                        && symbol is INamedTypeSymbol namedTypeSymbol
+                        && namedTypeSymbol.Arity > 0)
+                    {
+                        i += 2;
+
+                        while (!parts[i].IsPunctuation(">"))
+                            i++;
+
+                        while (Peek(i).IsPunctuation(".")
+                            && Peek(i + 1).IsTypeName())
+                        {
+                            i += 2;
+                            symbol = parts[i].Symbol;
+                        }
+
+                        includeTypeParameters = true;
+                    }
+
+                    SymbolDisplayFormat format = SymbolDisplayFormats.GetTypeNameFormat(includeContainingTypes: includeContainingTypes, includeTypeParameters: includeTypeParameters);
+
+                    string url = GetUrl(symbol, canCreateExternalUrl);
 
                     WriteLinkOrText(symbol.ToDisplayString(format), url);
                     continue;
@@ -1728,85 +1728,6 @@ namespace Roslynator.Documentation
                     return parts[index + 1];
 
                 return default;
-            }
-        }
-
-        private void WriteTypeLink(
-            INamedTypeSymbol typeSymbol,
-            bool includeContainingNamespace = true,
-            bool includeContainingTypes = true,
-            bool canCreateExternalUrl = true)
-        {
-            if (includeContainingNamespace
-                && !typeSymbol.ContainingNamespace.IsGlobalNamespace)
-            {
-                WriteNamespaceSymbol(typeSymbol.ContainingNamespace);
-                WriteString(".");
-            }
-
-            if (typeSymbol.IsNullableType())
-            {
-                ITypeSymbol typeArgument = typeSymbol.TypeArguments[0];
-
-                WriteTypeLink(typeArgument, includeContainingNamespace: false, includeContainingTypes: includeContainingTypes, canCreateExternalUrl: canCreateExternalUrl);
-                WriteString("?");
-            }
-            else
-            {
-                ImmutableArray<ITypeSymbol> typeArguments = typeSymbol.TypeArguments;
-
-                if (typeArguments.Any(f => f.Kind != SymbolKind.TypeParameter))
-                {
-                    SymbolDisplayFormat format = (includeContainingTypes)
-                        ? SymbolDisplayFormats.TypeNameAndContainingTypes
-                        : SymbolDisplayFormats.TypeName;
-
-                    string url = GetUrl(typeSymbol, canCreateExternalUrl);
-
-                    WriteLinkOrText(typeSymbol.ToDisplayString(format), url);
-
-                    ImmutableArray<ITypeSymbol>.Enumerator en = typeArguments.GetEnumerator();
-
-                    if (en.MoveNext())
-                    {
-                        WriteString("<");
-
-                        while (true)
-                        {
-                            if (en.Current.Kind == SymbolKind.NamedType)
-                            {
-                                WriteTypeLink((INamedTypeSymbol)en.Current, includeContainingNamespace: false, includeContainingTypes: includeContainingTypes, canCreateExternalUrl: canCreateExternalUrl);
-                            }
-                            else
-                            {
-                                Debug.Assert(en.Current.Kind == SymbolKind.TypeParameter, en.Current.Kind.ToString());
-
-                                WriteString(en.Current.Name);
-                            }
-
-                            if (en.MoveNext())
-                            {
-                                WriteString(", ");
-                            }
-                            else
-                            {
-                                break;
-                            }
-                        }
-
-                        WriteString(">");
-                    }
-                }
-                else
-                {
-                    SymbolDisplayFormat format = (includeContainingTypes)
-                        ? SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters
-                        : SymbolDisplayFormats.TypeNameAndTypeParameters;
-
-                    string url = GetUrl(typeSymbol, canCreateExternalUrl);
-
-                    WriteLinkOrText(typeSymbol.ToDisplayString(format), url);
-                }
             }
         }
 

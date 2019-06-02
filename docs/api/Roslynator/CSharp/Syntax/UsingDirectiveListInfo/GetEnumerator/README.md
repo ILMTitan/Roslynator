@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.Us
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SyntaxList\<UsingDirectiveSyntax>.Enumerator](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1.enumerator)
+Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)>\.Enumerator
 

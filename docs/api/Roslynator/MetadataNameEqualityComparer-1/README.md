@@ -26,7 +26,7 @@ public sealed class MetadataNameEqualityComparer<TSymbol> : System.Collections.G
 ### Implements
 
 * System\.Collections\.[IEqualityComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.iequalitycomparer)
-* System\.Collections\.Generic\.[IEqualityComparer\<TSymbol>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer-1)
+* System\.Collections\.Generic\.[IEqualityComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer-1)\<TSymbol>
 
 ## Properties
 

@@ -1,5 +1,6 @@
 ﻿// Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
+using System;
 using Microsoft.CodeAnalysis;
 
 namespace Roslynator.Documentation
@@ -118,6 +119,38 @@ namespace Roslynator.Documentation
             genericsOptions: SymbolDisplayGenericsOptions.None,
             memberOptions: SymbolDisplayMemberOptions.IncludeExplicitInterface
                 | SymbolDisplayMemberOptions.IncludeContainingType);
+
+        public static SymbolDisplayFormat GetTypeNameFormat(
+            bool includeNamespaces = false,
+            bool includeContainingTypes = false,
+            bool includeTypeParameters = false)
+        {
+            if (includeNamespaces)
+            {
+                if (includeContainingTypes)
+                {
+                    return (includeTypeParameters)
+                        ? TypeNameAndContainingTypesAndNamespacesAndTypeParameters
+                        : TypeNameAndContainingTypesAndNamespaces;
+                }
+                else
+                {
+                    throw new InvalidOperationException();
+                }
+            }
+            else if (includeContainingTypes)
+            {
+                return (includeTypeParameters)
+                    ? TypeNameAndContainingTypesAndTypeParameters
+                    : TypeNameAndContainingTypes;
+            }
+            else
+            {
+                return (includeTypeParameters)
+                    ? TypeNameAndTypeParameters
+                    : TypeName;
+            }
+        }
 
         internal const SymbolDisplayGlobalNamespaceStyle DefaultGlobalNamespaceStyle
             = SymbolDisplayGlobalNamespaceStyle.Omitted;

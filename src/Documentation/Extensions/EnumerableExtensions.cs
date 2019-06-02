@@ -33,9 +33,9 @@ namespace Roslynator.Documentation
             return Sort(
                 items: items,
                 selector: selector,
-                format: (includeContainingTypes) ? SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters : SymbolDisplayFormats.TypeNameAndTypeParameters,
-                systemNamespaceFirst: includeContainingNamespace,
-                includeContainingNamespace: systemNamespaceFirst);
+                format: SymbolDisplayFormats.GetTypeNameFormat(includeContainingTypes: includeContainingTypes, includeTypeParameters: true),
+                systemNamespaceFirst: systemNamespaceFirst,
+                includeContainingNamespace: includeContainingNamespace);
         }
 
         public static IEnumerable<ISymbol> Sort(

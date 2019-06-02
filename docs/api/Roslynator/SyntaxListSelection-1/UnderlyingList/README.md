@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.SyntaxList<TNode> UnderlyingList { get; }
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.[SyntaxList\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)
+Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 

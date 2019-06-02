@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.Text.TextSpan? Span { get; }
 
 ### Property Value
 
-System\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
+Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
 

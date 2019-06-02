@@ -12,5 +12,5 @@ System.Collections.Generic.IEnumerator<TNode> System.Collections.Generic.IEnumer
 
 ### Returns
 
-System\.Collections\.Generic\.[IEnumerator\<TNode>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1)
+System\.Collections\.Generic\.[IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1)\<TNode>
 
