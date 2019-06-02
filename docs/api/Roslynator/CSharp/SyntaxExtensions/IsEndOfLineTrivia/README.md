@@ -16,9 +16,9 @@ public static bool IsEndOfLineTrivia(this Microsoft.CodeAnalysis.SyntaxTrivia tr
 
 ### Parameters
 
-**trivia**
+**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

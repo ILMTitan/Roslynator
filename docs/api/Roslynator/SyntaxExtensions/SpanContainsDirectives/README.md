@@ -16,9 +16,9 @@ public static bool SpanContainsDirectives(this Microsoft.CodeAnalysis.SyntaxNode
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

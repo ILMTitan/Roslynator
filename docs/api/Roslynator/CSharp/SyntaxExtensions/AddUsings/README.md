@@ -16,11 +16,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax AddUsin
 
 ### Parameters
 
-**compilationUnit**
+**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
-**keepSingleLineCommentsOnTop**
+**keepSingleLineCommentsOnTop** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**usings**
+**usings** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)\[\]
 
 ### Returns
 

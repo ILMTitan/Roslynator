@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo Replace(Microsoft.CodeAna
 
 ### Parameters
 
-**usingInLine**
+**usingInLine** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)
 
-**newUsingDirective**
+**newUsingDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)
 
 ### Returns
 

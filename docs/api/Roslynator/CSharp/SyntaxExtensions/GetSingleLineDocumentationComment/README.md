@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.DocumentationCommentTriviaSyn
 
 ### Parameters
 
-**member**
+**member** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 

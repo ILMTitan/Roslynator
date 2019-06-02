@@ -16,7 +16,7 @@ public static Roslynator.CSharp.IfStatementCascadeInfo GetCascadeInfo(this Micro
 
 ### Parameters
 
-**ifStatement**
+**ifStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
 
 ### Returns
 

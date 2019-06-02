@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax DefaultSe
 
 ### Parameters
 
-**switchStatement**
+**switchStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchstatementsyntax)
 
 ### Returns
 

@@ -16,7 +16,7 @@ public static Roslynator.CSharp.Syntax.XmlElementInfo XmlElementInfo(Microsoft.C
 
 ### Parameters
 
-**xmlNode**
+**xmlNode** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[XmlNodeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.xmlnodesyntax)
 
 ### Returns
 

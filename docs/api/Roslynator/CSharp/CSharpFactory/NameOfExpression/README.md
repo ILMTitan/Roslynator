@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax Na
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax Na
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

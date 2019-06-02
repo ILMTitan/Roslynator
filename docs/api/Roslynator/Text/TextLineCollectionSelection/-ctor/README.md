@@ -16,10 +16,10 @@ protected TextLineCollectionSelection(Microsoft.CodeAnalysis.Text.TextLineCollec
 
 ### Parameters
 
-**lines**
+**lines** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**firstIndex**
+**firstIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**lastIndex**
+**lastIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)

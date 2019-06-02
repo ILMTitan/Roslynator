@@ -16,9 +16,9 @@ public static bool IsReducedExtensionMethod(this Microsoft.CodeAnalysis.IMethodS
 
 ### Parameters
 
-**methodSymbol**
+**methodSymbol** &emsp; Microsoft\.CodeAnalysis\.[IMethodSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.imethodsymbol)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

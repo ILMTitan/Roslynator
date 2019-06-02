@@ -16,9 +16,9 @@ public static Roslynator.SeparatedSyntaxListSelection<TNode> Create(Microsoft.Co
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 

@@ -25,7 +25,7 @@ public static Microsoft.CodeAnalysis.SyntaxNodeOrToken WithoutTrailingTrivia(thi
 
 ### Parameters
 
-**nodeOrToken**
+**nodeOrToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNodeOrToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnodeortoken)
 
 ### Returns
 
@@ -43,7 +43,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithoutTrailingTrivia(this Micr
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

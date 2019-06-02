@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax AccessorLi
 
 ### Parameters
 
-**accessor**
+**accessor** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessordeclarationsyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax AccessorLi
 
 ### Parameters
 
-**accessors**
+**accessors** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessordeclarationsyntax)\[\]
 
 ### Returns
 

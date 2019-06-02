@@ -11,7 +11,7 @@
 Specifies C\# preprocessor directives\.
 
 ```csharp
-[System.Flags]
+[Flags]
 public enum PreprocessorDirectiveFilter
 ```
 
@@ -21,7 +21,7 @@ public enum PreprocessorDirectiveFilter
 
 ### Attributes
 
-* System\.[FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
+* [FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
 
 ## Fields
 

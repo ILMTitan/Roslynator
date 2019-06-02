@@ -26,7 +26,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithSimplifierAnnotation(this M
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
@@ -48,7 +48,7 @@ public static TNode WithSimplifierAnnotation<TNode>(this TNode node) where TNode
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BracketedParameterListSyntax 
 
 ### Parameters
 
-**parameter**
+**parameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parametersyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BracketedParameterListSyntax 
 
 ### Parameters
 
-**parameters**
+**parameters** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parametersyntax)\[\]
 
 ### Returns
 

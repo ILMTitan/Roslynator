@@ -25,7 +25,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax GetTopmostI
 
 ### Parameters
 
-**elseClause**
+**elseClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
 
 ### Returns
 
@@ -43,7 +43,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax GetTopmostI
 
 ### Parameters
 
-**ifStatement**
+**ifStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
 
 ### Returns
 

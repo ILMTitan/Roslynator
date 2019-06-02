@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo Insert(int index, Micr
 
 ### Parameters
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**member**
+**member** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 

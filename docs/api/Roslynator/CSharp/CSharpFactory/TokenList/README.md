@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 ### Parameters
 
-**accessibility**
+**accessibility** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
 ### Returns
 
@@ -41,7 +41,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 ### Parameters
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
@@ -55,9 +55,9 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 ### Parameters
 
-**kind1**
+**kind1** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
-**kind2**
+**kind2** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
@@ -71,11 +71,11 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 ### Parameters
 
-**kind1**
+**kind1** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
-**kind2**
+**kind2** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
-**kind3**
+**kind3** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 

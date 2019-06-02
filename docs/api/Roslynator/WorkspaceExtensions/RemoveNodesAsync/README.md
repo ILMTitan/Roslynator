@@ -16,13 +16,13 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> Remov
 
 ### Parameters
 
-**document**
+**document** &emsp; Microsoft\.CodeAnalysis\.[Document](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.document)
 
-**nodes**
+**nodes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)>
 
-**options**
+**options** &emsp; Microsoft\.CodeAnalysis\.[SyntaxRemoveOptions](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxremoveoptions)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

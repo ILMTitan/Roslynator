@@ -11,7 +11,7 @@
 Specifies C\# comments\.
 
 ```csharp
-[System.Flags]
+[Flags]
 public enum CommentFilter
 ```
 
@@ -21,7 +21,7 @@ public enum CommentFilter
 
 ### Attributes
 
-* System\.[FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
+* [FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
 
 ## Fields
 

@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.GenericInfo WithTypeParameterList(Microsoft.Code
 
 ### Parameters
 
-**typeParameterList**
+**typeParameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterlistsyntax)
 
 ### Returns
 

@@ -23,11 +23,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclarationSyntax Var
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -41,11 +41,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclarationSyntax Var
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**initializer**
+**initializer** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 
@@ -59,11 +59,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclarationSyntax Var
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -77,9 +77,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclarationSyntax Var
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**variable**
+**variable** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[VariableDeclaratorSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.variabledeclaratorsyntax)
 
 ### Returns
 

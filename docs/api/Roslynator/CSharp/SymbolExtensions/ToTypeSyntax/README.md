@@ -26,9 +26,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToTypeSyntax(this 
 
 ### Parameters
 
-**namespaceOrTypeSymbol**
+**namespaceOrTypeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamespaceOrTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamespaceortypesymbol)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 
@@ -46,9 +46,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToTypeSyntax(this 
 
 ### Parameters
 
-**namespaceSymbol**
+**namespaceSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamespaceSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamespacesymbol)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 
@@ -66,9 +66,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToTypeSyntax(this 
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 

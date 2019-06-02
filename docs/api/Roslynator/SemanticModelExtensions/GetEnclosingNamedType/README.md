@@ -16,11 +16,11 @@ public static Microsoft.CodeAnalysis.INamedTypeSymbol GetEnclosingNamedType(this
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position**
+**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

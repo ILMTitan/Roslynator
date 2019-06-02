@@ -11,7 +11,7 @@
 Specifies C\# modifier\.
 
 ```csharp
-[System.Flags]
+[Flags]
 public enum ModifierFilter
 ```
 
@@ -21,7 +21,7 @@ public enum ModifierFilter
 
 ### Attributes
 
-* System\.[FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
+* [FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
 
 ## Fields
 

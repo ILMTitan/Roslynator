@@ -25,11 +25,11 @@ public static bool ContainsYield(this Microsoft.CodeAnalysis.CSharp.Syntax.Local
 
 ### Parameters
 
-**localFunctionStatement**
+**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## ContainsYield\(MethodDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ContainsYield_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax_"></a>
 
@@ -43,9 +43,9 @@ public static bool ContainsYield(this Microsoft.CodeAnalysis.CSharp.Syntax.Metho
 
 ### Parameters
 
-**methodDeclaration**
+**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

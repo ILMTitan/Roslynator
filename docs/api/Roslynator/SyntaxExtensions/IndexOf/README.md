@@ -20,18 +20,18 @@
 Searches for a token that matches the predicate and returns the zero\-based index of the first occurrence within the entire [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)\.
 
 ```csharp
-public static int IndexOf(this Microsoft.CodeAnalysis.SyntaxTokenList tokens, System.Func<Microsoft.CodeAnalysis.SyntaxToken, bool> predicate)
+public static int IndexOf(this Microsoft.CodeAnalysis.SyntaxTokenList tokens, Func<Microsoft.CodeAnalysis.SyntaxToken, bool> predicate)
 ```
 
 ### Parameters
 
-**tokens**
+**tokens** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ## IndexOf\(SyntaxTriviaList, Func\<SyntaxTrivia, Boolean>\) <a name="Roslynator_SyntaxExtensions_IndexOf_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Func_Microsoft_CodeAnalysis_SyntaxTrivia_System_Boolean__"></a>
 
@@ -40,16 +40,16 @@ System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 Searches for a trivia that matches the predicate and returns the zero\-based index of the first occurrence within the entire [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)\.
 
 ```csharp
-public static int IndexOf(this Microsoft.CodeAnalysis.SyntaxTriviaList triviaList, System.Func<Microsoft.CodeAnalysis.SyntaxTrivia, bool> predicate)
+public static int IndexOf(this Microsoft.CodeAnalysis.SyntaxTriviaList triviaList, Func<Microsoft.CodeAnalysis.SyntaxTrivia, bool> predicate)
 ```
 
 ### Parameters
 
-**triviaList**
+**triviaList** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 

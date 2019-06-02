@@ -12,11 +12,11 @@ public static bool operator !=(in Roslynator.CSharp.ExpressionChain info1, in Ro
 
 ### Parameters
 
-**info1**
+**info1** &emsp; Roslynator\.CSharp\.[ExpressionChain](../README.md)
 
-**info2**
+**info2** &emsp; Roslynator\.CSharp\.[ExpressionChain](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

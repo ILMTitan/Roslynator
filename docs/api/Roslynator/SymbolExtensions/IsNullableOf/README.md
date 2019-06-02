@@ -27,13 +27,13 @@ public static bool IsNullableOf(this Microsoft.CodeAnalysis.INamedTypeSymbol nam
 
 ### Parameters
 
-**namedTypeSymbol**
+**namedTypeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**typeArgument**
+**typeArgument** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsNullableOf\(INamedTypeSymbol, SpecialType\) <a name="Roslynator_SymbolExtensions_IsNullableOf_Microsoft_CodeAnalysis_INamedTypeSymbol_Microsoft_CodeAnalysis_SpecialType_"></a>
 
@@ -47,13 +47,13 @@ public static bool IsNullableOf(this Microsoft.CodeAnalysis.INamedTypeSymbol nam
 
 ### Parameters
 
-**namedTypeSymbol**
+**namedTypeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**specialType**
+**specialType** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsNullableOf\(ITypeSymbol, ITypeSymbol\) <a name="Roslynator_SymbolExtensions_IsNullableOf_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_"></a>
 
@@ -67,13 +67,13 @@ public static bool IsNullableOf(this Microsoft.CodeAnalysis.ITypeSymbol typeSymb
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**typeArgument**
+**typeArgument** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsNullableOf\(ITypeSymbol, SpecialType\) <a name="Roslynator_SymbolExtensions_IsNullableOf_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_SpecialType_"></a>
 
@@ -87,11 +87,11 @@ public static bool IsNullableOf(this Microsoft.CodeAnalysis.ITypeSymbol typeSymb
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**specialType**
+**specialType** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

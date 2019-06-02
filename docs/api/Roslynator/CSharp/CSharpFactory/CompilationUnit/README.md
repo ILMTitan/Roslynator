@@ -22,7 +22,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax Compila
 
 ### Parameters
 
-**member**
+**member** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 
@@ -36,9 +36,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax Compila
 
 ### Parameters
 
-**usings**
+**usings** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)>
 
-**member**
+**member** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 
@@ -52,9 +52,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax Compila
 
 ### Parameters
 
-**usings**
+**usings** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)>
 
-**members**
+**members** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)>
 
 ### Returns
 

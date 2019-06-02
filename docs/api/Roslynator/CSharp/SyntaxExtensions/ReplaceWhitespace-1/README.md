@@ -20,11 +20,11 @@ public static TNode ReplaceWhitespace<TNode>(this TNode node, Microsoft.CodeAnal
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**replacement**
+**replacement** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
 
 ### Returns
 

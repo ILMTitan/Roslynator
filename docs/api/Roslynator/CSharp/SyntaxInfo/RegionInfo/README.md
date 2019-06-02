@@ -25,7 +25,7 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 ### Parameters
 
-**endRegionDirective**
+**endRegionDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EndRegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.endregiondirectivetriviasyntax)
 
 ### Returns
 
@@ -43,7 +43,7 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 ### Parameters
 
-**regionDirective**
+**regionDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[RegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.regiondirectivetriviasyntax)
 
 ### Returns
 

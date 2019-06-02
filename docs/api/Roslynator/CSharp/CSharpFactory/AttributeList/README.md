@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax Attribute
 
 ### Parameters
 
-**attribute**
+**attribute** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributesyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax Attribute
 
 ### Parameters
 
-**attributes**
+**attributes** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributesyntax)\[\]
 
 ### Returns
 

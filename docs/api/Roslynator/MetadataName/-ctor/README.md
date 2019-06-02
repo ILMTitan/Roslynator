@@ -27,11 +27,11 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 ### Parameters
 
-**containingNamespaces**
+**containingNamespaces** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**containingTypes**
+**containingTypes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ## MetadataName\(IEnumerable\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
 
@@ -45,9 +45,9 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 ### Parameters
 
-**containingNamespaces**
+**containingNamespaces** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ## MetadataName\(ImmutableArray\<String>, ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
@@ -61,11 +61,11 @@ public MetadataName(System.Collections.Immutable.ImmutableArray<string> containi
 
 ### Parameters
 
-**containingNamespaces**
+**containingNamespaces** &emsp; System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**containingTypes**
+**containingTypes** &emsp; System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ## MetadataName\(ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
@@ -79,6 +79,6 @@ public MetadataName(System.Collections.Immutable.ImmutableArray<string> containi
 
 ### Parameters
 
-**containingNamespaces**
+**containingNamespaces** &emsp; System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)

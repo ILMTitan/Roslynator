@@ -16,21 +16,21 @@ public static bool IsEmbedded(this Microsoft.CodeAnalysis.CSharp.Syntax.Statemen
 
 ### Parameters
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
-**canBeBlock**
+**canBeBlock** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 Block can be considered as embedded statement
 
-**canBeIfInsideElse**
+**canBeIfInsideElse** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 If statement that is a child of an else statement can be considered as an embedded statement\.
 
-**canBeUsingInsideUsing**
+**canBeUsingInsideUsing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 Using statement that is a child of an using statement can be considered as en embedded statement\.
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

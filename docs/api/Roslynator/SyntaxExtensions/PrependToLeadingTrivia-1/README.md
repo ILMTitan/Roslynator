@@ -27,9 +27,9 @@ public static Microsoft.CodeAnalysis.SyntaxToken PrependToLeadingTrivia(this Mic
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**trivia**
+**trivia** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)>
 
 ### Returns
 
@@ -47,9 +47,9 @@ public static Microsoft.CodeAnalysis.SyntaxToken PrependToLeadingTrivia(this Mic
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**trivia**
+**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
 ### Returns
 
@@ -71,9 +71,9 @@ public static TNode PrependToLeadingTrivia<TNode>(this TNode node, System.Collec
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**trivia**
+**trivia** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)>
 
 ### Returns
 
@@ -95,9 +95,9 @@ public static TNode PrependToLeadingTrivia<TNode>(this TNode node, Microsoft.Cod
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**trivia**
+**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
 ### Returns
 

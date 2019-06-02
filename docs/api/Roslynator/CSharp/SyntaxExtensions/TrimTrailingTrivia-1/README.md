@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken TrimTrailingTrivia(this Microso
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
@@ -51,7 +51,7 @@ public static TNode TrimTrailingTrivia<TNode>(this TNode node) where TNode : Mic
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

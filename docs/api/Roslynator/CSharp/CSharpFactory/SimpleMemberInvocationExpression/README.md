@@ -22,9 +22,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax Si
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SimpleNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.simplenamesyntax)
 
 ### Returns
 
@@ -38,11 +38,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax Si
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SimpleNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.simplenamesyntax)
 
-**argumentList**
+**argumentList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentlistsyntax)
 
 ### Returns
 
@@ -56,11 +56,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax Si
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SimpleNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.simplenamesyntax)
 
-**argument**
+**argument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentsyntax)
 
 ### Returns
 

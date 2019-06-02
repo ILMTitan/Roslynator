@@ -16,11 +16,11 @@ public static string CreateName(Microsoft.CodeAnalysis.ITypeSymbol typeSymbol, b
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**firstCharToLower**
+**firstCharToLower** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 

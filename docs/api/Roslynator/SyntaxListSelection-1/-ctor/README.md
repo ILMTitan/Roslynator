@@ -16,10 +16,10 @@ protected SyntaxListSelection(Microsoft.CodeAnalysis.SyntaxList<TNode> list, Mic
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**firstIndex**
+**firstIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**lastIndex**
+**lastIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)

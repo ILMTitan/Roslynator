@@ -16,7 +16,7 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax this[int index] { ge
 
 ### Parameters
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 The zero\-based index of the statement to get\. 
 

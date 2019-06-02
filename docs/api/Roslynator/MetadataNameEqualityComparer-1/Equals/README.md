@@ -16,16 +16,16 @@ public override bool Equals(TSymbol x, TSymbol y)
 
 ### Parameters
 
-**x**
+**x** &emsp; TSymbol
 
 The first object to compare\.
 
-**y**
+**y** &emsp; TSymbol
 
 The second object to compare\.
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 true if the specified objects are equal; otherwise, false\.

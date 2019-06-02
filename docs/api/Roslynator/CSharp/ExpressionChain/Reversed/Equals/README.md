@@ -21,11 +21,11 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj**
+**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## Equals\(Reversed\) <a name="Roslynator_CSharp_ExpressionChain_Reversed_Equals_Roslynator_CSharp_ExpressionChain_Reversed_"></a>
 
@@ -35,12 +35,12 @@ public bool Equals(Roslynator.CSharp.ExpressionChain.Reversed other)
 
 ### Parameters
 
-**other**
+**other** &emsp; Roslynator\.CSharp\.[ExpressionChain.Reversed](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Implements
 
-* System\.[IEquatable\<ExpressionChain.Reversed>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
+* [IEquatable\<ExpressionChain.Reversed>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)

@@ -21,9 +21,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeArgumentSyntax Attri
 
 ### Parameters
 
-**nameColon**
+**nameColon** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NameColonSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namecolonsyntax)
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -37,9 +37,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeArgumentSyntax Attri
 
 ### Parameters
 
-**nameEquals**
+**nameEquals** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NameEqualsSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.nameequalssyntax)
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 

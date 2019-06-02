@@ -12,11 +12,11 @@ public static bool operator !=(in Roslynator.CSharp.IfStatementCascadeInfo info1
 
 ### Parameters
 
-**info1**
+**info1** &emsp; Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
 
-**info2**
+**info2** &emsp; Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

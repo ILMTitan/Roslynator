@@ -25,9 +25,9 @@ public TNode Remove(TNode node, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind)
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
@@ -45,9 +45,9 @@ public TNode Remove(TNode node, Microsoft.CodeAnalysis.SyntaxToken modifier)
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**modifier**
+**modifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

@@ -26,13 +26,13 @@ public static int LastIndexOf(this Microsoft.CodeAnalysis.SyntaxTriviaList trivi
 
 ### Parameters
 
-**triviaList**
+**triviaList** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ## LastIndexOf\<TNode>\(SeparatedSyntaxList\<TNode>, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_LastIndexOf__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
@@ -50,13 +50,13 @@ public static int LastIndexOf<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntax
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ## LastIndexOf\<TNode>\(SyntaxList\<TNode>, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_LastIndexOf__1_Microsoft_CodeAnalysis_SyntaxList___0__Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
@@ -74,11 +74,11 @@ public static int LastIndexOf<TNode>(this Microsoft.CodeAnalysis.SyntaxList<TNod
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 

@@ -20,16 +20,16 @@
 Searches for a member that matches the predicate and returns returns zero\-based index of the first occurrence in the list\.
 
 ```csharp
-public int IndexOf(System.Func<Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, bool> predicate)
+public int IndexOf(Func<Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, bool> predicate)
 ```
 
 ### Parameters
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ## IndexOf\(MemberDeclarationSyntax\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_IndexOf_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
@@ -43,9 +43,9 @@ public int IndexOf(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax 
 
 ### Parameters
 
-**member**
+**member** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 

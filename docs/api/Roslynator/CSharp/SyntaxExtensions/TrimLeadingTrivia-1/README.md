@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken TrimLeadingTrivia(this Microsof
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
@@ -51,7 +51,7 @@ public static TNode TrimLeadingTrivia<TNode>(this TNode node) where TNode : Micr
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

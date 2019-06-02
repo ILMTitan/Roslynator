@@ -16,9 +16,9 @@ public static bool IsYieldReturn(this Microsoft.CodeAnalysis.CSharp.Syntax.Yield
 
 ### Parameters
 
-**yieldStatement**
+**yieldStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[YieldStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.yieldstatementsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

@@ -26,9 +26,9 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationStatementInfo Simpl
 
 ### Parameters
 
-**expressionStatement**
+**expressionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionstatementsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -46,9 +46,9 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationStatementInfo Simpl
 
 ### Parameters
 
-**invocationExpression**
+**invocationExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InvocationExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.invocationexpressionsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -66,9 +66,9 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationStatementInfo Simpl
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

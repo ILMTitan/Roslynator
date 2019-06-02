@@ -16,9 +16,9 @@ public static Roslynator.SyntaxListSelection<TNode> Create(Microsoft.CodeAnalysi
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 

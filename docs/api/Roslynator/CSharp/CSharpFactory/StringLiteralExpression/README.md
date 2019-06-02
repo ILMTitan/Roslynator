@@ -12,7 +12,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Strin
 
 ### Parameters
 
-**value**
+**value** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

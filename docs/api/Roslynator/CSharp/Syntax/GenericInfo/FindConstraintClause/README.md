@@ -16,7 +16,7 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClauseSyntax 
 
 ### Parameters
 
-**typeParameterName**
+**typeParameterName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

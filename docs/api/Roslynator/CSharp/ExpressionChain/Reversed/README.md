@@ -11,7 +11,7 @@
 Enables to enumerate expressions of [ExpressionChain](../README.md) in a reversed order\.
 
 ```csharp
-public readonly struct ExpressionChain.Reversed : System.IEquatable<Roslynator.CSharp.ExpressionChain.Reversed>,
+public readonly struct ExpressionChain.Reversed : IEquatable<Roslynator.CSharp.ExpressionChain.Reversed>,
     System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax>
 ```
 
@@ -21,7 +21,7 @@ public readonly struct ExpressionChain.Reversed : System.IEquatable<Roslynator.C
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[ExpressionChain.Reversed](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[ExpressionChain.Reversed](./README.md)>
 * System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)>
 
 ## Constructors

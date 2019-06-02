@@ -16,11 +16,11 @@ public static bool IsMoreRestrictiveThan(this Microsoft.CodeAnalysis.Accessibili
 
 ### Parameters
 
-**accessibility**
+**accessibility** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
-**other**
+**other** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

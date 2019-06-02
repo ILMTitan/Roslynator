@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo ReplaceNode(Microsoft.
 
 ### Parameters
 
-**oldNode**
+**oldNode** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**newNode**
+**newNode** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 

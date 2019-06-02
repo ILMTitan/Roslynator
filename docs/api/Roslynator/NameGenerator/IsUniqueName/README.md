@@ -25,15 +25,15 @@ public static bool IsUniqueName(string name, System.Collections.Generic.IEnumera
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**reservedNames**
+**reservedNames** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**isCaseSensitive**
+**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsUniqueName\(String, ImmutableArray\<ISymbol>, Boolean\) <a name="Roslynator_NameGenerator_IsUniqueName_System_String_System_Collections_Immutable_ImmutableArray_Microsoft_CodeAnalysis_ISymbol__System_Boolean_"></a>
 
@@ -47,13 +47,13 @@ public static bool IsUniqueName(string name, System.Collections.Immutable.Immuta
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**symbols**
+**symbols** &emsp; System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)>
 
-**isCaseSensitive**
+**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

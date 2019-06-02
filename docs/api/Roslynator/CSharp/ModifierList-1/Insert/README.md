@@ -25,11 +25,11 @@ public TNode Insert(TNode node, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind, S
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**kind**
+**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
-**comparer**
+**comparer** &emsp; System\.Collections\.Generic\.[IComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer-1)\<Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)>
 
 ### Returns
 
@@ -47,11 +47,11 @@ public TNode Insert(TNode node, Microsoft.CodeAnalysis.SyntaxToken modifier, Sys
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**modifier**
+**modifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**comparer**
+**comparer** &emsp; System\.Collections\.Generic\.[IComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer-1)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)>
 
 ### Returns
 

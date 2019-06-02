@@ -27,13 +27,13 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList ReplaceRange(this Microsoft
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newTokens**
+**newTokens** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)>
 
 ### Returns
 
@@ -51,13 +51,13 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList ReplaceRange(this Microsof
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newTrivia**
+**newTrivia** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)>
 
 ### Returns
 
@@ -79,13 +79,13 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ReplaceRange<TNo
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newNodes**
+**newNodes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
 
 ### Returns
 
@@ -107,13 +107,13 @@ public static Microsoft.CodeAnalysis.SyntaxList<TNode> ReplaceRange<TNode>(this 
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newNodes**
+**newNodes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
 
 ### Returns
 

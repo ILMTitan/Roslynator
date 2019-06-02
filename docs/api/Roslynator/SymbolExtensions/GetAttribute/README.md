@@ -25,9 +25,9 @@ public static Microsoft.CodeAnalysis.AttributeData GetAttribute(this Microsoft.C
 
 ### Parameters
 
-**symbol**
+**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**attributeClass**
+**attributeClass** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
 ### Returns
 
@@ -45,9 +45,9 @@ public static Microsoft.CodeAnalysis.AttributeData GetAttribute(this Microsoft.C
 
 ### Parameters
 
-**symbol**
+**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**attributeName**
+**attributeName** &emsp; Roslynator\.[MetadataName](../../MetadataName/README.md)
 
 ### Returns
 

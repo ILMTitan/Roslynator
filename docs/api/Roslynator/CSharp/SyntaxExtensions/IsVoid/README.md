@@ -16,9 +16,9 @@ public static bool IsVoid(this Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax t
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

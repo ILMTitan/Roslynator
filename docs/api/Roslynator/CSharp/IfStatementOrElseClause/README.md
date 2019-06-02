@@ -11,7 +11,7 @@
 A wrapper for either an [IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax) or an [ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)\.
 
 ```csharp
-public readonly struct IfStatementOrElseClause : System.IEquatable<Roslynator.CSharp.IfStatementOrElseClause>
+public readonly struct IfStatementOrElseClause : IEquatable<Roslynator.CSharp.IfStatementOrElseClause>
 ```
 
 ### Inheritance
@@ -20,7 +20,7 @@ public readonly struct IfStatementOrElseClause : System.IEquatable<Roslynator.CS
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementOrElseClause](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementOrElseClause](./README.md)>
 
 ## Constructors
 

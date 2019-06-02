@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.StatementListInfo AddRange(System.Collections.Ge
 
 ### Parameters
 
-**statements**
+**statements** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 

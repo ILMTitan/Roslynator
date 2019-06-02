@@ -21,9 +21,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.MemberAccessExpressionSyntax 
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SimpleNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.simplenamesyntax)
 
 ### Returns
 
@@ -37,11 +37,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.MemberAccessExpressionSyntax 
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**operatorToken**
+**operatorToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SimpleNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.simplenamesyntax)
 
 ### Returns
 

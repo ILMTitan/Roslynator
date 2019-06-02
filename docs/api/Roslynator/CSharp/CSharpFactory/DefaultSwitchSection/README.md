@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax DefaultSw
 
 ### Parameters
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax DefaultSw
 
 ### Parameters
 
-**statements**
+**statements** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 

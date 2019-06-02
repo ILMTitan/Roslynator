@@ -22,11 +22,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax Parameter(Mic
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**default**
+**default** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -40,11 +40,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax Parameter(Mic
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**default**
+**default** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 
@@ -58,11 +58,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax Parameter(Mic
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**default**
+**default** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 

@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.StatementListInfo InsertRange(int index, System.
 
 ### Parameters
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**statements**
+**statements** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 

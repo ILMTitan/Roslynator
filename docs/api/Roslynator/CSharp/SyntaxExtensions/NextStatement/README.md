@@ -17,7 +17,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax NextStatement
 
 ### Parameters
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 ### Returns
 

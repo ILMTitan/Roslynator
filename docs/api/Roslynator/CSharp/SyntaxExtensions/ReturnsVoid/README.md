@@ -26,11 +26,11 @@ public static bool ReturnsVoid(this Microsoft.CodeAnalysis.CSharp.Syntax.Delegat
 
 ### Parameters
 
-**delegateDeclaration**
+**delegateDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DelegateDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.delegatedeclarationsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## ReturnsVoid\(LocalFunctionStatementSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ReturnsVoid_Microsoft_CodeAnalysis_CSharp_Syntax_LocalFunctionStatementSyntax_"></a>
 
@@ -44,11 +44,11 @@ public static bool ReturnsVoid(this Microsoft.CodeAnalysis.CSharp.Syntax.LocalFu
 
 ### Parameters
 
-**localFunctionStatement**
+**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## ReturnsVoid\(MethodDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ReturnsVoid_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax_"></a>
 
@@ -62,9 +62,9 @@ public static bool ReturnsVoid(this Microsoft.CodeAnalysis.CSharp.Syntax.MethodD
 
 ### Parameters
 
-**methodDeclaration**
+**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

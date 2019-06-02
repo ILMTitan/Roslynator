@@ -12,11 +12,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TryStatementSyntax TryStateme
 
 ### Parameters
 
-**block**
+**block** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
 
-**catch**
+**catch** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CatchClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.catchclausesyntax)
 
-**finally**
+**finally** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[FinallyClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.finallyclausesyntax)
 
 ### Returns
 

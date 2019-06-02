@@ -27,7 +27,7 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ### Parameters
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -45,9 +45,9 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ### Parameters
 
-**localDeclarationStatement**
+**localDeclarationStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalDeclarationStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localdeclarationstatementsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -65,9 +65,9 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ### Parameters
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -85,9 +85,9 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ### Parameters
 
-**variableDeclaration**
+**variableDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[VariableDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.variabledeclarationsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

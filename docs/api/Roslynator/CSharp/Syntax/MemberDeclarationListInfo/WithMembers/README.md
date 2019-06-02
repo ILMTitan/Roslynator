@@ -25,7 +25,7 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo WithMembers(System.Col
 
 ### Parameters
 
-**members**
+**members** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)>
 
 ### Returns
 
@@ -43,7 +43,7 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo WithMembers(Microsoft.
 
 ### Parameters
 
-**members**
+**members** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)>
 
 ### Returns
 

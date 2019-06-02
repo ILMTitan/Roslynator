@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax L
 
 ### Parameters
 
-**operand**
+**operand** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -35,9 +35,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax L
 
 ### Parameters
 
-**operand**
+**operand** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**operatorToken**
+**operatorToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

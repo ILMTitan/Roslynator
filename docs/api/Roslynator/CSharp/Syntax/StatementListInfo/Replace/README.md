@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.StatementListInfo Replace(Microsoft.CodeAnalysis
 
 ### Parameters
 
-**statementInList**
+**statementInList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
-**newStatement**
+**newStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 ### Returns
 

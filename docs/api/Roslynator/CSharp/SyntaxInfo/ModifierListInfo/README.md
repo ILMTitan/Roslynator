@@ -44,7 +44,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**accessorDeclaration**
+**accessorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessordeclarationsyntax)
 
 ### Returns
 
@@ -62,7 +62,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**classDeclaration**
+**classDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax)
 
 ### Returns
 
@@ -80,7 +80,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**constructorDeclaration**
+**constructorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConstructorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.constructordeclarationsyntax)
 
 ### Returns
 
@@ -98,7 +98,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**conversionOperatorDeclaration**
+**conversionOperatorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConversionOperatorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.conversionoperatordeclarationsyntax)
 
 ### Returns
 
@@ -116,7 +116,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**delegateDeclaration**
+**delegateDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DelegateDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.delegatedeclarationsyntax)
 
 ### Returns
 
@@ -134,7 +134,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**destructorDeclaration**
+**destructorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DestructorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.destructordeclarationsyntax)
 
 ### Returns
 
@@ -152,7 +152,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**enumDeclaration**
+**enumDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EnumDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.enumdeclarationsyntax)
 
 ### Returns
 
@@ -170,7 +170,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**eventDeclaration**
+**eventDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EventDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.eventdeclarationsyntax)
 
 ### Returns
 
@@ -188,7 +188,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**eventFieldDeclaration**
+**eventFieldDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EventFieldDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.eventfielddeclarationsyntax)
 
 ### Returns
 
@@ -206,7 +206,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**fieldDeclaration**
+**fieldDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[FieldDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.fielddeclarationsyntax)
 
 ### Returns
 
@@ -224,7 +224,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**incompleteMember**
+**incompleteMember** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IncompleteMemberSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.incompletemembersyntax)
 
 ### Returns
 
@@ -242,7 +242,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**indexerDeclaration**
+**indexerDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IndexerDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.indexerdeclarationsyntax)
 
 ### Returns
 
@@ -260,7 +260,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**interfaceDeclaration**
+**interfaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax)
 
 ### Returns
 
@@ -278,7 +278,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**localDeclarationStatement**
+**localDeclarationStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalDeclarationStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localdeclarationstatementsyntax)
 
 ### Returns
 
@@ -296,7 +296,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**localFunctionStatement**
+**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
@@ -314,7 +314,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**methodDeclaration**
+**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
@@ -332,7 +332,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**operatorDeclaration**
+**operatorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[OperatorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.operatordeclarationsyntax)
 
 ### Returns
 
@@ -350,7 +350,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**parameter**
+**parameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parametersyntax)
 
 ### Returns
 
@@ -368,7 +368,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**propertyDeclaration**
+**propertyDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[PropertyDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.propertydeclarationsyntax)
 
 ### Returns
 
@@ -386,7 +386,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**structDeclaration**
+**structDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax)
 
 ### Returns
 
@@ -404,7 +404,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 

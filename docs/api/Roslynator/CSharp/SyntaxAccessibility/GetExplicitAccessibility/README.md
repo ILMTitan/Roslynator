@@ -25,7 +25,7 @@ public static Microsoft.CodeAnalysis.Accessibility GetExplicitAccessibility(Micr
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
@@ -43,7 +43,7 @@ public static Microsoft.CodeAnalysis.Accessibility GetExplicitAccessibility(Micr
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
 ### Returns
 

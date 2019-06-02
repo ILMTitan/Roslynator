@@ -11,7 +11,7 @@
 Specifies a null check\.
 
 ```csharp
-[System.Flags]
+[Flags]
 public enum NullCheckStyles
 ```
 
@@ -21,7 +21,7 @@ public enum NullCheckStyles
 
 ### Attributes
 
-* System\.[FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
+* [FlagsAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.flagsattribute)
 
 ## Fields
 

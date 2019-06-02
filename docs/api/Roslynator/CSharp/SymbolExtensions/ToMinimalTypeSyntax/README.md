@@ -26,13 +26,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToMinimalTypeSynta
 
 ### Parameters
 
-**namespaceOrTypeSymbol**
+**namespaceOrTypeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamespaceOrTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamespaceortypesymbol)
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position**
+**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 
@@ -50,13 +50,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToMinimalTypeSynta
 
 ### Parameters
 
-**namespaceSymbol**
+**namespaceSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamespaceSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamespacesymbol)
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position**
+**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 
@@ -74,13 +74,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToMinimalTypeSynta
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position**
+**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**format**
+**format** &emsp; Microsoft\.CodeAnalysis\.[SymbolDisplayFormat](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symboldisplayformat)
 
 ### Returns
 

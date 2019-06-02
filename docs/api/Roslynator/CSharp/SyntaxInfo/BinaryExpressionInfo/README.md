@@ -25,11 +25,11 @@ public static Roslynator.CSharp.Syntax.BinaryExpressionInfo BinaryExpressionInfo
 
 ### Parameters
 
-**binaryExpression**
+**binaryExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BinaryExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.binaryexpressionsyntax)
 
-**walkDownParentheses**
+**walkDownParentheses** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -47,11 +47,11 @@ public static Roslynator.CSharp.Syntax.BinaryExpressionInfo BinaryExpressionInfo
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**walkDownParentheses**
+**walkDownParentheses** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

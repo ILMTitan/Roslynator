@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList GetLeadingAndTrailingTrivi
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 

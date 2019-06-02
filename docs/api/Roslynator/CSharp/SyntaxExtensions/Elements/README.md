@@ -16,9 +16,9 @@ public static System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.CSha
 
 ### Parameters
 
-**documentationComment**
+**documentationComment** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DocumentationCommentTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.documentationcommenttriviasyntax)
 
-**localName**
+**localName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

@@ -16,9 +16,9 @@ public static bool IsRefOrOut(this Microsoft.CodeAnalysis.IParameterSymbol param
 
 ### Parameters
 
-**parameterSymbol**
+**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

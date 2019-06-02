@@ -21,13 +21,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.DelegateDeclarationSyntax Del
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**returnType**
+**returnType** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parameterlistsyntax)
 
 ### Returns
 
@@ -41,13 +41,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.DelegateDeclarationSyntax Del
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**returnType**
+**returnType** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parameterlistsyntax)
 
 ### Returns
 

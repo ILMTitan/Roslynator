@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken TrimTrivia(this Microsoft.CodeA
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
@@ -51,7 +51,7 @@ public static TNode TrimTrivia<TNode>(this TNode node) where TNode : Microsoft.C
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

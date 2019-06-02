@@ -29,11 +29,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**attribute**
+**attribute** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributesyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
@@ -51,11 +51,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**constructorInitializer**
+**constructorInitializer** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConstructorInitializerSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.constructorinitializersyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
@@ -73,11 +73,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**cref**
+**cref** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CrefSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.crefsyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
@@ -95,11 +95,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
@@ -117,11 +117,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**ordering**
+**ordering** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[OrderingSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.orderingsyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
@@ -139,11 +139,11 @@ public static Microsoft.CodeAnalysis.ISymbol GetSymbol(this Microsoft.CodeAnalys
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**selectOrGroupClause**
+**selectOrGroupClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SelectOrGroupClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.selectorgroupclausesyntax)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

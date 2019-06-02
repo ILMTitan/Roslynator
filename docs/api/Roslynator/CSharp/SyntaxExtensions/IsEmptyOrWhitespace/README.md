@@ -16,9 +16,9 @@ public static bool IsEmptyOrWhitespace(this Microsoft.CodeAnalysis.SyntaxTriviaL
 
 ### Parameters
 
-**triviaList**
+**triviaList** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

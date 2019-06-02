@@ -16,9 +16,9 @@ public static bool SupportsPrefixOrPostfixUnaryOperator(Microsoft.CodeAnalysis.S
 
 ### Parameters
 
-**specialType**
+**specialType** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

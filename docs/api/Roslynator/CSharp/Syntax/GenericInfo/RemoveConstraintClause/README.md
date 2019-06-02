@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.GenericInfo RemoveConstraintClause(Microsoft.Cod
 
 ### Parameters
 
-**constraintClause**
+**constraintClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
 
 ### Returns
 

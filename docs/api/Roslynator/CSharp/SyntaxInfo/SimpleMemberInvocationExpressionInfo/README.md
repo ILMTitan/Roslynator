@@ -25,9 +25,9 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationExpressionInfo Simp
 
 ### Parameters
 
-**invocationExpression**
+**invocationExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InvocationExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.invocationexpressionsyntax)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -45,11 +45,11 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationExpressionInfo Simp
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**walkDownParentheses**
+**walkDownParentheses** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**allowMissing**
+**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

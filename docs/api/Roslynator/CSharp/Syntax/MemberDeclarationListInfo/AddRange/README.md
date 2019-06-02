@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo AddRange(System.Collec
 
 ### Parameters
 
-**members**
+**members** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)>
 
 ### Returns
 

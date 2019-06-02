@@ -11,7 +11,7 @@
 Enables to enumerate expressions of a binary expression and expressions of nested binary expressions of the same kind as parent binary expression\.
 
 ```csharp
-public readonly struct ExpressionChain : System.IEquatable<Roslynator.CSharp.ExpressionChain>,
+public readonly struct ExpressionChain : IEquatable<Roslynator.CSharp.ExpressionChain>,
     System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax>
 ```
 
@@ -21,7 +21,7 @@ public readonly struct ExpressionChain : System.IEquatable<Roslynator.CSharp.Exp
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[ExpressionChain](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[ExpressionChain](./README.md)>
 * System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)>
 
 ## Properties

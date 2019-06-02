@@ -12,9 +12,9 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj**
+**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

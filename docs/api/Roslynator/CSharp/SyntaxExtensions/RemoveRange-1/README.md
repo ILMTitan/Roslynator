@@ -27,13 +27,13 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList RemoveRange(this Microsoft.
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 An index of the first element to remove\.
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 A number of elements to remove\.
 
@@ -53,13 +53,13 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList RemoveRange(this Microsoft
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 An index of the first element to remove\.
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 A number of elements to remove\.
 
@@ -83,13 +83,13 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> RemoveRange<TNod
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 An index of the first element to remove\.
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 A number of elements to remove\.
 
@@ -113,13 +113,13 @@ public static Microsoft.CodeAnalysis.SyntaxList<TNode> RemoveRange<TNode>(this M
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<TNode>
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 An index of the first element to remove\.
 
-**count**
+**count** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 A number of elements to remove\.
 

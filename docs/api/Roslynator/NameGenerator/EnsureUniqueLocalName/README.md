@@ -16,17 +16,17 @@ public string EnsureUniqueLocalName(string baseName, Microsoft.CodeAnalysis.Sema
 
 ### Parameters
 
-**baseName**
+**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position**
+**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**isCaseSensitive**
+**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 
-System\.[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 

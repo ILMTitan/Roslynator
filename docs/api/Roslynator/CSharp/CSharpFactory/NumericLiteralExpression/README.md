@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
 
 ### Returns
 
@@ -41,7 +41,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
 
 ### Returns
 
@@ -55,7 +55,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 
@@ -69,7 +69,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
 
 ### Returns
 
@@ -83,7 +83,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
 
 ### Returns
 
@@ -97,7 +97,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
 
 ### Returns
 
@@ -111,7 +111,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
 
 ### Returns
 
@@ -125,7 +125,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value**
+**value** &emsp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
 
 ### Returns
 

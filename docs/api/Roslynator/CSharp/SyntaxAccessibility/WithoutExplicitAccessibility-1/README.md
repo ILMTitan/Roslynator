@@ -20,7 +20,7 @@ public static TNode WithoutExplicitAccessibility<TNode>(TNode node) where TNode 
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

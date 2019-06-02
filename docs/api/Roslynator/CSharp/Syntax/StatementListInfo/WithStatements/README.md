@@ -25,7 +25,7 @@ public Roslynator.CSharp.Syntax.StatementListInfo WithStatements(System.Collecti
 
 ### Parameters
 
-**statements**
+**statements** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 
@@ -43,7 +43,7 @@ public Roslynator.CSharp.Syntax.StatementListInfo WithStatements(Microsoft.CodeA
 
 ### Parameters
 
-**statements**
+**statements** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 

@@ -26,9 +26,9 @@ public static Roslynator.CSharp.MemberDeclarationListSelection Create(Microsoft.
 
 ### Parameters
 
-**compilationUnit**
+**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 
@@ -46,9 +46,9 @@ public static Roslynator.CSharp.MemberDeclarationListSelection Create(Microsoft.
 
 ### Parameters
 
-**namespaceDeclaration**
+**namespaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 
@@ -66,9 +66,9 @@ public static Roslynator.CSharp.MemberDeclarationListSelection Create(Microsoft.
 
 ### Parameters
 
-**typeDeclaration**
+**typeDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 

@@ -21,15 +21,15 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax Metho
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**returnType**
+**returnType** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parameterlistsyntax)
 
-**expressionBody**
+**expressionBody** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArrowExpressionClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.arrowexpressionclausesyntax)
 
 ### Returns
 
@@ -43,15 +43,15 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax Metho
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**returnType**
+**returnType** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parameterlistsyntax)
 
-**body**
+**body** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
 
 ### Returns
 

@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.Accessibility GetAccessibility(Microsoft.Co
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 

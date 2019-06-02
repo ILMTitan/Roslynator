@@ -25,7 +25,7 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo WithUsings(System.Collect
 
 ### Parameters
 
-**usings**
+**usings** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)>
 
 ### Returns
 
@@ -43,7 +43,7 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo WithUsings(Microsoft.Code
 
 ### Parameters
 
-**usings**
+**usings** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)>
 
 ### Returns
 

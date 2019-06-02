@@ -25,7 +25,7 @@ public TNode RemoveAll(TNode node)
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 
@@ -38,14 +38,14 @@ TNode
 Creates a new node with modifiers that matches the predicate removed\.
 
 ```csharp
-public TNode RemoveAll(TNode node, System.Func<Microsoft.CodeAnalysis.SyntaxToken, bool> predicate)
+public TNode RemoveAll(TNode node, Func<Microsoft.CodeAnalysis.SyntaxToken, bool> predicate)
 ```
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
 ### Returns
 

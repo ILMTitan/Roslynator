@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeArgumentListSyntax A
 
 ### Parameters
 
-**attributeArgument**
+**attributeArgument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributeargumentsyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeArgumentListSyntax A
 
 ### Parameters
 
-**attributeArguments**
+**attributeArguments** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributeargumentsyntax)\[\]
 
 ### Returns
 

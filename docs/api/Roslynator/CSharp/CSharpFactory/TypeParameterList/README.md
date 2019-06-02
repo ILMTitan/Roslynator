@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax TypeP
 
 ### Parameters
 
-**parameter**
+**parameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterListSyntax TypeP
 
 ### Parameters
 
-**parameters**
+**parameters** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)\[\]
 
 ### Returns
 

@@ -25,15 +25,15 @@ public static bool InheritsFrom(this Microsoft.CodeAnalysis.ITypeSymbol type, Mi
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**baseType**
+**baseType** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**includeInterfaces**
+**includeInterfaces** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## InheritsFrom\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_InheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
@@ -47,13 +47,13 @@ public static bool InheritsFrom(this Microsoft.CodeAnalysis.ITypeSymbol type, in
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**baseTypeName**
+**baseTypeName** &emsp; Roslynator\.[MetadataName](../../MetadataName/README.md)
 
-**includeInterfaces**
+**includeInterfaces** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

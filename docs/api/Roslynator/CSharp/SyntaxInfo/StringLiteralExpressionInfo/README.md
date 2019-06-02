@@ -25,7 +25,7 @@ public static Roslynator.CSharp.Syntax.StringLiteralExpressionInfo StringLiteral
 
 ### Parameters
 
-**literalExpression**
+**literalExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ### Returns
 
@@ -43,9 +43,9 @@ public static Roslynator.CSharp.Syntax.StringLiteralExpressionInfo StringLiteral
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**walkDownParentheses**
+**walkDownParentheses** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

@@ -16,9 +16,9 @@ public TNode RemoveAt(TNode node, int index)
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 

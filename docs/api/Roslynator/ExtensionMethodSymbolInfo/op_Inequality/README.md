@@ -12,11 +12,11 @@ public static bool operator !=(in Roslynator.ExtensionMethodSymbolInfo info1, in
 
 ### Parameters
 
-**info1**
+**info1** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
 
-**info2**
+**info2** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

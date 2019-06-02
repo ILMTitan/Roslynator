@@ -21,9 +21,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.GenericNameSyntax GenericName
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**typeArgument**
+**typeArgument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
 ### Returns
 
@@ -37,9 +37,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.GenericNameSyntax GenericName
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**typeArgument**
+**typeArgument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
 ### Returns
 

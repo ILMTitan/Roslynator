@@ -20,9 +20,9 @@ public static TNode RemoveTrivia<TNode>(this TNode node, Microsoft.CodeAnalysis.
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
 
 ### Returns
 

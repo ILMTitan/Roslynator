@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo ReplaceAt(int index, M
 
 ### Parameters
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newMember**
+**newMember** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 

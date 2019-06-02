@@ -12,7 +12,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Boole
 
 ### Parameters
 
-**value**
+**value** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

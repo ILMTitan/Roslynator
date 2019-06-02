@@ -20,7 +20,7 @@ public static Microsoft.CodeAnalysis.SyntaxList<TNode> ToSyntaxList<TNode>(this 
 
 ### Parameters
 
-**nodes**
+**nodes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
 
 ### Returns
 

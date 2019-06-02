@@ -25,15 +25,15 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDecla
 
 ### Parameters
 
-**namespaceDeclaration**
+**namespaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedMembers**
+**selectedMembers** &emsp; Roslynator\.CSharp\.[MemberDeclarationListSelection](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 True if the specified span contains at least one member; otherwise, false\.
 
@@ -49,14 +49,14 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.TypeDeclaratio
 
 ### Parameters
 
-**typeDeclaration**
+**typeDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedMembers**
+**selectedMembers** &emsp; Roslynator\.CSharp\.[MemberDeclarationListSelection](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 True if the specified span contains at least one member; otherwise, false\.

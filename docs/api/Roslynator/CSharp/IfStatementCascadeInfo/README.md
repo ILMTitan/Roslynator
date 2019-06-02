@@ -11,7 +11,7 @@
 Summarizes information about [IfStatementCascade](../IfStatementCascade/README.md)\.
 
 ```csharp
-public readonly struct IfStatementCascadeInfo : System.IEquatable<Roslynator.CSharp.IfStatementCascadeInfo>
+public readonly struct IfStatementCascadeInfo : IEquatable<Roslynator.CSharp.IfStatementCascadeInfo>
 ```
 
 ### Inheritance
@@ -20,7 +20,7 @@ public readonly struct IfStatementCascadeInfo : System.IEquatable<Roslynator.CSh
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementCascadeInfo](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementCascadeInfo](./README.md)>
 
 ## Constructors
 

@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode DeclarationOrExpres
 
 ### Parameters
 
-**usingStatement**
+**usingStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingstatementsyntax)
 
 ### Returns
 

@@ -21,9 +21,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclaratorSyntax Vari
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**initializer**
+**initializer** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 
@@ -37,9 +37,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclaratorSyntax Vari
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**initializer**
+**initializer** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 

@@ -16,7 +16,7 @@ public static System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.INam
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
 ### Returns
 

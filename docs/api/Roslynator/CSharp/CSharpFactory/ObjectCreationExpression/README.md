@@ -12,9 +12,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ObjectCreationExpressionSynta
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**argumentList**
+**argumentList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentlistsyntax)
 
 ### Returns
 

@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.EndRegionDirectiveTriviaSynta
 
 ### Parameters
 
-**regionDirective**
+**regionDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[RegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.regiondirectivetriviasyntax)
 
 ### Returns
 

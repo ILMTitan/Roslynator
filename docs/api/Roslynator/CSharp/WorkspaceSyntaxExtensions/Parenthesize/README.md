@@ -16,13 +16,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ParenthesizedExpressionSyntax
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**includeElasticTrivia**
+**includeElasticTrivia** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 If true, add elastic trivia\.
 
-**simplifiable**
+**simplifiable** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 If true, attach [Simplifier.Annotation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.simplification.simplifier.annotation) to the parenthesized expression\.
 

@@ -25,7 +25,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithFormatterAnnotation(this Mi
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
@@ -47,7 +47,7 @@ public static TNode WithFormatterAnnotation<TNode>(this TNode node) where TNode 
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
 ### Returns
 

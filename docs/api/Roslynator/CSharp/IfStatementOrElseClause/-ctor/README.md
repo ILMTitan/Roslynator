@@ -21,7 +21,7 @@ public IfStatementOrElseClause(Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseSy
 
 ### Parameters
 
-**elseClause**
+**elseClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
 
 ## IfStatementOrElseClause\(IfStatementSyntax\) <a name="Roslynator_CSharp_IfStatementOrElseClause__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_IfStatementSyntax_"></a>
 
@@ -31,4 +31,4 @@ public IfStatementOrElseClause(Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementS
 
 ### Parameters
 
-**ifStatement**
+**ifStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)

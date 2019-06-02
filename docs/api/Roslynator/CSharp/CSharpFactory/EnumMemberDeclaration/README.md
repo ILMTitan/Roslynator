@@ -23,9 +23,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.EnumMemberDeclarationSyntax E
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 
@@ -39,9 +39,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.EnumMemberDeclarationSyntax E
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 
@@ -55,9 +55,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.EnumMemberDeclarationSyntax E
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EqualsValueClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.equalsvalueclausesyntax)
 
 ### Returns
 
@@ -71,9 +71,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.EnumMemberDeclarationSyntax E
 
 ### Parameters
 
-**identifier**
+**identifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**value**
+**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 

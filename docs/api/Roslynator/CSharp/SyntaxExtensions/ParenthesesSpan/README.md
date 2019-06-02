@@ -26,7 +26,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan ParenthesesSpan(this Microsof
 
 ### Parameters
 
-**castExpression**
+**castExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CastExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.castexpressionsyntax)
 
 ### Returns
 
@@ -44,7 +44,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan ParenthesesSpan(this Microsof
 
 ### Parameters
 
-**forEachStatement**
+**forEachStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CommonForEachStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.commonforeachstatementsyntax)
 
 ### Returns
 
@@ -62,7 +62,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan ParenthesesSpan(this Microsof
 
 ### Parameters
 
-**forStatement**
+**forStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ForStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.forstatementsyntax)
 
 ### Returns
 

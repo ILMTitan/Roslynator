@@ -16,9 +16,9 @@ public static bool IsSingleLine(this Microsoft.CodeAnalysis.FileLinePositionSpan
 
 ### Parameters
 
-**fileLinePositionSpan**
+**fileLinePositionSpan** &emsp; Microsoft\.CodeAnalysis\.[FileLinePositionSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.filelinepositionspan)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

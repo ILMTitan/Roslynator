@@ -26,13 +26,13 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol**
+**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType**
+**elementType** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType\) <a name="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
 
@@ -46,15 +46,15 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol**
+**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType1**
+**elementType1** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType2**
+**elementType2** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType, SpecialType\) <a name="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
 
@@ -68,15 +68,15 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol**
+**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType1**
+**elementType1** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType2**
+**elementType2** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType3**
+**elementType3** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

@@ -29,7 +29,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ToSeparatedSynta
 
 ### Parameters
 
-**nodesAndTokens**
+**nodesAndTokens** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxNodeOrToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnodeortoken)>
 
 ### Returns
 
@@ -51,7 +51,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ToSeparatedSynta
 
 ### Parameters
 
-**nodes**
+**nodes** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
 
 ### Returns
 

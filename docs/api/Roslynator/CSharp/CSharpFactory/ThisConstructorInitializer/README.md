@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorInitializerSyntax 
 
 ### Parameters
 
-**argumentList**
+**argumentList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentlistsyntax)
 
 ### Returns
 
@@ -35,9 +35,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorInitializerSyntax 
 
 ### Parameters
 
-**semicolonToken**
+**semicolonToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**argumentList**
+**argumentList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentlistsyntax)
 
 ### Returns
 

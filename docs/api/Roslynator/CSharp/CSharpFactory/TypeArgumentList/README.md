@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeArgumentListSyntax TypeAr
 
 ### Parameters
 
-**argument**
+**argument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeArgumentListSyntax TypeAr
 
 ### Parameters
 
-**arguments**
+**arguments** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)\[\]
 
 ### Returns
 

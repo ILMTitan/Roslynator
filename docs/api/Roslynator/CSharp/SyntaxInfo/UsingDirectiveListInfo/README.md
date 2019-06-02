@@ -26,7 +26,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**compilationUnit**
+**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
 ### Returns
 
@@ -44,7 +44,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
 ### Returns
 
@@ -62,7 +62,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 

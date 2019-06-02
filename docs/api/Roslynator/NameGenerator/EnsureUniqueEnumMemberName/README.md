@@ -16,13 +16,13 @@ public string EnsureUniqueEnumMemberName(string baseName, Microsoft.CodeAnalysis
 
 ### Parameters
 
-**baseName**
+**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**enumType**
+**enumType** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**isCaseSensitive**
+**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 

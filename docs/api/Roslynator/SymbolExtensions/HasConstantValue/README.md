@@ -37,13 +37,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Byte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Byte_"></a>
 
@@ -57,13 +57,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Decimal\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Decimal_"></a>
 
@@ -77,13 +77,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Double\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Double_"></a>
 
@@ -97,13 +97,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Char\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Char_"></a>
 
@@ -117,13 +117,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Char](https://docs.microsoft.com/en-us/dotnet/api/system.char)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Int16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int16_"></a>
 
@@ -137,13 +137,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Int32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int32_"></a>
 
@@ -157,13 +157,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Int64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int64_"></a>
 
@@ -177,13 +177,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, SByte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_SByte_"></a>
 
@@ -197,13 +197,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, Single\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Single_"></a>
 
@@ -217,13 +217,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, String\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_String_"></a>
 
@@ -237,13 +237,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, UInt16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt16_"></a>
 
@@ -257,13 +257,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [UInt16](https://docs.microsoft.com/en-us/dotnet/api/system.uint16)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, UInt32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt32_"></a>
 
@@ -277,13 +277,13 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasConstantValue\(IFieldSymbol, UInt64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt64_"></a>
 
@@ -297,11 +297,11 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol**
+**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value**
+**value** &emsp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

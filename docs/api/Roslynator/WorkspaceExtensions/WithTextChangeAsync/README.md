@@ -16,11 +16,11 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> WithT
 
 ### Parameters
 
-**document**
+**document** &emsp; Microsoft\.CodeAnalysis\.[Document](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.document)
 
-**textChange**
+**textChange** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextChange](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textchange)
 
-**cancellationToken**
+**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

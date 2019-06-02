@@ -30,7 +30,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**accessorDeclaration**
+**accessorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessordeclarationsyntax)
 
 ### Returns
 
@@ -48,7 +48,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**constructorDeclaration**
+**constructorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConstructorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.constructordeclarationsyntax)
 
 ### Returns
 
@@ -66,7 +66,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**conversionOperatorDeclaration**
+**conversionOperatorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConversionOperatorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.conversionoperatordeclarationsyntax)
 
 ### Returns
 
@@ -84,7 +84,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**destructorDeclaration**
+**destructorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DestructorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.destructordeclarationsyntax)
 
 ### Returns
 
@@ -102,7 +102,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**localFunctionStatement**
+**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
@@ -120,7 +120,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**methodDeclaration**
+**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
@@ -138,7 +138,7 @@ public static Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode BodyOrExpressionBod
 
 ### Parameters
 
-**operatorDeclaration**
+**operatorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[OperatorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.operatordeclarationsyntax)
 
 ### Returns
 

@@ -23,7 +23,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BaseListSyntax BaseList(Micro
 
 ### Parameters
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BaseTypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.basetypesyntax)
 
 ### Returns
 
@@ -37,7 +37,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BaseListSyntax BaseList(param
 
 ### Parameters
 
-**types**
+**types** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BaseTypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.basetypesyntax)\[\]
 
 ### Returns
 
@@ -51,9 +51,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BaseListSyntax BaseList(Micro
 
 ### Parameters
 
-**colonToken**
+**colonToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**baseType**
+**baseType** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BaseTypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.basetypesyntax)
 
 ### Returns
 
@@ -67,9 +67,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BaseListSyntax BaseList(Micro
 
 ### Parameters
 
-**colonToken**
+**colonToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**types**
+**types** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BaseTypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.basetypesyntax)\[\]
 
 ### Returns
 

@@ -32,7 +32,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**delegateDeclaration**
+**delegateDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DelegateDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.delegatedeclarationsyntax)
 
 ### Returns
 
@@ -50,7 +50,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**localFunctionStatement**
+**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
@@ -68,7 +68,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**methodDeclaration**
+**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
@@ -86,7 +86,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
@@ -104,7 +104,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeDeclaration**
+**typeDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
 ### Returns
 
@@ -122,7 +122,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**constraintClause**
+**constraintClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
 
 ### Returns
 
@@ -140,7 +140,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameterConstraint**
+**typeParameterConstraint** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintsyntax)
 
 ### Returns
 
@@ -158,7 +158,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameterList**
+**typeParameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterlistsyntax)
 
 ### Returns
 
@@ -176,7 +176,7 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameter**
+**typeParameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
 
 ### Returns
 

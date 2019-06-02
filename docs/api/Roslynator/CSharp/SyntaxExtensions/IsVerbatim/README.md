@@ -16,9 +16,9 @@ public static bool IsVerbatim(this Microsoft.CodeAnalysis.CSharp.Syntax.Interpol
 
 ### Parameters
 
-**interpolatedString**
+**interpolatedString** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterpolatedStringExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interpolatedstringexpressionsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo ReplaceAt(int index, Micr
 
 ### Parameters
 
-**index**
+**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**newUsingDirective**
+**newUsingDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[UsingDirectiveSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.usingdirectivesyntax)
 
 ### Returns
 

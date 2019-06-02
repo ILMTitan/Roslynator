@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.UsingDirectiveSyntax UsingSta
 
 ### Parameters
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namesyntax)
 
 ### Returns
 
@@ -35,13 +35,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.UsingDirectiveSyntax UsingSta
 
 ### Parameters
 
-**usingKeyword**
+**usingKeyword** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**staticKeyword**
+**staticKeyword** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namesyntax)
 
-**semicolonToken**
+**semicolonToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

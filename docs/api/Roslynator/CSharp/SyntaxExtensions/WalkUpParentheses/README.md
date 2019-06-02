@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax WalkUpParent
 
 ### Parameters
 
-**expression**
+**expression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
 ### Returns
 

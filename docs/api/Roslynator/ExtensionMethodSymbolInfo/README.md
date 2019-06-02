@@ -11,7 +11,7 @@
 Represents an extension method symbol\.
 
 ```csharp
-public readonly struct ExtensionMethodSymbolInfo : System.IEquatable<Roslynator.ExtensionMethodSymbolInfo>
+public readonly struct ExtensionMethodSymbolInfo : IEquatable<Roslynator.ExtensionMethodSymbolInfo>
 ```
 
 ### Inheritance
@@ -20,7 +20,7 @@ public readonly struct ExtensionMethodSymbolInfo : System.IEquatable<Roslynator.
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[ExtensionMethodSymbolInfo](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[ExtensionMethodSymbolInfo](./README.md)>
 
 ## Properties
 

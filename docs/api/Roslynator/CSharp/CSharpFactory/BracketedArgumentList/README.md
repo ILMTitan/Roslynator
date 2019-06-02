@@ -21,7 +21,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BracketedArgumentListSyntax B
 
 ### Parameters
 
-**argument**
+**argument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentsyntax)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.BracketedArgumentListSyntax B
 
 ### Parameters
 
-**arguments**
+**arguments** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentsyntax)\[\]
 
 ### Returns
 

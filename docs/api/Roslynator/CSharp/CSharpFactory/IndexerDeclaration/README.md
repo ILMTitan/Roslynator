@@ -21,13 +21,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IndexerDeclarationSyntax Inde
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BracketedParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.bracketedparameterlistsyntax)
 
-**accessorList**
+**accessorList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessorlistsyntax)
 
 ### Returns
 
@@ -41,13 +41,13 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IndexerDeclarationSyntax Inde
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-**type**
+**type** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax)
 
-**parameterList**
+**parameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BracketedParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.bracketedparameterlistsyntax)
 
-**expressionBody**
+**expressionBody** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ArrowExpressionClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.arrowexpressionclausesyntax)
 
 ### Returns
 

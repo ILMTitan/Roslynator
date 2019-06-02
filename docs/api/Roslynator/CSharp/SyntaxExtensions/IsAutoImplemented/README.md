@@ -16,9 +16,9 @@ public static bool IsAutoImplemented(this Microsoft.CodeAnalysis.CSharp.Syntax.A
 
 ### Parameters
 
-**accessorDeclaration**
+**accessorDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessordeclarationsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

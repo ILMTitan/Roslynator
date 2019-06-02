@@ -25,15 +25,15 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax bl
 
 ### Parameters
 
-**block**
+**block** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedStatements**
+**selectedStatements** &emsp; Roslynator\.CSharp\.[StatementListSelection](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 True if the specified span contains at least one statement; otherwise, false\.
 
@@ -49,14 +49,14 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionS
 
 ### Parameters
 
-**switchSection**
+**switchSection** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchSectionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchsectionsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedStatements**
+**selectedStatements** &emsp; Roslynator\.CSharp\.[StatementListSelection](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 True if the specified span contains at least one statement; otherwise, false\.

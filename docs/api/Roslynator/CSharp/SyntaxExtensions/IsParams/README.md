@@ -16,9 +16,9 @@ public static bool IsParams(this Microsoft.CodeAnalysis.CSharp.Syntax.ParameterS
 
 ### Parameters
 
-**parameter**
+**parameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.parametersyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

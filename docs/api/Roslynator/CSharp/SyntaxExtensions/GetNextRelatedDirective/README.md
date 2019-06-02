@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax GetNext
 
 ### Parameters
 
-**directiveTrivia**
+**directiveTrivia** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.directivetriviasyntax)
 
 ### Returns
 

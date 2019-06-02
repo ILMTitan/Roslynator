@@ -12,4 +12,4 @@ public Reversed(in Roslynator.CSharp.ExpressionChain chain)
 
 ### Parameters
 
-**chain**
+**chain** &emsp; Roslynator\.CSharp\.[ExpressionChain](../../README.md)

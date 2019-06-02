@@ -25,15 +25,15 @@ public bool Equals(Roslynator.MetadataName other)
 
 ### Parameters
 
-**other**
+**other** &emsp; Roslynator\.[MetadataName](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Implements
 
-* System\.[IEquatable\<MetadataName>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
+* [IEquatable\<MetadataName>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
 
 ## Equals\(Object\) <a name="Roslynator_MetadataName_Equals_System_Object_"></a>
 
@@ -47,12 +47,12 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj**
+**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 The object to compare with the current instance\.
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 true if **obj** and this instance are the same type and represent the same value; otherwise, false\. 

@@ -12,7 +12,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Liter
 
 ### Parameters
 
-**value**
+**value** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 

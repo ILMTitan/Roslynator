@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList ToSyntaxTokenList(this Syst
 
 ### Parameters
 
-**tokens**
+**tokens** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)>
 
 ### Returns
 

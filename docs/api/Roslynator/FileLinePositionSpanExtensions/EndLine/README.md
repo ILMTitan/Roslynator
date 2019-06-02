@@ -16,9 +16,9 @@ public static int EndLine(this Microsoft.CodeAnalysis.FileLinePositionSpan fileL
 
 ### Parameters
 
-**fileLinePositionSpan**
+**fileLinePositionSpan** &emsp; Microsoft\.CodeAnalysis\.[FileLinePositionSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.filelinepositionspan)
 
 ### Returns
 
-System\.[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 

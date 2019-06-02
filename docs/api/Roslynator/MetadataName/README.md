@@ -11,7 +11,7 @@
 Represents fully qualified metadata name of a symbol\.
 
 ```csharp
-public readonly struct MetadataName : System.IEquatable<Roslynator.MetadataName>
+public readonly struct MetadataName : IEquatable<Roslynator.MetadataName>
 ```
 
 ### Inheritance
@@ -20,7 +20,7 @@ public readonly struct MetadataName : System.IEquatable<Roslynator.MetadataName>
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[MetadataName](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[MetadataName](./README.md)>
 
 ## Constructors
 

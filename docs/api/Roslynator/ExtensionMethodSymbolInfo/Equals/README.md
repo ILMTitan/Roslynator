@@ -21,15 +21,15 @@ public bool Equals(Roslynator.ExtensionMethodSymbolInfo other)
 
 ### Parameters
 
-**other**
+**other** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Implements
 
-* System\.[IEquatable\<ExtensionMethodSymbolInfo>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
+* [IEquatable\<ExtensionMethodSymbolInfo>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
 
 ## Equals\(Object\) <a name="Roslynator_ExtensionMethodSymbolInfo_Equals_System_Object_"></a>
 
@@ -39,9 +39,9 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj**
+**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

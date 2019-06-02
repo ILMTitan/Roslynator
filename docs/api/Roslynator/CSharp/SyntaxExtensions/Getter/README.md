@@ -26,7 +26,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax Get
 
 ### Parameters
 
-**accessorList**
+**accessorList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AccessorListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.accessorlistsyntax)
 
 ### Returns
 
@@ -44,7 +44,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax Get
 
 ### Parameters
 
-**indexerDeclaration**
+**indexerDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IndexerDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.indexerdeclarationsyntax)
 
 ### Returns
 
@@ -62,7 +62,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax Get
 
 ### Parameters
 
-**propertyDeclaration**
+**propertyDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[PropertyDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.propertydeclarationsyntax)
 
 ### Returns
 

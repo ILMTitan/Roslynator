@@ -12,11 +12,11 @@ public static bool operator !=(in Roslynator.CSharp.IfStatementOrElseClause left
 
 ### Parameters
 
-**left**
+**left** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
 
-**right**
+**right** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

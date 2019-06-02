@@ -21,9 +21,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClause
 
 ### Parameters
 
-**identifierName**
+**identifierName** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IdentifierNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.identifiernamesyntax)
 
-**typeParameterConstraint**
+**typeParameterConstraint** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintsyntax)
 
 ### Returns
 
@@ -37,9 +37,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterConstraintClause
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**typeParameterConstraint**
+**typeParameterConstraint** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintsyntax)
 
 ### Returns
 

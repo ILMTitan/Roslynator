@@ -30,7 +30,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax)
 
 ### Returns
 
@@ -48,7 +48,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**compilationUnit**
+**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
 ### Returns
 
@@ -66,7 +66,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax)
 
 ### Returns
 
@@ -84,7 +84,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
 ### Returns
 
@@ -102,7 +102,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax)
 
 ### Returns
 
@@ -120,7 +120,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
@@ -138,7 +138,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration**
+**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
 ### Returns
 

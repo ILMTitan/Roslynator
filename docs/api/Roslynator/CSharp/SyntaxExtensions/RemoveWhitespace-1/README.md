@@ -20,9 +20,9 @@ public static TNode RemoveWhitespace<TNode>(this TNode node, Microsoft.CodeAnaly
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
 
 ### Returns
 

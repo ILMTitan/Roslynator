@@ -20,7 +20,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken GetTrailingSeparator<TNode>(thi
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
 ### Returns
 

@@ -28,7 +28,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 ### Parameters
 
-**classDeclaration**
+**classDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax)
 
 ### Returns
 
@@ -46,7 +46,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 ### Parameters
 
-**enumDeclaration**
+**enumDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EnumDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.enumdeclarationsyntax)
 
 ### Returns
 
@@ -64,7 +64,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 ### Parameters
 
-**interfaceDeclaration**
+**interfaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax)
 
 ### Returns
 
@@ -82,7 +82,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 ### Parameters
 
-**namespaceDeclaration**
+**namespaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
 ### Returns
 
@@ -100,7 +100,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 ### Parameters
 
-**structDeclaration**
+**structDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax)
 
 ### Returns
 

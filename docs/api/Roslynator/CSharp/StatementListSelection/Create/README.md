@@ -26,9 +26,9 @@ public static Roslynator.CSharp.StatementListSelection Create(Microsoft.CodeAnal
 
 ### Parameters
 
-**block**
+**block** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 
@@ -46,9 +46,9 @@ public static Roslynator.CSharp.StatementListSelection Create(in Roslynator.CSha
 
 ### Parameters
 
-**statementsInfo**
+**statementsInfo** &emsp; Roslynator\.CSharp\.Syntax\.[StatementListInfo](../../Syntax/StatementListInfo/README.md)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 
@@ -66,9 +66,9 @@ public static Roslynator.CSharp.StatementListSelection Create(Microsoft.CodeAnal
 
 ### Parameters
 
-**switchSection**
+**switchSection** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchSectionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchsectionsyntax)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 

@@ -16,9 +16,9 @@ public static Microsoft.CodeAnalysis.INamedTypeSymbol GetTypeByMetadataName(this
 
 ### Parameters
 
-**semanticModel**
+**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**fullyQualifiedMetadataName**
+**fullyQualifiedMetadataName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

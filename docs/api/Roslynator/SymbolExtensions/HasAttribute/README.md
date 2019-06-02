@@ -27,13 +27,13 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ISymbol symbol, Micr
 
 ### Parameters
 
-**symbol**
+**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**attributeClass**
+**attributeClass** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasAttribute\(ISymbol, MetadataName\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__"></a>
 
@@ -47,13 +47,13 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ISymbol symbol, in R
 
 ### Parameters
 
-**symbol**
+**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**attributeName**
+**attributeName** &emsp; Roslynator\.[MetadataName](../../MetadataName/README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasAttribute\(ITypeSymbol, INamedTypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_System_Boolean_"></a>
 
@@ -67,15 +67,15 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ITypeSymbol typeSymb
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**attributeClass**
+**attributeClass** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**includeBaseTypes**
+**includeBaseTypes** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ## HasAttribute\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
@@ -89,13 +89,13 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ITypeSymbol typeSymb
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
-**attributeName**
+**attributeName** &emsp; Roslynator\.[MetadataName](../../MetadataName/README.md)
 
-**includeBaseTypes**
+**includeBaseTypes** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo RemoveNode(Microsoft.Code
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**options**
+**options** &emsp; Microsoft\.CodeAnalysis\.[SyntaxRemoveOptions](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxremoveoptions)
 
 ### Returns
 

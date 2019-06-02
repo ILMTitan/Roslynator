@@ -11,7 +11,7 @@
 Returns the first node of type **TNode** that matches the predicate\.
 
 ```csharp
-public static TNode FirstAncestor<TNode>(this Microsoft.CodeAnalysis.SyntaxNode node, System.Func<TNode, bool> predicate = null, bool ascendOutOfTrivia = true) where TNode : Microsoft.CodeAnalysis.SyntaxNode
+public static TNode FirstAncestor<TNode>(this Microsoft.CodeAnalysis.SyntaxNode node, Func<TNode, bool> predicate = null, bool ascendOutOfTrivia = true) where TNode : Microsoft.CodeAnalysis.SyntaxNode
 ```
 
 ### Type Parameters
@@ -20,11 +20,11 @@ public static TNode FirstAncestor<TNode>(this Microsoft.CodeAnalysis.SyntaxNode 
 
 ### Parameters
 
-**node**
+**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<TNode, [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
-**ascendOutOfTrivia**
+**ascendOutOfTrivia** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

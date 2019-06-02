@@ -16,10 +16,10 @@ protected SeparatedSyntaxListSelection(Microsoft.CodeAnalysis.SeparatedSyntaxLis
 
 ### Parameters
 
-**list**
+**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**firstIndex**
+**firstIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**lastIndex**
+**lastIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)

@@ -16,9 +16,9 @@ public static bool IsHexNumericLiteral(this Microsoft.CodeAnalysis.CSharp.Syntax
 
 ### Parameters
 
-**literalExpression**
+**literalExpression** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

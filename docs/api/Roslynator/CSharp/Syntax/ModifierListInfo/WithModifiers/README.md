@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.ModifierListInfo WithModifiers(Microsoft.CodeAna
 
 ### Parameters
 
-**modifiers**
+**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
 ### Returns
 

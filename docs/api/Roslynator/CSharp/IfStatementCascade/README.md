@@ -11,7 +11,7 @@
 Enables to enumerate if statement cascade\.
 
 ```csharp
-public readonly struct IfStatementCascade : System.IEquatable<Roslynator.CSharp.IfStatementCascade>,
+public readonly struct IfStatementCascade : IEquatable<Roslynator.CSharp.IfStatementCascade>,
     System.Collections.Generic.IEnumerable<Roslynator.CSharp.IfStatementOrElseClause>
 ```
 
@@ -21,7 +21,7 @@ public readonly struct IfStatementCascade : System.IEquatable<Roslynator.CSharp.
 
 ### Implements
 
-* System\.[IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementCascade](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.CSharp\.[IfStatementCascade](./README.md)>
 * System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Roslynator\.CSharp\.[IfStatementOrElseClause](../IfStatementOrElseClause/README.md)>
 
 ## Properties

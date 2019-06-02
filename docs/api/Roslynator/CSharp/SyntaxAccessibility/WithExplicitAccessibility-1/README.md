@@ -20,11 +20,11 @@ public static TNode WithExplicitAccessibility<TNode>(TNode node, Microsoft.CodeA
 
 ### Parameters
 
-**node**
+**node** &emsp; TNode
 
-**newAccessibility**
+**newAccessibility** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
-**comparer**
+**comparer** &emsp; System\.Collections\.Generic\.[IComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer-1)\<Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)>
 
 ### Returns
 

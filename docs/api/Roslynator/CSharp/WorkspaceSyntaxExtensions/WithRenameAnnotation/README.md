@@ -17,7 +17,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithRenameAnnotation(this Micro
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

@@ -16,7 +16,7 @@ public Roslynator.CSharp.Syntax.GenericInfo RemoveTypeParameter(Microsoft.CodeAn
 
 ### Parameters
 
-**typeParameter**
+**typeParameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
 
 ### Returns
 

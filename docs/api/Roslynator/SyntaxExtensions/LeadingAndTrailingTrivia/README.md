@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList LeadingAndTrailingTrivia(t
 
 ### Parameters
 
-**token**
+**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

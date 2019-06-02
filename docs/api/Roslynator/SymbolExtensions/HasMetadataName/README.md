@@ -16,11 +16,11 @@ public static bool HasMetadataName(this Microsoft.CodeAnalysis.ISymbol symbol, i
 
 ### Parameters
 
-**symbol**
+**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**metadataName**
+**metadataName** &emsp; Roslynator\.[MetadataName](../../MetadataName/README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

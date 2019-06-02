@@ -16,7 +16,7 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.TypeParameterSyntax FindTypeParamete
 
 ### Parameters
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 

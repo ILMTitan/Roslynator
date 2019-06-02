@@ -21,16 +21,16 @@
 Searches for a type member that matches the conditions defined by the specified predicate and returns the first occurrence within the type's members\.
 
 ```csharp
-public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, System.Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate, bool includeBaseTypes = false)
+public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate, bool includeBaseTypes = false)
 ```
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
-**includeBaseTypes**
+**includeBaseTypes** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -43,18 +43,18 @@ Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dot
 Searches for a type member that has the specified name and matches the conditions defined by the specified predicate, if any, and returns the first occurrence within the type's members\.
 
 ```csharp
-public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, string name, System.Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate = null, bool includeBaseTypes = false)
+public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, string name, Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate = null, bool includeBaseTypes = false)
 ```
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
-**includeBaseTypes**
+**includeBaseTypes** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -67,20 +67,20 @@ Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dot
 Searches for a type member that has the specified name, arity and matches the conditions defined by the specified predicate, if any, and returns the first occurrence within the type's members\.
 
 ```csharp
-public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, string name, int arity, System.Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate = null, bool includeBaseTypes = false)
+public static Microsoft.CodeAnalysis.INamedTypeSymbol FindTypeMember(this Microsoft.CodeAnalysis.INamedTypeSymbol typeSymbol, string name, int arity, Func<Microsoft.CodeAnalysis.INamedTypeSymbol, bool> predicate = null, bool includeBaseTypes = false)
 ```
 
 ### Parameters
 
-**typeSymbol**
+**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**name**
+**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**arity**
+**arity** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**predicate**
+**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
-**includeBaseTypes**
+**includeBaseTypes** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

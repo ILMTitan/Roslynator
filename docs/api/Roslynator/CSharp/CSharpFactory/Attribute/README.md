@@ -12,9 +12,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax Attribute(Mic
 
 ### Parameters
 
-**name**
+**name** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namesyntax)
 
-**argument**
+**argument** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[AttributeArgumentSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.attributeargumentsyntax)
 
 ### Returns
 

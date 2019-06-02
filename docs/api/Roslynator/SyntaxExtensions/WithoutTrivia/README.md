@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.SyntaxNodeOrToken WithoutTrivia(this Micros
 
 ### Parameters
 
-**nodeOrToken**
+**nodeOrToken** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNodeOrToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnodeortoken)
 
 ### Returns
 

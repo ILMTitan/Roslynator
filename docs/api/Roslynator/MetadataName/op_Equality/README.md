@@ -12,11 +12,11 @@ public static bool operator ==(in Roslynator.MetadataName metadataName1, in Rosl
 
 ### Parameters
 
-**metadataName1**
+**metadataName1** &emsp; Roslynator\.[MetadataName](../README.md)
 
-**metadataName2**
+**metadataName2** &emsp; Roslynator\.[MetadataName](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 

@@ -22,9 +22,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax SwitchSec
 
 ### Parameters
 
-**switchLabel**
+**switchLabel** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchLabelSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchlabelsyntax)
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 ### Returns
 
@@ -38,9 +38,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax SwitchSec
 
 ### Parameters
 
-**switchLabel**
+**switchLabel** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchLabelSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchlabelsyntax)
 
-**statements**
+**statements** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 
@@ -54,9 +54,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax SwitchSec
 
 ### Parameters
 
-**switchLabels**
+**switchLabels** &emsp; Microsoft\.CodeAnalysis\.[SyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxlist-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchLabelSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchlabelsyntax)>
 
-**statement**
+**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 ### Returns
 

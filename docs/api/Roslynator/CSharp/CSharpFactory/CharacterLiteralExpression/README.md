@@ -12,7 +12,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Chara
 
 ### Parameters
 
-**value**
+**value** &emsp; [Char](https://docs.microsoft.com/en-us/dotnet/api/system.char)
 
 ### Returns
 

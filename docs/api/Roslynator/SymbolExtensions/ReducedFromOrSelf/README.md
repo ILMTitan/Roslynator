@@ -16,7 +16,7 @@ public static Microsoft.CodeAnalysis.IMethodSymbol ReducedFromOrSelf(this Micros
 
 ### Parameters
 
-**methodSymbol**
+**methodSymbol** &emsp; Microsoft\.CodeAnalysis\.[IMethodSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.imethodsymbol)
 
 ### Returns
 

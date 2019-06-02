@@ -16,14 +16,14 @@ public static bool TryCreate(Microsoft.CodeAnalysis.Text.TextLineCollection line
 
 ### Parameters
 
-**lines**
+**lines** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
 
-**span**
+**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedLines**
+**selectedLines** &emsp; Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
 
 ### Returns
 
-System\.[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 True if the specified span contains at least one line; otherwise, false\.
