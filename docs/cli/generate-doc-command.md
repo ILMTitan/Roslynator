@@ -23,6 +23,7 @@ roslynator generate-doc <PROJECT|SOLUTION>
 [--include-containing-namespace-filter]
 [--include-ienumerable]
 [--include-inherited-interface-members]
+[--include-system-namespace]
 [--inheritance-style]
 [--language]
 [--max-derived-types]
@@ -116,6 +117,10 @@ Indicates whether interface `System.Collections.IEnumerable` should be included 
 **`[--include-inherited-interface-members]`**
 
 Indicates whether inherited interface members should be displayed in a list of members.
+
+**`[--include-system-namespace]`**
+
+Indicates whether namespace should be included when a type is directly contained in namespace 'System'.
 
 **`[--inheritance-style]`** `{horizontal|vertical}`
 

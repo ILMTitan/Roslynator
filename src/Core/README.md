@@ -9,7 +9,7 @@
 
 ## Classes
 
-* System\.Object
+* Object
 * &emsp; System\.Collections\.Generic\.EqualityComparer\<T>
 * &emsp; \| &emsp; [MetadataNameEqualityComparer\<TSymbol>](../../docs/api/Roslynator/MetadataNameEqualityComparer-1/README.md)
 * &emsp; [NameGenerator](../../docs/api/Roslynator/NameGenerator/README.md)

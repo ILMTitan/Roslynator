@@ -594,7 +594,7 @@ namespace Roslynator.Documentation
                 {
                     WriteBold(en.Current.Name);
                     WriteSpace();
-                    WriteEntityRef("emsp"); //TODO: ensp
+                    WriteEntityRef("ensp");
                     WriteSpace();
                     WriteTypeLink(en.Current.Type, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Parameter));
 
@@ -1212,11 +1212,16 @@ namespace Roslynator.Documentation
 
                     if (DocumentationModel.IsExternal(baseType))
                     {
-                        WriteSymbol(baseType, SymbolDisplayFormats.TypeNameAndContainingTypesAndNamespacesAndTypeParameters);
+                        SymbolDisplayFormat format = SymbolDisplayFormats.GetTypeNameFormat(
+                            includeNamespaces: Options.IncludeSystemNamespace || !baseType.ContainingNamespace.IsSystemNamespace(),
+                            includeContainingTypes: true,
+                            includeTypeParameters: true);
+
+                        WriteSymbol(baseType, format);
                     }
                     else
                     {
-                        WriteTypeLink(baseType);
+                        WriteTypeLink(baseType, includeContainingNamespace: includeContainingNamespace);
                     }
 
                     WriteObsolete(baseType, before: false);

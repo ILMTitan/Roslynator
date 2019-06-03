@@ -371,19 +371,19 @@ namespace Roslynator.Documentation
 
                         do
                         {
-                            WriteBulletItemLink(en.Current);
+                            INamedTypeSymbol typeSymbol = en.Current;
+
+                            writer.WriteStartBulletItem();
+
+                            if (Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root))
+                                writer.WriteContainingNamespacePrefix(typeSymbol);
+
+                            writer.WriteLink(typeSymbol, format);
+                            writer.WriteEndBulletItem();
                         }
                         while (en.MoveNext());
                     }
                 }
-            }
-
-            void WriteBulletItemLink(INamedTypeSymbol typeSymbol)
-            {
-                writer.WriteStartBulletItem();
-                writer.WriteContainingNamespacePrefix(typeSymbol);
-                writer.WriteLink(typeSymbol, format);
-                writer.WriteEndBulletItem();
             }
 
             bool HasContent(RootDocumentationParts part)

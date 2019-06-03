@@ -5,6 +5,13 @@ using Microsoft.CodeAnalysis;
 
 namespace Roslynator.Documentation
 {
+    public enum ContainingNamespaceStyle
+    {
+        Exclude,
+        Include,
+        IncludeExceptSystem
+    }
+
     internal readonly struct AttributeInfo
     {
         internal static IEqualityComparer<AttributeInfo> AttributeClassComparer { get; } = new AttributeClassEqualityComparer();

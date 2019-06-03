@@ -8,9 +8,13 @@ namespace Roslynator.CommandLine
     [Verb("generate-doc-root", HelpText = "Generates root documentation file from specified assemblies.")]
     public class GenerateDocRootCommandLineOptions : AbstractGenerateDocCommandLineOptions
     {
-        [Option(longName: "omit-containing-namespace",
-            HelpText = "Indicates whether a containing namespace should be omitted when displaying type name.")]
-        public bool OmitContainingNamespace { get; set; }
+        [Option(longName: "include-containing-namespace",
+            HelpText = "Indicates whether a containing namespace should be included when displaying type name.")]
+        public bool IncludeContainingNamespace { get; set; }
+
+        [Option(longName: ParameterNames.IncludeSystemNamespace,
+            HelpText = "Indicates whether namespace should be included when a type is directly contained in namespace 'System'.")]
+        public bool IncludeSystemNamespace { get; set; }
 
         [Option(longName: "ignored-parts",
             HelpText = "Defines parts of a root documentation that should be excluded. Allowed values are content, namespaces, classes, static-classes, structs, interfaces, enums, delegates and other",

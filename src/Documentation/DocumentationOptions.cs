@@ -38,7 +38,7 @@ namespace Roslynator.Documentation
             NamespaceDocumentationParts ignoredNamespaceParts = NamespaceDocumentationParts.None,
             TypeDocumentationParts ignoredTypeParts = TypeDocumentationParts.None,
             MemberDocumentationParts ignoredMemberParts = MemberDocumentationParts.None,
-            IncludeContainingNamespaceFilter includeContainingNamespaceFilter = IncludeContainingNamespaceFilter.All, //TODO: None
+            IncludeContainingNamespaceFilter includeContainingNamespaceFilter = IncludeContainingNamespaceFilter.None,
             bool scrollToContent = DefaultValues.ScrollToContent)
         {
             if (maxDerivedTypes < 0)

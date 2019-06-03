@@ -11,7 +11,7 @@
 
 ## Classes
 
-* System\.Object
+* Object
 * &emsp; System\.Collections\.Generic\.EqualityComparer\<T>
 * &emsp; \| &emsp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)
 * &emsp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)

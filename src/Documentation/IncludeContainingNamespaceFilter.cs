@@ -12,7 +12,7 @@ namespace Roslynator.Documentation
         ContainingType = 2,
         Parameter = 4,
         ReturnType = 8,
-        BaseType = 16, //TODO: BaseType > Inheritance
+        BaseType = 16,
         Attribute = 32,
         DerivedType = 64,
         ImplementedInterface = 128,

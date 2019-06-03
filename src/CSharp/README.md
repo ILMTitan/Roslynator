@@ -9,7 +9,7 @@
 
 ## Classes
 
-* System\.Object
+* Object
 * &emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)
 * &emsp; Roslynator\.SyntaxListSelection\<TNode>
 * &emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)

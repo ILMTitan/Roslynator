@@ -15,12 +15,13 @@ roslynator generate-doc-root
 [--ignored-names]
 [--ignored-parts]
 [--ignored-projects]
+[--include-containing-namespace]
+[--include-system-namespace]
 [--language]
 [--msbuild-path]
 [--no-class-hierarchy]
 [--no-mark-obsolete]
 [--no-precedence-for-system]
-[--omit-containing-namespace]
 [-p|--properties]
 [--projects]
 [--root-directory-url]
@@ -65,6 +66,14 @@ Defines parts of a root documentation that should be excluded.
 
 Defines projects that should be skipped.
 
+**`[--include-containing-namespace]`**
+
+Indicates whether a containing namespace should be included when displaying type name.
+
+**`[--include-system-namespace]`**
+
+Indicates whether namespace should be included when a type is directly contained in namespace 'System'.
+
 **`--language`** `{cs[harp]|v[isual-]b[asic])}`
 
 Defines project language.
@@ -84,10 +93,6 @@ Indicates whether obsolete types and members should not be marked as `[deprecate
 **`[--no-precedence-for-system]`**
 
 Indicates whether symbols contained in `System` namespace should be ordered as any other symbols and not before other symbols.
-
-**`[--omit-containing-namespace]`**
-
-Indicates whether a containing namespace should be omitted when displaying type name.
 
 **`--projects`** <PROJECT_NAME>
 

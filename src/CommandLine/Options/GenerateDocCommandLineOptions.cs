@@ -47,7 +47,7 @@ namespace Roslynator.CommandLine
             HelpText = "Indicates whether inherited interface members should be displayed in a list of members.")]
         public bool IncludeInheritedInterfaceMembers { get; set; }
 
-        [Option(longName: "include-system-namespace",
+        [Option(longName: ParameterNames.IncludeSystemNamespace,
             HelpText = "Indicates whether namespace should be included when a type is directly contained in namespace 'System'.")]
         public bool IncludeSystemNamespace { get; set; }
 
