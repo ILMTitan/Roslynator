@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[NameGenerator](../README.md)
+**Containing Type**: [NameGenerator](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,11 +16,11 @@ public string EnsureUniqueEnumMemberName(string baseName, Microsoft.CodeAnalysis
 
 ### Parameters
 
-**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**baseName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**enumType** &emsp; Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
+**enumType** &ensp; [INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 
-**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**isCaseSensitive** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

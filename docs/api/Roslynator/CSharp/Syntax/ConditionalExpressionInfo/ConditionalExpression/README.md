@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[ConditionalExpressionInfo](../README.md)
+**Containing Type**: [ConditionalExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.ConditionalExpressionSyntax Conditio
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ConditionalExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.conditionalexpressionsyntax)
+[ConditionalExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.conditionalexpressionsyntax)
 

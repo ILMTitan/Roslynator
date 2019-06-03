@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ModifierList\<TNode>](../README.md)
+**Containing Type**: [ModifierList\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public TNode RemoveAt(TNode node, int index)
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
-**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**index** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 

@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[StatementListInfo](../README.md)
+**Containing Type**: [StatementListInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,11 +16,11 @@ public Roslynator.CSharp.Syntax.StatementListInfo InsertRange(int index, System.
 
 ### Parameters
 
-**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**index** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**statements** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
+**statements** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)>
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[StatementListInfo](../README.md)
+[StatementListInfo](../README.md)
 

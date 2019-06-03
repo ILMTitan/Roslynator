@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SymbolExtensions](../README.md)
+**Containing Type**: [SymbolExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -26,9 +26,9 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
+**parameterSymbol** &ensp; [IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
@@ -46,11 +46,11 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
+**parameterSymbol** &ensp; [IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType1** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType1** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType2** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType2** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 
@@ -68,13 +68,13 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 ### Parameters
 
-**parameterSymbol** &emsp; Microsoft\.CodeAnalysis\.[IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
+**parameterSymbol** &ensp; [IParameterSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.iparametersymbol)
 
-**elementType1** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType1** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType2** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType2** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
-**elementType3** &emsp; Microsoft\.CodeAnalysis\.[SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
+**elementType3** &ensp; [SpecialType](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.specialtype)
 
 ### Returns
 

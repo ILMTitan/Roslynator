@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -26,11 +26,11 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
+**compilationUnit** &ensp; [CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
+[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
 
 ## UsingDirectiveListInfo\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
@@ -44,11 +44,11 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
+**declaration** &ensp; [NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
+[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
 
 ## UsingDirectiveListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
@@ -62,9 +62,9 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ### Parameters
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
+[UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
 

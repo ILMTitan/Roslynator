@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[NullCheckExpressionInfo](../README.md)
+**Containing Type**: [NullCheckExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax NullCheckExpression
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
+[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 

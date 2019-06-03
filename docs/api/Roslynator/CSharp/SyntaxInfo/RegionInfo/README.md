@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,11 +25,11 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 ### Parameters
 
-**endRegionDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[EndRegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.endregiondirectivetriviasyntax)
+**endRegionDirective** &ensp; [EndRegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.endregiondirectivetriviasyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[RegionInfo](../../Syntax/RegionInfo/README.md)
+[RegionInfo](../../Syntax/RegionInfo/README.md)
 
 ## RegionInfo\(RegionDirectiveTriviaSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_RegionDirectiveTriviaSyntax_"></a>
 
@@ -43,9 +43,9 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 ### Parameters
 
-**regionDirective** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[RegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.regiondirectivetriviasyntax)
+**regionDirective** &ensp; [RegionDirectiveTriviaSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.regiondirectivetriviasyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[RegionInfo](../../Syntax/RegionInfo/README.md)
+[RegionInfo](../../Syntax/RegionInfo/README.md)
 

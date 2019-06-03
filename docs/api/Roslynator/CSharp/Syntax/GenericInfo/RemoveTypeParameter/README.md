@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[GenericInfo](../README.md)
+**Containing Type**: [GenericInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.GenericInfo RemoveTypeParameter(Microsoft.CodeAn
 
 ### Parameters
 
-**typeParameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
+**typeParameter** &ensp; [TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../README.md)
+[GenericInfo](../README.md)
 

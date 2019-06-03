@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[NullCheckExpressionInfo](../README.md)
+**Containing Type**: [NullCheckExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.CSharp.NullCheckStyles Style { get; }
 
 ### Property Value
 
-Roslynator\.CSharp\.[NullCheckStyles](../../../NullCheckStyles/README.md)
+[NullCheckStyles](../../../NullCheckStyles/README.md)
 

@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**Containing Type**: [ExtensionMethodSymbolInfo](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 

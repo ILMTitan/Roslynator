@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[StatementListInfo](../README.md)
+**Containing Type**: [StatementListInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,16 +16,16 @@ public Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax this[int index] { ge
 
 ### Parameters
 
-**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**index** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 The zero\-based index of the statement to get\. 
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
+[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
 The statement at the specified index in the list\.
 
 ### Implements
 
-* System\.Collections\.Generic\.[IReadOnlyList\<StatementSyntax>.Item](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1.item)
+* [IReadOnlyList\<StatementSyntax>.Item](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1.item)

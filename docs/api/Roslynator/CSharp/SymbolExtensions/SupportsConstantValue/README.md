@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SymbolExtensions](../README.md)
+**Containing Type**: [SymbolExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,7 +16,7 @@ public static bool SupportsConstantValue(this Microsoft.CodeAnalysis.ITypeSymbol
 
 ### Parameters
 
-**typeSymbol** &emsp; Microsoft\.CodeAnalysis\.[ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
+**typeSymbol** &ensp; [ITypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.itypesymbol)
 
 ### Returns
 

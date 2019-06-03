@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[SingleParameterLambdaExpressionInfo](../README.md)
+**Containing Type**: [SingleParameterLambdaExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

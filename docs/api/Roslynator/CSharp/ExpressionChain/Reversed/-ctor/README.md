@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain.Reversed](../README.md)
+**Containing Type**: [ExpressionChain.Reversed](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,4 +12,4 @@ public Reversed(in Roslynator.CSharp.ExpressionChain chain)
 
 ### Parameters
 
-**chain** &emsp; Roslynator\.CSharp\.[ExpressionChain](../../README.md)
+**chain** &ensp; [ExpressionChain](../../README.md)

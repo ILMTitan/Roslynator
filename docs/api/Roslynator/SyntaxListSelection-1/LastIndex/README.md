@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -20,4 +20,4 @@ public int LastIndex { get; }
 
 ### Implements
 
-* Roslynator\.[ISelection\<TNode>.LastIndex](../../ISelection-1/LastIndex/README.md)
+* [ISelection\<TNode>.LastIndex](../../ISelection-1/LastIndex/README.md)

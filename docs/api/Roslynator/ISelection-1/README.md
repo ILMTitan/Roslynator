@@ -20,15 +20,15 @@ public interface ISelection<T> : System.Collections.Generic.IReadOnlyList<T>
 
 ### Derived
 
-* Roslynator\.[SeparatedSyntaxListSelection\<TNode>](../SeparatedSyntaxListSelection-1/README.md)
-* Roslynator\.[SyntaxListSelection\<TNode>](../SyntaxListSelection-1/README.md)
-* Roslynator\.Text\.[TextLineCollectionSelection](../Text/TextLineCollectionSelection/README.md)
+* [SeparatedSyntaxListSelection\<TNode>](../SeparatedSyntaxListSelection-1/README.md)
+* [SyntaxListSelection\<TNode>](../SyntaxListSelection-1/README.md)
+* [TextLineCollectionSelection](../Text/TextLineCollectionSelection/README.md)
 
 ### Implements
 
-* System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<T>
-* System\.Collections\.Generic\.[IReadOnlyCollection](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlycollection-1)\<T>
-* System\.Collections\.Generic\.[IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1)\<T>
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<T>
+* [IReadOnlyCollection](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlycollection-1)\<T>
+* [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1)\<T>
 
 ## Properties
 

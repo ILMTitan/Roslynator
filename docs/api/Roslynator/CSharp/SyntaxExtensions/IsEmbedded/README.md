@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxExtensions](../README.md)
+**Containing Type**: [SyntaxExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,17 +16,17 @@ public static bool IsEmbedded(this Microsoft.CodeAnalysis.CSharp.Syntax.Statemen
 
 ### Parameters
 
-**statement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
+**statement** &ensp; [StatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.statementsyntax)
 
-**canBeBlock** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**canBeBlock** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 Block can be considered as embedded statement
 
-**canBeIfInsideElse** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**canBeIfInsideElse** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 If statement that is a child of an else statement can be considered as an embedded statement\.
 
-**canBeUsingInsideUsing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**canBeUsingInsideUsing** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 Using statement that is a child of an using statement can be considered as en embedded statement\.
 

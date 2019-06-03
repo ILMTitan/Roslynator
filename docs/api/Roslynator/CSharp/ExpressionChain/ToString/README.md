@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**Containing Type**: [ExpressionChain](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

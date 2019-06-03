@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxExtensions](../README.md)
+**Containing Type**: [SyntaxExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -20,11 +20,11 @@ public static TNode ReplaceWhitespace<TNode>(this TNode node, Microsoft.CodeAnal
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
-**replacement** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
+**replacement** &ensp; [SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)?
 
 ### Returns
 

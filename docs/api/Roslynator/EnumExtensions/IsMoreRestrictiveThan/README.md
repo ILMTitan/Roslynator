@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[EnumExtensions](../README.md)
+**Containing Type**: [EnumExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,9 +16,9 @@ public static bool IsMoreRestrictiveThan(this Microsoft.CodeAnalysis.Accessibili
 
 ### Parameters
 
-**accessibility** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
+**accessibility** &ensp; [Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
-**other** &emsp; Microsoft\.CodeAnalysis\.[Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
+**other** &ensp; [Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
 ### Returns
 

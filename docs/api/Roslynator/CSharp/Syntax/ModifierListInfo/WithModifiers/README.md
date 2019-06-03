@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[ModifierListInfo](../README.md)
+**Containing Type**: [ModifierListInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.ModifierListInfo WithModifiers(Microsoft.CodeAna
 
 ### Parameters
 
-**modifiers** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
+**modifiers** &ensp; [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[ModifierListInfo](../README.md)
+[ModifierListInfo](../README.md)
 

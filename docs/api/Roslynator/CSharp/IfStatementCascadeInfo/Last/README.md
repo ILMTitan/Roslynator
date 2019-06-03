@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
+**Containing Type**: [IfStatementCascadeInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.CSharp.IfStatementOrElseClause Last { get; }
 
 ### Property Value
 
-Roslynator\.CSharp\.[IfStatementOrElseClause](../../IfStatementOrElseClause/README.md)
+[IfStatementOrElseClause](../../IfStatementOrElseClause/README.md)
 

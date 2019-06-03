@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[StatementListInfo](../README.md)
+**Containing Type**: [StatementListInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.StatementListInfo RemoveAt(int index)
 
 ### Parameters
 
-**index** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**index** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[StatementListInfo](../README.md)
+[StatementListInfo](../README.md)
 

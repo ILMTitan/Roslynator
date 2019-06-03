@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[MemberDeclarationListSelection](../README.md)
+**Containing Type**: [MemberDeclarationListSelection](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,11 +25,11 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDecla
 
 ### Parameters
 
-**namespaceDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
+**namespaceDeclaration** &ensp; [NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedMembers** &emsp; Roslynator\.CSharp\.[MemberDeclarationListSelection](../README.md)
+**selectedMembers** &ensp; [MemberDeclarationListSelection](../README.md)
 
 ### Returns
 
@@ -49,11 +49,11 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.TypeDeclaratio
 
 ### Parameters
 
-**typeDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
+**typeDeclaration** &ensp; [TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedMembers** &emsp; Roslynator\.CSharp\.[MemberDeclarationListSelection](../README.md)
+**selectedMembers** &ensp; [MemberDeclarationListSelection](../README.md)
 
 ### Returns
 

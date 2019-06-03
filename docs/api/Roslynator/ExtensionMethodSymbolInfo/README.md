@@ -20,7 +20,7 @@ public readonly struct ExtensionMethodSymbolInfo : IEquatable<Roslynator.Extensi
 
 ### Implements
 
-* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[ExtensionMethodSymbolInfo](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<[ExtensionMethodSymbolInfo](./README.md)>
 
 ## Properties
 

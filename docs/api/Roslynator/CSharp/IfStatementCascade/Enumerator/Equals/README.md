@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascade.Enumerator](../README.md)
+**Containing Type**: [IfStatementCascade.Enumerator](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,7 +12,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 

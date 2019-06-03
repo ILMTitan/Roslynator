@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**Containing Type**: [ExpressionChain](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,9 +12,9 @@ public static bool operator !=(in Roslynator.CSharp.ExpressionChain info1, in Ro
 
 ### Parameters
 
-**info1** &emsp; Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**info1** &ensp; [ExpressionChain](../README.md)
 
-**info2** &emsp; Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**info2** &ensp; [ExpressionChain](../README.md)
 
 ### Returns
 

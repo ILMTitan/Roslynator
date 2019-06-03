@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[ModifierListInfo](../README.md)
+**Containing Type**: [ModifierListInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.CSharp.Syntax.ModifierListInfo WithoutExplicitAccessibility()
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[ModifierListInfo](../README.md)
+[ModifierListInfo](../README.md)
 

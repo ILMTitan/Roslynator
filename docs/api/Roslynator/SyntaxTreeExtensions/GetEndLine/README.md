@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SyntaxTreeExtensions](../README.md)
+**Containing Type**: [SyntaxTreeExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,11 +16,11 @@ public static int GetEndLine(this Microsoft.CodeAnalysis.SyntaxTree syntaxTree, 
 
 ### Parameters
 
-**syntaxTree** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)
+**syntaxTree** &ensp; [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
+**cancellationToken** &ensp; [CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

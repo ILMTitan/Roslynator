@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[NameGenerator](../README.md)
+**Containing Type**: [NameGenerator](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 

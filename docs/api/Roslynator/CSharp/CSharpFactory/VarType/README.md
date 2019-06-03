@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[CSharpFactory](../README.md)
+**Containing Type**: [CSharpFactory](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,5 +12,5 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IdentifierNameSyntax VarType(
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IdentifierNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.identifiernamesyntax)
+[IdentifierNameSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.identifiernamesyntax)
 

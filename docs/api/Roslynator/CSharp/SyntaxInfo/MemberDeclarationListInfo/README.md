@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -30,11 +30,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax)
+**declaration** &ensp; [ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(CompilationUnitSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
 
@@ -48,11 +48,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**compilationUnit** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
+**compilationUnit** &ensp; [CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(InterfaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
 
@@ -66,11 +66,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax)
+**declaration** &ensp; [InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
@@ -84,11 +84,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
+**declaration** &ensp; [NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(StructDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
 
@@ -102,11 +102,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax)
+**declaration** &ensp; [StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
@@ -120,11 +120,11 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
 ## MemberDeclarationListInfo\(TypeDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_"></a>
 
@@ -138,9 +138,9 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
+**declaration** &ensp; [TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
+[MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 

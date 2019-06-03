@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascade](../README.md)
+**Containing Type**: [IfStatementCascade](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,5 +12,5 @@ System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
 
 ### Returns
 
-System\.Collections\.[IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator)
+[IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator)
 

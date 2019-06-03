@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SymbolExtensions](../README.md)
+**Containing Type**: [SymbolExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -28,9 +28,9 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ### Parameters
 
-**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
+**symbol** &ensp; [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**kind** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
 ### Returns
 
@@ -48,11 +48,11 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ### Parameters
 
-**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
+**symbol** &ensp; [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**kind1** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind1** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind2** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind2** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
 ### Returns
 
@@ -70,13 +70,13 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ### Parameters
 
-**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
+**symbol** &ensp; [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**kind1** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind1** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind2** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind2** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind3** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind3** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
 ### Returns
 
@@ -94,15 +94,15 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ### Parameters
 
-**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
+**symbol** &ensp; [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**kind1** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind1** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind2** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind2** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind3** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind3** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind4** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind4** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
 ### Returns
 
@@ -120,17 +120,17 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ### Parameters
 
-**symbol** &emsp; Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
+**symbol** &ensp; [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)
 
-**kind1** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind1** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind2** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind2** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind3** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind3** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind4** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind4** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
-**kind5** &emsp; Microsoft\.CodeAnalysis\.[SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
+**kind5** &ensp; [SymbolKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.symbolkind)
 
 ### Returns
 

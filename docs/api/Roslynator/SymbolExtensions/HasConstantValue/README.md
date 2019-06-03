@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SymbolExtensions](../README.md)
+**Containing Type**: [SymbolExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -37,9 +37,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**value** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -57,9 +57,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte)
+**value** &ensp; [Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte)
 
 ### Returns
 
@@ -77,9 +77,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
+**value** &ensp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
 
 ### Returns
 
@@ -97,9 +97,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
+**value** &ensp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
 
 ### Returns
 
@@ -117,9 +117,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Char](https://docs.microsoft.com/en-us/dotnet/api/system.char)
+**value** &ensp; [Char](https://docs.microsoft.com/en-us/dotnet/api/system.char)
 
 ### Returns
 
@@ -137,9 +137,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16)
+**value** &ensp; [Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16)
 
 ### Returns
 
@@ -157,9 +157,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**value** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 
@@ -177,9 +177,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
+**value** &ensp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
 
 ### Returns
 
@@ -197,9 +197,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
+**value** &ensp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
 
 ### Returns
 
@@ -217,9 +217,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
+**value** &ensp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
 
 ### Returns
 
@@ -237,9 +237,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**value** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 
@@ -257,9 +257,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [UInt16](https://docs.microsoft.com/en-us/dotnet/api/system.uint16)
+**value** &ensp; [UInt16](https://docs.microsoft.com/en-us/dotnet/api/system.uint16)
 
 ### Returns
 
@@ -277,9 +277,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
+**value** &ensp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
 
 ### Returns
 
@@ -297,9 +297,9 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ### Parameters
 
-**fieldSymbol** &emsp; Microsoft\.CodeAnalysis\.[IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
+**fieldSymbol** &ensp; [IFieldSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.ifieldsymbol)
 
-**value** &emsp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
+**value** &ensp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
 
 ### Returns
 

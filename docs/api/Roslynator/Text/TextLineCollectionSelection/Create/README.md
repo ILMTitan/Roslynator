@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,11 +16,11 @@ public static Roslynator.Text.TextLineCollectionSelection Create(Microsoft.CodeA
 
 ### Parameters
 
-**lines** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
+**lines** &ensp; [TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
 ### Returns
 
-Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+[TextLineCollectionSelection](../README.md)
 

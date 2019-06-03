@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public static Roslynator.CSharp.Syntax.XmlElementInfo XmlElementInfo(Microsoft.C
 
 ### Parameters
 
-**xmlNode** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[XmlNodeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.xmlnodesyntax)
+**xmlNode** &ensp; [XmlNodeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.xmlnodesyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[XmlElementInfo](../../Syntax/XmlElementInfo/README.md)
+[XmlElementInfo](../../Syntax/XmlElementInfo/README.md)
 

@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ModifierList](../README.md)
+**Containing Type**: [ModifierList](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -29,7 +29,7 @@ public static TNode RemoveAll<TNode>(TNode node) where TNode : Microsoft.CodeAna
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
 ### Returns
 
@@ -51,9 +51,9 @@ public static TNode RemoveAll<TNode>(TNode node, Func<Microsoft.CodeAnalysis.Syn
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
-**predicate** &emsp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
+**predicate** &ensp; [Func](https://docs.microsoft.com/en-us/dotnet/api/system.func-2)\<[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken), [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)>
 
 ### Returns
 

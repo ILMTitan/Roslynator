@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SeparatedSyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SeparatedSyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,10 +16,10 @@ protected SeparatedSyntaxListSelection(Microsoft.CodeAnalysis.SeparatedSyntaxLis
 
 ### Parameters
 
-**list** &emsp; Microsoft\.CodeAnalysis\.[SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
+**list** &ensp; [SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**firstIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**firstIndex** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**lastIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**lastIndex** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)

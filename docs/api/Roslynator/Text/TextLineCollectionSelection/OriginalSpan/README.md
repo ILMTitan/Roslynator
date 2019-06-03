@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,5 +16,5 @@ public Microsoft.CodeAnalysis.Text.TextSpan OriginalSpan { get; }
 
 ### Property Value
 
-Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 

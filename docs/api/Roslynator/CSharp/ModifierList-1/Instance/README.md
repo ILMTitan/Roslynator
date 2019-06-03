@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ModifierList\<TNode>](../README.md)
+**Containing Type**: [ModifierList\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public static Roslynator.CSharp.ModifierList<TNode> Instance { get; }
 
 ### Property Value
 
-Roslynator\.CSharp\.[ModifierList\<TNode>](../README.md)
+[ModifierList\<TNode>](../README.md)
 

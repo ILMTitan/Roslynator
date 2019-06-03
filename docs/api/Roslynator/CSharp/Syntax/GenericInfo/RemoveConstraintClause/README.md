@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[GenericInfo](../README.md)
+**Containing Type**: [GenericInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,9 +16,9 @@ public Roslynator.CSharp.Syntax.GenericInfo RemoveConstraintClause(Microsoft.Cod
 
 ### Parameters
 
-**constraintClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
+**constraintClause** &ensp; [TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../README.md)
+[GenericInfo](../README.md)
 

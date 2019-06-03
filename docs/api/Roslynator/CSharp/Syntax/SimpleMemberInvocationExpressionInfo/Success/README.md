@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[SimpleMemberInvocationExpressionInfo](../README.md)
+**Containing Type**: [SimpleMemberInvocationExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

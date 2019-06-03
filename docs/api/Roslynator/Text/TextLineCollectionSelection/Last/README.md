@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,8 +16,8 @@ public Microsoft.CodeAnalysis.Text.TextLine Last()
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.Text\.[TextLine](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textline)
+[TextLine](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textline)
 
 ### Implements
 
-* Roslynator\.[ISelection\<TextLine>.Last](../../../ISelection-1/Last/README.md)
+* [ISelection\<TextLine>.Last](../../../ISelection-1/Last/README.md)

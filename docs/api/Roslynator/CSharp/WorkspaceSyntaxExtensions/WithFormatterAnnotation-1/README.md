@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[WorkspaceSyntaxExtensions](../README.md)
+**Containing Type**: [WorkspaceSyntaxExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.Workspaces\.dll
 
@@ -25,11 +25,11 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithFormatterAnnotation(this Mi
 
 ### Parameters
 
-**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**token** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ## WithFormatterAnnotation\<TNode>\(TNode\) <a name="Roslynator_CSharp_WorkspaceSyntaxExtensions_WithFormatterAnnotation__1___0_"></a>
 
@@ -47,7 +47,7 @@ public static TNode WithFormatterAnnotation<TNode>(this TNode node) where TNode 
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
 ### Returns
 

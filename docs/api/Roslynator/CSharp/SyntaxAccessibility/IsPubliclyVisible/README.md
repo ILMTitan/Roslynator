@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxAccessibility](../README.md)
+**Containing Type**: [SyntaxAccessibility](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,7 +16,7 @@ public static bool IsPubliclyVisible(Microsoft.CodeAnalysis.CSharp.Syntax.Member
 
 ### Parameters
 
-**declaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
+**declaration** &ensp; [MemberDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax)
 
 ### Returns
 

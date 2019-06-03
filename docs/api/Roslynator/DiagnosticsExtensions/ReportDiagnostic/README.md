@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[DiagnosticsExtensions](../README.md)
+**Containing Type**: [DiagnosticsExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -44,17 +44,17 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
@@ -68,15 +68,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
@@ -90,15 +90,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
@@ -112,13 +112,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
@@ -132,13 +132,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
@@ -152,13 +152,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**token** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
@@ -172,13 +172,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
+**context** &ensp; [SymbolAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.symbolanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
+**trivia** &ensp; [SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
@@ -192,17 +192,17 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
@@ -216,15 +216,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
@@ -238,15 +238,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
@@ -260,13 +260,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
@@ -280,13 +280,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
@@ -300,13 +300,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**token** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
@@ -320,13 +320,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
+**context** &ensp; [SyntaxNodeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxnodeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
+**trivia** &ensp; [SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
@@ -340,17 +340,17 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
@@ -364,15 +364,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**additionalLocations** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
+**additionalLocations** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
@@ -386,15 +386,15 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**properties** &emsp; System\.Collections\.Immutable\.[ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**properties** &ensp; [ImmutableDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutabledictionary-2)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string), [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
@@ -408,13 +408,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**location** &emsp; Microsoft\.CodeAnalysis\.[Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
+**location** &ensp; [Location](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.location)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
@@ -428,13 +428,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
@@ -448,13 +448,13 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**token** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
@@ -468,10 +468,10 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ### Parameters
 
-**context** &emsp; Microsoft\.CodeAnalysis\.Diagnostics\.[SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
+**context** &ensp; [SyntaxTreeAnalysisContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics.syntaxtreeanalysiscontext)
 
-**descriptor** &emsp; Microsoft\.CodeAnalysis\.[DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
+**descriptor** &ensp; [DiagnosticDescriptor](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnosticdescriptor)
 
-**trivia** &emsp; Microsoft\.CodeAnalysis\.[SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
+**trivia** &ensp; [SyntaxTrivia](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivia)
 
-**messageArgs** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]
+**messageArgs** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\[\]

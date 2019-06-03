@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[StatementListSelection](../README.md)
+**Containing Type**: [StatementListSelection](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,11 +25,11 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax bl
 
 ### Parameters
 
-**block** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
+**block** &ensp; [BlockSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.blocksyntax)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedStatements** &emsp; Roslynator\.CSharp\.[StatementListSelection](../README.md)
+**selectedStatements** &ensp; [StatementListSelection](../README.md)
 
 ### Returns
 
@@ -49,11 +49,11 @@ public static bool TryCreate(Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionS
 
 ### Parameters
 
-**switchSection** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[SwitchSectionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchsectionsyntax)
+**switchSection** &ensp; [SwitchSectionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.switchsectionsyntax)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**selectedStatements** &emsp; Roslynator\.CSharp\.[StatementListSelection](../README.md)
+**selectedStatements** &ensp; [StatementListSelection](../README.md)
 
 ### Returns
 

@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[BinaryExpressionInfo](../README.md)
+**Containing Type**: [BinaryExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.CSharp.ExpressionChain AsChain()
 
 ### Returns
 
-Roslynator\.CSharp\.[ExpressionChain](../../../ExpressionChain/README.md)
+[ExpressionChain](../../../ExpressionChain/README.md)
 

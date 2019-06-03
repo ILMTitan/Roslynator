@@ -8,4 +8,4 @@
 
 ## Static Classes
 
-* Roslynator\.[WorkspaceExtensions](../../docs/api/Roslynator/WorkspaceExtensions/README.md)
+* [WorkspaceExtensions](../../docs/api/Roslynator/WorkspaceExtensions/README.md)

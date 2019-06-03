@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[BinaryExpressionInfo](../README.md)
+**Containing Type**: [BinaryExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

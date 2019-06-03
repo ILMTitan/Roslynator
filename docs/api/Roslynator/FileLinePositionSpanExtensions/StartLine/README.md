@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[FileLinePositionSpanExtensions](../README.md)
+**Containing Type**: [FileLinePositionSpanExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,7 +16,7 @@ public static int StartLine(this Microsoft.CodeAnalysis.FileLinePositionSpan fil
 
 ### Parameters
 
-**fileLinePositionSpan** &emsp; Microsoft\.CodeAnalysis\.[FileLinePositionSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.filelinepositionspan)
+**fileLinePositionSpan** &ensp; [FileLinePositionSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.filelinepositionspan)
 
 ### Returns
 

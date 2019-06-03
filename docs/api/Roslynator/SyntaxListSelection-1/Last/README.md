@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -20,4 +20,4 @@ TNode
 
 ### Implements
 
-* Roslynator\.[ISelection\<TNode>.Last](../../ISelection-1/Last/README.md)
+* [ISelection\<TNode>.Last](../../ISelection-1/Last/README.md)

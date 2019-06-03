@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[NameGenerator](../README.md)
+**Containing Type**: [NameGenerator](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -26,11 +26,11 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Gene
 
 ### Parameters
 
-**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**baseName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**reservedNames** &emsp; System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
+**reservedNames** &ensp; [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)>
 
-**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**isCaseSensitive** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -48,11 +48,11 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Immu
 
 ### Parameters
 
-**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**baseName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**symbols** &emsp; System\.Collections\.Immutable\.[ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<Microsoft\.CodeAnalysis\.[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)>
+**symbols** &ensp; [ImmutableArray](https://docs.microsoft.com/en-us/dotnet/api/system.collections.immutable.immutablearray-1)\<[ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)>
 
-**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**isCaseSensitive** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
@@ -70,13 +70,13 @@ public string EnsureUniqueName(string baseName, Microsoft.CodeAnalysis.SemanticM
 
 ### Parameters
 
-**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**baseName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
+**semanticModel** &ensp; [SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**position** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**isCaseSensitive** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 

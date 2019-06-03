@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataName](../README.md)
+**Containing Type**: [MetadataName](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -12,9 +12,9 @@ public static bool operator !=(in Roslynator.MetadataName metadataName1, in Rosl
 
 ### Parameters
 
-**metadataName1** &emsp; Roslynator\.[MetadataName](../README.md)
+**metadataName1** &ensp; [MetadataName](../README.md)
 
-**metadataName2** &emsp; Roslynator\.[MetadataName](../README.md)
+**metadataName2** &ensp; [MetadataName](../README.md)
 
 ### Returns
 

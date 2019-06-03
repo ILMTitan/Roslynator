@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SeparatedSyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SeparatedSyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.SeparatedSyntaxListSelection<TNode>.Enumerator GetEnumerator()
 
 ### Returns
 
-Roslynator\.[SeparatedSyntaxListSelection\<TNode>.Enumerator](../Enumerator/README.md)
+[SeparatedSyntaxListSelection\<TNode>.Enumerator](../Enumerator/README.md)
 

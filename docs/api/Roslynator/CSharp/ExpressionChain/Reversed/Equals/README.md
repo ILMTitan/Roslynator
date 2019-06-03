@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain.Reversed](../README.md)
+**Containing Type**: [ExpressionChain.Reversed](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -21,7 +21,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 
@@ -35,7 +35,7 @@ public bool Equals(Roslynator.CSharp.ExpressionChain.Reversed other)
 
 ### Parameters
 
-**other** &emsp; Roslynator\.CSharp\.[ExpressionChain.Reversed](../README.md)
+**other** &ensp; [ExpressionChain.Reversed](../README.md)
 
 ### Returns
 

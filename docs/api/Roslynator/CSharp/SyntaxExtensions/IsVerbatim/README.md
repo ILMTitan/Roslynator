@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxExtensions](../README.md)
+**Containing Type**: [SyntaxExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,7 +16,7 @@ public static bool IsVerbatim(this Microsoft.CodeAnalysis.CSharp.Syntax.Interpol
 
 ### Parameters
 
-**interpolatedString** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[InterpolatedStringExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interpolatedstringexpressionsyntax)
+**interpolatedString** &ensp; [InterpolatedStringExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interpolatedstringexpressionsyntax)
 
 ### Returns
 

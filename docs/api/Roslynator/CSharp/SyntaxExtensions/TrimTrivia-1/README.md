@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxExtensions](../README.md)
+**Containing Type**: [SyntaxExtensions](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -27,11 +27,11 @@ public static Microsoft.CodeAnalysis.SyntaxToken TrimTrivia(this Microsoft.CodeA
 
 ### Parameters
 
-**token** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**token** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ## TrimTrivia\<TNode>\(TNode\) <a name="Roslynator_CSharp_SyntaxExtensions_TrimTrivia__1___0_"></a>
 
@@ -51,7 +51,7 @@ public static TNode TrimTrivia<TNode>(this TNode node) where TNode : Microsoft.C
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
 ### Returns
 

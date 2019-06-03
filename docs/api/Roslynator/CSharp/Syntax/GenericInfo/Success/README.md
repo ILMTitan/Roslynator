@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[GenericInfo](../README.md)
+**Containing Type**: [GenericInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

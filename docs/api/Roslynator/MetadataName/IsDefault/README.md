@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataName](../README.md)
+**Containing Type**: [MetadataName](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 

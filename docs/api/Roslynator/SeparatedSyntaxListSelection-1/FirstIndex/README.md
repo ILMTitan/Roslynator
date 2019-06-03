@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SeparatedSyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SeparatedSyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -20,4 +20,4 @@ public int FirstIndex { get; }
 
 ### Implements
 
-* Roslynator\.[ISelection\<TNode>.FirstIndex](../../ISelection-1/FirstIndex/README.md)
+* [ISelection\<TNode>.FirstIndex](../../ISelection-1/FirstIndex/README.md)

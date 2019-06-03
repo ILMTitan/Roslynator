@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[SimpleIfStatementInfo](../README.md)
+**Containing Type**: [SimpleIfStatementInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

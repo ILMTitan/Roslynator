@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataName](../README.md)
+**Containing Type**: [MetadataName](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -17,9 +17,9 @@ public static bool TryParse(string name, out Roslynator.MetadataName metadataNam
 
 ### Parameters
 
-**name** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**name** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**metadataName** &emsp; Roslynator\.[MetadataName](../README.md)
+**metadataName** &ensp; [MetadataName](../README.md)
 
 ### Returns
 

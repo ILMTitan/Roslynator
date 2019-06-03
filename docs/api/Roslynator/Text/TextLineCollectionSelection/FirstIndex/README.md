@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -20,4 +20,4 @@ public int FirstIndex { get; }
 
 ### Implements
 
-* Roslynator\.[ISelection\<TextLine>.FirstIndex](../../../ISelection-1/FirstIndex/README.md)
+* [ISelection\<TextLine>.FirstIndex](../../../ISelection-1/FirstIndex/README.md)

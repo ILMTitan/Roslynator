@@ -24,15 +24,15 @@ public class SyntaxListSelection<TNode> : Roslynator.ISelection<TNode> where TNo
 
 ### Derived
 
-* Roslynator\.CSharp\.[MemberDeclarationListSelection](../CSharp/MemberDeclarationListSelection/README.md)
-* Roslynator\.CSharp\.[StatementListSelection](../CSharp/StatementListSelection/README.md)
+* [MemberDeclarationListSelection](../CSharp/MemberDeclarationListSelection/README.md)
+* [StatementListSelection](../CSharp/StatementListSelection/README.md)
 
 ### Implements
 
-* System\.Collections\.Generic\.[IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
-* System\.Collections\.Generic\.[IReadOnlyCollection](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlycollection-1)\<TNode>
-* System\.Collections\.Generic\.[IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1)\<TNode>
-* Roslynator\.[ISelection](../ISelection-1/README.md)\<TNode>
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1)\<TNode>
+* [IReadOnlyCollection](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlycollection-1)\<TNode>
+* [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1)\<TNode>
+* [ISelection](../ISelection-1/README.md)\<TNode>
 
 ## Constructors
 

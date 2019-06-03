@@ -20,7 +20,7 @@ public readonly struct MetadataName : IEquatable<Roslynator.MetadataName>
 
 ### Implements
 
-* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<Roslynator\.[MetadataName](./README.md)>
+* [IEquatable](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1)\<[MetadataName](./README.md)>
 
 ## Constructors
 

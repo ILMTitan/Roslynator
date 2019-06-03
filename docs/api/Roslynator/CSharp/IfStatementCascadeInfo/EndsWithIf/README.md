@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
+**Containing Type**: [IfStatementCascadeInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

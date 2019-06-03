@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SemanticModelExtensions](../README.md)
+**Containing Type**: [SemanticModelExtensions](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,11 +16,11 @@ public static Microsoft.CodeAnalysis.INamedTypeSymbol GetTypeByMetadataName(this
 
 ### Parameters
 
-**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
+**semanticModel** &ensp; [SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**fullyQualifiedMetadataName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**fullyQualifiedMetadataName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
+[INamedTypeSymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.inamedtypesymbol)
 

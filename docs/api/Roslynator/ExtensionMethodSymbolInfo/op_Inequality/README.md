@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**Containing Type**: [ExtensionMethodSymbolInfo](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -12,9 +12,9 @@ public static bool operator !=(in Roslynator.ExtensionMethodSymbolInfo info1, in
 
 ### Parameters
 
-**info1** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**info1** &ensp; [ExtensionMethodSymbolInfo](../README.md)
 
-**info2** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**info2** &ensp; [ExtensionMethodSymbolInfo](../README.md)
 
 ### Returns
 

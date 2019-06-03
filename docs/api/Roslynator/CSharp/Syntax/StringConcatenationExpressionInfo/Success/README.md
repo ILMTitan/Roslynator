@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[StringConcatenationExpressionInfo](../README.md)
+**Containing Type**: [StringConcatenationExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataName](../README.md)
+**Containing Type**: [MetadataName](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -25,7 +25,7 @@ public bool Equals(Roslynator.MetadataName other)
 
 ### Parameters
 
-**other** &emsp; Roslynator\.[MetadataName](../README.md)
+**other** &ensp; [MetadataName](../README.md)
 
 ### Returns
 
@@ -47,7 +47,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 The object to compare with the current instance\.
 

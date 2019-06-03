@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**Containing Type**: [ExpressionChain](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,7 +25,7 @@ public bool Equals(Roslynator.CSharp.ExpressionChain other)
 
 ### Parameters
 
-**other** &emsp; Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**other** &ensp; [ExpressionChain](../README.md)
 
 An object to compare with this object\.
 
@@ -51,7 +51,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 The object to compare with the current instance\. 
 

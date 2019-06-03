@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataNameEqualityComparer\<TSymbol>](../README.md)
+**Containing Type**: [MetadataNameEqualityComparer\<TSymbol>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,11 +16,11 @@ public override bool Equals(TSymbol x, TSymbol y)
 
 ### Parameters
 
-**x** &emsp; TSymbol
+**x** &ensp; TSymbol
 
 The first object to compare\.
 
-**y** &emsp; TSymbol
+**y** &ensp; TSymbol
 
 The second object to compare\.
 

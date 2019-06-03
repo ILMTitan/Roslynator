@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**Containing Type**: [ExtensionMethodSymbolInfo](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -21,7 +21,7 @@ public bool Equals(Roslynator.ExtensionMethodSymbolInfo other)
 
 ### Parameters
 
-**other** &emsp; Roslynator\.[ExtensionMethodSymbolInfo](../README.md)
+**other** &ensp; [ExtensionMethodSymbolInfo](../README.md)
 
 ### Returns
 
@@ -39,7 +39,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 ### Returns
 

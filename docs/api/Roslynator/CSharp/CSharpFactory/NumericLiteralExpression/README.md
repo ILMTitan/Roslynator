@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[CSharpFactory](../README.md)
+**Containing Type**: [CSharpFactory](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -27,11 +27,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
+**value** &ensp; [Decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(Double\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Double_"></a>
 
@@ -41,11 +41,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
+**value** &ensp; [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(Int32\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int32_"></a>
 
@@ -55,11 +55,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**value** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(Int64\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int64_"></a>
 
@@ -69,11 +69,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
+**value** &ensp; [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(SByte\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_SByte_"></a>
 
@@ -83,11 +83,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
+**value** &ensp; [SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(Single\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Single_"></a>
 
@@ -97,11 +97,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
+**value** &ensp; [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(UInt32\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt32_"></a>
 
@@ -111,11 +111,11 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
+**value** &ensp; [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
 ## NumericLiteralExpression\(UInt64\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt64_"></a>
 
@@ -125,9 +125,9 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 ### Parameters
 
-**value** &emsp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
+**value** &ensp; [UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
+[LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 

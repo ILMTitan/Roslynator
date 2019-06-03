@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[SeparatedSyntaxListSelection\<TNode>](../README.md)
+**Containing Type**: [SeparatedSyntaxListSelection\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -12,5 +12,5 @@ System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
 
 ### Returns
 
-System\.Collections\.[IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator)
+[IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator)
 

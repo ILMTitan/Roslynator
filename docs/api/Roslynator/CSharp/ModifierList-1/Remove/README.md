@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ModifierList\<TNode>](../README.md)
+**Containing Type**: [ModifierList\<TNode>](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,9 +25,9 @@ public TNode Remove(TNode node, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind)
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
-**kind** &emsp; Microsoft\.CodeAnalysis\.CSharp\.[SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
+**kind** &ensp; [SyntaxKind](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntaxkind)
 
 ### Returns
 
@@ -45,9 +45,9 @@ public TNode Remove(TNode node, Microsoft.CodeAnalysis.SyntaxToken modifier)
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
-**modifier** &emsp; Microsoft\.CodeAnalysis\.[SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
+**modifier** &ensp; [SyntaxToken](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtoken)
 
 ### Returns
 

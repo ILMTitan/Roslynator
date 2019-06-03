@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,13 +25,13 @@ public static Roslynator.CSharp.Syntax.LocalDeclarationStatementInfo LocalDeclar
 
 ### Parameters
 
-**value** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
+**value** &ensp; [ExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.expressionsyntax)
 
-**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**allowMissing** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[LocalDeclarationStatementInfo](../../Syntax/LocalDeclarationStatementInfo/README.md)
+[LocalDeclarationStatementInfo](../../Syntax/LocalDeclarationStatementInfo/README.md)
 
 ## LocalDeclarationStatementInfo\(LocalDeclarationStatementSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_LocalDeclarationStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LocalDeclarationStatementSyntax_System_Boolean_"></a>
 
@@ -45,11 +45,11 @@ public static Roslynator.CSharp.Syntax.LocalDeclarationStatementInfo LocalDeclar
 
 ### Parameters
 
-**localDeclarationStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalDeclarationStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localdeclarationstatementsyntax)
+**localDeclarationStatement** &ensp; [LocalDeclarationStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localdeclarationstatementsyntax)
 
-**allowMissing** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**allowMissing** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[LocalDeclarationStatementInfo](../../Syntax/LocalDeclarationStatementInfo/README.md)
+[LocalDeclarationStatementInfo](../../Syntax/LocalDeclarationStatementInfo/README.md)
 

@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.Text.TextLineCollectionSelection.Enumerator GetEnumerator()
 
 ### Returns
 
-Roslynator\.Text\.[TextLineCollectionSelection.Enumerator](../Enumerator/README.md)
+[TextLineCollectionSelection.Enumerator](../Enumerator/README.md)
 

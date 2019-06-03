@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
+**Containing Type**: [IfStatementCascadeInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,4 +16,4 @@ public IfStatementCascadeInfo(Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSy
 
 ### Parameters
 
-**ifStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
+**ifStatement** &ensp; [IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)

@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[IsExpressionInfo](../README.md)
+**Containing Type**: [IsExpressionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

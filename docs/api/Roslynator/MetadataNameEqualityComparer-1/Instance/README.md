@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataNameEqualityComparer\<TSymbol>](../README.md)
+**Containing Type**: [MetadataNameEqualityComparer\<TSymbol>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,5 +16,5 @@ public static Roslynator.MetadataNameEqualityComparer<TSymbol> Instance { get; }
 
 ### Property Value
 
-Roslynator\.[MetadataNameEqualityComparer\<TSymbol>](../README.md)
+[MetadataNameEqualityComparer\<TSymbol>](../README.md)
 

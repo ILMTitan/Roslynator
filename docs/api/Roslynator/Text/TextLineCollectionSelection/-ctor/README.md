@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,10 +16,10 @@ protected TextLineCollectionSelection(Microsoft.CodeAnalysis.Text.TextLineCollec
 
 ### Parameters
 
-**lines** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
+**lines** &ensp; [TextLineCollection](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textlinecollection)
 
-**span** &emsp; Microsoft\.CodeAnalysis\.Text\.[TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
+**span** &ensp; [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-**firstIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**firstIndex** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**lastIndex** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**lastIndex** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)

@@ -2,7 +2,7 @@
 
 [Home](../../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.Syntax\.[RegionInfo](../README.md)
+**Containing Type**: [RegionInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 

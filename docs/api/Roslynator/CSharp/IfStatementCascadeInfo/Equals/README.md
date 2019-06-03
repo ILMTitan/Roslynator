@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
+**Containing Type**: [IfStatementCascadeInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -25,7 +25,7 @@ public bool Equals(Roslynator.CSharp.IfStatementCascadeInfo other)
 
 ### Parameters
 
-**other** &emsp; Roslynator\.CSharp\.[IfStatementCascadeInfo](../README.md)
+**other** &ensp; [IfStatementCascadeInfo](../README.md)
 
 An object to compare with this object\.
 
@@ -51,7 +51,7 @@ public override bool Equals(object obj)
 
 ### Parameters
 
-**obj** &emsp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
+**obj** &ensp; [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)
 
 The object to compare with the current instance\. 
 

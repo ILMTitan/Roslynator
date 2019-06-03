@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[NameGenerator](../README.md)
+**Containing Type**: [NameGenerator](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,15 +16,15 @@ public string EnsureUniqueLocalName(string baseName, Microsoft.CodeAnalysis.Sema
 
 ### Parameters
 
-**baseName** &emsp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
+**baseName** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-**semanticModel** &emsp; Microsoft\.CodeAnalysis\.[SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
+**semanticModel** &ensp; [SemanticModel](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.semanticmodel)
 
-**position** &emsp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+**position** &ensp; [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
 
-**isCaseSensitive** &emsp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
+**isCaseSensitive** &ensp; [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-**cancellationToken** &emsp; System\.Threading\.[CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
+**cancellationToken** &ensp; [CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)
 
 ### Returns
 

@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[ExpressionChain](../README.md)
+**Containing Type**: [ExpressionChain](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -16,5 +16,5 @@ public Roslynator.CSharp.ExpressionChain.Enumerator GetEnumerator()
 
 ### Returns
 
-Roslynator\.CSharp\.[ExpressionChain.Enumerator](../Enumerator/README.md)
+[ExpressionChain.Enumerator](../Enumerator/README.md)
 

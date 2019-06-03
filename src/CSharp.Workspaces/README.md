@@ -8,6 +8,6 @@
 
 ## Static Classes
 
-* Roslynator\.CSharp\.[SyntaxInverter](../../docs/api/Roslynator/CSharp/SyntaxInverter/README.md)
-* Roslynator\.CSharp\.[WorkspaceExtensions](../../docs/api/Roslynator/CSharp/WorkspaceExtensions/README.md)
-* Roslynator\.CSharp\.[WorkspaceSyntaxExtensions](../../docs/api/Roslynator/CSharp/WorkspaceSyntaxExtensions/README.md)
+* [SyntaxInverter](../../docs/api/Roslynator/CSharp/SyntaxInverter/README.md)
+* [WorkspaceExtensions](../../docs/api/Roslynator/CSharp/WorkspaceExtensions/README.md)
+* [WorkspaceSyntaxExtensions](../../docs/api/Roslynator/CSharp/WorkspaceSyntaxExtensions/README.md)

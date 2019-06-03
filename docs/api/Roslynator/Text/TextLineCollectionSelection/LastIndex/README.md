@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.Text\.[TextLineCollectionSelection](../README.md)
+**Containing Type**: [TextLineCollectionSelection](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -20,4 +20,4 @@ public int LastIndex { get; }
 
 ### Implements
 
-* Roslynator\.[ISelection\<TextLine>.LastIndex](../../../ISelection-1/LastIndex/README.md)
+* [ISelection\<TextLine>.LastIndex](../../../ISelection-1/LastIndex/README.md)

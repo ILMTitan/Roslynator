@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**Containing Type**: [IfStatementOrElseClause](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,9 +12,9 @@ public static bool operator !=(in Roslynator.CSharp.IfStatementOrElseClause left
 
 ### Parameters
 
-**left** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**left** &ensp; [IfStatementOrElseClause](../README.md)
 
-**right** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**right** &ensp; [IfStatementOrElseClause](../README.md)
 
 ### Returns
 

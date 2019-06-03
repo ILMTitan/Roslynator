@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxAccessibility](../README.md)
+**Containing Type**: [SyntaxAccessibility](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -20,7 +20,7 @@ public static TNode WithoutExplicitAccessibility<TNode>(TNode node) where TNode 
 
 ### Parameters
 
-**node** &emsp; TNode
+**node** &ensp; TNode
 
 ### Returns
 

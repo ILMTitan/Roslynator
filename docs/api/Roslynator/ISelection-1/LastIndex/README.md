@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[ISelection\<T>](../README.md)
+**Containing Type**: [ISelection\<T>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 

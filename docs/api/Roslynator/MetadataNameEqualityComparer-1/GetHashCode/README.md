@@ -2,7 +2,7 @@
 
 [Home](../../../README.md)
 
-**Containing Type**: Roslynator\.[MetadataNameEqualityComparer\<TSymbol>](../README.md)
+**Containing Type**: [MetadataNameEqualityComparer\<TSymbol>](../README.md)
 
 **Assembly**: Roslynator\.Core\.dll
 
@@ -16,7 +16,7 @@ public override int GetHashCode(TSymbol obj)
 
 ### Parameters
 
-**obj** &emsp; TSymbol
+**obj** &ensp; TSymbol
 
 The symbol for which to get a hash code\.
 

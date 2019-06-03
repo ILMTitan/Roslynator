@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementCascade](../README.md)
+**Containing Type**: [IfStatementCascade](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -12,9 +12,9 @@ public static bool operator !=(in Roslynator.CSharp.IfStatementCascade cascade1,
 
 ### Parameters
 
-**cascade1** &emsp; Roslynator\.CSharp\.[IfStatementCascade](../README.md)
+**cascade1** &ensp; [IfStatementCascade](../README.md)
 
-**cascade2** &emsp; Roslynator\.CSharp\.[IfStatementCascade](../README.md)
+**cascade2** &ensp; [IfStatementCascade](../README.md)
 
 ### Returns
 

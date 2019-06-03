@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[SyntaxInfo](../README.md)
+**Containing Type**: [SyntaxInfo](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -32,11 +32,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**delegateDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[DelegateDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.delegatedeclarationsyntax)
+**delegateDeclaration** &ensp; [DelegateDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.delegatedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(LocalFunctionStatementSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LocalFunctionStatementSyntax_"></a>
 
@@ -50,11 +50,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**localFunctionStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
+**localFunctionStatement** &ensp; [LocalFunctionStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.localfunctionstatementsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(MethodDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax_"></a>
 
@@ -68,11 +68,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**methodDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
+**methodDeclaration** &ensp; [MethodDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.methoddeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
@@ -86,11 +86,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**node** &emsp; Microsoft\.CodeAnalysis\.[SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
+**node** &ensp; [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(TypeDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_"></a>
 
@@ -104,11 +104,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeDeclaration** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
+**typeDeclaration** &ensp; [TypeDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typedeclarationsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(TypeParameterConstraintClauseSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeParameterConstraintClauseSyntax_"></a>
 
@@ -122,11 +122,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**constraintClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
+**constraintClause** &ensp; [TypeParameterConstraintClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintclausesyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(TypeParameterConstraintSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeParameterConstraintSyntax_"></a>
 
@@ -140,11 +140,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameterConstraint** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterConstraintSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintsyntax)
+**typeParameterConstraint** &ensp; [TypeParameterConstraintSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterconstraintsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(TypeParameterListSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeParameterListSyntax_"></a>
 
@@ -158,11 +158,11 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameterList** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterlistsyntax)
+**typeParameterList** &ensp; [TypeParameterListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparameterlistsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 
 ## GenericInfo\(TypeParameterSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_GenericInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeParameterSyntax_"></a>
 
@@ -176,9 +176,9 @@ public static Roslynator.CSharp.Syntax.GenericInfo GenericInfo(Microsoft.CodeAna
 
 ### Parameters
 
-**typeParameter** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
+**typeParameter** &ensp; [TypeParameterSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typeparametersyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.Syntax\.[GenericInfo](../../Syntax/GenericInfo/README.md)
+[GenericInfo](../../Syntax/GenericInfo/README.md)
 

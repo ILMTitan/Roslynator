@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md)
 
-**Containing Type**: Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**Containing Type**: [IfStatementOrElseClause](../README.md)
 
 **Assembly**: Roslynator\.CSharp\.dll
 
@@ -23,11 +23,11 @@ public static implicit operator Roslynator.CSharp.IfStatementOrElseClause(Micros
 
 ### Parameters
 
-**elseClause** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
+**elseClause** &ensp; [ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+[IfStatementOrElseClause](../README.md)
 
 ## Implicit\(IfStatementOrElseClause to ElseClauseSyntax\) <a name="Roslynator_CSharp_IfStatementOrElseClause_op_Implicit_Roslynator_CSharp_IfStatementOrElseClause___Microsoft_CodeAnalysis_CSharp_Syntax_ElseClauseSyntax"></a>
 
@@ -37,11 +37,11 @@ public static implicit operator Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseS
 
 ### Parameters
 
-**ifOrElse** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**ifOrElse** &ensp; [IfStatementOrElseClause](../README.md)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
+[ElseClauseSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.elseclausesyntax)
 
 ## Implicit\(IfStatementOrElseClause to IfStatementSyntax\) <a name="Roslynator_CSharp_IfStatementOrElseClause_op_Implicit_Roslynator_CSharp_IfStatementOrElseClause___Microsoft_CodeAnalysis_CSharp_Syntax_IfStatementSyntax"></a>
 
@@ -51,11 +51,11 @@ public static implicit operator Microsoft.CodeAnalysis.CSharp.Syntax.IfStatement
 
 ### Parameters
 
-**ifOrElse** &emsp; Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+**ifOrElse** &ensp; [IfStatementOrElseClause](../README.md)
 
 ### Returns
 
-Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
+[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
 
 ## Implicit\(IfStatementSyntax to IfStatementOrElseClause\) <a name="Roslynator_CSharp_IfStatementOrElseClause_op_Implicit_Microsoft_CodeAnalysis_CSharp_Syntax_IfStatementSyntax__Roslynator_CSharp_IfStatementOrElseClause"></a>
 
@@ -65,9 +65,9 @@ public static implicit operator Roslynator.CSharp.IfStatementOrElseClause(Micros
 
 ### Parameters
 
-**ifStatement** &emsp; Microsoft\.CodeAnalysis\.CSharp\.Syntax\.[IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
+**ifStatement** &ensp; [IfStatementSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.ifstatementsyntax)
 
 ### Returns
 
-Roslynator\.CSharp\.[IfStatementOrElseClause](../README.md)
+[IfStatementOrElseClause](../README.md)
 
