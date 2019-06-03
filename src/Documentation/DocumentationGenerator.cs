@@ -292,7 +292,7 @@ namespace Roslynator.Documentation
 
                                     writer.WriteHeading2(Resources.GetPluralName(TypeKind.Class));
 
-                                    writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Root));
+                                    writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root));
 
                                     writer.WriteLine();
                                 }
@@ -304,7 +304,7 @@ namespace Roslynator.Documentation
                                     Resources.ClassesTitle,
                                     2,
                                     SymbolDisplayFormats.TypeNameAndContainingTypes,
-                                    includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Root));
+                                    includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root));
 
                                 break;
                             }
@@ -362,7 +362,7 @@ namespace Roslynator.Documentation
             {
                 using (IEnumerator<INamedTypeSymbol> en = typeSymbols
                     .Where(predicate)
-                    .Sort(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Root))
+                    .Sort(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root))
                     .GetEnumerator())
                 {
                     if (en.MoveNext())
@@ -920,7 +920,7 @@ namespace Roslynator.Documentation
                         writer.WriteClassHierarchy(
                             typeSymbol,
                             derivedTypes,
-                            includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.DerivedType),
+                            includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.DerivedType),
                             addBaseType: false,
                             addSeparatorAtIndex: (derivedTypes.Length > Options.MaxDerivedTypes) ? Options.MaxDerivedTypes : -1);
 
@@ -933,7 +933,7 @@ namespace Roslynator.Documentation
                             heading: Resources.DerivedAllTitle,
                             headingLevel: 2,
                             format: SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
-                            includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.DerivedType));
+                            includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.DerivedType));
                     }
                 }
 

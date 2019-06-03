@@ -38,7 +38,7 @@ namespace Roslynator.Documentation
             NamespaceDocumentationParts ignoredNamespaceParts = NamespaceDocumentationParts.None,
             TypeDocumentationParts ignoredTypeParts = TypeDocumentationParts.None,
             MemberDocumentationParts ignoredMemberParts = MemberDocumentationParts.None,
-            OmitContainingNamespaceParts omitContainingNamespaceParts = OmitContainingNamespaceParts.None,
+            IncludeContainingNamespaceFilter includeContainingNamespaceFilter = IncludeContainingNamespaceFilter.All, //TODO: None
             bool scrollToContent = DefaultValues.ScrollToContent)
         {
             if (maxDerivedTypes < 0)
@@ -71,7 +71,7 @@ namespace Roslynator.Documentation
             IgnoredNamespaceParts = ignoredNamespaceParts;
             IgnoredTypeParts = ignoredTypeParts;
             IgnoredMemberParts = ignoredMemberParts;
-            OmitContainingNamespaceParts = omitContainingNamespaceParts;
+            IncludeContainingNamespaceFilter = includeContainingNamespaceFilter;
             ScrollToContent = scrollToContent;
         }
 
@@ -127,13 +127,13 @@ namespace Roslynator.Documentation
 
         public MemberDocumentationParts IgnoredMemberParts { get; }
 
-        public OmitContainingNamespaceParts OmitContainingNamespaceParts { get; }
+        public IncludeContainingNamespaceFilter IncludeContainingNamespaceFilter { get; }
 
         public bool ScrollToContent { get; }
 
-        internal bool IncludeContainingNamespace(OmitContainingNamespaceParts parts)
+        internal bool IncludeContainingNamespace(IncludeContainingNamespaceFilter filter)
         {
-            return (OmitContainingNamespaceParts & parts) == 0;
+            return (IncludeContainingNamespaceFilter & filter) == filter;
         }
 
         internal bool ShouldBeIgnored(INamedTypeSymbol typeSymbol)

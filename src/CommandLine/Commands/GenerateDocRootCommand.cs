@@ -50,7 +50,7 @@ namespace Roslynator.CommandLine
                 markObsolete: !Options.NoMarkObsolete,
                 depth: Depth,
                 ignoredRootParts: IgnoredParts,
-                omitContainingNamespaceParts: (Options.OmitContainingNamespace) ? OmitContainingNamespaceParts.Root : OmitContainingNamespaceParts.None,
+                includeContainingNamespaceFilter: (Options.OmitContainingNamespace) ? IncludeContainingNamespaceFilter.None : IncludeContainingNamespaceFilter.Root,
                 scrollToContent: Options.ScrollToContent);
 
             ImmutableArray<Compilation> compilations = await GetCompilationsAsync(projectOrSolution, cancellationToken);

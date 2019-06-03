@@ -24,7 +24,7 @@ namespace Roslynator.CommandLine
             NamespaceDocumentationParts ignoredNamespaceParts,
             TypeDocumentationParts ignoredTypeParts,
             MemberDocumentationParts ignoredMemberParts,
-            OmitContainingNamespaceParts omitContainingNamespaceParts,
+            IncludeContainingNamespaceFilter includeContainingNamespaceFilter,
             Visibility visibility,
             in ProjectFilter projectFilter) : base(projectFilter)
         {
@@ -34,7 +34,7 @@ namespace Roslynator.CommandLine
             IgnoredNamespaceParts = ignoredNamespaceParts;
             IgnoredTypeParts = ignoredTypeParts;
             IgnoredMemberParts = ignoredMemberParts;
-            OmitContainingNamespaceParts = omitContainingNamespaceParts;
+            IncludeContainingNamespaceFilter = includeContainingNamespaceFilter;
             Visibility = visibility;
         }
 
@@ -50,7 +50,7 @@ namespace Roslynator.CommandLine
 
         public MemberDocumentationParts IgnoredMemberParts { get; }
 
-        public OmitContainingNamespaceParts OmitContainingNamespaceParts { get; }
+        public IncludeContainingNamespaceFilter IncludeContainingNamespaceFilter { get; }
 
         public Visibility Visibility { get; }
 
@@ -82,7 +82,7 @@ namespace Roslynator.CommandLine
                 ignoredNamespaceParts: IgnoredNamespaceParts,
                 ignoredTypeParts: IgnoredTypeParts,
                 ignoredMemberParts: IgnoredMemberParts,
-                omitContainingNamespaceParts: OmitContainingNamespaceParts,
+                includeContainingNamespaceFilter: IncludeContainingNamespaceFilter,
                 scrollToContent: Options.ScrollToContent);
 
             ImmutableArray<Compilation> compilations = await GetCompilationsAsync(projectOrSolution, cancellationToken);

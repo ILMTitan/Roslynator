@@ -20,6 +20,7 @@ roslynator generate-doc <PROJECT|SOLUTION>
 [--ignored-root-parts]
 [--ignored-type-parts]
 [--include-all-derived-types]
+[--include-containing-namespace-filter]
 [--include-ienumerable]
 [--include-inherited-interface-members]
 [--inheritance-style]
@@ -33,7 +34,6 @@ roslynator generate-doc <PROJECT|SOLUTION>
 [--no-mark-obsolete]
 [--no-precedence-for-system]
 [--omit-attribute-arguments]
-[--omit-containing-namespace-parts]
 [--omit-inherited-attributes]
 [--omit-member-constant-value]
 [--omit-member-implements]
@@ -103,6 +103,12 @@ Defines parts of a type documentation that should be excluded.
 
 Indicates whether all derived types should be included in the list of derived types. By default only types that directly inherits from a specified type are displayed.
 
+**`[--include-containing-namespace-filter]`** `{root containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
+
+Defines parts of a documentation that should include containing namespace.
+
+Indicates whether a containing namespace should be omitted when displaying type name.
+
 **`[--include-ienumerable]`**
 
 Indicates whether interface `System.Collections.IEnumerable` should be included in a documentation if a type also implements interface `System.Collections.Generic.IEnumerable<T>`.
@@ -154,12 +160,6 @@ Indicates whether symbols contained in `System` namespace should be ordered as a
 **`[--omit-attribute-arguments]`**
 
 Indicates whether attribute arguments should be omitted when displaying an attribute.
-
-**`[--omit-containing-namespace-parts]`** `{root containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
-
-Defines parts that that should by displayed without containing namespace.
-
-Indicates whether a containing namespace should be omitted when displaying type name.
 
 **`[--omit-inherited-attributes]`**
 

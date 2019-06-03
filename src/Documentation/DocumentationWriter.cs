@@ -406,7 +406,7 @@ namespace Roslynator.Documentation
             WriteBold(title);
             WriteString(Resources.Colon);
             WriteSpace();
-            WriteTypeLink(typeSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.ContainingType));
+            WriteTypeLink(typeSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ContainingType));
             WriteLine();
             WriteLine();
         }
@@ -594,9 +594,9 @@ namespace Roslynator.Documentation
                 {
                     WriteBold(en.Current.Name);
                     WriteSpace();
-                    WriteEntityRef("emsp");
+                    WriteEntityRef("emsp"); //TODO: ensp
                     WriteSpace();
-                    WriteTypeLink(en.Current.Type, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Parameter));
+                    WriteTypeLink(en.Current.Type, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Parameter));
 
                     XElement element = GetXmlDocumentation(en.Current.ContainingSymbol)?.Element(WellKnownXmlTags.Param, "name", en.Current.Name);
 
@@ -698,7 +698,7 @@ namespace Roslynator.Documentation
             void WriteReturnType(ITypeSymbol typeSymbol, string heading)
             {
                 WriteHeading(3, heading);
-                WriteTypeLink(typeSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.ReturnType));
+                WriteTypeLink(typeSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ReturnType));
                 WriteLine();
                 WriteLine();
             }
@@ -753,7 +753,7 @@ namespace Roslynator.Documentation
                 foreach (INamedTypeSymbol baseType in typeSymbol.BaseTypes().Reverse())
                 {
                     WriteIndentation(depth);
-                    WriteTypeLink(baseType.OriginalDefinition, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.BaseType));
+                    WriteTypeLink(baseType.OriginalDefinition, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.BaseType));
                     WriteLineBreak();
 
                     depth++;
@@ -802,7 +802,7 @@ namespace Roslynator.Documentation
             }
 
             using (IEnumerator<AttributeInfo> en = attributes
-                .Sort(f => f.AttributeClass, systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Attribute))
+                .Sort(f => f.AttributeClass, systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Attribute))
                 .GetEnumerator())
             {
                 if (en.MoveNext())
@@ -812,7 +812,7 @@ namespace Roslynator.Documentation
                     do
                     {
                         WriteStartBulletItem();
-                        WriteTypeLink(en.Current.AttributeClass, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Attribute));
+                        WriteTypeLink(en.Current.AttributeClass, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Attribute));
 
                         if (symbol != en.Current.Target)
                         {
@@ -838,7 +838,7 @@ namespace Roslynator.Documentation
                 maxItems: Options.MaxDerivedTypes,
                 allItemsHeading: Resources.DerivedAllTitle,
                 allItemsLinkTitle: Resources.SeeAllDerivedTypes,
-                includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.DerivedType));
+                includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.DerivedType));
         }
 
         public virtual void WriteImplementedInterfaces(IEnumerable<INamedTypeSymbol> interfaceTypes)
@@ -849,13 +849,13 @@ namespace Roslynator.Documentation
                 headingLevel: 3,
                 format: SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
                 addLinkForTypeParameters: true,
-                includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.ImplementedInterface));
+                includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ImplementedInterface));
         }
 
         public virtual void WriteImplementedInterfaceMembers(IEnumerable<ISymbol> interfaceMembers)
         {
             SymbolDisplayFormat format = SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters;
-            bool includeContainingNamespace = Options.IncludeContainingNamespace(OmitContainingNamespaceParts.ImplementedMember);
+            bool includeContainingNamespace = Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ImplementedMember);
             const SymbolDisplayAdditionalMemberOptions additionalOptions = SymbolDisplayAdditionalMemberOptions.UseItemPropertyName;
 
             using (IEnumerator<ISymbol> en = interfaceMembers
@@ -885,7 +885,7 @@ namespace Roslynator.Documentation
         public virtual void WriteExceptions(ISymbol symbol, SymbolXmlDocumentation xmlDocumentation, int headingLevelBase = 0)
         {
             using (IEnumerator<(XElement element, INamedTypeSymbol exceptionSymbol)> en = GetExceptions()
-                .Sort(f => f.exceptionSymbol, systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Exception))
+                .Sort(f => f.exceptionSymbol, systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Exception))
                 .GetEnumerator())
             {
                 if (en.MoveNext())
@@ -897,7 +897,7 @@ namespace Roslynator.Documentation
                         XElement element = en.Current.element;
                         INamedTypeSymbol exceptionSymbol = en.Current.exceptionSymbol;
 
-                        WriteTypeLink(exceptionSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.Exception));
+                        WriteTypeLink(exceptionSymbol, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Exception));
 
                         WriteLine();
                         WriteLine();
@@ -1107,7 +1107,7 @@ namespace Roslynator.Documentation
                             en.Current,
                             SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
                             SymbolDisplayAdditionalMemberOptions.UseItemPropertyName | SymbolDisplayAdditionalMemberOptions.UseOperatorName,
-                            includeContainingNamespace: Options.IncludeContainingNamespace(OmitContainingNamespaceParts.SeeAlso));
+                            includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.SeeAlso));
                     }
                     while (en.MoveNext());
 

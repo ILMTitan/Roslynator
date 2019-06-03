@@ -79,10 +79,10 @@ namespace Roslynator.CommandLine
             HelpText = "Indicates whether attribute arguments should be omitted when displaying an attribute.")]
         public bool OmitAttributeArguments { get; set; }
 
-        [Option(longName: ParameterNames.OmitContainingNamespaceParts,
-            HelpText = "Defines parts that that should by displayed without containing namespace. Allowed values are root, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
-            MetaValue = "<OMIT_CONTAINING_NAMESPACE_PARTS>")]
-        public IEnumerable<string> OmitContainingNamespaceParts { get; set; }
+        [Option(longName: ParameterNames.IncludeContainingNamespaceFilter,
+            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are root, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
+            MetaValue = "<INCLUDE_CONTAINING_NAMESPACE_FILTER>")]
+        public IEnumerable<string> IncludeContainingNamespaceFilter { get; set; }
 
         [Option(longName: "omit-inherited-atttributes",
             HelpText = "Indicates whether inherited attributes should be omitted.")]

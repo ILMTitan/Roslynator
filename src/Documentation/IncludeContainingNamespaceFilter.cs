@@ -5,20 +5,20 @@ using System;
 namespace Roslynator.Documentation
 {
     [Flags]
-    public enum OmitContainingNamespaceParts
+    public enum IncludeContainingNamespaceFilter
     {
         None = 0,
         Root = 1,
         ContainingType = 2,
         Parameter = 4,
         ReturnType = 8,
-        BaseType = 16,
+        BaseType = 16, //TODO: BaseType > Inheritance
         Attribute = 32,
         DerivedType = 64,
         ImplementedInterface = 128,
         ImplementedMember = 256,
         Exception = 512,
         SeeAlso = 1024,
-        All = Root | ContainingType | ReturnType | BaseType | Attribute | DerivedType | ImplementedInterface | ImplementedMember | Exception | SeeAlso
+        All = Root | ContainingType | Parameter | ReturnType | BaseType | Attribute | DerivedType | ImplementedInterface | ImplementedMember | Exception | SeeAlso
     }
 }
