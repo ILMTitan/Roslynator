@@ -15,8 +15,7 @@
 
 ## StringLiteralExpressionInfo\(LiteralExpressionSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_StringLiteralExpressionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LiteralExpressionSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [StringLiteralExpressionInfo](../../Syntax/StringLiteralExpressionInfo/README.md) from the specified literal expression\.
 
 ```csharp
@@ -33,8 +32,7 @@ public static Roslynator.CSharp.Syntax.StringLiteralExpressionInfo StringLiteral
 
 ## StringLiteralExpressionInfo\(SyntaxNode, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_StringLiteralExpressionInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [StringLiteralExpressionInfo](../../Syntax/StringLiteralExpressionInfo/README.md) from the specified node\.
 
 ```csharp

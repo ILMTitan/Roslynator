@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns true if the specified literal expression is a hexadecimal numeric literal expression\.
 
 ```csharp

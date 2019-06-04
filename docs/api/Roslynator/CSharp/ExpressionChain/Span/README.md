@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The span that represents selected expressions\.
 
 ```csharp

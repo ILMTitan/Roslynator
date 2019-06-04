@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 A number of usings in the list\.
 
 ```csharp

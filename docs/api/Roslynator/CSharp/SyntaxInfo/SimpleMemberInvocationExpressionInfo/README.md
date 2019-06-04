@@ -15,8 +15,7 @@
 
 ## SimpleMemberInvocationExpressionInfo\(InvocationExpressionSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleMemberInvocationExpressionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_InvocationExpressionSyntax_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleMemberInvocationExpressionInfo](../../Syntax/SimpleMemberInvocationExpressionInfo/README.md) from the specified invocation expression\.
 
 ```csharp
@@ -35,8 +34,7 @@ public static Roslynator.CSharp.Syntax.SimpleMemberInvocationExpressionInfo Simp
 
 ## SimpleMemberInvocationExpressionInfo\(SyntaxNode, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleMemberInvocationExpressionInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleMemberInvocationExpressionInfo](../../Syntax/SimpleMemberInvocationExpressionInfo/README.md) from the specified node\.
 
 ```csharp

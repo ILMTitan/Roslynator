@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Serves as a hash function for the specified symbol\.
 
 ```csharp

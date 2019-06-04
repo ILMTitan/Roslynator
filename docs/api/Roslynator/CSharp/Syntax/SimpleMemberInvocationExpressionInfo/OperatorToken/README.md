@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The operator in the member access expression\.
 
 ```csharp

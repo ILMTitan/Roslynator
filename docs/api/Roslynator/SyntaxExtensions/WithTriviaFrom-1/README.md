@@ -17,8 +17,7 @@
 
 ## WithTriviaFrom\(SyntaxToken, SyntaxNode\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
-### Summary
-
+\
 Creates a new token from this token with both the leading and trailing trivia of the specified node\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken WithTriviaFrom(this Microsoft.C
 
 ## WithTriviaFrom\<TNode>\(SeparatedSyntaxList\<TNode>, SyntaxNode\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
-### Summary
-
+\
 Creates a new separated list with both leading and trailing trivia of the specified node\.
 If the list contains more than one item, first item is updated with leading trivia and last item is updated with trailing trivia\.
 
@@ -62,8 +60,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> WithTriviaFrom<T
 
 ## WithTriviaFrom\<TNode>\(SyntaxList\<TNode>, SyntaxNode\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom__1_Microsoft_CodeAnalysis_SyntaxList___0__Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
-### Summary
-
+\
 Creates a new list with both leading and trailing trivia of the specified node\.
 If the list contains more than one item, first item is updated with leading trivia and last item is updated with trailing trivia\.
 
@@ -87,8 +84,7 @@ public static Microsoft.CodeAnalysis.SyntaxList<TNode> WithTriviaFrom<TNode>(thi
 
 ## WithTriviaFrom\<TNode>\(TNode, SyntaxToken\) <a name="Roslynator_SyntaxExtensions_WithTriviaFrom__1___0_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
-### Summary
-
+\
 Creates a new node from this node with both the leading and trailing trivia of the specified token\.
 
 ```csharp

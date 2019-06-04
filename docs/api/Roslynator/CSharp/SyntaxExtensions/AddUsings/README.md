@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new [CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax) with the specified using directives added\.
 
 ```csharp

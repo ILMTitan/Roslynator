@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns the trailing separator, if any\.
 
 ```csharp

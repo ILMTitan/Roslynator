@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Provides information about a lambda expression with a single parameter\.
 
 ```csharp

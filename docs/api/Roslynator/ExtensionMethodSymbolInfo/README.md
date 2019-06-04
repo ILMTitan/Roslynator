@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Represents an extension method symbol\.
 
 ```csharp

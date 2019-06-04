@@ -15,8 +15,7 @@
 
 ## ContainsYield\(LocalFunctionStatementSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ContainsYield_Microsoft_CodeAnalysis_CSharp_Syntax_LocalFunctionStatementSyntax_"></a>
 
-### Summary
-
+\
 Returns true if the specified local function contains yield statement\. Nested local functions are excluded\.
 
 ```csharp
@@ -33,8 +32,7 @@ public static bool ContainsYield(this Microsoft.CodeAnalysis.CSharp.Syntax.Local
 
 ## ContainsYield\(MethodDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ContainsYield_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Returns true if the specified method contains yield statement\. Nested local functions are excluded\.
 
 ```csharp

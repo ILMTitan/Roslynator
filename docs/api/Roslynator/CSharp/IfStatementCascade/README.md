@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Enables to enumerate if statement cascade\.
 
 ```csharp

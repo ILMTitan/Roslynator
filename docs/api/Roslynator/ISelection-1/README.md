@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Represents consecutive sequence of selected items in a collection\.
 
 ```csharp

@@ -17,8 +17,7 @@
 
 ## MetadataName\(IEnumerable\<String>, IEnumerable\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
 
-### Summary
-
+\
 Initializes a new instance of [MetadataName](../README.md)\.
 
 ```csharp
@@ -35,8 +34,7 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 ## MetadataName\(IEnumerable\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
 
-### Summary
-
+\
 Initializes a new instance of [MetadataName](../README.md)\.
 
 ```csharp
@@ -51,8 +49,7 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 ## MetadataName\(ImmutableArray\<String>, ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
-### Summary
-
+\
 Initializes a new instance of [MetadataName](../README.md)\.
 
 ```csharp
@@ -69,8 +66,7 @@ public MetadataName(System.Collections.Immutable.ImmutableArray<string> containi
 
 ## MetadataName\(ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
-### Summary
-
+\
 Initializes a new instance of [MetadataName](../README.md)\.
 
 ```csharp

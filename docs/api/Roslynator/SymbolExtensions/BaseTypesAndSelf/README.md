@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Gets a list of base types of this type \(including this type\)\.
 
 ```csharp

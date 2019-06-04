@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Determines whether the cascade consists of single if\-else\.
 
 ```csharp

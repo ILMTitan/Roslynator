@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns true if the type is a reference type or a nullable type\.
 
 ```csharp

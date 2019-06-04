@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Determines whether this struct was initialized with an actual syntax\.
 
 ```csharp

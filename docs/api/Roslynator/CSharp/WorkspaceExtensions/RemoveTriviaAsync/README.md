@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.Workspaces\.dll
 
-## Summary
-
+\
 Creates a new document with trivia inside the specified span removed\.
 
 ```csharp

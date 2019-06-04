@@ -15,8 +15,7 @@
 
 ## WithTextChangesAsync\(Document, IEnumerable\<TextChange>, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_WithTextChangesAsync_Microsoft_CodeAnalysis_Document_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Text_TextChange__System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document updated with the specified text changes\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> WithT
 
 ## WithTextChangesAsync\(Document, TextChange\[\], CancellationToken\) <a name="Roslynator_WorkspaceExtensions_WithTextChangesAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_Text_TextChange___System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document updated with the specified text changes\.
 
 ```csharp

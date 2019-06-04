@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Gets a block that contains the statements\. Returns null if the statements are not contained in a block\.
 
 ```csharp

@@ -15,8 +15,7 @@
 
 ## ReplaceTokenAsync\(Document, SyntaxToken, IEnumerable\<SyntaxToken>, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceTokenAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_SyntaxToken_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_SyntaxToken__System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with the specified old token replaced with new tokens\.
 
 ```csharp
@@ -39,8 +38,7 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> Repla
 
 ## ReplaceTokenAsync\(Document, SyntaxToken, SyntaxToken, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceTokenAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_SyntaxToken_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with the specified old token replaced with a new token\.
 
 ```csharp

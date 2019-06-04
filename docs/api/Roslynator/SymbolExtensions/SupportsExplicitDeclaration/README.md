@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns true if the type can be declared explicitly in a source code\.
 
 ```csharp

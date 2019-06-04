@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns zero\-based index of the end line of the specified span\.
 
 ```csharp

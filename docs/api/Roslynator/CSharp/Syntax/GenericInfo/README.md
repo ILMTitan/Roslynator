@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Provides information about generic syntax \(class, struct, interface, delegate, method or local function\)\.
 
 ```csharp

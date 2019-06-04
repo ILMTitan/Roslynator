@@ -15,8 +15,7 @@
 
 ## LastIndexOf\(Func\<MemberDeclarationSyntax, Boolean>\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_LastIndexOf_System_Func_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_Boolean__"></a>
 
-### Summary
-
+\
 Searches for a member that matches the predicate and returns returns zero\-based index of the last occurrence in the list\.
 
 ```csharp
@@ -33,8 +32,7 @@ public int LastIndexOf(Func<Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarati
 
 ## LastIndexOf\(MemberDeclarationSyntax\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_LastIndexOf_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Searches for a member and returns zero\-based index of the last occurrence in the list\.
 
 ```csharp

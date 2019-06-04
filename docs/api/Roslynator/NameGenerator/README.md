@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Provides methods to obtain an unique identifier\.
 
 ```csharp

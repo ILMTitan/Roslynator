@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns true if the specified node has a constant value\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The expression statement that contains the invocation expression\.
 
 ```csharp

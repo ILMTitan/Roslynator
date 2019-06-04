@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new list with the specified node added or inserted\.
 
 ```csharp

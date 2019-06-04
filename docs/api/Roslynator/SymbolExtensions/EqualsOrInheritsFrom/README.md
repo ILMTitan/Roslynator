@@ -15,8 +15,7 @@
 
 ## EqualsOrInheritsFrom\(ITypeSymbol, ITypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type is equal or inherits from a specified base type\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static bool EqualsOrInheritsFrom(this Microsoft.CodeAnalysis.ITypeSymbol 
 
 ## EqualsOrInheritsFrom\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type is equal or inherits from a type wit the specified name\.
 
 ```csharp

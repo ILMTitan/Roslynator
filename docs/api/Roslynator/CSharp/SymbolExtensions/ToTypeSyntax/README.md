@@ -16,8 +16,7 @@
 
 ## ToTypeSyntax\(INamespaceOrTypeSymbol, SymbolDisplayFormat\) <a name="Roslynator_CSharp_SymbolExtensions_ToTypeSyntax_Microsoft_CodeAnalysis_INamespaceOrTypeSymbol_Microsoft_CodeAnalysis_SymbolDisplayFormat_"></a>
 
-### Summary
-
+\
 Creates a new [TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax) based on the specified namespace or type symbol\.
 
 ```csharp
@@ -36,8 +35,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToTypeSyntax(this 
 
 ## ToTypeSyntax\(INamespaceSymbol, SymbolDisplayFormat\) <a name="Roslynator_CSharp_SymbolExtensions_ToTypeSyntax_Microsoft_CodeAnalysis_INamespaceSymbol_Microsoft_CodeAnalysis_SymbolDisplayFormat_"></a>
 
-### Summary
-
+\
 Creates a new [TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax) based on the specified namespace symbol\.
 
 ```csharp
@@ -56,8 +54,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax ToTypeSyntax(this 
 
 ## ToTypeSyntax\(ITypeSymbol, SymbolDisplayFormat\) <a name="Roslynator_CSharp_SymbolExtensions_ToTypeSyntax_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_SymbolDisplayFormat_"></a>
 
-### Summary
-
+\
 Creates a new [TypeSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.typesyntax) based on the specified type symbol\.
 
 ```csharp

@@ -28,8 +28,7 @@
 
 ## IsKind\(SyntaxNode, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node's kind is one of the specified kinds\.
 
 ```csharp
@@ -50,8 +49,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft
 
 ## IsKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node's kind is one of the specified kinds\.
 
 ```csharp
@@ -74,8 +72,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft
 
 ## IsKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node's kind is one of the specified kinds\.
 
 ```csharp
@@ -100,8 +97,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft
 
 ## IsKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node's kind is one of the specified kinds\.
 
 ```csharp
@@ -128,8 +124,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft
 
 ## IsKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node's kind is one of the specified kinds\.
 
 ```csharp
@@ -158,8 +153,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft
 
 ## IsKind\(SyntaxToken, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -180,8 +174,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microso
 
 ## IsKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -204,8 +197,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microso
 
 ## IsKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -230,8 +222,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microso
 
 ## IsKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -258,8 +249,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microso
 
 ## IsKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -288,8 +278,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microso
 
 ## IsKind\(SyntaxTrivia, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a trivia's kind is one of the specified kinds\.
 
 ```csharp
@@ -310,8 +299,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Micro
 
 ## IsKind\(SyntaxTrivia, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -334,8 +322,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Micro
 
 ## IsKind\(SyntaxTrivia, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -360,8 +347,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Micro
 
 ## IsKind\(SyntaxTrivia, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp
@@ -388,8 +374,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Micro
 
 ## IsKind\(SyntaxTrivia, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsKind_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token's kind is one of the specified kinds\.
 
 ```csharp

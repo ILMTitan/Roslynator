@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Workspaces\.Core\.dll
 
-## Summary
-
+\
 Creates a new document with a new node inserted after the specified node\.
 
 ```csharp

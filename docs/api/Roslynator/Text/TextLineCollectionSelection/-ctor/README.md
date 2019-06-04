@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Initializes a new instance of [TextLineCollectionSelection](../README.md)\.
 
 ```csharp

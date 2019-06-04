@@ -15,8 +15,7 @@
 
 ## RegionInfo\(EndRegionDirectiveTriviaSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EndRegionDirectiveTriviaSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified endregion directive\.
 
 ```csharp
@@ -33,8 +32,7 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 ## RegionInfo\(RegionDirectiveTriviaSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_RegionDirectiveTriviaSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified region directive\.
 
 ```csharp

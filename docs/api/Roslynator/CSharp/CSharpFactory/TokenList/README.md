@@ -17,8 +17,7 @@
 
 ## TokenList\(Accessibility\) <a name="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_Accessibility_"></a>
 
-### Summary
-
+\
 Creates a list of modifiers from the specified accessibility\.
 
 ```csharp

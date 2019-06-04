@@ -15,8 +15,7 @@
 
 ## RemoveCommentsAsync\(Document, CommentFilter, CancellationToken\) <a name="Roslynator_CSharp_WorkspaceExtensions_RemoveCommentsAsync_Microsoft_CodeAnalysis_Document_Roslynator_CSharp_CommentFilter_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with comments of the specified kind removed\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> Remov
 
 ## RemoveCommentsAsync\(Document, TextSpan, CommentFilter, CancellationToken\) <a name="Roslynator_CSharp_WorkspaceExtensions_RemoveCommentsAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_Text_TextSpan_Roslynator_CSharp_CommentFilter_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with comments of the specified kind removed\.
 
 ```csharp

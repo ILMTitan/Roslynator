@@ -27,8 +27,7 @@
 
 ## HasConstantValue\(IFieldSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -47,8 +46,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Byte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Byte_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -67,8 +65,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Decimal\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Decimal_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -87,8 +84,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Double\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Double_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -107,8 +103,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Char\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Char_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -127,8 +122,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Int16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int16_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -147,8 +141,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Int32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int32_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -167,8 +160,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Int64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int64_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -187,8 +179,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, SByte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_SByte_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -207,8 +198,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, Single\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Single_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -227,8 +217,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, String\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_String_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -247,8 +236,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, UInt16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt16_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -267,8 +255,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, UInt32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt32_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp
@@ -287,8 +274,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 ## HasConstantValue\(IFieldSymbol, UInt64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt64_"></a>
 
-### Summary
-
+\
 Get a value indicating whether the field symbol has specified constant value\.
 
 ```csharp

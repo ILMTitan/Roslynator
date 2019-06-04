@@ -15,8 +15,7 @@
 
 ## ImplementsAny\(ITypeSymbol, SpecialType, SpecialType, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsAny_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type implements any of specified interfaces\.
 
 ```csharp
@@ -41,8 +40,7 @@ If true, use [ITypeSymbol.AllInterfaces](https://docs.microsoft.com/en-us/dotnet
 
 ## ImplementsAny\(ITypeSymbol, SpecialType, SpecialType, SpecialType, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsAny_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type implements any of specified interfaces\.
 
 ```csharp

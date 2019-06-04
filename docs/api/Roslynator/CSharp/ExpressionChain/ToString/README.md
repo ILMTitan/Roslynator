@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns the string representation of the expressions, not including its leading and trailing trivia\.
 
 ```csharp

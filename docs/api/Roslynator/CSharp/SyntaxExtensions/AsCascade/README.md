@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns [IfStatementCascade](../../IfStatementCascade/README.md) that enables to enumerate if\-else cascade\.
 
 ```csharp

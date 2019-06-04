@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns true if the specified switch section contains default switch label\.
 
 ```csharp

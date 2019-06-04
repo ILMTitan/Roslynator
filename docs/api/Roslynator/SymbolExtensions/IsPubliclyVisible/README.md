@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Return true if the specified symbol is publicly visible\.
 
 ```csharp

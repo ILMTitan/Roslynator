@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns true if the accessibility if more restrictrive than the other accessibility\.
 
 ```csharp

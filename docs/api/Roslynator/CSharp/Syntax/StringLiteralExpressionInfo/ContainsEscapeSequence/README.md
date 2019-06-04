@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 True if the string literal expression contains escape sequence\.
 
 ```csharp

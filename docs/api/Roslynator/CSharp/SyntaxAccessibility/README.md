@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 A set of static methods that are related to C\# accessibility\.
 
 ```csharp

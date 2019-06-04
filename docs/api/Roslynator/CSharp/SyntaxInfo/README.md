@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Serves as a factory for types in Roslynator\.CSharp\.Syntax namespace\.
 
 ```csharp

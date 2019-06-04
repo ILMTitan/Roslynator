@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a list of syntax tokens from a sequence of tokens\.
 
 ```csharp

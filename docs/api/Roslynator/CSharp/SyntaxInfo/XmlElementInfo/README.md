@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new [XmlElementInfo](../../Syntax/XmlElementInfo/README.md) from the specified xml node\.
 
 ```csharp

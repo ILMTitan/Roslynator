@@ -15,8 +15,7 @@
 
 ## WithUsings\(IEnumerable\<UsingDirectiveSyntax>\) <a name="Roslynator_CSharp_Syntax_UsingDirectiveListInfo_WithUsings_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_UsingDirectiveSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [UsingDirectiveListInfo](../README.md) with the usings updated\.
 
 ```csharp
@@ -33,8 +32,7 @@ public Roslynator.CSharp.Syntax.UsingDirectiveListInfo WithUsings(System.Collect
 
 ## WithUsings\(SyntaxList\<UsingDirectiveSyntax>\) <a name="Roslynator_CSharp_Syntax_UsingDirectiveListInfo_WithUsings_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_UsingDirectiveSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [UsingDirectiveListInfo](../README.md) with the usings updated\.
 
 ```csharp

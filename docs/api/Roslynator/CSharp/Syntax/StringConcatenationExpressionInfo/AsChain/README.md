@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns [ExpressionChain](../../../ExpressionChain/README.md) that enables to enumerate expressions of a string concatenation\.
 
 ```csharp

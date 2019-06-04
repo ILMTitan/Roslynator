@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Enables to enumerate expressions of [ExpressionChain](../README.md) in a reversed order\.
 
 ```csharp

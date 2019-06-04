@@ -15,8 +15,7 @@
 
 ## ReplaceTriviaAsync\(Document, SyntaxTrivia, IEnumerable\<SyntaxTrivia>, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceTriviaAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_SyntaxTrivia_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_SyntaxTrivia__System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with the specified old trivia replaced with a new trivia\.
 
 ```csharp
@@ -39,8 +38,7 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> Repla
 
 ## ReplaceTriviaAsync\(Document, SyntaxTrivia, SyntaxTrivia, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceTriviaAsync_Microsoft_CodeAnalysis_Document_Microsoft_CodeAnalysis_SyntaxTrivia_Microsoft_CodeAnalysis_SyntaxTrivia_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with the specified old trivia replaced with a new trivia\.
 
 ```csharp

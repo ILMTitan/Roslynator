@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Return modifier list that contains "protected internal" modifiers\.
 
 ```csharp

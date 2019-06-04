@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Gets the next statement of the specified statement\.
 If the specified statement is not contained in the list, or if there is no next statement, then this method returns null\.
 

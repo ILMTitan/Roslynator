@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Workspaces\.Core\.dll
 
-## Summary
-
+\
 Creates a new document with the specified nodes removed\.
 
 ```csharp

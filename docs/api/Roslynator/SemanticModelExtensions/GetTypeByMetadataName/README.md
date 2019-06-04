@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns the type within the compilation's assembly using its canonical CLR metadata name\.
 
 ```csharp

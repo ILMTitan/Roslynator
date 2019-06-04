@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 When overridden in a derived class, determines whether two objects of type **TSymbol** are equal\.
 
 ```csharp

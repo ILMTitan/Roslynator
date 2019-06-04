@@ -15,8 +15,7 @@
 
 ## IndexOf\(Func\<MemberDeclarationSyntax, Boolean>\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_IndexOf_System_Func_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_Boolean__"></a>
 
-### Summary
-
+\
 Searches for a member that matches the predicate and returns returns zero\-based index of the first occurrence in the list\.
 
 ```csharp
@@ -33,8 +32,7 @@ public int IndexOf(Func<Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSy
 
 ## IndexOf\(MemberDeclarationSyntax\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_IndexOf_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 The index of the member in the list\.
 
 ```csharp

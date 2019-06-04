@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Determines whether the cascade ends with 'else' clause\.
 
 ```csharp

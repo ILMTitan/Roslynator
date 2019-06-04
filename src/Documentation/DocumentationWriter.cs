@@ -447,7 +447,7 @@ namespace Roslynator.Documentation
         public virtual void WriteSummary(ISymbol symbol, SymbolXmlDocumentation xmlDocumentation, int headingLevelBase = 0)
         {
             WriteSection(
-                heading: Resources.SummaryTitle, //TODO: summary title
+                heading: null,
                 xmlDocumentation: xmlDocumentation,
                 elementName: WellKnownXmlTags.Summary,
                 headingLevelBase: headingLevelBase);
@@ -1148,7 +1148,7 @@ namespace Roslynator.Documentation
             }
             else
             {
-                WriteLine();
+                WriteLineBreak();
             }
 
             element.WriteContentTo(this);

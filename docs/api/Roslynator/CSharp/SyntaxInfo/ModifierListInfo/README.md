@@ -34,8 +34,7 @@
 
 ## ModifierListInfo\(AccessorDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_AccessorDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified accessor declaration\.
 
 ```csharp
@@ -52,8 +51,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(ClassDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified class declaration\.
 
 ```csharp
@@ -70,8 +68,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(ConstructorDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ConstructorDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified constructor declaration\.
 
 ```csharp
@@ -88,8 +85,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(ConversionOperatorDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ConversionOperatorDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified conversion operator declaration\.
 
 ```csharp
@@ -106,8 +102,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(DelegateDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_DelegateDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified delegate declaration\.
 
 ```csharp
@@ -124,8 +119,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(DestructorDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_DestructorDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified destructor declaration\.
 
 ```csharp
@@ -142,8 +136,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(EnumDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EnumDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified enum declaration\.
 
 ```csharp
@@ -160,8 +153,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(EventDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EventDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified event declaration\.
 
 ```csharp
@@ -178,8 +170,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(EventFieldDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EventFieldDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified event field declaration\.
 
 ```csharp
@@ -196,8 +187,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(FieldDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_FieldDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified field declaration\.
 
 ```csharp
@@ -214,8 +204,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(IncompleteMemberSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_IncompleteMemberSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified incomplete member\.
 
 ```csharp
@@ -232,8 +221,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(IndexerDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_IndexerDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified indexer declaration\.
 
 ```csharp
@@ -250,8 +238,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(InterfaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified interface declaration\.
 
 ```csharp
@@ -268,8 +255,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(LocalDeclarationStatementSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LocalDeclarationStatementSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified local declaration statement\.
 
 ```csharp
@@ -286,8 +272,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(LocalFunctionStatementSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LocalFunctionStatementSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified local function\.
 
 ```csharp
@@ -304,8 +289,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(MethodDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified method declaration\.
 
 ```csharp
@@ -322,8 +306,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(OperatorDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_OperatorDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified operator declaration\.
 
 ```csharp
@@ -340,8 +323,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(ParameterSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ParameterSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified parameter\.
 
 ```csharp
@@ -358,8 +340,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(PropertyDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_PropertyDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified property declaration\.
 
 ```csharp
@@ -376,8 +357,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(StructDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified struct declaration\.
 
 ```csharp
@@ -394,8 +374,7 @@ public static Roslynator.CSharp.Syntax.ModifierListInfo ModifierListInfo(Microso
 
 ## ModifierListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_ModifierListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
-### Summary
-
+\
 Creates a new [ModifierListInfo](../../Syntax/ModifierListInfo/README.md) from the specified node\.
 
 ```csharp

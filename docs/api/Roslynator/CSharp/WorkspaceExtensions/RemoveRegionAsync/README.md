@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.Workspaces\.dll
 
-## Summary
-
+\
 Creates a new document with the specified region removed\.
 
 ```csharp

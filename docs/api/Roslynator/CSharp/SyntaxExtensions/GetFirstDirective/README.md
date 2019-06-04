@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Gets the first directive of the tree rooted by this node\.
 
 ```csharp

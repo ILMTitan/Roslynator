@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns true if a syntax of the specified kind is a switch label\.
 
 ```csharp

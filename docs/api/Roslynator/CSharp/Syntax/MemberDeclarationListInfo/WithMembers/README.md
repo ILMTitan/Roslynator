@@ -15,8 +15,7 @@
 
 ## WithMembers\(IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_WithMembers_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [MemberDeclarationListInfo](../README.md) with the members updated\.
 
 ```csharp
@@ -33,8 +32,7 @@ public Roslynator.CSharp.Syntax.MemberDeclarationListInfo WithMembers(System.Col
 
 ## WithMembers\(SyntaxList\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_Syntax_MemberDeclarationListInfo_WithMembers_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [MemberDeclarationListInfo](../README.md) with the members updated\.
 
 ```csharp

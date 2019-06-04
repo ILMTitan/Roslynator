@@ -15,8 +15,7 @@
 
 ## Equals\(MetadataName\) <a name="Roslynator_MetadataName_Equals_Roslynator_MetadataName_"></a>
 
-### Summary
-
+\
 Indicates whether this instance and a specified [MetadataName](../README.md) are equal\.
 
 ```csharp
@@ -37,8 +36,7 @@ public bool Equals(Roslynator.MetadataName other)
 
 ## Equals\(Object\) <a name="Roslynator_MetadataName_Equals_System_Object_"></a>
 
-### Summary
-
+\
 Indicates whether this instance and a specified object are equal\.
 
 ```csharp

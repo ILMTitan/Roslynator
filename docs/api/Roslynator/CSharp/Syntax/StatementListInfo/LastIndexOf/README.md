@@ -15,8 +15,7 @@
 
 ## LastIndexOf\(Func\<StatementSyntax, Boolean>\) <a name="Roslynator_CSharp_Syntax_StatementListInfo_LastIndexOf_System_Func_Microsoft_CodeAnalysis_CSharp_Syntax_StatementSyntax_System_Boolean__"></a>
 
-### Summary
-
+\
 Searches for a statement that matches the predicate and returns returns zero\-based index of the last occurrence in the list\.
 
 ```csharp
@@ -33,8 +32,7 @@ public int LastIndexOf(Func<Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax
 
 ## LastIndexOf\(StatementSyntax\) <a name="Roslynator_CSharp_Syntax_StatementListInfo_LastIndexOf_Microsoft_CodeAnalysis_CSharp_Syntax_StatementSyntax_"></a>
 
-### Summary
-
+\
 Searches for a statement and returns zero\-based index of the last occurrence in the list\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Get the instance of [MetadataNameEqualityComparer\<TSymbol>](../README.md) for the specified **TSymbol**\.
 
 ```csharp

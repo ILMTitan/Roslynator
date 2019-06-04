@@ -17,8 +17,7 @@
 
 ## RemoveRange\(SyntaxTokenList, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_System_Int32_"></a>
 
-### Summary
-
+\
 Creates a new list with tokens in the specified range removed\.
 
 ```csharp
@@ -43,8 +42,7 @@ A number of elements to remove\.
 
 ## RemoveRange\(SyntaxTriviaList, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_System_Int32_"></a>
 
-### Summary
-
+\
 Creates a new list with trivia in the specified range removed\.
 
 ```csharp
@@ -69,8 +67,7 @@ A number of elements to remove\.
 
 ## RemoveRange\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32_System_Int32_"></a>
 
-### Summary
-
+\
 Creates a new list with elements in the specified range removed\.
 
 ```csharp
@@ -99,8 +96,7 @@ A number of elements to remove\.
 
 ## RemoveRange\<TNode>\(SyntaxList\<TNode>, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32_System_Int32_"></a>
 
-### Summary
-
+\
 Creates a new list with elements in the specified range removed\.
 
 ```csharp

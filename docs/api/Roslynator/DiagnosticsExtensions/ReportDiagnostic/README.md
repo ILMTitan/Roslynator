@@ -34,8 +34,7 @@
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -58,8 +57,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -80,8 +78,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -102,8 +99,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -122,8 +118,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -142,8 +137,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -162,8 +156,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SymbolAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SymbolAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [ISymbol](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol)\.
 
 ```csharp
@@ -182,8 +175,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Symb
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -206,8 +198,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -228,8 +219,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -250,8 +240,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -270,8 +259,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -290,8 +278,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -310,8 +297,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxNodeAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxNodeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxNode](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxnode)\.
 
 ```csharp
@@ -330,8 +316,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -354,8 +339,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, IEnumerable\<Location>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_Location__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -376,8 +360,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, ImmutableDictionary\<String, String>, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Collections_Immutable_ImmutableDictionary_System_String_System_String__System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -398,8 +381,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, Location, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_Location_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -418,8 +400,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxNode, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxNode_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -438,8 +419,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxToken, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxToken_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp
@@ -458,8 +438,7 @@ public static void ReportDiagnostic(this Microsoft.CodeAnalysis.Diagnostics.Synt
 
 ## ReportDiagnostic\(SyntaxTreeAnalysisContext, DiagnosticDescriptor, SyntaxTrivia, Object\[\]\) <a name="Roslynator_DiagnosticsExtensions_ReportDiagnostic_Microsoft_CodeAnalysis_Diagnostics_SyntaxTreeAnalysisContext_Microsoft_CodeAnalysis_DiagnosticDescriptor_Microsoft_CodeAnalysis_SyntaxTrivia_System_Object___"></a>
 
-### Summary
-
+\
 Report a [Diagnostic](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostic) about a [SyntaxTree](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtree)\.
 
 ```csharp

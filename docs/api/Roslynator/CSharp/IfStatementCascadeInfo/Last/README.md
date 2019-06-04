@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Gets a last 'if' or 'else' in a cascade\.
 
 ```csharp

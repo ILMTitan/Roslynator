@@ -15,8 +15,7 @@
 
 ## SimpleAssignmentExpressionInfo\(AssignmentExpressionSyntax, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleAssignmentExpressionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_AssignmentExpressionSyntax_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleAssignmentExpressionInfo](../../Syntax/SimpleAssignmentExpressionInfo/README.md) from the specified assignment expression\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Roslynator.CSharp.Syntax.SimpleAssignmentExpressionInfo SimpleAssi
 
 ## SimpleAssignmentExpressionInfo\(SyntaxNode, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleAssignmentExpressionInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleAssignmentExpressionInfo](../../Syntax/SimpleAssignmentExpressionInfo/README.md) from the specified node\.
 
 ```csharp

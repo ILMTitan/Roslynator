@@ -15,8 +15,7 @@
 
 ## IsFirst\<TNode>\(SeparatedSyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0____0_"></a>
 
-### Summary
-
+\
 Returns true if the specified node is a first node in the list\.
 
 ```csharp
@@ -39,8 +38,7 @@ public static bool IsFirst<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxLis
 
 ## IsFirst\<TNode>\(SyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SyntaxList___0____0_"></a>
 
-### Summary
-
+\
 Returns true if the specified node is a first node in the list\.
 
 ```csharp

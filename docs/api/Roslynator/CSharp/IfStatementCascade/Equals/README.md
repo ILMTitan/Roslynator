@@ -15,8 +15,7 @@
 
 ## Equals\(IfStatementCascade\) <a name="Roslynator_CSharp_IfStatementCascade_Equals_Roslynator_CSharp_IfStatementCascade_"></a>
 
-### Summary
-
+\
 Determines whether this instance is equal to another object of the same type\.
 
 ```csharp
@@ -41,8 +40,7 @@ true if the current object is equal to the **other** parameter; otherwise, false
 
 ## Equals\(Object\) <a name="Roslynator_CSharp_IfStatementCascade_Equals_System_Object_"></a>
 
-### Summary
-
+\
 Determines whether this instance and a specified object are equal\.
 
 ```csharp

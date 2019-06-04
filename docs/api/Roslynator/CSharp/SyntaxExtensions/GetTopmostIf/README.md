@@ -15,8 +15,7 @@
 
 ## GetTopmostIf\(ElseClauseSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_GetTopmostIf_Microsoft_CodeAnalysis_CSharp_Syntax_ElseClauseSyntax_"></a>
 
-### Summary
-
+\
 Returns topmost if statement of the if\-else cascade the specified else clause is part of\.
 
 ```csharp
@@ -33,8 +32,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax GetTopmostI
 
 ## GetTopmostIf\(IfStatementSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_GetTopmostIf_Microsoft_CodeAnalysis_CSharp_Syntax_IfStatementSyntax_"></a>
 
-### Summary
-
+\
 Returns topmost if statement of the if\-else cascade the specified if statement is part of\.
 
 ```csharp

@@ -15,8 +15,7 @@
 
 ## ToSeparatedSyntaxList\<TNode>\(IEnumerable\<SyntaxNodeOrToken>\) <a name="Roslynator_CSharp_SyntaxExtensions_ToSeparatedSyntaxList__1_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_SyntaxNodeOrToken__"></a>
 
-### Summary
-
+\
 Creates a separated list of syntax nodes from a sequence of nodes and tokens\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ToSeparatedSynta
 
 ## ToSeparatedSyntaxList\<TNode>\(IEnumerable\<TNode>\) <a name="Roslynator_CSharp_SyntaxExtensions_ToSeparatedSyntaxList__1_System_Collections_Generic_IEnumerable___0__"></a>
 
-### Summary
-
+\
 Creates a separated list of syntax nodes from a sequence of nodes\.
 
 ```csharp

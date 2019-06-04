@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The absolute span of this region, not including its leading and trailing trivia\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The binary expression that represents the string concatenation\.
 
 ```csharp

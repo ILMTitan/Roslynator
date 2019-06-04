@@ -17,8 +17,7 @@
 
 ## HasAttribute\(ISymbol, INamedTypeSymbol\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_"></a>
 
-### Summary
-
+\
 Returns true if the symbol has the specified attribute\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ISymbol symbol, Micr
 
 ## HasAttribute\(ISymbol, MetadataName\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__"></a>
 
-### Summary
-
+\
 Returns true if the symbol has attribute with the specified name\.
 
 ```csharp
@@ -57,8 +55,7 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ISymbol symbol, in R
 
 ## HasAttribute\(ITypeSymbol, INamedTypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type symbol has the specified attribute\.
 
 ```csharp
@@ -79,8 +76,7 @@ public static bool HasAttribute(this Microsoft.CodeAnalysis.ITypeSymbol typeSymb
 
 ## HasAttribute\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_HasAttribute_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type symbol has attribute with the specified name\.
 
 ```csharp

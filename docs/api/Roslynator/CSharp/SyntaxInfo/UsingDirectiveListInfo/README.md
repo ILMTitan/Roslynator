@@ -16,8 +16,7 @@
 
 ## UsingDirectiveListInfo\(CompilationUnitSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified compilation unit\.
 
 ```csharp
@@ -34,8 +33,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ## UsingDirectiveListInfo\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified declaration\.
 
 ```csharp
@@ -52,8 +50,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 ## UsingDirectiveListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
-### Summary
-
+\
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified node\.
 
 ```csharp

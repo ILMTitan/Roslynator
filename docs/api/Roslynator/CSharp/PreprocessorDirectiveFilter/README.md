@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Specifies C\# preprocessor directives\.
 
 ```csharp

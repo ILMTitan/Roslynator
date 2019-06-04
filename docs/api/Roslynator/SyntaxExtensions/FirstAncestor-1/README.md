@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns the first node of type **TNode** that matches the predicate\.
 
 ```csharp

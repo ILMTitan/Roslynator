@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 True if this instance is a simple lambda expression\.
 
 ```csharp

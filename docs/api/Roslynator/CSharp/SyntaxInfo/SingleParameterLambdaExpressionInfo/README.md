@@ -15,8 +15,7 @@
 
 ## SingleParameterLambdaExpressionInfo\(LambdaExpressionSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SingleParameterLambdaExpressionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LambdaExpressionSyntax_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SingleParameterLambdaExpressionInfo](../../Syntax/SingleParameterLambdaExpressionInfo/README.md) from the specified lambda expression\.
 
 ```csharp
@@ -35,8 +34,7 @@ public static Roslynator.CSharp.Syntax.SingleParameterLambdaExpressionInfo Singl
 
 ## SingleParameterLambdaExpressionInfo\(SyntaxNode, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SingleParameterLambdaExpressionInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SingleParameterLambdaExpressionInfo](../../Syntax/SingleParameterLambdaExpressionInfo/README.md) from the specified node\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns true if the type is [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\.
 
 ```csharp

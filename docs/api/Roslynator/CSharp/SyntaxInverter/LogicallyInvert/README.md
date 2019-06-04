@@ -15,8 +15,7 @@
 
 ## LogicallyInvert\(ExpressionSyntax, CancellationToken\) <a name="Roslynator_CSharp_SyntaxInverter_LogicallyInvert_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Returns new expression that represents logical inversion of the specified expression\.
 
 ```csharp
@@ -35,8 +34,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax LogicallyInv
 
 ## LogicallyInvert\(ExpressionSyntax, SemanticModel, CancellationToken\) <a name="Roslynator_CSharp_SyntaxInverter_LogicallyInvert_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SemanticModel_System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Returns new expression that represents logical inversion of the specified expression\.
 
 ```csharp

@@ -17,8 +17,7 @@
 
 ## Any\(SyntaxTokenList, Func\<SyntaxToken, Boolean>\) <a name="Roslynator_SyntaxExtensions_Any_Microsoft_CodeAnalysis_SyntaxTokenList_System_Func_Microsoft_CodeAnalysis_SyntaxToken_System_Boolean__"></a>
 
-### Summary
-
+\
 Returns true if any token in a [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist) matches the predicate\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static bool Any(this Microsoft.CodeAnalysis.SyntaxTokenList list, Func<Mi
 
 ## Any\(SyntaxTriviaList, Func\<SyntaxTrivia, Boolean>\) <a name="Roslynator_SyntaxExtensions_Any_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Func_Microsoft_CodeAnalysis_SyntaxTrivia_System_Boolean__"></a>
 
-### Summary
-
+\
 Returns true if any trivia in a [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist) matches the predicate\.
 
 ```csharp
@@ -57,8 +55,7 @@ public static bool Any(this Microsoft.CodeAnalysis.SyntaxTriviaList list, Func<M
 
 ## Any\<TNode>\(SeparatedSyntaxList\<TNode>, Func\<TNode, Boolean>\) <a name="Roslynator_SyntaxExtensions_Any__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Func___0_System_Boolean__"></a>
 
-### Summary
-
+\
 Returns true if any node in a list matches the predicate\.
 
 ```csharp
@@ -81,8 +78,7 @@ public static bool Any<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList<TN
 
 ## Any\<TNode>\(SyntaxList\<TNode>, Func\<TNode, Boolean>\) <a name="Roslynator_SyntaxExtensions_Any__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Func___0_System_Boolean__"></a>
 
-### Summary
-
+\
 Returns true if any node in a list matches the predicate\.
 
 ```csharp

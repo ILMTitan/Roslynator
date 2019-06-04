@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The first using directive in the list or null if the list is empty\.
 
 ```csharp

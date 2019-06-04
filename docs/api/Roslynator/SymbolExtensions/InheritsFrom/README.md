@@ -15,8 +15,7 @@
 
 ## InheritsFrom\(ITypeSymbol, ITypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_InheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type inherits from a specified base type\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static bool InheritsFrom(this Microsoft.CodeAnalysis.ITypeSymbol type, Mi
 
 ## InheritsFrom\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_InheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type inherits from a type with the specified name\.
 
 ```csharp

@@ -17,8 +17,7 @@
 
 ## ImplementsInterfaceMember\(ISymbol, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsInterfaceMember_Microsoft_CodeAnalysis_ISymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the the symbol implements any interface member\.
 
 ```csharp
@@ -39,8 +38,7 @@ If true, use [ITypeSymbol.AllInterfaces](https://docs.microsoft.com/en-us/dotnet
 
 ## ImplementsInterfaceMember\(ISymbol, INamedTypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsInterfaceMember_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the symbol implements any member of the specified interface\.
 
 ```csharp
@@ -63,8 +61,7 @@ If true, use [ITypeSymbol.AllInterfaces](https://docs.microsoft.com/en-us/dotnet
 
 ## ImplementsInterfaceMember\<TSymbol>\(ISymbol, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsInterfaceMember__1_Microsoft_CodeAnalysis_ISymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the symbol implements any interface member\.
 
 ```csharp
@@ -89,8 +86,7 @@ If true, use [ITypeSymbol.AllInterfaces](https://docs.microsoft.com/en-us/dotnet
 
 ## ImplementsInterfaceMember\<TSymbol>\(ISymbol, INamedTypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_ImplementsInterfaceMember__1_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the symbol implements any member of the specified interface\.
 
 ```csharp

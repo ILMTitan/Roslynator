@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Initializes a new instance of [IfStatementCascadeInfo](../README.md)\.
 
 ```csharp

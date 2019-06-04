@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.Workspaces\.dll
 
-## Summary
-
+\
 A set of extension methods for the workspace layer\.
 
 ```csharp

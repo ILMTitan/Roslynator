@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new [GenericInfo](../README.md) with the type parameter list updated\.
 
 ```csharp

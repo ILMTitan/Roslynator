@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Gets a list the specified statement is contained in\.
 This method succeeds if the statement is in a block's statements or a switch section's statements\.
 

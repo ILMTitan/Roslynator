@@ -16,8 +16,7 @@
 
 ## EnsureUniqueName\(String, IEnumerable\<String>, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns an unique name using the specified list of reserved names\.
 
 ```csharp
@@ -38,8 +37,7 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Gene
 
 ## EnsureUniqueName\(String, ImmutableArray\<ISymbol>, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Immutable_ImmutableArray_Microsoft_CodeAnalysis_ISymbol__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns an unique name using the specified list of symbols\.
 
 ```csharp
@@ -60,8 +58,7 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Immu
 
 ## EnsureUniqueName\(String, SemanticModel, Int32, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_Microsoft_CodeAnalysis_SemanticModel_System_Int32_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns a name that will be unique at the specified position\.
 
 ```csharp

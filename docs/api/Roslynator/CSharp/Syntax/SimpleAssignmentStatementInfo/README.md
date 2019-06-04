@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Provides information about a simple assignment expression in an expression statement\.
 
 ```csharp

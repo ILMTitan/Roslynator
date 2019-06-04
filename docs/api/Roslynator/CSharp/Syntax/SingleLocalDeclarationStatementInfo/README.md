@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Provides information about a local declaration statement with a single variable\.
 
 ```csharp

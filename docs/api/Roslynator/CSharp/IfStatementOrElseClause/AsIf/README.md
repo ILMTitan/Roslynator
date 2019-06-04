@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns the underlying if statement if this [IfStatementOrElseClause](../README.md) is wrapping if statement\.
 
 ```csharp

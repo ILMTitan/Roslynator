@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 The absolute span of this node in characters, including its leading and trailing trivia\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a list of syntax nodes from a sequence of nodes\.
 
 ```csharp

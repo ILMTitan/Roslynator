@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Returns a section that contains default label, or null if the specified swtich statement does not contains section with default label\.
 
 ```csharp

@@ -15,8 +15,7 @@
 
 ## ReplaceNodesAsync\<TNode>\(Document, IEnumerable\<TNode>, Func\<TNode, TNode, SyntaxNode>, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceNodesAsync__1_Microsoft_CodeAnalysis_Document_System_Collections_Generic_IEnumerable___0__System_Func___0___0_Microsoft_CodeAnalysis_SyntaxNode__System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new document with the specified old nodes replaced with new nodes\.
 
 ```csharp
@@ -43,8 +42,7 @@ public static System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Document> Repla
 
 ## ReplaceNodesAsync\<TNode>\(Solution, IEnumerable\<TNode>, Func\<TNode, TNode, SyntaxNode>, CancellationToken\) <a name="Roslynator_WorkspaceExtensions_ReplaceNodesAsync__1_Microsoft_CodeAnalysis_Solution_System_Collections_Generic_IEnumerable___0__System_Func___0___0_Microsoft_CodeAnalysis_SyntaxNode__System_Threading_CancellationToken_"></a>
 
-### Summary
-
+\
 Creates a new solution with the specified old nodes replaced with new nodes\.
 
 ```csharp

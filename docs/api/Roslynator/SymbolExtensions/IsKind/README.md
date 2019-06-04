@@ -18,8 +18,7 @@
 
 ## IsKind\(ISymbol, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
-### Summary
-
+\
 Returns true if the symbol is the specified kind\.
 
 ```csharp
@@ -38,8 +37,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ## IsKind\(ISymbol, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
-### Summary
-
+\
 Returns true if the symbol is one of the specified kinds\.
 
 ```csharp
@@ -60,8 +58,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
-### Summary
-
+\
 Returns true if the symbol is one of the specified kinds\.
 
 ```csharp
@@ -84,8 +81,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
-### Summary
-
+\
 Returns true if the symbol is one of the specified kinds\.
 
 ```csharp
@@ -110,8 +106,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 ## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
-### Summary
-
+\
 Returns true if the symbol is one of the specified kinds\.
 
 ```csharp

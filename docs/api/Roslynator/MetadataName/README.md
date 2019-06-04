@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Represents fully qualified metadata name of a symbol\.
 
 ```csharp

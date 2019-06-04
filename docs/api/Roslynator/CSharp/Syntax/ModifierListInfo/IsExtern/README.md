@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 True if the modifier list contains "extern" modifier\.
 
 ```csharp

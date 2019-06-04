@@ -15,8 +15,7 @@
 
 ## SimpleIfStatementInfo\(IfStatementSyntax, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleIfStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_IfStatementSyntax_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleIfStatementInfo](../../Syntax/SimpleIfStatementInfo/README.md) from the specified if statement\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Roslynator.CSharp.Syntax.SimpleIfStatementInfo SimpleIfStatementIn
 
 ## SimpleIfStatementInfo\(SyntaxNode, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SimpleIfStatementInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SimpleIfStatementInfo](../../Syntax/SimpleIfStatementInfo/README.md) from the specified node\.
 
 ```csharp

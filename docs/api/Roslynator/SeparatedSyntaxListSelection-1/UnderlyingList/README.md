@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Gets an underlying list that contains selected nodes\.
 
 ```csharp

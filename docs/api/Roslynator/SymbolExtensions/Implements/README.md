@@ -16,8 +16,7 @@
 
 ## Implements\(ITypeSymbol, INamedTypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_Implements_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type implements specified interface\.
 
 ```csharp
@@ -40,8 +39,7 @@ If true, use [ITypeSymbol.AllInterfaces](https://docs.microsoft.com/en-us/dotnet
 
 ## Implements\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_Implements_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type implements specified interface name\.
 
 ```csharp
@@ -62,8 +60,7 @@ public static bool Implements(this Microsoft.CodeAnalysis.ITypeSymbol typeSymbol
 
 ## Implements\(ITypeSymbol, SpecialType, Boolean\) <a name="Roslynator_SymbolExtensions_Implements_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_SpecialType_System_Boolean_"></a>
 
-### Summary
-
+\
 Returns true if the type implements specified interface\.
 
 ```csharp

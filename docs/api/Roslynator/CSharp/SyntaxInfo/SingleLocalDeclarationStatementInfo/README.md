@@ -17,8 +17,7 @@
 
 ## SingleLocalDeclarationStatementInfo\(ExpressionSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_SingleLocalDeclarationStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [SingleLocalDeclarationStatementInfo](../../Syntax/SingleLocalDeclarationStatementInfo/README.md) from the specified value\.
 
 ```csharp
@@ -35,8 +34,7 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ## SingleLocalDeclarationStatementInfo\(LocalDeclarationStatementSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SingleLocalDeclarationStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_LocalDeclarationStatementSyntax_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SingleLocalDeclarationStatementInfo](../../Syntax/SingleLocalDeclarationStatementInfo/README.md) from the specified local declaration statement\.
 
 ```csharp
@@ -55,8 +53,7 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ## SingleLocalDeclarationStatementInfo\(StatementSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SingleLocalDeclarationStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_StatementSyntax_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SingleLocalDeclarationStatementInfo](../../Syntax/SingleLocalDeclarationStatementInfo/README.md) from the specified statement\.
 
 ```csharp
@@ -75,8 +72,7 @@ public static Roslynator.CSharp.Syntax.SingleLocalDeclarationStatementInfo Singl
 
 ## SingleLocalDeclarationStatementInfo\(VariableDeclarationSyntax, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_SingleLocalDeclarationStatementInfo_Microsoft_CodeAnalysis_CSharp_Syntax_VariableDeclarationSyntax_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [SingleLocalDeclarationStatementInfo](../../Syntax/SingleLocalDeclarationStatementInfo/README.md) from the specified variable declaration\.
 
 ```csharp

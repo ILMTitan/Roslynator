@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.Workspaces\.dll
 
-## Summary
-
+\
 Provides static methods for syntax inversion\.
 
 ```csharp

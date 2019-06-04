@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Creates a new [SyntaxListSelection\<TNode>](../README.md) based on the specified list and span\.
 
 ```csharp

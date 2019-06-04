@@ -15,8 +15,7 @@
 
 ## FirstDescendant\<TNode>\(SyntaxNode, Func\<SyntaxNode, Boolean>, Boolean\) <a name="Roslynator_SyntaxExtensions_FirstDescendant__1_Microsoft_CodeAnalysis_SyntaxNode_System_Func_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean__System_Boolean_"></a>
 
-### Summary
-
+\
 Searches a list of descendant nodes in prefix document order and returns first descendant of type **TNode**\.
 
 ```csharp
@@ -41,8 +40,7 @@ TNode
 
 ## FirstDescendant\<TNode>\(SyntaxNode, TextSpan, Func\<SyntaxNode, Boolean>, Boolean\) <a name="Roslynator_SyntaxExtensions_FirstDescendant__1_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_Text_TextSpan_System_Func_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean__System_Boolean_"></a>
 
-### Summary
-
+\
 Searches a list of descendant nodes in prefix document order and returns first descendant of type **TNode**\.
 
 ```csharp

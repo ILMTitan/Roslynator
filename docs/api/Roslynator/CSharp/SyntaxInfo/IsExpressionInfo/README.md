@@ -15,8 +15,7 @@
 
 ## IsExpressionInfo\(BinaryExpressionSyntax, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_IsExpressionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_BinaryExpressionSyntax_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [IsExpressionInfo](../../Syntax/IsExpressionInfo/README.md) from the specified binary expression\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Roslynator.CSharp.Syntax.IsExpressionInfo IsExpressionInfo(Microso
 
 ## IsExpressionInfo\(SyntaxNode, Boolean, Boolean\) <a name="Roslynator_CSharp_SyntaxInfo_IsExpressionInfo_Microsoft_CodeAnalysis_SyntaxNode_System_Boolean_System_Boolean_"></a>
 
-### Summary
-
+\
 Creates a new [IsExpressionInfo](../../Syntax/IsExpressionInfo/README.md) from the specified node\.
 
 ```csharp

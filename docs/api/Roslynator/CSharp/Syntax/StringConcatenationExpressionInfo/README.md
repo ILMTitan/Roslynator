@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Provides information about string concatenation, i\.e\. a binary expression that binds to string '\+' operator\.
 
 ```csharp

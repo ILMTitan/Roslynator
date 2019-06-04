@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Returns the innermost named type symbol that the specified position is considered inside of\.
 
 ```csharp

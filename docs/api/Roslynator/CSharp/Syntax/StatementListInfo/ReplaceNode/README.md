@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new [StatementListInfo](../README.md) with the specified old node replaced with a new node\.
 
 ```csharp

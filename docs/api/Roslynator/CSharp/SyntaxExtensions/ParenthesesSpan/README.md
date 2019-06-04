@@ -16,8 +16,7 @@
 
 ## ParenthesesSpan\(CastExpressionSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ParenthesesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_CastExpressionSyntax_"></a>
 
-### Summary
-
+\
 The absolute span of the parentheses, not including its leading and trailing trivia\.
 
 ```csharp
@@ -34,8 +33,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan ParenthesesSpan(this Microsof
 
 ## ParenthesesSpan\(CommonForEachStatementSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ParenthesesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_CommonForEachStatementSyntax_"></a>
 
-### Summary
-
+\
 The absolute span of the parentheses, not including its leading and trailing trivia\.
 
 ```csharp
@@ -52,8 +50,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan ParenthesesSpan(this Microsof
 
 ## ParenthesesSpan\(ForStatementSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_ParenthesesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_ForStatementSyntax_"></a>
 
-### Summary
-
+\
 Absolute span of the parentheses, not including the leading and trailing trivia\.
 
 ```csharp

@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a list of modifiers that contains "internal const" modifiers\.
 
 ```csharp

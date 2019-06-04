@@ -17,8 +17,7 @@
 
 ## ReplaceAt\(SyntaxTokenList, Int32, SyntaxToken\) <a name="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
-### Summary
-
+\
 Creates a new [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist) with a token at the specified index replaced with a new token\.
 
 ```csharp
@@ -39,8 +38,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList ReplaceAt(this Microsoft.Co
 
 ## ReplaceAt\(SyntaxTriviaList, Int32, SyntaxTrivia\) <a name="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_Microsoft_CodeAnalysis_SyntaxTrivia_"></a>
 
-### Summary
-
+\
 Creates a new [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist) with a trivia at the specified index replaced with new trivia\.
 
 ```csharp
@@ -61,8 +59,7 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList ReplaceAt(this Microsoft.C
 
 ## ReplaceAt\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, TNode\) <a name="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32___0_"></a>
 
-### Summary
-
+\
 Creates a new list with a node at the specified index replaced with a new node\.
 
 ```csharp
@@ -87,8 +84,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ReplaceAt<TNode>
 
 ## ReplaceAt\<TNode>\(SyntaxList\<TNode>, Int32, TNode\) <a name="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32___0_"></a>
 
-### Summary
-
+\
 Creates a new list with the node at the specified index replaced with a new node\.
 
 ```csharp

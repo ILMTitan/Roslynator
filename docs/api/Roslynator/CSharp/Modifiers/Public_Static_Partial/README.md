@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a list of modifiers that contains "public static partial" modifiers\.
 
 ```csharp

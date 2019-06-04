@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Default implementation of [NameGenerator](../README.md) that adds number suffix to ensure uniqueness\.
 
 ```csharp

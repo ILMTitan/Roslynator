@@ -17,8 +17,7 @@
 
 ## PrependToTrailingTrivia\(SyntaxToken, IEnumerable\<SyntaxTrivia>\) <a name="Roslynator_SyntaxExtensions_PrependToTrailingTrivia_Microsoft_CodeAnalysis_SyntaxToken_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_SyntaxTrivia__"></a>
 
-### Summary
-
+\
 Creates a new token from this token with the trailing trivia replaced with a new trivia where the specified trivia is inserted at the begining of the trailing trivia\.
 
 ```csharp
@@ -37,8 +36,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken PrependToTrailingTrivia(this Mi
 
 ## PrependToTrailingTrivia\(SyntaxToken, SyntaxTrivia\) <a name="Roslynator_SyntaxExtensions_PrependToTrailingTrivia_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_SyntaxTrivia_"></a>
 
-### Summary
-
+\
 Creates a new token from this token with the trailing trivia replaced with a new trivia where the specified trivia is inserted at the begining of the trailing trivia\.
 
 ```csharp
@@ -57,8 +55,7 @@ public static Microsoft.CodeAnalysis.SyntaxToken PrependToTrailingTrivia(this Mi
 
 ## PrependToTrailingTrivia\<TNode>\(TNode, IEnumerable\<SyntaxTrivia>\) <a name="Roslynator_SyntaxExtensions_PrependToTrailingTrivia__1___0_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_SyntaxTrivia__"></a>
 
-### Summary
-
+\
 Creates a new node from this node with the trailing trivia replaced with a new trivia where the specified trivia is inserted at the begining of the trailing trivia\.
 
 ```csharp
@@ -81,8 +78,7 @@ TNode
 
 ## PrependToTrailingTrivia\<TNode>\(TNode, SyntaxTrivia\) <a name="Roslynator_SyntaxExtensions_PrependToTrailingTrivia__1___0_Microsoft_CodeAnalysis_SyntaxTrivia_"></a>
 
-### Summary
-
+\
 Creates a new node from this node with the trailing trivia replaced with a new trivia where the specified trivia is inserted at the begining of the trailing trivia\.
 
 ```csharp

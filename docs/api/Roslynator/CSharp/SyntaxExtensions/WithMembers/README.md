@@ -23,8 +23,7 @@
 
 ## WithMembers\(ClassDeclarationSyntax, IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -43,8 +42,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax WithMe
 
 ## WithMembers\(ClassDeclarationSyntax, MemberDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [ClassDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -63,8 +61,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax WithMe
 
 ## WithMembers\(CompilationUnitSyntax, IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax) with the members updated\.
 
 ```csharp
@@ -83,8 +80,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax WithMem
 
 ## WithMembers\(CompilationUnitSyntax, MemberDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [CompilationUnitSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.compilationunitsyntax) with the members updated\.
 
 ```csharp
@@ -103,8 +99,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax WithMem
 
 ## WithMembers\(InterfaceDeclarationSyntax, IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -123,8 +118,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InterfaceDeclarationSyntax Wi
 
 ## WithMembers\(InterfaceDeclarationSyntax, MemberDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [InterfaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.interfacedeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -143,8 +137,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.InterfaceDeclarationSyntax Wi
 
 ## WithMembers\(NamespaceDeclarationSyntax, IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -163,8 +156,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax Wi
 
 ## WithMembers\(NamespaceDeclarationSyntax, MemberDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [NamespaceDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.namespacedeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -183,8 +175,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax Wi
 
 ## WithMembers\(StructDeclarationSyntax, IEnumerable\<MemberDeclarationSyntax>\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_System_Collections_Generic_IEnumerable_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax__"></a>
 
-### Summary
-
+\
 Creates a new [StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax) with the members updated\.
 
 ```csharp
@@ -203,8 +194,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.StructDeclarationSyntax WithM
 
 ## WithMembers\(StructDeclarationSyntax, MemberDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_WithMembers_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Creates a new [StructDeclarationSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.structdeclarationsyntax) with the members updated\.
 
 ```csharp

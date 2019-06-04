@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Creates a new [ModifierListInfo](../README.md) with the specified modifiers updated\.
 
 ```csharp

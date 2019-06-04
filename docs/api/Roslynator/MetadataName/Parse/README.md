@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Converts the string representation of a fully qualified metadata name to its [MetadataName](../README.md) equivalent\.
 
 ```csharp

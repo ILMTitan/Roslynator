@@ -25,8 +25,7 @@
 
 ## IsParentKind\(SyntaxNode, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is the specified kind\.
 
 ```csharp
@@ -45,8 +44,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxNode, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -67,8 +65,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -91,8 +88,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -117,8 +113,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -145,8 +140,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxNode, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxNode_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a node parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -175,8 +169,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxNode node, Mic
 
 ## IsParentKind\(SyntaxToken, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is the specified kind\.
 
 ```csharp
@@ -195,8 +188,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxToken token, M
 
 ## IsParentKind\(SyntaxToken, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -217,8 +209,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxToken token, M
 
 ## IsParentKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -241,8 +232,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxToken token, M
 
 ## IsParentKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -267,8 +257,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxToken token, M
 
 ## IsParentKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is one of the specified kinds\.
 
 ```csharp
@@ -295,8 +284,7 @@ public static bool IsParentKind(this Microsoft.CodeAnalysis.SyntaxToken token, M
 
 ## IsParentKind\(SyntaxToken, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_SyntaxExtensions_IsParentKind_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
-### Summary
-
+\
 Returns true if a token parent's kind is one of the specified kinds\.
 
 ```csharp

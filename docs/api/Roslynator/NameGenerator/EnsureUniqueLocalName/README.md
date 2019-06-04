@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.Core\.dll
 
-## Summary
-
+\
 Return a local name that will be unique at the specified position\.
 
 ```csharp

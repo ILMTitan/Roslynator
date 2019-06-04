@@ -16,8 +16,7 @@
 
 ## Setter\(AccessorListSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_Setter_Microsoft_CodeAnalysis_CSharp_Syntax_AccessorListSyntax_"></a>
 
-### Summary
-
+\
 Returns a set accessor contained in the specified list\.
 
 ```csharp
@@ -34,8 +33,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax Set
 
 ## Setter\(IndexerDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_Setter_Microsoft_CodeAnalysis_CSharp_Syntax_IndexerDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Returns a set accessor that is contained in the specified indexer declaration\.
 
 ```csharp
@@ -52,8 +50,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax Set
 
 ## Setter\(PropertyDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_Setter_Microsoft_CodeAnalysis_CSharp_Syntax_PropertyDeclarationSyntax_"></a>
 
-### Summary
-
+\
 Returns property set accessor, if any\.
 
 ```csharp

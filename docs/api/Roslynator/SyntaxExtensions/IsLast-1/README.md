@@ -15,8 +15,7 @@
 
 ## IsLast\<TNode>\(SeparatedSyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsLast__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0____0_"></a>
 
-### Summary
-
+\
 Returns true if the specified node is a last node in the list\.
 
 ```csharp
@@ -39,8 +38,7 @@ public static bool IsLast<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList
 
 ## IsLast\<TNode>\(SyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsLast__1_Microsoft_CodeAnalysis_SyntaxList___0____0_"></a>
 
-### Summary
-
+\
 Returns true if the specified node is a last node in the list\.
 
 ```csharp

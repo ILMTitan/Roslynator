@@ -6,8 +6,7 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
-
+\
 Enables to enumerate expressions of a binary expression and expressions of nested binary expressions of the same kind as parent binary expression\.
 
 ```csharp

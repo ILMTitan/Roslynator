@@ -15,8 +15,7 @@
 
 ## GetAttribute\(ISymbol, INamedTypeSymbol\) <a name="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_"></a>
 
-### Summary
-
+\
 Returns the attribute for the symbol that matches the specified attribute class, or null if the symbol does not have the specified attribute\.
 
 ```csharp
@@ -35,8 +34,7 @@ public static Microsoft.CodeAnalysis.AttributeData GetAttribute(this Microsoft.C
 
 ## GetAttribute\(ISymbol, MetadataName\) <a name="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__"></a>
 
-### Summary
-
+\
 Returns the attribute for the symbol that matches the specified name, or null if the symbol does not have the specified attribute\.
 
 ```csharp
