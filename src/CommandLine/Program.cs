@@ -418,6 +418,9 @@ namespace Roslynator.CommandLine
 
         private static async Task<int> GenerateDocRootAsync(GenerateDocRootCommandLineOptions options)
         {
+            if (!TryParseOptionValueAsEnumFlags(options.IncludeContainingNamespaceFilter, ParameterNames.IncludeContainingNamespaceFilter, out IncludeContainingNamespaceFilter includeContainingNamespaceFilter, DocumentationOptions.Default.IncludeContainingNamespaceFilter))
+                return 1;
+
             if (!TryParseOptionValueAsEnum(options.Visibility, ParameterNames.Visibility, out Visibility visibility))
                 return 1;
 
@@ -434,6 +437,7 @@ namespace Roslynator.CommandLine
                 options,
                 depth,
                 ignoredParts,
+                includeContainingNamespaceFilter: includeContainingNamespaceFilter,
                 visibility,
                 projectFilter);
 

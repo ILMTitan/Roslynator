@@ -8,17 +8,18 @@ namespace Roslynator.Documentation
     public enum IncludeContainingNamespaceFilter
     {
         None = 0,
-        Root = 1,
-        ContainingType = 2,
-        Parameter = 4,
-        ReturnType = 8,
-        BaseType = 16,
-        Attribute = 32,
-        DerivedType = 64,
-        ImplementedInterface = 128,
-        ImplementedMember = 256,
-        Exception = 512,
-        SeeAlso = 1024,
-        All = Root | ContainingType | Parameter | ReturnType | BaseType | Attribute | DerivedType | ImplementedInterface | ImplementedMember | Exception | SeeAlso
+        TypeList = 1,
+        ClassHierarchy = 2,
+        ContainingType = 4,
+        Parameter = 8,
+        ReturnType = 16,
+        BaseType = 32,
+        Attribute = 64,
+        DerivedType = 128,
+        ImplementedInterface = 256,
+        ImplementedMember = 512,
+        Exception = 1024,
+        SeeAlso = 2048,
+        All = int.MaxValue
     }
 }

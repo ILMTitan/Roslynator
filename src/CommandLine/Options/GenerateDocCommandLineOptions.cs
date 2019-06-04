@@ -39,6 +39,11 @@ namespace Roslynator.CommandLine
             HelpText = "Indicates whether all derived types should be included in the list of derived types. By default only types that directly inherits from a specified type are displayed.")]
         public bool IncludeAllDerivedTypes { get; set; }
 
+        [Option(longName: ParameterNames.IncludeContainingNamespaceFilter,
+            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are type-list, class-hierarchy, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
+            MetaValue = "<INCLUDE_CONTAINING_NAMESPACE_FILTER>")]
+        public IEnumerable<string> IncludeContainingNamespaceFilter { get; set; }
+
         [Option(longName: "include-ienumerable",
             HelpText = "Indicates whether interface System.Collections.IEnumerable should be included in a documentation if a type also implements interface System.Collections.Generic.IEnumerable<T>.")]
         public bool IncludeIEnumerable { get; set; }
@@ -78,11 +83,6 @@ namespace Roslynator.CommandLine
         [Option(longName: "omit-attribute-arguments",
             HelpText = "Indicates whether attribute arguments should be omitted when displaying an attribute.")]
         public bool OmitAttributeArguments { get; set; }
-
-        [Option(longName: ParameterNames.IncludeContainingNamespaceFilter,
-            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are root, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
-            MetaValue = "<INCLUDE_CONTAINING_NAMESPACE_FILTER>")]
-        public IEnumerable<string> IncludeContainingNamespaceFilter { get; set; }
 
         [Option(longName: "omit-inherited-atttributes",
             HelpText = "Indicates whether inherited attributes should be omitted.")]

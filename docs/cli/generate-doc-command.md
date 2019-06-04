@@ -104,11 +104,9 @@ Defines parts of a type documentation that should be excluded.
 
 Indicates whether all derived types should be included in the list of derived types. By default only types that directly inherits from a specified type are displayed.
 
-**`[--include-containing-namespace-filter]`** `{root containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
+**`[--include-containing-namespace-filter]`** `{type-list class-hierarchy containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
 
 Defines parts of a documentation that should include containing namespace.
-
-Indicates whether a containing namespace should be omitted when displaying type name.
 
 **`[--include-ienumerable]`**
 

@@ -292,7 +292,7 @@ namespace Roslynator.Documentation
 
                                     writer.WriteHeading2(Resources.GetPluralName(TypeKind.Class));
 
-                                    writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root));
+                                    writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ClassHierarchy));
 
                                     writer.WriteLine();
                                 }
@@ -304,7 +304,7 @@ namespace Roslynator.Documentation
                                     Resources.ClassesTitle,
                                     2,
                                     SymbolDisplayFormats.TypeNameAndContainingTypes,
-                                    includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root));
+                                    includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList));
 
                                 break;
                             }
@@ -362,7 +362,7 @@ namespace Roslynator.Documentation
             {
                 using (IEnumerator<INamedTypeSymbol> en = typeSymbols
                     .Where(predicate)
-                    .Sort(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root))
+                    .Sort(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList))
                     .GetEnumerator())
                 {
                     if (en.MoveNext())
@@ -375,7 +375,7 @@ namespace Roslynator.Documentation
 
                             writer.WriteStartBulletItem();
 
-                            if (Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.Root))
+                            if (Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList))
                                 writer.WriteContainingNamespacePrefix(typeSymbol);
 
                             writer.WriteLink(typeSymbol, format);
