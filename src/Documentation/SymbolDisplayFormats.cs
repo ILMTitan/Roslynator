@@ -87,6 +87,7 @@ namespace Roslynator.Documentation
                 | SymbolDisplayKindOptions.IncludeMemberKeyword,
              miscellaneousOptions: SymbolDisplayMiscellaneousOptions.UseSpecialTypes
                 | SymbolDisplayMiscellaneousOptions.EscapeKeywordIdentifiers
+                | SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral
             );
 
         public static SymbolDisplayFormat ExplicitImplementationFullDeclaration { get; } = FullDeclaration.Update(

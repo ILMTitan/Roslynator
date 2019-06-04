@@ -7,7 +7,7 @@
 * [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md)
 * [Roslynator.CSharp.Syntax](../../docs/api/Roslynator/CSharp/Syntax/README.md)
 
-## Classes
+## Class Hierarchy
 
 * Object
 * &emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)

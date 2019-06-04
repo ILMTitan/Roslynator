@@ -8,10 +8,10 @@ namespace Roslynator.CommandLine
     [Verb("generate-doc-root", HelpText = "Generates root documentation file from specified assemblies.")]
     public class GenerateDocRootCommandLineOptions : AbstractGenerateDocCommandLineOptions
     {
-        [Option(longName: ParameterNames.IncludeContainingNamespaceFilter,
+        [Option(longName: ParameterNames.IncludeContainingNamespace,
             HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are type-list, class-hierarchy and all.",
-            MetaValue = "<INCLUDE_CONTAINING_NAMESPACE_FILTER>")]
-        public IEnumerable<string> IncludeContainingNamespaceFilter { get; set; }
+            MetaValue = "<INCLUDE_CONTAINING_NAMESPACE>")]
+        public IEnumerable<string> IncludeContainingNamespace { get; set; }
 
         [Option(longName: ParameterNames.IncludeSystemNamespace,
             HelpText = "Indicates whether namespace should be included when a type is directly contained in namespace 'System'.")]

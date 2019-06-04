@@ -6,7 +6,6 @@
 
 **Assembly**: Roslynator\.CSharp\.dll
 
-## Summary
 
 Specifies C\# comments\.
 

@@ -447,7 +447,7 @@ namespace Roslynator.Documentation
         public virtual void WriteSummary(ISymbol symbol, SymbolXmlDocumentation xmlDocumentation, int headingLevelBase = 0)
         {
             WriteSection(
-                heading: Resources.SummaryTitle,
+                heading: Resources.SummaryTitle, //TODO: summary title
                 xmlDocumentation: xmlDocumentation,
                 elementName: WellKnownXmlTags.Summary,
                 headingLevelBase: headingLevelBase);
@@ -456,8 +456,7 @@ namespace Roslynator.Documentation
         //XTODO: WriteDeclaration > WriteDefinition
         public virtual void WriteDeclaration(ISymbol symbol)
         {
-            SymbolDisplayAdditionalOptions additionalOptions = SymbolDisplayAdditionalOptions.FormatAttributes
-                | SymbolDisplayAdditionalOptions.PreferDefaultLiteral;
+            var additionalOptions = SymbolDisplayAdditionalOptions.FormatAttributes;
 
             if (Options.IncludeAttributeArguments)
                 additionalOptions |= SymbolDisplayAdditionalOptions.IncludeAttributeArguments;

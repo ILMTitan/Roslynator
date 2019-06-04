@@ -81,17 +81,30 @@ namespace Roslynator.Documentation
             if (!Includes(SymbolDefinitionPartFilter.ParameterDefaultValue))
                 parameterOptions &= ~SymbolDisplayParameterOptions.IncludeDefaultValue;
 
+            SymbolDisplayMiscellaneousOptions miscellaneousOptions = format.MiscellaneousOptions;
+
+            if (PreferDefaultLiteral)
+            {
+                miscellaneousOptions |= SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral;
+            }
+            else
+            {
+                miscellaneousOptions &= ~SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral;
+            }
+
             return format.Update(
                 genericsOptions: genericsOptions,
                 memberOptions: memberOptions,
-                parameterOptions: parameterOptions);
+                parameterOptions: parameterOptions,
+                miscellaneousOptions: miscellaneousOptions);
         }
 
         internal SymbolDisplayFormat GetFormat()
         {
-            return (Includes(SymbolDefinitionPartFilter.ContainingNamespace))
-                ? SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespacesAndTypeParameters
-                : SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndTypeParameters;
+            return SymbolDisplayFormats.GetTypeNameFormat(
+                includeNamespaces: Includes(SymbolDefinitionPartFilter.ContainingNamespace),
+                includeContainingTypes: true,
+                includeTypeParameters: true);
         }
 
         internal static class DefaultValues

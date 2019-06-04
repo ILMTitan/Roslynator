@@ -20,7 +20,7 @@ roslynator generate-doc <PROJECT|SOLUTION>
 [--ignored-root-parts]
 [--ignored-type-parts]
 [--include-all-derived-types]
-[--include-containing-namespace-filter]
+[--include-containing-namespace]
 [--include-ienumerable]
 [--include-inherited-interface-members]
 [--include-system-namespace]
@@ -104,7 +104,7 @@ Defines parts of a type documentation that should be excluded.
 
 Indicates whether all derived types should be included in the list of derived types. By default only types that directly inherits from a specified type are displayed.
 
-**`[--include-containing-namespace-filter]`** `{type-list class-hierarchy containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
+**`[--include-containing-namespace]`** `{type-list class-hierarchy containing-type parameter return-type base-type attribute derived-type implemented-interface implemented-member exception see-also all}`
 
 Defines parts of a documentation that should include containing namespace.
 

@@ -7,7 +7,7 @@
 * [Roslynator](../../docs/api/Roslynator/README.md)
 * [Roslynator.Text](../../docs/api/Roslynator/Text/README.md)
 
-## Classes
+## Class Hierarchy
 
 * Object
 * &emsp; System\.Collections\.Generic\.EqualityComparer\<T>

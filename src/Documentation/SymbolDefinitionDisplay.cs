@@ -258,7 +258,9 @@ namespace Roslynator.Documentation
                 FormatParameters(symbol, builder, DefinitionListFormat.Default.IndentChars);
             }
 
-            if (additionalOptions.HasOption(SymbolDisplayAdditionalOptions.PreferDefaultLiteral))
+            //TODO: Replace default expression with default literal
+#if DEBUG
+            if ((format.MiscellaneousOptions & SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral) != 0)
             {
                 if ((format.ParameterOptions & SymbolDisplayParameterOptions.IncludeDefaultValue) != 0
                     && parameters.Any(f => f.HasExplicitDefaultValue && HasDefaultExpression(f.Type, f.ExplicitDefaultValue)))
@@ -283,6 +285,7 @@ namespace Roslynator.Documentation
                     }
                 }
             }
+#endif
 
             if (ShouldAddTrailingSemicolon())
             {
@@ -1063,6 +1066,7 @@ namespace Roslynator.Documentation
             return -1;
         }
 
+#if DEBUG
         private static ImmutableArray<SymbolDisplayPart>.Builder ReplaceDefaultExpressionWithDefaultLiteral(
             ISymbol symbol,
             ImmutableArray<SymbolDisplayPart>.Builder parts)
@@ -1097,6 +1101,8 @@ namespace Roslynator.Documentation
                 {
                     return;
                 }
+
+                Debug.Fail(parts.ToImmutableArray().ToDisplayString());
 
                 int closeParenIndex = FindClosingParentheses(openParenIndex + 1);
 
@@ -1149,6 +1155,7 @@ namespace Roslynator.Documentation
                 return -1;
             }
         }
+#endif
 
         private static void AddDisplayParts(
             this ImmutableArray<SymbolDisplayPart>.Builder parts,

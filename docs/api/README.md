@@ -9,7 +9,7 @@
 * [Roslynator.CSharp.Syntax](Roslynator/CSharp/Syntax/README.md)
 * [Roslynator.Text](Roslynator/Text/README.md)
 
-## Classes
+## Class Hierarchy
 
 * Object
 * &emsp; System\.Collections\.Generic\.EqualityComparer\<T>

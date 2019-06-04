@@ -15,7 +15,7 @@ roslynator generate-doc-root
 [--ignored-names]
 [--ignored-parts]
 [--ignored-projects]
-[--include-containing-namespace-filter]
+[--include-containing-namespace]
 [--include-system-namespace]
 [--language]
 [--msbuild-path]
@@ -66,7 +66,7 @@ Defines parts of a root documentation that should be excluded.
 
 Defines projects that should be skipped.
 
-**`[--include-containing-namespace-filter]`** `{type-list class-hierarchy all}`
+**`[--include-containing-namespace]`** `{type-list class-hierarchy all}`
 
 Defines parts of a documentation that should include containing namespace.
 

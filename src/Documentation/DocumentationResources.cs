@@ -27,6 +27,7 @@ namespace Roslynator.Documentation
         public abstract string AttributesTitle { get; }
         public abstract string ClassesTitle { get; }
         public abstract string ClassTitle { get; }
+        public abstract string ClassHierarchyTitle { get; }
         public abstract string CombinationOfTitle { get; }
         public abstract string ConstructorsTitle { get; }
         public abstract string ConstructorTitle { get; }
@@ -303,6 +304,7 @@ namespace Roslynator.Documentation
             public override string AttributesTitle { get; } = "Attributes";
             public override string ClassesTitle { get; } = "Classes";
             public override string ClassTitle { get; } = "Class";
+            public override string ClassHierarchyTitle { get; } = "Class Hierarchy";
             public override string CombinationOfTitle { get; } = "Combination of";
             public override string ConstructorsTitle { get; } = "Constructors";
             public override string ConstructorTitle { get; } = "Constructor";

@@ -290,7 +290,7 @@ namespace Roslynator.Documentation
 
                                     IEnumerable<INamedTypeSymbol> instanceClasses = typeSymbols.Where(f => !f.IsStatic && f.TypeKind == TypeKind.Class);
 
-                                    writer.WriteHeading2(Resources.GetPluralName(TypeKind.Class));
+                                    writer.WriteHeading2(Resources.ClassHierarchyTitle);
 
                                     writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ClassHierarchy));
 

@@ -240,9 +240,6 @@ namespace Roslynator.Documentation
             if (Format.OmitIEnumerable)
                 options |= SymbolDisplayAdditionalOptions.OmitIEnumerable;
 
-            if (Format.PreferDefaultLiteral)
-                options |= SymbolDisplayAdditionalOptions.PreferDefaultLiteral;
-
             if (Format.Includes(SymbolDefinitionPartFilter.TrailingSemicolon))
                 options |= SymbolDisplayAdditionalOptions.IncludeTrailingSemicolon;
 
