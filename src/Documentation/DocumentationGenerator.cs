@@ -648,7 +648,7 @@ namespace Roslynator.Documentation
                         Resources.GetPluralName(typesByKind.Key),
                         headingLevel: 2,
                         SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
-                        includeContainingNamespace: true,
+                        includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList),
                         canCreateExternalUrl: false);
                 }
 
