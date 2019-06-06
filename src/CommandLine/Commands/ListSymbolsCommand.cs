@@ -62,7 +62,7 @@ namespace Roslynator.CommandLine
                 emptyLineBetweenMembers: Options.EmptyLineBetweenMembers,
                 emptyLineBetweenMemberGroups: true,
                 omitIEnumerable: true,
-                preferDefaultLiteral: true,
+                allowDefaultLiteral: true,
                 indentChars: Options.IndentChars);
 
             ImmutableArray<Compilation> compilations = await GetCompilationsAsync(projectOrSolution, cancellationToken);

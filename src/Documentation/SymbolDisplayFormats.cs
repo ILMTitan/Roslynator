@@ -1,6 +1,5 @@
 ﻿// Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using System;
 using Microsoft.CodeAnalysis;
 
 namespace Roslynator.Documentation
@@ -19,44 +18,6 @@ namespace Roslynator.Documentation
              localOptions: DefaultLocalOptions,
              kindOptions: DefaultKindOptions,
              miscellaneousOptions: DefaultMiscellaneousOptions);
-
-        public static SymbolDisplayFormat TypeName { get; } = Default.Update(
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameOnly,
-            genericsOptions: SymbolDisplayGenericsOptions.None,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndTypeParameters { get; } = Default.Update(
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameOnly,
-            genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndContainingTypes { get; } = Default.Update(
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypes,
-            genericsOptions: SymbolDisplayGenericsOptions.None,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndContainingTypesAndTypeParameters { get; } = Default.Update(
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypes,
-            genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndContainingTypesAndNamespaces { get; } = Default.Update(
-            globalNamespaceStyle: SymbolDisplayGlobalNamespaceStyle.OmittedAsContaining,
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces,
-            genericsOptions: SymbolDisplayGenericsOptions.None,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndContainingTypesAndNamespacesAndTypeParameters { get; } = Default.Update(
-            globalNamespaceStyle: SymbolDisplayGlobalNamespaceStyle.OmittedAsContaining,
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces,
-            genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat TypeNameAndContainingTypesAndNamespacesAndGlobalNamespaceAndTypeParameters { get; } = Default.Update(
-            globalNamespaceStyle: SymbolDisplayGlobalNamespaceStyle.Included,
-            typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces,
-            genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters,
-            memberOptions: SymbolDisplayMemberOptions.IncludeContainingType);
 
         public static SymbolDisplayFormat NamespaceDeclaration { get; } = Default.Update(
              typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces,
@@ -121,38 +82,6 @@ namespace Roslynator.Documentation
             genericsOptions: SymbolDisplayGenericsOptions.None,
             memberOptions: SymbolDisplayMemberOptions.IncludeExplicitInterface
                 | SymbolDisplayMemberOptions.IncludeContainingType);
-
-        public static SymbolDisplayFormat GetTypeNameFormat(
-            bool includeNamespaces = false,
-            bool includeContainingTypes = false,
-            bool includeTypeParameters = false)
-        {
-            if (includeNamespaces)
-            {
-                if (includeContainingTypes)
-                {
-                    return (includeTypeParameters)
-                        ? TypeNameAndContainingTypesAndNamespacesAndTypeParameters
-                        : TypeNameAndContainingTypesAndNamespaces;
-                }
-                else
-                {
-                    throw new InvalidOperationException();
-                }
-            }
-            else if (includeContainingTypes)
-            {
-                return (includeTypeParameters)
-                    ? TypeNameAndContainingTypesAndTypeParameters
-                    : TypeNameAndContainingTypes;
-            }
-            else
-            {
-                return (includeTypeParameters)
-                    ? TypeNameAndTypeParameters
-                    : TypeName;
-            }
-        }
 
         internal const SymbolDisplayGlobalNamespaceStyle DefaultGlobalNamespaceStyle
             = SymbolDisplayGlobalNamespaceStyle.Omitted;

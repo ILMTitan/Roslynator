@@ -4,10 +4,10 @@
 
 ## Namespaces
 
+* [System.Collections.Generic](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic)
 * [Microsoft.CodeAnalysis](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis)
 * [Microsoft.CodeAnalysis.CSharp.Syntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax)
 * [Microsoft.CodeAnalysis.Diagnostics](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics)
-* [System.Collections.Generic](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic)
 
 ## Classes
 

@@ -253,7 +253,7 @@ namespace Roslynator.Documentation
 
         private void GenerateRoot(DocumentationWriter writer, bool addExtensionsLink = false)
         {
-            SymbolDisplayFormat format = SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters;
+            SymbolDisplayFormat format = TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters;
 
             IEnumerable<INamedTypeSymbol> typeSymbols = DocumentationModel.Types.Where(f => !Options.ShouldBeIgnored(f));
 
@@ -277,7 +277,7 @@ namespace Roslynator.Documentation
                                 .Select(f => f.ContainingNamespace)
                                 .Distinct(MetadataNameEqualityComparer<INamespaceSymbol>.Instance);
 
-                            writer.WriteList(namespaceSymbols, Resources.NamespacesTitle, 2, SymbolDisplayFormats.TypeNameAndContainingTypesAndNamespaces);
+                            writer.WriteNamespaceList(namespaceSymbols, Resources.NamespacesTitle, 2);
                             break;
                         }
                     case RootDocumentationParts.Classes:
@@ -303,7 +303,6 @@ namespace Roslynator.Documentation
                                     typeSymbols.Where(f => f.TypeKind == TypeKind.Class),
                                     Resources.ClassesTitle,
                                     2,
-                                    SymbolDisplayFormats.TypeNameAndContainingTypes,
                                     includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList));
 
                                 break;
@@ -362,7 +361,7 @@ namespace Roslynator.Documentation
             {
                 using (IEnumerator<INamedTypeSymbol> en = typeSymbols
                     .Where(predicate)
-                    .Sort(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList))
+                    .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList)))
                     .GetEnumerator())
                 {
                     if (en.MoveNext())
@@ -447,7 +446,7 @@ namespace Roslynator.Documentation
 
                 SymbolXmlDocumentation xmlDocumentation = DocumentationModel.GetXmlDocumentation(namespaceSymbol, Options.PreferredCultureName);
 
-                writer.WriteHeading(1, namespaceSymbol, SymbolDisplayFormats.TypeNameAndContainingTypesAndNamespaces, addLink: false, linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
+                writer.WriteHeading(1, namespaceSymbol, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces, addLink: false, linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
 
                 foreach (NamespaceDocumentationParts part in EnabledAndSortedNamespaceParts)
                 {
@@ -544,7 +543,7 @@ namespace Roslynator.Documentation
                         headingLevel: 2,
                         Resources.GetName(typeKind),
                         Resources.SummaryTitle,
-                        SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
+                        TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters,
                         addLink: Options.Depth <= DocumentationDepth.Type);
                 }
 
@@ -636,7 +635,7 @@ namespace Roslynator.Documentation
                     .OrderBy(f => f, NamespacePartComparer)
                     .Select(f => Resources.GetHeading(f)), beginWithSeparator: true);
 
-                writer.WriteList(namespaces, Resources.NamespacesTitle, 2, SymbolDisplayFormats.TypeNameAndContainingTypesAndNamespaces);
+                writer.WriteNamespaceList(namespaces, Resources.NamespacesTitle, 2);
 
                 foreach (IGrouping<TypeKind, INamedTypeSymbol> typesByKind in extendedExternalTypes
                     .Where(f => (Options.IgnoredNamespaceParts & f.TypeKind.ToNamespaceDocumentationPart()) == 0)
@@ -647,7 +646,6 @@ namespace Roslynator.Documentation
                         typesByKind,
                         Resources.GetPluralName(typesByKind.Key),
                         headingLevel: 2,
-                        SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
                         includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList),
                         canCreateExternalUrl: false);
                 }
@@ -671,7 +669,7 @@ namespace Roslynator.Documentation
                 }
 
                 writer.WriteStartHeading(1);
-                writer.WriteLink(typeSymbol, SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters);
+                writer.WriteLink(typeSymbol, TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters);
                 writer.WriteSpace();
                 writer.WriteString(Resources.GetName(typeSymbol.TypeKind));
                 writer.WriteSpace();
@@ -717,7 +715,7 @@ namespace Roslynator.Documentation
                 writer.WriteHeading(
                     1,
                     typeSymbol,
-                    SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
+                    TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters,
                     SymbolDisplayAdditionalMemberOptions.UseItemPropertyName | SymbolDisplayAdditionalMemberOptions.UseOperatorName,
                     addLink: false,
                     linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
@@ -932,7 +930,6 @@ namespace Roslynator.Documentation
                             derivedTypes,
                             heading: Resources.DerivedAllTitle,
                             headingLevel: 2,
-                            format: SymbolDisplayFormats.TypeNameAndContainingTypesAndTypeParameters,
                             includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.DerivedType));
                     }
                 }

@@ -258,7 +258,7 @@ namespace Roslynator.Documentation
                 FormatParameters(symbol, builder, DefinitionListFormat.Default.IndentChars);
             }
 
-            //TODO: Replace default expression with default literal
+            //TODO: replace default expression with default literal
 #if DEBUG
             if ((format.MiscellaneousOptions & SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral) != 0)
             {
