@@ -9,9 +9,9 @@
 
 ## Class Hierarchy
 
-* Object
+* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)
 * &emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)
-* &emsp; Roslynator\.SyntaxListSelection\<TNode>
+* &emsp; \(Roslynator\.SyntaxListSelection\<TNode>\)
 * &emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)
 * &emsp; \| &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)
 

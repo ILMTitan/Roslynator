@@ -9,8 +9,8 @@
 
 ## Class Hierarchy
 
-* Object
-* &emsp; System\.Collections\.Generic\.EqualityComparer\<T>
+* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)
+* &emsp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)
 * &emsp; \| &emsp; [MetadataNameEqualityComparer\<TSymbol>](../../docs/api/Roslynator/MetadataNameEqualityComparer-1/README.md)
 * &emsp; [NameGenerator](../../docs/api/Roslynator/NameGenerator/README.md)
 * &emsp; [SeparatedSyntaxListSelection\<TNode>](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/README.md)

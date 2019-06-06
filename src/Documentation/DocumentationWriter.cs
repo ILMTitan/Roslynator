@@ -1205,7 +1205,13 @@ namespace Roslynator.Documentation
                     if (level >= 1)
                         WriteSpace();
 
-                    if (DocumentationModel.IsExternal(baseType))
+                    bool isExternal = DocumentationModel.IsExternal(baseType);
+
+                    if (isExternal)
+                        WriteString("(");
+
+                    if (isExternal
+                        && !UrlProvider.HasExternalUrl(baseType))
                     {
                         SymbolDisplayFormat format = TypeSymbolDisplayFormats.GetFormat(includeNamespaces: Options.IncludeSystemNamespace || !baseType.ContainingNamespace.IsSystemNamespace());
 
@@ -1215,6 +1221,9 @@ namespace Roslynator.Documentation
                     {
                         WriteTypeLink(baseType, includeContainingNamespace: includeContainingNamespace);
                     }
+
+                    if (isExternal)
+                        WriteString(")");
 
                     WriteObsolete(baseType, before: false);
 

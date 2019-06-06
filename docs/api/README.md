@@ -11,8 +11,8 @@
 
 ## Class Hierarchy
 
-* Object
-* &emsp; System\.Collections\.Generic\.EqualityComparer\<T>
+* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)
+* &emsp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)
 * &emsp; \| &emsp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)
 * &emsp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)
 * &emsp; [NameGenerator](Roslynator/NameGenerator/README.md)
