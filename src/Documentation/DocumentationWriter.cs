@@ -1590,6 +1590,72 @@ namespace Roslynator.Documentation
             }
         }
 
+        internal void WriteTypeList(
+            IEnumerable<INamedTypeSymbol> symbols,
+            string heading,
+            int headingLevel,
+            bool includeContainingNamespace = false,
+            bool canCreateExternalUrl = true)
+        {
+            using (IEnumerator<ISymbol> en = symbols
+                .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: includeContainingNamespace))
+                .GetEnumerator())
+            {
+                if (en.MoveNext())
+                {
+                    SymbolDisplayFormat format = TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters;
+                    ImmutableHashSet<INamedTypeSymbol> duplicates = ImmutableHashSet<INamedTypeSymbol>.Empty;
+
+                    if (!includeContainingNamespace)
+                    {
+                        duplicates = symbols
+                            .GroupBy(symbol => symbol.ToDisplayString(format), StringComparer.InvariantCulture)
+                            .Where(grouping =>
+                            {
+                                using (IEnumerator<INamedTypeSymbol> en2 = grouping.GetEnumerator())
+                                {
+                                    return en2.MoveNext()
+                                        && en2.MoveNext();
+                                }
+                            })
+                            .SelectMany(f => f)
+                            .ToImmutableHashSet();
+                    }
+
+                    WriteHeading(headingLevel, heading);
+                    WriteStartBulletList();
+
+                    do
+                    {
+                        WriteStartBulletItem();
+
+                        if (includeContainingNamespace)
+                            WriteContainingNamespacePrefix(en.Current);
+
+                        WriteLinkOrText(
+                            en.Current.ToDisplayString(format),
+                            GetUrl(en.Current, canCreateExternalUrl));
+
+                        if (!includeContainingNamespace
+                            && duplicates.Contains(en.Current))
+                        {
+                            WriteString(" (in ");
+                            WriteLinkOrText(
+                                en.Current.ContainingNamespace.ToDisplayString(TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces),
+                                GetUrl(en.Current.ContainingNamespace, canCreateExternalUrl));
+                            WriteString(")");
+                        }
+
+                        WriteObsolete(en.Current, before: false);
+                        WriteEndBulletItem();
+                    }
+                    while (en.MoveNext());
+
+                    WriteEndBulletList();
+                }
+            }
+        }
+
         internal void WriteNamespaceList(
             IEnumerable<INamespaceSymbol> symbols,
             string heading,

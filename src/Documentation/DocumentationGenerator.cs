@@ -299,7 +299,7 @@ namespace Roslynator.Documentation
                             }
                             else
                             {
-                                writer.WriteList(
+                                writer.WriteTypeList(
                                     typeSymbols.Where(f => f.TypeKind == TypeKind.Class),
                                     Resources.ClassesTitle,
                                     2,
@@ -359,30 +359,11 @@ namespace Roslynator.Documentation
 
             void WriteTypesImpl(Func<INamedTypeSymbol, bool> predicate, string heading)
             {
-                using (IEnumerator<INamedTypeSymbol> en = typeSymbols
-                    .Where(predicate)
-                    .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList)))
-                    .GetEnumerator())
-                {
-                    if (en.MoveNext())
-                    {
-                        writer.WriteHeading2(heading);
-
-                        do
-                        {
-                            INamedTypeSymbol typeSymbol = en.Current;
-
-                            writer.WriteStartBulletItem();
-
-                            if (Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList))
-                                writer.WriteContainingNamespacePrefix(typeSymbol);
-
-                            writer.WriteLink(typeSymbol, format);
-                            writer.WriteEndBulletItem();
-                        }
-                        while (en.MoveNext());
-                    }
-                }
+                writer.WriteTypeList(
+                    typeSymbols.Where(predicate),
+                    heading: heading,
+                    headingLevel: 2,
+                    includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList));
             }
 
             bool HasContent(RootDocumentationParts part)
@@ -642,7 +623,7 @@ namespace Roslynator.Documentation
                     .GroupBy(f => f.TypeKind)
                     .OrderBy(f => f.Key.ToNamespaceDocumentationPart(), NamespacePartComparer))
                 {
-                    writer.WriteList(
+                    writer.WriteTypeList(
                         typesByKind,
                         Resources.GetPluralName(typesByKind.Key),
                         headingLevel: 2,
@@ -926,7 +907,7 @@ namespace Roslynator.Documentation
                     }
                     else
                     {
-                        writer.WriteList(
+                        writer.WriteTypeList(
                             derivedTypes,
                             heading: Resources.DerivedAllTitle,
                             headingLevel: 2,
