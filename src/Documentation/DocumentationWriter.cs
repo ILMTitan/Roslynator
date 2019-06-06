@@ -1181,11 +1181,23 @@ namespace Roslynator.Documentation
             bool isMaxReached = false;
 
             WriteStartBulletList();
-            WriteClassHierarchy();
+            WriteClassHierarchy(ImmutableHashSet<INamedTypeSymbol>.Empty);
             WriteEndBulletList();
 
-            void WriteClassHierarchy()
+            void WriteClassHierarchy(ImmutableHashSet<INamedTypeSymbol> duplicates)
             {
+                nodes.Remove(baseType);
+
+                List<INamedTypeSymbol> derivedTypes = nodes
+                    .Where(f => MetadataNameEqualityComparer<INamedTypeSymbol>.Instance.Equals(f.BaseType?.OriginalDefinition, baseType.OriginalDefinition)
+                        || f.Interfaces.Any(i => MetadataNameEqualityComparer<INamedTypeSymbol>.Instance.Equals(i.OriginalDefinition, baseType.OriginalDefinition)))
+                    .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: includeContainingNamespace))
+                    .ToList();
+
+                ImmutableHashSet<INamedTypeSymbol> derivedTypesDuplicates = (includeContainingNamespace)
+                    ? ImmutableHashSet<INamedTypeSymbol>.Empty
+                    : GetSymbolDisplayDuplicates(derivedTypes);
+
                 if (level >= 0)
                 {
                     WriteStartBulletItem();
@@ -1210,22 +1222,10 @@ namespace Roslynator.Documentation
                     if (isExternal)
                         WriteString("(");
 
-                    if (isExternal
-                        && !UrlProvider.HasExternalUrl(baseType))
-                    {
-                        SymbolDisplayFormat format = TypeSymbolDisplayFormats.GetFormat(includeNamespaces: Options.IncludeSystemNamespace || !baseType.ContainingNamespace.IsSystemNamespace());
-
-                        WriteSymbol(baseType, format);
-                    }
-                    else
-                    {
-                        WriteTypeLink(baseType, includeContainingNamespace: includeContainingNamespace);
-                    }
+                    WriteTypeListItem(baseType, duplicates, includeContainingNamespace: includeContainingNamespace);
 
                     if (isExternal)
                         WriteString(")");
-
-                    WriteObsolete(baseType, before: false);
 
                     WriteEndBulletItem();
 
@@ -1243,16 +1243,9 @@ namespace Roslynator.Documentation
                     }
                 }
 
-                nodes.Remove(baseType);
-
                 level++;
 
-                using (List<INamedTypeSymbol>.Enumerator en = nodes
-                    .Where(f => MetadataNameEqualityComparer<INamedTypeSymbol>.Instance.Equals(f.BaseType?.OriginalDefinition, baseType.OriginalDefinition)
-                        || f.Interfaces.Any(i => MetadataNameEqualityComparer<INamedTypeSymbol>.Instance.Equals(i.OriginalDefinition, baseType.OriginalDefinition)))
-                    .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: includeContainingNamespace))
-                    .ToList()
-                    .GetEnumerator())
+                using (List<INamedTypeSymbol>.Enumerator en = derivedTypes.GetEnumerator())
                 {
                     if (en.MoveNext())
                     {
@@ -1268,7 +1261,7 @@ namespace Roslynator.Documentation
                         {
                             baseType = en.Current;
 
-                            WriteClassHierarchy();
+                            WriteClassHierarchy(derivedTypesDuplicates);
 
                             if (isMaxReached)
                                 return;
@@ -1552,9 +1545,8 @@ namespace Roslynator.Documentation
                         if (addLink)
                         {
                             WriteStartBulletItem();
-
+                            WriteObsolete(en.Current);
                             WriteLink(en.Current, format, includeContainingNamespace: includeContainingNamespace, addLinkForTypeParameters: addLinkForTypeParameters, canCreateExternalUrl: canCreateExternalUrl);
-                            WriteObsolete(en.Current, before: false);
                             WriteEndBulletItem();
                         }
                         else
@@ -1607,20 +1599,7 @@ namespace Roslynator.Documentation
                     ImmutableHashSet<INamedTypeSymbol> duplicates = ImmutableHashSet<INamedTypeSymbol>.Empty;
 
                     if (!includeContainingNamespace)
-                    {
-                        duplicates = symbols
-                            .GroupBy(symbol => symbol.ToDisplayString(format), StringComparer.InvariantCulture)
-                            .Where(grouping =>
-                            {
-                                using (IEnumerator<INamedTypeSymbol> en2 = grouping.GetEnumerator())
-                                {
-                                    return en2.MoveNext()
-                                        && en2.MoveNext();
-                                }
-                            })
-                            .SelectMany(f => f)
-                            .ToImmutableHashSet();
-                    }
+                        duplicates = GetSymbolDisplayDuplicates(symbols);
 
                     WriteHeading(headingLevel, heading);
                     WriteStartBulletList();
@@ -1628,25 +1607,7 @@ namespace Roslynator.Documentation
                     do
                     {
                         WriteStartBulletItem();
-
-                        if (includeContainingNamespace)
-                            WriteContainingNamespacePrefix(en.Current);
-
-                        WriteLinkOrText(
-                            en.Current.ToDisplayString(format),
-                            GetUrl(en.Current, canCreateExternalUrl));
-
-                        if (!includeContainingNamespace
-                            && duplicates.Contains(en.Current))
-                        {
-                            WriteString(" (in ");
-                            WriteLinkOrText(
-                                en.Current.ContainingNamespace.ToDisplayString(TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces),
-                                GetUrl(en.Current.ContainingNamespace, canCreateExternalUrl));
-                            WriteString(")");
-                        }
-
-                        WriteObsolete(en.Current, before: false);
+                        WriteTypeListItem(en.Current, duplicates, includeContainingNamespace, canCreateExternalUrl);
                         WriteEndBulletItem();
                     }
                     while (en.MoveNext());
@@ -1654,6 +1615,61 @@ namespace Roslynator.Documentation
                     WriteEndBulletList();
                 }
             }
+        }
+
+        private void WriteTypeListItem(
+            ISymbol symbol,
+            ImmutableHashSet<INamedTypeSymbol> duplicates,
+            bool includeContainingNamespace = false,
+            bool canCreateExternalUrl = true)
+        {
+            WriteObsolete(symbol);
+
+            if (includeContainingNamespace)
+                WriteContainingNamespacePrefix(symbol);
+
+            bool isExternal = DocumentationModel.IsExternal(symbol);
+
+            if (isExternal
+                && !UrlProvider.HasExternalUrl(symbol))
+            {
+                SymbolDisplayFormat format = TypeSymbolDisplayFormats.GetFormat(includeNamespaces: Options.IncludeSystemNamespace || !symbol.ContainingNamespace.IsSystemNamespace());
+
+                WriteSymbol(symbol, format);
+            }
+            else
+            {
+                WriteLinkOrText(symbol.ToDisplayString(TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters), GetUrl(symbol, canCreateExternalUrl));
+            }
+
+            if (!includeContainingNamespace
+                && duplicates.Contains(symbol))
+            {
+                WriteString(" (in ");
+                WriteSymbol(symbol.ContainingNamespace, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces);
+                WriteString(")");
+            }
+        }
+
+        private ImmutableHashSet<INamedTypeSymbol> GetSymbolDisplayDuplicates(IEnumerable<INamedTypeSymbol> typeSymbols)
+        {
+            return typeSymbols
+                .Where(symbol =>
+                {
+                    return !DocumentationModel.IsExternal(symbol)
+                        || UrlProvider.HasExternalUrl(symbol)
+                        || (!Options.IncludeSystemNamespace && symbol.ContainingNamespace.IsSystemNamespace());
+                })
+                .GroupBy(symbol => symbol.ToDisplayString(TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters), StringComparer.InvariantCulture).Where(grouping =>
+                {
+                    using (IEnumerator<INamedTypeSymbol> en = grouping.GetEnumerator())
+                    {
+                        return en.MoveNext()
+                            && en.MoveNext();
+                    }
+                })
+                .SelectMany(grouping => grouping)
+                .ToImmutableHashSet();
         }
 
         internal void WriteNamespaceList(
@@ -1846,20 +1862,15 @@ namespace Roslynator.Documentation
             }
         }
 
-        private void WriteObsolete(ISymbol symbol, bool before = true)
+        private void WriteObsolete(ISymbol symbol)
         {
             if (Options.MarkObsolete
                 && symbol.HasAttribute(MetadataNames.System_ObsoleteAttribute))
             {
-                if (!before)
-                    WriteSpace();
-
                 WriteString("[");
                 WriteString(Resources.DeprecatedTitle);
                 WriteString("]");
-
-                if (before)
-                    WriteSpace();
+                WriteSpace();
             }
         }
 
