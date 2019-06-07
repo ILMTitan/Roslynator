@@ -1554,7 +1554,7 @@ namespace Roslynator.Documentation
 
         internal void WriteTypeListGroupedByNamespace(
             IEnumerable<INamedTypeSymbol> symbols,
-            int headingLevel,
+            int headingLevel = 2,
             bool addLinkForTypeParameters = false,
             bool canCreateExternalUrl = true)
         {

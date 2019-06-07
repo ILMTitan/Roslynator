@@ -296,10 +296,7 @@ namespace Roslynator.Documentation
                         }
                     case RootDocumentationParts.Types:
                         {
-                            writer.WriteTypeListGroupedByNamespace(
-                                typeSymbols,
-                                headingLevel: 2);
-
+                            writer.WriteTypeListGroupedByNamespace(typeSymbols);
                             break;
                         }
                     case RootDocumentationParts.Other:
@@ -535,7 +532,6 @@ namespace Roslynator.Documentation
 
                 writer.WriteTypeListGroupedByNamespace(
                     extendedExternalTypes,
-                    headingLevel: 2,
                     canCreateExternalUrl: false);
 
                 writer.WriteEndDocument();

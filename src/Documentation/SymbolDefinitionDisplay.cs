@@ -258,35 +258,6 @@ namespace Roslynator.Documentation
                 FormatParameters(symbol, builder, DefinitionListFormat.Default.IndentChars);
             }
 
-            //TODO: replace default expression with default literal
-#if DEBUG
-            if ((format.MiscellaneousOptions & SymbolDisplayMiscellaneousOptions.AllowDefaultLiteral) != 0)
-            {
-                if ((format.ParameterOptions & SymbolDisplayParameterOptions.IncludeDefaultValue) != 0
-                    && parameters.Any(f => f.HasExplicitDefaultValue && HasDefaultExpression(f.Type, f.ExplicitDefaultValue)))
-                {
-                    builder = builder ?? parts.ToBuilder();
-
-                    builder = ReplaceDefaultExpressionWithDefaultLiteral(symbol, builder);
-                }
-
-                if ((format.MemberOptions & SymbolDisplayMemberOptions.IncludeConstantValue) != 0
-                    && symbol.IsKind(SymbolKind.Field))
-                {
-                    var fieldSymbol = (IFieldSymbol)symbol;
-
-                    if (fieldSymbol.IsConst
-                        && fieldSymbol.HasConstantValue
-                        && HasDefaultExpression(fieldSymbol.Type, fieldSymbol.ConstantValue))
-                    {
-                        builder = builder ?? parts.ToBuilder();
-
-                        builder = ReplaceDefaultExpressionWithDefaultLiteral(symbol, builder);
-                    }
-                }
-            }
-#endif
-
             if (ShouldAddTrailingSemicolon())
             {
                 if (builder == null)
@@ -1066,97 +1037,6 @@ namespace Roslynator.Documentation
             return -1;
         }
 
-#if DEBUG
-        private static ImmutableArray<SymbolDisplayPart>.Builder ReplaceDefaultExpressionWithDefaultLiteral(
-            ISymbol symbol,
-            ImmutableArray<SymbolDisplayPart>.Builder parts)
-        {
-            ImmutableArray<SymbolDisplayPart>.Builder builder = null;
-
-            int prevIndex = 0;
-            int i = 0;
-
-            while (i < parts.Count)
-            {
-                if (parts[i].IsKeyword("default"))
-                    ReplaceDefaultExpressionWithDefaultLiteral3();
-
-                i++;
-            }
-
-            if (builder == null)
-                return parts;
-
-            for (int j = prevIndex; j < parts.Count; j++)
-                builder.Add(parts[j]);
-
-            return builder;
-
-            void ReplaceDefaultExpressionWithDefaultLiteral3()
-            {
-                int openParenIndex = i + 1;
-
-                if (openParenIndex >= parts.Count
-                    || !parts[openParenIndex].IsPunctuation("("))
-                {
-                    return;
-                }
-
-                Debug.Fail(parts.ToImmutableArray().ToDisplayString());
-
-                int closeParenIndex = FindClosingParentheses(openParenIndex + 1);
-
-                if (closeParenIndex == -1)
-                    return;
-
-                if (builder == null)
-                    builder = ImmutableArray.CreateBuilder<SymbolDisplayPart>(parts.Count);
-
-                for (int l = prevIndex; l < openParenIndex; l++)
-                    builder.Add(parts[l]);
-
-                i = closeParenIndex;
-
-                prevIndex = i + 1;
-            }
-
-            int FindClosingParentheses(int startIndex)
-            {
-                int depth = 1;
-
-                int j = startIndex;
-
-                while (j < parts.Count)
-                {
-                    SymbolDisplayPart part = parts[j];
-
-                    if (part.IsPunctuation())
-                    {
-                        string text = part.ToString();
-
-                        if (text == "(")
-                        {
-                            depth++;
-                        }
-                        else if (text == ")")
-                        {
-                            Debug.Assert(depth > 0, "Parentheses depth should be greater than 0\r\n" + symbol.ToDisplayString(Roslynator.SymbolDisplayFormats.Test));
-
-                            depth--;
-
-                            if (depth == 0)
-                                return j;
-                        }
-                    }
-
-                    j++;
-                }
-
-                return -1;
-            }
-        }
-#endif
-
         private static void AddDisplayParts(
             this ImmutableArray<SymbolDisplayPart>.Builder parts,
             ISymbol symbol,
@@ -1284,23 +1164,6 @@ namespace Roslynator.Documentation
                 return attributes.Where(f => predicate(symbol, f));
 
             return attributes;
-        }
-
-        private static bool HasDefaultExpression(ITypeSymbol type, object constantValue)
-        {
-            if (constantValue != null)
-                return false;
-
-            if (type.IsReferenceType)
-                return false;
-
-            if (type.TypeKind == TypeKind.Pointer)
-                return false;
-
-            if (type.IsNullableType())
-                return false;
-
-            return true;
         }
     }
 }
