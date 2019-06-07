@@ -301,8 +301,8 @@ namespace Roslynator.Documentation
                             {
                                 writer.WriteTypeList(
                                     typeSymbols.Where(f => f.TypeKind == TypeKind.Class),
-                                    Resources.ClassesTitle,
-                                    2,
+                                    heading: Resources.ClassesTitle,
+                                    headingLevel: 2,
                                     includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.TypeList));
 
                                 break;
@@ -745,7 +745,7 @@ namespace Roslynator.Documentation
                             }
                         case TypeDocumentationParts.Declaration:
                             {
-                                writer.WriteDeclaration(typeSymbol);
+                                writer.WriteDefinition(typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.TypeParameters:
@@ -856,27 +856,27 @@ namespace Roslynator.Documentation
                             }
                         case TypeDocumentationParts.Classes:
                             {
-                                writer.WriteTypes(typeModel.GetClasses(includeInherited: includeInherited), TypeKind.Class, typeSymbol);
+                                writer.WriteNestedTypes(typeModel.GetClasses(includeInherited: includeInherited), TypeKind.Class, typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.Structs:
                             {
-                                writer.WriteTypes(typeModel.GetStructs(includeInherited: includeInherited), TypeKind.Struct, typeSymbol);
+                                writer.WriteNestedTypes(typeModel.GetStructs(includeInherited: includeInherited), TypeKind.Struct, typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.Interfaces:
                             {
-                                writer.WriteTypes(typeModel.GetInterfaces(includeInherited: includeInherited), TypeKind.Interface, typeSymbol);
+                                writer.WriteNestedTypes(typeModel.GetInterfaces(includeInherited: includeInherited), TypeKind.Interface, typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.Enums:
                             {
-                                writer.WriteTypes(typeModel.GetEnums(includeInherited: includeInherited), TypeKind.Enum, typeSymbol);
+                                writer.WriteNestedTypes(typeModel.GetEnums(includeInherited: includeInherited), TypeKind.Enum, typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.Delegates:
                             {
-                                writer.WriteTypes(typeModel.GetDelegates(includeInherited: includeInherited), TypeKind.Delegate, typeSymbol);
+                                writer.WriteNestedTypes(typeModel.GetDelegates(includeInherited: includeInherited), TypeKind.Delegate, typeSymbol);
                                 break;
                             }
                         case TypeDocumentationParts.SeeAlso:
@@ -1122,7 +1122,7 @@ namespace Roslynator.Documentation
                             }
                         case MemberDocumentationParts.Declaration:
                             {
-                                writer.WriteDeclaration(symbol);
+                                writer.WriteDefinition(symbol);
                                 break;
                             }
                         case MemberDocumentationParts.TypeParameters:
