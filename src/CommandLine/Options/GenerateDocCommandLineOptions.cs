@@ -26,7 +26,7 @@ namespace Roslynator.CommandLine
         public IEnumerable<string> IgnoredNamespaceParts { get; set; }
 
         [Option(longName: ParameterNames.IgnoredRootParts,
-            HelpText = "Defines parts of a root documentation that should be excluded. Allowed values are content, namespaces, classes, static-classes, structs, interfaces, enums, delegates and other.",
+            HelpText = "Defines parts of a root documentation that should be excluded. Allowed values are content, namespaces, class-hierarchy, types and other.",
             MetaValue = "<IGNORED_ROOT_PARTS>")]
         public IEnumerable<string> IgnoredRootParts { get; set; }
 

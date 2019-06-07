@@ -1,6 +1,6 @@
 # Roslynator\.Core
 
-[Namespaces](#namespaces) &#x2022; [Classes](#classes) &#x2022; [Static Classes](#static-classes) &#x2022; [Structs](#structs) &#x2022; [Interfaces](#interfaces) &#x2022; [Enums](#enums)
+[Namespaces](#namespaces) &#x2022; [Class Hierarchy](#class-hierarchy)
 
 ## Namespaces
 
@@ -17,39 +17,43 @@
 * &emsp; [SyntaxListSelection\<TNode>](../../docs/api/Roslynator/SyntaxListSelection-1/README.md)
 * &emsp; [TextLineCollectionSelection](../../docs/api/Roslynator/Text/TextLineCollectionSelection/README.md)
 
-## Static Classes
+## Roslynator Namespace
 
-#### Roslynator Namespace
+### Classes
 
 * [DiagnosticsExtensions](../../docs/api/Roslynator/DiagnosticsExtensions/README.md)
 * [EnumExtensions](../../docs/api/Roslynator/EnumExtensions/README.md)
 * [FileLinePositionSpanExtensions](../../docs/api/Roslynator/FileLinePositionSpanExtensions/README.md)
+* [MetadataNameEqualityComparer\<TSymbol>](../../docs/api/Roslynator/MetadataNameEqualityComparer-1/README.md)
+* [NameGenerator](../../docs/api/Roslynator/NameGenerator/README.md)
 * [SemanticModelExtensions](../../docs/api/Roslynator/SemanticModelExtensions/README.md)
+* [SeparatedSyntaxListSelection\<TNode>](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/README.md)
 * [SymbolExtensions](../../docs/api/Roslynator/SymbolExtensions/README.md)
 * [SyntaxExtensions](../../docs/api/Roslynator/SyntaxExtensions/README.md)
+* [SyntaxListSelection\<TNode>](../../docs/api/Roslynator/SyntaxListSelection-1/README.md)
 * [SyntaxTreeExtensions](../../docs/api/Roslynator/SyntaxTreeExtensions/README.md)
 
-## Structs
-
-#### Roslynator Namespace
+### Structs
 
 * [ExtensionMethodSymbolInfo](../../docs/api/Roslynator/ExtensionMethodSymbolInfo/README.md)
 * [MetadataName](../../docs/api/Roslynator/MetadataName/README.md)
 * [SeparatedSyntaxListSelection\<TNode>.Enumerator](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/Enumerator/README.md)
 * [SyntaxListSelection\<TNode>.Enumerator](../../docs/api/Roslynator/SyntaxListSelection-1/Enumerator/README.md)
 
-#### Roslynator\.Text Namespace
-
-* [TextLineCollectionSelection.Enumerator](../../docs/api/Roslynator/Text/TextLineCollectionSelection/Enumerator/README.md)
-
-## Interfaces
-
-#### Roslynator Namespace
+### Interfaces
 
 * [ISelection\<T>](../../docs/api/Roslynator/ISelection-1/README.md)
 
-## Enums
-
-#### Roslynator Namespace
+### Enums
 
 * [Visibility](../../docs/api/Roslynator/Visibility/README.md)
+
+## Roslynator\.Text Namespace
+
+### Classes
+
+* [TextLineCollectionSelection](../../docs/api/Roslynator/Text/TextLineCollectionSelection/README.md)
+
+### Structs
+
+* [TextLineCollectionSelection.Enumerator](../../docs/api/Roslynator/Text/TextLineCollectionSelection/Enumerator/README.md)

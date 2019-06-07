@@ -49,7 +49,6 @@ namespace Roslynator.CommandLine
             var documentationOptions = new DocumentationOptions(
                 ignoredNames: Options.IgnoredNames,
                 rootDirectoryUrl: Options.RootDirectoryUrl,
-                includeClassHierarchy: !Options.NoClassHierarchy,
                 placeSystemNamespaceFirst: !Options.NoPrecedenceForSystem,
                 markObsolete: !Options.NoMarkObsolete,
                 depth: Depth,

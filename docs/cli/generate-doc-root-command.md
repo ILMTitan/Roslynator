@@ -19,7 +19,6 @@ roslynator generate-doc-root
 [--include-system-namespace]
 [--language]
 [--msbuild-path]
-[--no-class-hierarchy]
 [--no-mark-obsolete]
 [--no-precedence-for-system]
 [-p|--properties]
@@ -58,7 +57,7 @@ Defines a depth of a documentation. Default value is `member`.
 
 Defines a list of metadata names that should be excluded from a documentation. Namespace of type names can be specified.
 
-**`[--ignored-parts]`** `{content namespaces classes static-classes structs interfaces enums delegates other}`
+**`[--ignored-parts]`** `{content namespaces class-hierarchy types other}`
 
 Defines parts of a root documentation that should be excluded.
 
@@ -81,10 +80,6 @@ Defines project language.
 **`--msbuild-path`** <MSBUILD_PATH>
 
 Defines a path to MSBuild. This option must be specified if there are multiple locations of MSBuild (usually multiple installations of Visual Studio).
-
-**`[--no-class-hierarchy]`**
-
-Indicates whether classes should be displayed as a list instead of hierarchy tree.
 
 **`[--no-mark-obsolete]`**
 

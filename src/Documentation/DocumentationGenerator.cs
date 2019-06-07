@@ -68,7 +68,6 @@ namespace Roslynator.Documentation
                         .Cast<RootDocumentationParts>()
                         .Where(f => f != RootDocumentationParts.None
                             && f != RootDocumentationParts.All
-                            && f != RootDocumentationParts.Types
                             && (Options.IgnoredRootParts & f) == 0)
                         .OrderBy(f => f, RootPartComparer)
                         .ToImmutableArray();
@@ -253,8 +252,6 @@ namespace Roslynator.Documentation
 
         private void GenerateRoot(DocumentationWriter writer, bool addExtensionsLink = false)
         {
-            SymbolDisplayFormat format = TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters;
-
             IEnumerable<INamedTypeSymbol> typeSymbols = DocumentationModel.Types.Where(f => !Options.ShouldBeIgnored(f));
 
             foreach (RootDocumentationParts part in EnabledAndSortedRootParts)
@@ -280,60 +277,29 @@ namespace Roslynator.Documentation
                             writer.WriteNamespaceList(namespaceSymbols, Resources.NamespacesTitle, 2);
                             break;
                         }
-                    case RootDocumentationParts.Classes:
+                    case RootDocumentationParts.ClassHierarchy:
                         {
-                            if (Options.IncludeClassHierarchy)
+                            if (typeSymbols.Any(f => !f.IsStatic && f.TypeKind == TypeKind.Class))
                             {
-                                if (typeSymbols.Any(f => !f.IsStatic && f.TypeKind == TypeKind.Class))
-                                {
-                                    INamedTypeSymbol objectType = DocumentationModel.Compilations[0].ObjectType;
+                                INamedTypeSymbol objectType = DocumentationModel.Compilations[0].ObjectType;
 
-                                    IEnumerable<INamedTypeSymbol> instanceClasses = typeSymbols.Where(f => !f.IsStatic && f.TypeKind == TypeKind.Class);
+                                IEnumerable<INamedTypeSymbol> instanceClasses = typeSymbols.Where(f => !f.IsStatic && f.TypeKind == TypeKind.Class);
 
-                                    writer.WriteHeading2(Resources.ClassHierarchyTitle);
+                                writer.WriteHeading2(Resources.ClassHierarchyTitle);
 
-                                    writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ClassHierarchy));
+                                writer.WriteClassHierarchy(objectType, instanceClasses, includeContainingNamespace: Options.IncludeContainingNamespace(IncludeContainingNamespaceFilter.ClassHierarchy));
 
-                                    writer.WriteLine();
-                                }
-                            }
-                            else
-                            {
-                                writer.WriteTypeListGroupedByNamespace(
-                                    typeSymbols.Where(f => f.TypeKind == TypeKind.Class),
-                                    heading: Resources.ClassesTitle,
-                                    headingLevel: 2);
-
-                                break;
+                                writer.WriteLine();
                             }
 
                             break;
                         }
-                    case RootDocumentationParts.StaticClasses:
+                    case RootDocumentationParts.Types:
                         {
-                            if (Options.IncludeClassHierarchy)
-                                WriteTypesImpl(f => f.IsStatic && f.TypeKind == TypeKind.Class, Resources.StaticClassesTitle);
+                            writer.WriteTypeListGroupedByNamespace(
+                                typeSymbols,
+                                headingLevel: 2);
 
-                            break;
-                        }
-                    case RootDocumentationParts.Structs:
-                        {
-                            WriteTypes(TypeKind.Struct);
-                            break;
-                        }
-                    case RootDocumentationParts.Interfaces:
-                        {
-                            WriteTypes(TypeKind.Interface);
-                            break;
-                        }
-                    case RootDocumentationParts.Enums:
-                        {
-                            WriteTypes(TypeKind.Enum);
-                            break;
-                        }
-                    case RootDocumentationParts.Delegates:
-                        {
-                            WriteTypes(TypeKind.Delegate);
                             break;
                         }
                     case RootDocumentationParts.Other:
@@ -351,64 +317,22 @@ namespace Roslynator.Documentation
                 }
             }
 
-            void WriteTypes(TypeKind typeKind)
-            {
-                WriteTypesImpl(f => f.TypeKind == typeKind, Resources.GetPluralName(typeKind));
-            }
-
-            void WriteTypesImpl(Func<INamedTypeSymbol, bool> predicate, string heading)
-            {
-                writer.WriteTypeListGroupedByNamespace(
-                    typeSymbols.Where(predicate),
-                    heading: heading,
-                    headingLevel: 2);
-            }
-
             bool HasContent(RootDocumentationParts part)
             {
                 switch (part)
                 {
                     case RootDocumentationParts.Content:
-                        {
-                            return false;
-                        }
+                        return false;
                     case RootDocumentationParts.Namespaces:
-                        {
-                            return typeSymbols.Any();
-                        }
-                    case RootDocumentationParts.Classes:
-                        {
-                            return typeSymbols.Any(f => !f.IsStatic && f.TypeKind == TypeKind.Class);
-                        }
-                    case RootDocumentationParts.StaticClasses:
-                        {
-                            return Options.IncludeClassHierarchy
-                                && typeSymbols.Any(f => f.IsStatic && f.TypeKind == TypeKind.Class);
-                        }
-                    case RootDocumentationParts.Structs:
-                        {
-                            return typeSymbols.Any(f => f.TypeKind == TypeKind.Struct);
-                        }
-                    case RootDocumentationParts.Interfaces:
-                        {
-                            return typeSymbols.Any(f => f.TypeKind == TypeKind.Interface);
-                        }
-                    case RootDocumentationParts.Enums:
-                        {
-                            return typeSymbols.Any(f => f.TypeKind == TypeKind.Enum);
-                        }
-                    case RootDocumentationParts.Delegates:
-                        {
-                            return typeSymbols.Any(f => f.TypeKind == TypeKind.Delegate);
-                        }
+                        return typeSymbols.Any();
+                    case RootDocumentationParts.ClassHierarchy:
+                        return typeSymbols.Any(f => !f.IsStatic && f.TypeKind == TypeKind.Class);
+                    case RootDocumentationParts.Types:
+                        return false;
                     case RootDocumentationParts.Other:
-                        {
-                            return addExtensionsLink;
-                        }
+                        return addExtensionsLink;
                     default:
-                        {
-                            throw new InvalidOperationException();
-                        }
+                        throw new InvalidOperationException();
                 }
             }
         }
@@ -607,26 +531,12 @@ namespace Roslynator.Documentation
                 writer.WriteContentSeparator();
                 writer.WriteLink(Resources.NamespacesTitle, UrlProvider.GetFragment(Resources.NamespacesTitle));
 
-                writer.WriteContent(extendedExternalTypes
-                    .Select(f => f.TypeKind.ToNamespaceDocumentationPart())
-                    .Where(f => (Options.IgnoredNamespaceParts & f) == 0)
-                    .Distinct()
-                    .OrderBy(f => f, NamespacePartComparer)
-                    .Select(f => Resources.GetHeading(f)), beginWithSeparator: true);
-
                 writer.WriteNamespaceList(namespaces, Resources.NamespacesTitle, 2);
 
-                foreach (IGrouping<TypeKind, INamedTypeSymbol> typesByKind in extendedExternalTypes
-                    .Where(f => (Options.IgnoredNamespaceParts & f.TypeKind.ToNamespaceDocumentationPart()) == 0)
-                    .GroupBy(f => f.TypeKind)
-                    .OrderBy(f => f.Key.ToNamespaceDocumentationPart(), NamespacePartComparer))
-                {
-                    writer.WriteTypeListGroupedByNamespace(
-                        typesByKind,
-                        Resources.GetPluralName(typesByKind.Key),
-                        headingLevel: 2,
-                        canCreateExternalUrl: false);
-                }
+                writer.WriteTypeListGroupedByNamespace(
+                    extendedExternalTypes,
+                    headingLevel: 2,
+                    canCreateExternalUrl: false);
 
                 writer.WriteEndDocument();
 

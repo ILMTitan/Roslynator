@@ -17,7 +17,6 @@ namespace Roslynator.Documentation
             string preferredCultureName = null,
             string rootDirectoryUrl = null,
             int maxDerivedTypes = DefaultValues.MaxDerivedTypes,
-            bool includeClassHierarchy = DefaultValues.IncludeClassHierarchy,
             bool includeSystemNamespace = DefaultValues.IncludeSystemNamespace,
             bool placeSystemNamespaceFirst = DefaultValues.PlaceSystemNamespaceFirst,
             bool formatDeclarationBaseList = DefaultValues.FormatDeclarationBaseList,
@@ -50,7 +49,6 @@ namespace Roslynator.Documentation
             PreferredCultureName = preferredCultureName;
             RootDirectoryUrl = rootDirectoryUrl;
             MaxDerivedTypes = maxDerivedTypes;
-            IncludeClassHierarchy = includeClassHierarchy;
             IncludeSystemNamespace = includeSystemNamespace;
             PlaceSystemNamespaceFirst = placeSystemNamespaceFirst;
             FormatDeclarationBaseList = formatDeclarationBaseList;
@@ -168,7 +166,6 @@ namespace Roslynator.Documentation
             public const InheritanceStyle InheritanceStyle = Documentation.InheritanceStyle.Horizontal;
             public const bool IncludeAllDerivedTypes = false;
             public const bool IncludeAttributeArguments = true;
-            public const bool IncludeClassHierarchy = true;
             public const bool IncludeInheritedAttributes = true;
             public const bool IncludeInheritedInterfaceMembers = false;
             public const bool IncludeMemberConstantValue = true;

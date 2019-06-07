@@ -1,14 +1,14 @@
 # Roslynator\.CSharp\.Workspaces
 
-[Namespaces](#namespaces) &#x2022; [Static Classes](#static-classes)
+[Namespaces](#namespaces)
 
 ## Namespaces
 
 * [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md)
 
-## Static Classes
+## Roslynator\.CSharp Namespace
 
-#### Roslynator\.CSharp Namespace
+### Classes
 
 * [SyntaxInverter](../../docs/api/Roslynator/CSharp/SyntaxInverter/README.md)
 * [WorkspaceExtensions](../../docs/api/Roslynator/CSharp/WorkspaceExtensions/README.md)

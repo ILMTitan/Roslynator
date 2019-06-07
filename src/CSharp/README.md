@@ -1,6 +1,6 @@
 # Roslynator\.CSharp
 
-[Namespaces](#namespaces) &#x2022; [Classes](#classes) &#x2022; [Static Classes](#static-classes) &#x2022; [Structs](#structs) &#x2022; [Enums](#enums)
+[Namespaces](#namespaces) &#x2022; [Class Hierarchy](#class-hierarchy)
 
 ## Namespaces
 
@@ -15,23 +15,24 @@
 * &emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)
 * &emsp; \| &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)
 
-## Static Classes
+## Roslynator\.CSharp Namespace
 
-#### Roslynator\.CSharp Namespace
+### Classes
 
 * [CSharpExtensions](../../docs/api/Roslynator/CSharp/CSharpExtensions/README.md)
 * [CSharpFactory](../../docs/api/Roslynator/CSharp/CSharpFactory/README.md)
 * [CSharpFacts](../../docs/api/Roslynator/CSharp/CSharpFacts/README.md)
+* [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)
 * [ModifierList](../../docs/api/Roslynator/CSharp/ModifierList/README.md)
+* [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)
 * [Modifiers](../../docs/api/Roslynator/CSharp/Modifiers/README.md)
+* [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)
 * [SymbolExtensions](../../docs/api/Roslynator/CSharp/SymbolExtensions/README.md)
 * [SyntaxAccessibility](../../docs/api/Roslynator/CSharp/SyntaxAccessibility/README.md)
 * [SyntaxExtensions](../../docs/api/Roslynator/CSharp/SyntaxExtensions/README.md)
 * [SyntaxInfo](../../docs/api/Roslynator/CSharp/SyntaxInfo/README.md)
 
-## Structs
-
-#### Roslynator\.CSharp Namespace
+### Structs
 
 * [ExpressionChain](../../docs/api/Roslynator/CSharp/ExpressionChain/README.md)
 * [ExpressionChain.Enumerator](../../docs/api/Roslynator/CSharp/ExpressionChain/Enumerator/README.md)
@@ -42,7 +43,16 @@
 * [IfStatementCascadeInfo](../../docs/api/Roslynator/CSharp/IfStatementCascadeInfo/README.md)
 * [IfStatementOrElseClause](../../docs/api/Roslynator/CSharp/IfStatementOrElseClause/README.md)
 
-#### Roslynator\.CSharp\.Syntax Namespace
+### Enums
+
+* [CommentFilter](../../docs/api/Roslynator/CSharp/CommentFilter/README.md)
+* [ModifierFilter](../../docs/api/Roslynator/CSharp/ModifierFilter/README.md)
+* [NullCheckStyles](../../docs/api/Roslynator/CSharp/NullCheckStyles/README.md)
+* [PreprocessorDirectiveFilter](../../docs/api/Roslynator/CSharp/PreprocessorDirectiveFilter/README.md)
+
+## Roslynator\.CSharp\.Syntax Namespace
+
+### Structs
 
 * [AsExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AsExpressionInfo/README.md)
 * [AssignmentExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AssignmentExpressionInfo/README.md)
@@ -67,12 +77,3 @@
 * [StringLiteralExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/StringLiteralExpressionInfo/README.md)
 * [UsingDirectiveListInfo](../../docs/api/Roslynator/CSharp/Syntax/UsingDirectiveListInfo/README.md)
 * [XmlElementInfo](../../docs/api/Roslynator/CSharp/Syntax/XmlElementInfo/README.md)
-
-## Enums
-
-#### Roslynator\.CSharp Namespace
-
-* [CommentFilter](../../docs/api/Roslynator/CSharp/CommentFilter/README.md)
-* [ModifierFilter](../../docs/api/Roslynator/CSharp/ModifierFilter/README.md)
-* [NullCheckStyles](../../docs/api/Roslynator/CSharp/NullCheckStyles/README.md)
-* [PreprocessorDirectiveFilter](../../docs/api/Roslynator/CSharp/PreprocessorDirectiveFilter/README.md)

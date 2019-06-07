@@ -62,7 +62,6 @@ namespace Roslynator.CommandLine
                 ignoredNames: Options.IgnoredNames,
                 preferredCultureName: Options.PreferredCulture,
                 maxDerivedTypes: Options.MaxDerivedTypes,
-                includeClassHierarchy: !Options.NoClassHierarchy,
                 placeSystemNamespaceFirst: !Options.NoPrecedenceForSystem,
                 formatDeclarationBaseList: !Options.NoFormatBaseList,
                 formatDeclarationConstraints: !Options.NoFormatConstraints,

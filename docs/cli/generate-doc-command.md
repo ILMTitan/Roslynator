@@ -28,7 +28,6 @@ roslynator generate-doc <PROJECT|SOLUTION>
 [--language]
 [--max-derived-types]
 [--msbuild-path]
-[--no-class-hierarchy]
 [--no-delete]
 [--no-format-base-list]
 [--no-format-constraints]
@@ -92,7 +91,7 @@ Defines parts of a namespace documentation that should be excluded.
 
 Defines projects that should be skipped.
 
-**`[--ignored-root-parts]`** `{content namespaces classes static-classes structs interfaces enums delegates other}`
+**`[--ignored-root-parts]`** `{content namespaces class-hierarchy types other}`
 
 Defines parts of a root documentation that should be excluded.
 
@@ -135,10 +134,6 @@ Defines maximum number derived types that should be displayed. Default value is 
 **`--msbuild-path`** <MSBUILD_PATH>
 
 Defines a path to MSBuild. This option must be specified if there are multiple locations of MSBuild (usually multiple installations of Visual Studio).
-
-**`[--no-class-hierarchy]`**
-
-Indicates whether classes should be displayed as a list instead of hierarchy tree.
 
 **`[--no-delete]`**
 

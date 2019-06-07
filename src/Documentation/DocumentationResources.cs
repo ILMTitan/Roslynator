@@ -279,18 +279,8 @@ namespace Roslynator.Documentation
             {
                 case RootDocumentationParts.Namespaces:
                     return NamespacesTitle;
-                case RootDocumentationParts.Classes:
-                    return ClassesTitle;
-                case RootDocumentationParts.StaticClasses:
-                    return StaticClassesTitle;
-                case RootDocumentationParts.Structs:
-                    return StructsTitle;
-                case RootDocumentationParts.Interfaces:
-                    return InterfacesTitle;
-                case RootDocumentationParts.Enums:
-                    return EnumsTitle;
-                case RootDocumentationParts.Delegates:
-                    return DelegatesTitle;
+                case RootDocumentationParts.ClassHierarchy:
+                    return ClassHierarchyTitle;
                 case RootDocumentationParts.Other:
                     return OtherTitle;
                 default:
