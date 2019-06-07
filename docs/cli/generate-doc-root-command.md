@@ -66,7 +66,7 @@ Defines parts of a root documentation that should be excluded.
 
 Defines projects that should be skipped.
 
-**`[--include-containing-namespace]`** `{type-list class-hierarchy all}`
+**`[--include-containing-namespace]`** `{class-hierarchy}`
 
 Defines parts of a documentation that should include containing namespace.
 

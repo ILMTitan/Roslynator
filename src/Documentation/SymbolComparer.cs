@@ -8,40 +8,33 @@ namespace Roslynator.Documentation
 {
     internal sealed class SymbolComparer : IComparer<ISymbol>
     {
-        private SymbolComparer(SymbolDisplayFormat format, SymbolDefinitionSortOptions options, SymbolDisplayAdditionalMemberOptions additionalOptions)
+        private SymbolComparer(SymbolDisplayFormat format, bool systemNamespaceFirst, bool includeNamespaces, SymbolDisplayAdditionalMemberOptions additionalOptions)
         {
             Format = format;
-            Options = options;
+            SystemNamespaceFirst = systemNamespaceFirst;
+            IncludeNamespaces = includeNamespaces;
             AdditionalOptions = additionalOptions;
         }
+
+        internal static SymbolComparer TypeWithoutNamespace { get; } = new SymbolComparer(TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters, systemNamespaceFirst: false, includeNamespaces: false, SymbolDisplayAdditionalMemberOptions.None);
 
         public static SymbolComparer Create(
             bool systemNamespaceFirst = true,
             bool includeNamespaces = true,
-            bool includeContainingTypes = true,
             SymbolDisplayAdditionalMemberOptions additionalOptions = SymbolDisplayAdditionalMemberOptions.None)
         {
-            var options = SymbolDefinitionSortOptions.None;
-
-            if (systemNamespaceFirst)
-                options |= SymbolDefinitionSortOptions.SystemFirst;
-
-            if (!includeNamespaces)
-                options |= SymbolDefinitionSortOptions.OmitContainingNamespace;
-
-            if (!includeContainingTypes)
-                options |= SymbolDefinitionSortOptions.OmitContainingType;
-
-            SymbolDisplayFormat format = TypeSymbolDisplayFormats.GetFormat(
-                includeNamespaces: false,
-                includeContainingTypes: includeContainingTypes);
-
-            return new SymbolComparer(format, options, additionalOptions);
+            return new SymbolComparer(
+                TypeSymbolDisplayFormats.GetFormat(includeNamespaces: false),
+                systemNamespaceFirst: systemNamespaceFirst,
+                includeNamespaces: includeNamespaces,
+                additionalOptions: additionalOptions);
         }
 
         public SymbolDisplayFormat Format { get; }
 
-        public SymbolDefinitionSortOptions Options { get; }
+        public bool SystemNamespaceFirst { get; }
+
+        public bool IncludeNamespaces { get; }
 
         public SymbolDisplayAdditionalMemberOptions AdditionalOptions { get; }
 
@@ -58,9 +51,9 @@ namespace Roslynator.Documentation
 
             int diff = 0;
 
-            if ((Options & SymbolDefinitionSortOptions.OmitContainingNamespace) == 0)
+            if (IncludeNamespaces)
             {
-                if ((Options & SymbolDefinitionSortOptions.SystemFirst) != 0)
+                if (SystemNamespaceFirst)
                 {
                     diff = SymbolDefinitionComparer.SystemFirst.CompareContainingNamespace(x, y);
                 }

@@ -19,6 +19,8 @@
 
 ## Static Classes
 
+#### Roslynator Namespace
+
 * [DiagnosticsExtensions](../../docs/api/Roslynator/DiagnosticsExtensions/README.md)
 * [EnumExtensions](../../docs/api/Roslynator/EnumExtensions/README.md)
 * [FileLinePositionSpanExtensions](../../docs/api/Roslynator/FileLinePositionSpanExtensions/README.md)
@@ -29,16 +31,25 @@
 
 ## Structs
 
+#### Roslynator Namespace
+
 * [ExtensionMethodSymbolInfo](../../docs/api/Roslynator/ExtensionMethodSymbolInfo/README.md)
 * [MetadataName](../../docs/api/Roslynator/MetadataName/README.md)
 * [SeparatedSyntaxListSelection\<TNode>.Enumerator](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/Enumerator/README.md)
 * [SyntaxListSelection\<TNode>.Enumerator](../../docs/api/Roslynator/SyntaxListSelection-1/Enumerator/README.md)
+
+#### Roslynator\.Text Namespace
+
 * [TextLineCollectionSelection.Enumerator](../../docs/api/Roslynator/Text/TextLineCollectionSelection/Enumerator/README.md)
 
 ## Interfaces
 
+#### Roslynator Namespace
+
 * [ISelection\<T>](../../docs/api/Roslynator/ISelection-1/README.md)
 
 ## Enums
+
+#### Roslynator Namespace
 
 * [Visibility](../../docs/api/Roslynator/Visibility/README.md)

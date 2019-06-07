@@ -8,4 +8,6 @@
 
 ## Static Classes
 
+#### Roslynator Namespace
+
 * [WorkspaceExtensions](../../docs/api/Roslynator/WorkspaceExtensions/README.md)

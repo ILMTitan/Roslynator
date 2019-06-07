@@ -17,6 +17,8 @@
 
 ## Static Classes
 
+#### Roslynator\.CSharp Namespace
+
 * [CSharpExtensions](../../docs/api/Roslynator/CSharp/CSharpExtensions/README.md)
 * [CSharpFactory](../../docs/api/Roslynator/CSharp/CSharpFactory/README.md)
 * [CSharpFacts](../../docs/api/Roslynator/CSharp/CSharpFacts/README.md)
@@ -29,19 +31,24 @@
 
 ## Structs
 
-* [AsExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AsExpressionInfo/README.md)
-* [AssignmentExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AssignmentExpressionInfo/README.md)
-* [BinaryExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/BinaryExpressionInfo/README.md)
-* [ConditionalExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/ConditionalExpressionInfo/README.md)
+#### Roslynator\.CSharp Namespace
+
 * [ExpressionChain](../../docs/api/Roslynator/CSharp/ExpressionChain/README.md)
 * [ExpressionChain.Enumerator](../../docs/api/Roslynator/CSharp/ExpressionChain/Enumerator/README.md)
 * [ExpressionChain.Reversed](../../docs/api/Roslynator/CSharp/ExpressionChain/Reversed/README.md)
 * [ExpressionChain.Reversed.Enumerator](../../docs/api/Roslynator/CSharp/ExpressionChain/Reversed/Enumerator/README.md)
-* [GenericInfo](../../docs/api/Roslynator/CSharp/Syntax/GenericInfo/README.md)
 * [IfStatementCascade](../../docs/api/Roslynator/CSharp/IfStatementCascade/README.md)
 * [IfStatementCascade.Enumerator](../../docs/api/Roslynator/CSharp/IfStatementCascade/Enumerator/README.md)
 * [IfStatementCascadeInfo](../../docs/api/Roslynator/CSharp/IfStatementCascadeInfo/README.md)
 * [IfStatementOrElseClause](../../docs/api/Roslynator/CSharp/IfStatementOrElseClause/README.md)
+
+#### Roslynator\.CSharp\.Syntax Namespace
+
+* [AsExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AsExpressionInfo/README.md)
+* [AssignmentExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/AssignmentExpressionInfo/README.md)
+* [BinaryExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/BinaryExpressionInfo/README.md)
+* [ConditionalExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/ConditionalExpressionInfo/README.md)
+* [GenericInfo](../../docs/api/Roslynator/CSharp/Syntax/GenericInfo/README.md)
 * [IsExpressionInfo](../../docs/api/Roslynator/CSharp/Syntax/IsExpressionInfo/README.md)
 * [LocalDeclarationStatementInfo](../../docs/api/Roslynator/CSharp/Syntax/LocalDeclarationStatementInfo/README.md)
 * [MemberDeclarationListInfo](../../docs/api/Roslynator/CSharp/Syntax/MemberDeclarationListInfo/README.md)
@@ -62,6 +69,8 @@
 * [XmlElementInfo](../../docs/api/Roslynator/CSharp/Syntax/XmlElementInfo/README.md)
 
 ## Enums
+
+#### Roslynator\.CSharp Namespace
 
 * [CommentFilter](../../docs/api/Roslynator/CSharp/CommentFilter/README.md)
 * [ModifierFilter](../../docs/api/Roslynator/CSharp/ModifierFilter/README.md)

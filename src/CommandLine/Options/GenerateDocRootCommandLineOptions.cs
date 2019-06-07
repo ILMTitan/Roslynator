@@ -9,7 +9,7 @@ namespace Roslynator.CommandLine
     public class GenerateDocRootCommandLineOptions : AbstractGenerateDocCommandLineOptions
     {
         [Option(longName: ParameterNames.IncludeContainingNamespace,
-            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are type-list, class-hierarchy and all.",
+            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are class-hierarchy.",
             MetaValue = "<INCLUDE_CONTAINING_NAMESPACE>")]
         public IEnumerable<string> IncludeContainingNamespace { get; set; }
 

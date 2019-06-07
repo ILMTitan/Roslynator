@@ -1134,8 +1134,7 @@ namespace Roslynator.Documentation
             bool addBaseType = true,
             int maxItems = -1,
             string allItemsHeading = null,
-            string allItemsLinkTitle = null,
-            int addSeparatorAtIndex = -1)
+            string allItemsLinkTitle = null)
         {
             if (maxItems == 0)
                 return;
@@ -1207,17 +1206,6 @@ namespace Roslynator.Documentation
                     WriteEndBulletItem();
 
                     count++;
-
-                    if (addSeparatorAtIndex == count)
-                    {
-                        WriteStartBulletItem();
-                        WriteEntityRef("mdash");
-                        WriteEntityRef("mdash");
-                        WriteEntityRef("mdash");
-                        WriteEntityRef("mdash");
-                        WriteEntityRef("mdash");
-                        WriteEndBulletItem();
-                    }
                 }
 
                 level++;
@@ -1495,14 +1483,15 @@ namespace Roslynator.Documentation
             string allItemsLinkTitle = null,
             bool includeContainingNamespace = false,
             bool addLinkForTypeParameters = false,
-            bool canCreateExternalUrl = true)
+            bool canCreateExternalUrl = true,
+            int addSeparatorAtIndex = -1)
         {
             if (maxItems == 0)
                 return;
 
             using (IEnumerator<INamedTypeSymbol> en = symbols
-                    .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: includeContainingNamespace))
-                    .GetEnumerator())
+                .OrderBy(f => f, SymbolComparer.Create(systemNamespaceFirst: Options.PlaceSystemNamespaceFirst, includeNamespaces: includeContainingNamespace))
+                .GetEnumerator())
             {
                 if (en.MoveNext())
                 {
@@ -1544,10 +1533,61 @@ namespace Roslynator.Documentation
 
                             break;
                         }
+
+                        if (addSeparatorAtIndex == count)
+                        {
+                            WriteStartBulletItem();
+                            WriteEntityRef("mdash");
+                            WriteEntityRef("mdash");
+                            WriteEntityRef("mdash");
+                            WriteEntityRef("mdash");
+                            WriteEntityRef("mdash");
+                            WriteEndBulletItem();
+                        }
                     }
                     while (en.MoveNext());
 
                     WriteEndBulletList();
+                }
+            }
+        }
+
+        internal void WriteTypeListGroupedByNamespace(
+            IEnumerable<INamedTypeSymbol> symbols,
+            string heading,
+            int headingLevel,
+            bool addLinkForTypeParameters = false,
+            bool canCreateExternalUrl = true)
+        {
+            using (IEnumerator<IGrouping<INamespaceSymbol, INamedTypeSymbol>> en = symbols
+                .GroupBy(f => f.ContainingNamespace, MetadataNameEqualityComparer<INamespaceSymbol>.Instance)
+                .OrderBy(f => f.Key, (Options.PlaceSystemNamespaceFirst) ? SymbolDefinitionComparer.SystemFirst : SymbolDefinitionComparer.Default)
+                .GetEnumerator())
+            {
+                if (en.MoveNext())
+                {
+                    if (heading != null)
+                        WriteHeading(headingLevel, heading);
+
+                    do
+                    {
+                        WriteStartHeading(4);
+                        WriteSymbol(en.Current.Key, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces);
+                        WriteSpace();
+                        WriteString(Resources.NamespaceTitle);
+                        WriteEndHeading();
+                        WriteStartBulletList();
+
+                        foreach (INamedTypeSymbol symbol in en.Current.OrderBy(f => f, SymbolDefinitionComparer.SystemFirstOmitContainingNamespace))
+                        {
+                            WriteStartBulletItem();
+                            WriteTypeListItem(symbol, ImmutableHashSet<INamedTypeSymbol>.Empty, addLinkForTypeParameters: addLinkForTypeParameters, canCreateExternalUrl: canCreateExternalUrl);
+                            WriteEndBulletItem();
+                        }
+
+                        WriteEndBulletList();
+
+                    } while (en.MoveNext());
                 }
             }
         }

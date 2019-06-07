@@ -40,7 +40,7 @@ namespace Roslynator.CommandLine
         public bool IncludeAllDerivedTypes { get; set; }
 
         [Option(longName: ParameterNames.IncludeContainingNamespace,
-            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are type-list, class-hierarchy, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
+            HelpText = "Defines parts of a documentation that should include containing namespace. Allowed values are class-hierarchy, containing-type, parameter, return-type, base-type, attribute, derived-type, implemented-interface, implemented-member, exception, see-also and all.",
             MetaValue = "<INCLUDE_CONTAINING_NAMESPACE>")]
         public IEnumerable<string> IncludeContainingNamespace { get; set; }
 

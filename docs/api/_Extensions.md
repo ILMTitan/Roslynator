@@ -11,6 +11,16 @@
 
 ## Classes
 
+#### Microsoft\.CodeAnalysis Namespace
+
+* [Document](Microsoft/CodeAnalysis/Document/README.md)
+* [SemanticModel](Microsoft/CodeAnalysis/SemanticModel/README.md)
+* [Solution](Microsoft/CodeAnalysis/Solution/README.md)
+* [SyntaxNode](Microsoft/CodeAnalysis/SyntaxNode/README.md)
+* [SyntaxTree](Microsoft/CodeAnalysis/SyntaxTree/README.md)
+
+#### Microsoft\.CodeAnalysis\.CSharp\.Syntax Namespace
+
 * [AccessorDeclarationSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/AccessorDeclarationSyntax/README.md)
 * [AccessorListSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/AccessorListSyntax/README.md)
 * [BinaryExpressionSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/BinaryExpressionSyntax/README.md)
@@ -23,7 +33,6 @@
 * [DelegateDeclarationSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/DelegateDeclarationSyntax/README.md)
 * [DestructorDeclarationSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/DestructorDeclarationSyntax/README.md)
 * [DirectiveTriviaSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/DirectiveTriviaSyntax/README.md)
-* [Document](Microsoft/CodeAnalysis/Document/README.md)
 * [DocumentationCommentTriviaSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/DocumentationCommentTriviaSyntax/README.md)
 * [ElseClauseSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/ElseClauseSyntax/README.md)
 * [EndRegionDirectiveTriviaSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/EndRegionDirectiveTriviaSyntax/README.md)
@@ -43,35 +52,41 @@
 * [ParameterSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/ParameterSyntax/README.md)
 * [PropertyDeclarationSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/PropertyDeclarationSyntax/README.md)
 * [RegionDirectiveTriviaSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/RegionDirectiveTriviaSyntax/README.md)
-* [SemanticModel](Microsoft/CodeAnalysis/SemanticModel/README.md)
-* [Solution](Microsoft/CodeAnalysis/Solution/README.md)
 * [StatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/StatementSyntax/README.md)
 * [StructDeclarationSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/StructDeclarationSyntax/README.md)
 * [SwitchSectionSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/SwitchSectionSyntax/README.md)
 * [SwitchStatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/SwitchStatementSyntax/README.md)
-* [SyntaxNode](Microsoft/CodeAnalysis/SyntaxNode/README.md)
-* [SyntaxTree](Microsoft/CodeAnalysis/SyntaxTree/README.md)
 * [TypeSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/TypeSyntax/README.md)
 * [UsingStatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/UsingStatementSyntax/README.md)
 * [YieldStatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/YieldStatementSyntax/README.md)
 
 ## Structs
 
+#### Microsoft\.CodeAnalysis Namespace
+
 * [FileLinePositionSpan](Microsoft/CodeAnalysis/FileLinePositionSpan/README.md)
 * [SeparatedSyntaxList\<TNode>](Microsoft/CodeAnalysis/SeparatedSyntaxList-1/README.md)
-* [SymbolAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SymbolAnalysisContext/README.md)
 * [SyntaxList\<TNode>](Microsoft/CodeAnalysis/SyntaxList-1/README.md)
-* [SyntaxNodeAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SyntaxNodeAnalysisContext/README.md)
 * [SyntaxNodeOrToken](Microsoft/CodeAnalysis/SyntaxNodeOrToken/README.md)
 * [SyntaxToken](Microsoft/CodeAnalysis/SyntaxToken/README.md)
 * [SyntaxTokenList](Microsoft/CodeAnalysis/SyntaxTokenList/README.md)
-* [SyntaxTreeAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SyntaxTreeAnalysisContext/README.md)
 * [SyntaxTrivia](Microsoft/CodeAnalysis/SyntaxTrivia/README.md)
 * [SyntaxTriviaList](Microsoft/CodeAnalysis/SyntaxTriviaList/README.md)
 
+#### Microsoft\.CodeAnalysis\.Diagnostics Namespace
+
+* [SymbolAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SymbolAnalysisContext/README.md)
+* [SyntaxNodeAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SyntaxNodeAnalysisContext/README.md)
+* [SyntaxTreeAnalysisContext](Microsoft/CodeAnalysis/Diagnostics/SyntaxTreeAnalysisContext/README.md)
+
 ## Interfaces
 
+#### System\.Collections\.Generic Namespace
+
 * [IEnumerable\<T>](System/Collections/Generic/IEnumerable-1/README.md)
+
+#### Microsoft\.CodeAnalysis Namespace
+
 * [IFieldSymbol](Microsoft/CodeAnalysis/IFieldSymbol/README.md)
 * [IMethodSymbol](Microsoft/CodeAnalysis/IMethodSymbol/README.md)
 * [INamedTypeSymbol](Microsoft/CodeAnalysis/INamedTypeSymbol/README.md)
@@ -82,5 +97,7 @@
 * [ITypeSymbol](Microsoft/CodeAnalysis/ITypeSymbol/README.md)
 
 ## Enums
+
+#### Microsoft\.CodeAnalysis Namespace
 
 * [Accessibility](Microsoft/CodeAnalysis/Accessibility/README.md)
