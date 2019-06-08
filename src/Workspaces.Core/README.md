@@ -6,7 +6,7 @@
 
 * [Roslynator](../../docs/api/Roslynator/README.md)
 
-## Roslynator Namespace
+## [Roslynator](../../docs/api/Roslynator/README.md) Namespace
 
 ### Classes
 

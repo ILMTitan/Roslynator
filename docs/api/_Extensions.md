@@ -9,13 +9,13 @@
 * [Microsoft.CodeAnalysis.CSharp.Syntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax)
 * [Microsoft.CodeAnalysis.Diagnostics](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics)
 
-## System\.Collections\.Generic Namespace
+## [System.Collections.Generic](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic) Namespace
 
 ### Interfaces
 
 * [IEnumerable\<T>](System/Collections/Generic/IEnumerable-1/README.md)
 
-## Microsoft\.CodeAnalysis Namespace
+## [Microsoft.CodeAnalysis](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis) Namespace
 
 ### Classes
 
@@ -51,7 +51,7 @@
 
 * [Accessibility](Microsoft/CodeAnalysis/Accessibility/README.md)
 
-## Microsoft\.CodeAnalysis\.CSharp\.Syntax Namespace
+## [Microsoft.CodeAnalysis.CSharp.Syntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax) Namespace
 
 ### Classes
 
@@ -94,7 +94,7 @@
 * [UsingStatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/UsingStatementSyntax/README.md)
 * [YieldStatementSyntax](Microsoft/CodeAnalysis/CSharp/Syntax/YieldStatementSyntax/README.md)
 
-## Microsoft\.CodeAnalysis\.Diagnostics Namespace
+## [Microsoft.CodeAnalysis.Diagnostics](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.diagnostics) Namespace
 
 ### Structs
 

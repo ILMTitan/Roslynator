@@ -17,7 +17,7 @@
 * &emsp; [SyntaxListSelection\<TNode>](../../docs/api/Roslynator/SyntaxListSelection-1/README.md)
 * &emsp; [TextLineCollectionSelection](../../docs/api/Roslynator/Text/TextLineCollectionSelection/README.md)
 
-## Roslynator Namespace
+## [Roslynator](../../docs/api/Roslynator/README.md) Namespace
 
 ### Classes
 
@@ -48,7 +48,7 @@
 
 * [Visibility](../../docs/api/Roslynator/Visibility/README.md)
 
-## Roslynator\.Text Namespace
+## [Roslynator.Text](../../docs/api/Roslynator/Text/README.md) Namespace
 
 ### Classes
 

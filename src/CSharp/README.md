@@ -15,7 +15,7 @@
 * &emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)
 * &emsp; \| &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)
 
-## Roslynator\.CSharp Namespace
+## [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md) Namespace
 
 ### Classes
 
@@ -50,7 +50,7 @@
 * [NullCheckStyles](../../docs/api/Roslynator/CSharp/NullCheckStyles/README.md)
 * [PreprocessorDirectiveFilter](../../docs/api/Roslynator/CSharp/PreprocessorDirectiveFilter/README.md)
 
-## Roslynator\.CSharp\.Syntax Namespace
+## [Roslynator.CSharp.Syntax](../../docs/api/Roslynator/CSharp/Syntax/README.md) Namespace
 
 ### Structs
 

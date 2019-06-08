@@ -22,7 +22,7 @@
 * &emsp; \| &emsp; [StatementListSelection](Roslynator/CSharp/StatementListSelection/README.md)
 * &emsp; [TextLineCollectionSelection](Roslynator/Text/TextLineCollectionSelection/README.md)
 
-## Roslynator Namespace
+## [Roslynator](Roslynator/README.md) Namespace
 
 ### Classes
 
@@ -54,7 +54,7 @@
 
 * [Visibility](Roslynator/Visibility/README.md)
 
-## Roslynator\.CSharp Namespace
+## [Roslynator.CSharp](Roslynator/CSharp/README.md) Namespace
 
 ### Classes
 
@@ -92,7 +92,7 @@
 * [NullCheckStyles](Roslynator/CSharp/NullCheckStyles/README.md)
 * [PreprocessorDirectiveFilter](Roslynator/CSharp/PreprocessorDirectiveFilter/README.md)
 
-## Roslynator\.CSharp\.Syntax Namespace
+## [Roslynator.CSharp.Syntax](Roslynator/CSharp/Syntax/README.md) Namespace
 
 ### Structs
 
@@ -120,7 +120,7 @@
 * [UsingDirectiveListInfo](Roslynator/CSharp/Syntax/UsingDirectiveListInfo/README.md)
 * [XmlElementInfo](Roslynator/CSharp/Syntax/XmlElementInfo/README.md)
 
-## Roslynator\.Text Namespace
+## [Roslynator.Text](Roslynator/Text/README.md) Namespace
 
 ### Classes
 

@@ -1564,7 +1564,7 @@ namespace Roslynator.Documentation
 )
             {
                 WriteStartHeading(headingLevel);
-                WriteSymbol(typesByNamespace.Key, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces);
+                WriteLink(typesByNamespace.Key, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces);
                 WriteSpace();
                 WriteString(Resources.NamespaceTitle);
                 WriteEndHeading();

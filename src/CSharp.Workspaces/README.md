@@ -6,7 +6,7 @@
 
 * [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md)
 
-## Roslynator\.CSharp Namespace
+## [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md) Namespace
 
 ### Classes
 
