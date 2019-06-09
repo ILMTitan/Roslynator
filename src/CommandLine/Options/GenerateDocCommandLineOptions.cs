@@ -22,7 +22,7 @@ namespace Roslynator.CommandLine
 
         [Option(longName: ParameterNames.IgnoredNamespaceParts,
             HelpText = "Defines parts of a namespace documentation that should be excluded. Allowed values are content, containing-namespace, summary, examples, remarks, classes, structs, interfaces, enums, delegates and see-also.",
-            MetaValue = "<IGNORED_MEMBER_PARTS>")]
+            MetaValue = "<IGNORED_NAMESPACE_PARTS>")]
         public IEnumerable<string> IgnoredNamespaceParts { get; set; }
 
         [Option(longName: ParameterNames.IgnoredRootParts,
@@ -108,5 +108,9 @@ namespace Roslynator.CommandLine
             HelpText = "Defines culture that should be used when searching for xml documentation files.",
             MetaValue = "<CULTURE_ID>")]
         public string PreferredCulture { get; set; }
+#if DEBUG
+        [Option(longName: "source-references")]
+        public IEnumerable<string> SourceReferences { get; set; }
+#endif
     }
 }

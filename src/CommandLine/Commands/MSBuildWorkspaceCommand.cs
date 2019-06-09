@@ -243,6 +243,21 @@ namespace Roslynator.CommandLine
         }
 
         private protected IEnumerable<Project> FilterProjects(
+            ProjectOrSolution projectOrSolution,
+            Func<Solution, ImmutableArray<ProjectId>> getProjects = null)
+        {
+            if (projectOrSolution.IsProject)
+            {
+                yield return projectOrSolution.AsProject();
+            }
+            else if (projectOrSolution.IsSolution)
+            {
+                foreach (Project project in FilterProjects(projectOrSolution.AsSolution(), getProjects))
+                    yield return project;
+            }
+        }
+
+        private protected IEnumerable<Project> FilterProjects(
             Solution solution,
             Func<Solution, ImmutableArray<ProjectId>> getProjects = null)
         {

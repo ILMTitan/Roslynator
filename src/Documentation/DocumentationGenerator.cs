@@ -22,11 +22,13 @@ namespace Roslynator.Documentation
             DocumentationModel documentationModel,
             DocumentationUrlProvider urlProvider,
             DocumentationOptions options = null,
+            SourceReferenceProvider sourceReferenceProvider = null,
             DocumentationResources resources = null)
         {
             DocumentationModel = documentationModel;
             UrlProvider = urlProvider;
             Options = options ?? DocumentationOptions.Default;
+            SourceReferenceProvider = sourceReferenceProvider;
             Resources = resources ?? DocumentationResources.Default;
         }
 
@@ -37,6 +39,8 @@ namespace Roslynator.Documentation
         public DocumentationResources Resources { get; }
 
         public DocumentationUrlProvider UrlProvider { get; }
+
+        public SourceReferenceProvider SourceReferenceProvider { get; }
 
         public virtual IComparer<RootDocumentationParts> RootPartComparer
         {
@@ -789,6 +793,13 @@ namespace Roslynator.Documentation
 
                                 break;
                             }
+                        case TypeDocumentationParts.SourceReferences:
+                            {
+                                if (SourceReferenceProvider != null)
+                                    writer.WriteVersions(typeSymbol, SourceReferenceProvider.GetSourceReferences(typeSymbol));
+
+                                break;
+                            }
                     }
                 }
 
@@ -825,6 +836,7 @@ namespace Roslynator.Documentation
                     case TypeDocumentationParts.Attributes:
                     case TypeDocumentationParts.Derived:
                     case TypeDocumentationParts.Implements:
+                    case TypeDocumentationParts.SourceReferences:
                         {
                             return false;
                         }
@@ -1063,6 +1075,13 @@ namespace Roslynator.Documentation
                             {
                                 if (xmlDocumentation != null)
                                     writer.WriteSeeAlso(symbol, xmlDocumentation, headingLevelBase: headingLevelBase);
+
+                                break;
+                            }
+                        case MemberDocumentationParts.SourceReferences:
+                            {
+                                if (SourceReferenceProvider != null)
+                                    writer.WriteVersions(symbol, SourceReferenceProvider.GetSourceReferences(symbol), headingLevelBase: headingLevelBase);
 
                                 break;
                             }

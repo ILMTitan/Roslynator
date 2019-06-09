@@ -1104,6 +1104,30 @@ namespace Roslynator.Documentation
             }
         }
 
+        public virtual void WriteVersions(ISymbol symbol, ImmutableArray<SourceReference> sourceReferences, int headingLevelBase = 0)
+        {
+            Debug.Assert(sourceReferences.Any(), symbol.ToDisplayString());
+
+            ImmutableArray<SourceReference>.Enumerator en = sourceReferences.GetEnumerator();
+
+            if (en.MoveNext())
+            {
+                WriteHeading(2 + headingLevelBase, "Versions");
+
+                WriteStartBulletList();
+
+                do
+                {
+                    WriteStartBulletItem();
+                    WriteLinkOrText(en.Current.Version, en.Current.Url);
+                    WriteEndBulletItem();
+                }
+                while (en.MoveNext());
+
+                WriteEndBulletList();
+            }
+        }
+
         internal void WriteSection(
             string heading,
             SymbolXmlDocumentation xmlDocumentation,

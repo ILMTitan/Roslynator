@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Immutable;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -88,7 +89,11 @@ namespace Roslynator.CommandLine
 
             var documentationModel = new DocumentationModel(compilations, DocumentationFilterOptions.Instance, Options.AdditionalXmlDocumentation);
 
-            var generator = new MarkdownDocumentationGenerator(documentationModel, WellKnownUrlProviders.GitHub, documentationOptions);
+            SourceReferenceProvider sourceReferenceProvider = (Options.SourceReferences.Any())
+                ? SourceReferenceProvider.Load(Options.SourceReferences)
+                : null;
+
+            var generator = new MarkdownDocumentationGenerator(documentationModel, WellKnownUrlProviders.GitHub, documentationOptions, sourceReferenceProvider);
 
             string directoryPath = Options.Output;
 
