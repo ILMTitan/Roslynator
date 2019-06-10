@@ -1104,7 +1104,7 @@ namespace Roslynator.Documentation
             }
         }
 
-        public virtual void WriteVersions(ISymbol symbol, ImmutableArray<SourceReference> sourceReferences, int headingLevelBase = 0)
+        public virtual void WriteAppliesTo(ISymbol symbol, ImmutableArray<SourceReference> sourceReferences, int headingLevelBase = 0)
         {
             Debug.Assert(sourceReferences.Any(), symbol.ToDisplayString());
 
@@ -1112,19 +1112,21 @@ namespace Roslynator.Documentation
 
             if (en.MoveNext())
             {
-                WriteHeading(2 + headingLevelBase, "Versions");
+                WriteHeading(2 + headingLevelBase, Resources.AppliesToTitle);
 
-                WriteStartBulletList();
-
-                do
+                while (true)
                 {
-                    WriteStartBulletItem();
                     WriteLinkOrText(en.Current.Version, en.Current.Url);
-                    WriteEndBulletItem();
-                }
-                while (en.MoveNext());
 
-                WriteEndBulletList();
+                    if (en.MoveNext())
+                    {
+                        WriteString(", ");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
             }
         }
 
@@ -1963,7 +1965,7 @@ namespace Roslynator.Documentation
                                         ImmutableArray<IMethodSymbol> explicitInterfaceImplementations = methodSymbol.ExplicitInterfaceImplementations;
 
                                         if (!explicitInterfaceImplementations.IsDefaultOrEmpty)
-                                            return model.GetExplicitInterfaceImplementations();
+                                            return model.GetExplicitImplementations();
 
                                         break;
                                     }
@@ -1981,7 +1983,7 @@ namespace Roslynator.Documentation
 
                                 if (!explicitInterfaceImplementations.IsDefaultOrEmpty)
                                 {
-                                    return model.GetExplicitInterfaceImplementations();
+                                    return model.GetExplicitImplementations();
                                 }
                                 else
                                 {

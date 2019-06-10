@@ -1,8 +1,10 @@
 ﻿// Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
+using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,7 +13,6 @@ using Microsoft.CodeAnalysis;
 using Roslynator.Documentation;
 using Roslynator.FindSymbols;
 using static Roslynator.Logger;
-using System.Collections.Immutable;
 
 namespace Roslynator.CommandLine
 {
@@ -40,7 +41,7 @@ namespace Roslynator.CommandLine
 
             var filter = new SymbolFilterOptions(Visibility.ToVisibilityFilter());
 
-            WriteLine($"Write source references to '{Options.Output}'", ConsoleColor.DarkGray, Verbosity.Diagnostic);
+            WriteLine($"Save source references to '{Options.Output}'.", Verbosity.Minimal);
 
             using (XmlWriter writer = XmlWriter.Create(Options.Output, new XmlWriterSettings() { Indent = true }))
             {
@@ -65,11 +66,16 @@ namespace Roslynator.CommandLine
                     {
                         WriteSymbol(writer, type, cancellationToken);
 
-                        foreach (ISymbol member in type
-                            .GetMembers()
-                            .Where(symbol => !symbol.IsKind(SymbolKind.NamedType) && filter.IsMatch(symbol)))
+                        foreach (ISymbol member in type.GetMembers())
                         {
-                            WriteSymbol(writer, member, cancellationToken);
+                            if (!member.IsKind(SymbolKind.NamedType))
+                            {
+                                if (filter.IsMatch(member)
+                                    || member.IsExplicitImplementation())
+                                {
+                                    WriteSymbol(writer, member, cancellationToken);
+                                }
+                            }
                         }
                     }
                 }
@@ -89,35 +95,52 @@ namespace Roslynator.CommandLine
 
             ImmutableArray<SyntaxReference> syntaxReferences = symbol.DeclaringSyntaxReferences;
 
-            if (syntaxReferences.Any())
+            Debug.Assert(syntaxReferences.Any() || IsImplicitConstructor(symbol), symbol.ToDisplayString());
+
+            ImmutableArray<SyntaxReference>.Enumerator en = syntaxReferences.GetEnumerator();
+
+            if (en.MoveNext())
             {
                 writer.WriteStartElement("locations");
 
-                foreach (SyntaxReference syntaxReference in syntaxReferences)
+                do
                 {
-                    SyntaxTree tree = syntaxReference.SyntaxTree;
+                    writer.WriteStartElement("location");
+
+                    SyntaxTree tree = en.Current.SyntaxTree;
 
                     string path = tree.FilePath;
 
                     if (path.StartsWith(Options.RootPath, StringComparison.OrdinalIgnoreCase))
-                    {
-                        path = path.Remove(0, Options.RootPath.Length);
-                    }
+                        path = path.Remove(0, Options.RootPath.Length).TrimStart(Path.DirectorySeparatorChar);
+
+                    if (Path.DirectorySeparatorChar == '\\')
+                        path = path.Replace(Path.DirectorySeparatorChar, '/');
 
                     Debug.Assert(path != null, symbol.ToDisplayString());
 
-                    int line = tree.GetLineSpan(syntaxReference.Span, cancellationToken).StartLine();
-
-                    writer.WriteStartElement("location");
                     writer.WriteAttributeString("path", path);
+
+                    int line = tree.GetLineSpan(en.Current.Span, cancellationToken).StartLine();
+
                     writer.WriteAttributeString("line", line.ToString(CultureInfo.InvariantCulture));
+
                     writer.WriteEndElement();
-                }
+
+                } while (en.MoveNext());
 
                 writer.WriteEndElement();
             }
 
             writer.WriteEndElement();
+        }
+
+        private static bool IsImplicitConstructor(ISymbol symbol)
+        {
+            return symbol is IMethodSymbol methodSymbol
+                && methodSymbol.MethodKind == MethodKind.Constructor
+                && !methodSymbol.Parameters.Any()
+                && methodSymbol.ContainingType.InstanceConstructors.SingleOrDefault(shouldThrow: false) == methodSymbol;
         }
     }
 }

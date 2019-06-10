@@ -39,7 +39,7 @@ namespace Roslynator.Documentation
         Delegates = 268435456,
         NestedTypes = Classes | Structs | Interfaces | Enums | Delegates,
         SeeAlso = 536870912,
-        SourceReferences = 1073741824,
+        AppliesTo = 1073741824,
         AllExceptNestedTypes = All & ~NestedTypes,
         All = int.MaxValue
     }

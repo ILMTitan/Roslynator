@@ -753,7 +753,7 @@ namespace Roslynator.Documentation
                             }
                         case TypeDocumentationParts.ExplicitInterfaceImplementations:
                             {
-                                writer.WriteExplicitInterfaceImplementations(typeModel.GetExplicitInterfaceImplementations());
+                                writer.WriteExplicitInterfaceImplementations(typeModel.GetExplicitImplementations());
                                 break;
                             }
                         case TypeDocumentationParts.ExtensionMethods:
@@ -786,17 +786,17 @@ namespace Roslynator.Documentation
                                 writer.WriteNestedTypes(typeModel.GetDelegates(includeInherited: includeInherited), TypeKind.Delegate, typeSymbol);
                                 break;
                             }
+                        case TypeDocumentationParts.AppliesTo:
+                            {
+                                if (SourceReferenceProvider != null)
+                                    writer.WriteAppliesTo(typeSymbol, SourceReferenceProvider.GetSourceReferences(typeSymbol));
+
+                                break;
+                            }
                         case TypeDocumentationParts.SeeAlso:
                             {
                                 if (xmlDocumentation != null)
                                     writer.WriteSeeAlso(typeSymbol, xmlDocumentation);
-
-                                break;
-                            }
-                        case TypeDocumentationParts.SourceReferences:
-                            {
-                                if (SourceReferenceProvider != null)
-                                    writer.WriteVersions(typeSymbol, SourceReferenceProvider.GetSourceReferences(typeSymbol));
 
                                 break;
                             }
@@ -836,7 +836,7 @@ namespace Roslynator.Documentation
                     case TypeDocumentationParts.Attributes:
                     case TypeDocumentationParts.Derived:
                     case TypeDocumentationParts.Implements:
-                    case TypeDocumentationParts.SourceReferences:
+                    case TypeDocumentationParts.AppliesTo:
                         {
                             return false;
                         }
@@ -885,7 +885,7 @@ namespace Roslynator.Documentation
                         }
                     case TypeDocumentationParts.ExplicitInterfaceImplementations:
                         {
-                            return typeModel.GetExplicitInterfaceImplementations().Any();
+                            return typeModel.GetExplicitImplementations().Any();
                         }
                     case TypeDocumentationParts.ExtensionMethods:
                         {
@@ -1071,17 +1071,19 @@ namespace Roslynator.Documentation
 
                                 break;
                             }
+                        case MemberDocumentationParts.AppliesTo:
+                            {
+                                if (SourceReferenceProvider == null)
+                                    break;
+
+                                writer.WriteAppliesTo(symbol, SourceReferenceProvider.GetSourceReferences(symbol), headingLevelBase: headingLevelBase);
+
+                                break;
+                            }
                         case MemberDocumentationParts.SeeAlso:
                             {
                                 if (xmlDocumentation != null)
                                     writer.WriteSeeAlso(symbol, xmlDocumentation, headingLevelBase: headingLevelBase);
-
-                                break;
-                            }
-                        case MemberDocumentationParts.SourceReferences:
-                            {
-                                if (SourceReferenceProvider != null)
-                                    writer.WriteVersions(symbol, SourceReferenceProvider.GetSourceReferences(symbol), headingLevelBase: headingLevelBase);
 
                                 break;
                             }

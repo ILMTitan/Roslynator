@@ -24,7 +24,7 @@ namespace Roslynator.Documentation
         Examples = 4096,
         Remarks = 8192,
         SeeAlso = 16384,
-        SourceReferences = 32768,
+        AppliesTo = 32768,
         All = int.MaxValue
     }
 }

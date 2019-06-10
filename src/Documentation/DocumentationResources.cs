@@ -83,7 +83,7 @@ namespace Roslynator.Documentation
         public abstract string ReturnValueTitle { get; }
         public abstract string SeeAllDerivedTypes { get; }
         public abstract string SeeAlsoTitle { get; }
-        public abstract string SourceReferencesTitle { get; }
+        public abstract string AppliesToTitle { get; }
         public abstract string StaticClassesTitle { get; }
         public abstract string StructsTitle { get; }
         public abstract string StructTitle { get; }
@@ -269,8 +269,8 @@ namespace Roslynator.Documentation
                     return DelegatesTitle;
                 case TypeDocumentationParts.SeeAlso:
                     return SeeAlsoTitle;
-                case TypeDocumentationParts.SourceReferences:
-                    return SourceReferencesTitle;
+                case TypeDocumentationParts.AppliesTo:
+                    return AppliesToTitle;
                 default:
                     throw new ArgumentException("", nameof(part));
             }
@@ -353,7 +353,7 @@ namespace Roslynator.Documentation
             public override string ReturnValueTitle { get; } = "Return Value";
             public override string SeeAllDerivedTypes { get; } = "See all derived types";
             public override string SeeAlsoTitle { get; } = "See Also";
-            public override string SourceReferencesTitle { get; } = "Source References";
+            public override string AppliesToTitle { get; } = "Applies to";
             public override string StaticClassesTitle { get; } = "Static Classes";
             public override string StructsTitle { get; } = "Structs";
             public override string StructTitle { get; } = "Struct";

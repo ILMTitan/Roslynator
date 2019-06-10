@@ -1,5 +1,6 @@
 ﻿// Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
@@ -10,9 +11,9 @@ namespace Roslynator
 {
     public sealed class SourceReferenceProvider
     {
-        private readonly ImmutableDictionary<string, ImmutableArray<SymbolSourceReference>> _map;
+        private readonly ImmutableDictionary<string, ImmutableArray<SymbolReference>> _map;
 
-        private SourceReferenceProvider(ImmutableDictionary<string, ImmutableArray<SymbolSourceReference>> map)
+        private SourceReferenceProvider(ImmutableDictionary<string, ImmutableArray<SymbolReference>> map)
         {
             _map = map;
         }
@@ -23,9 +24,9 @@ namespace Roslynator
 
             Debug.Assert(!string.IsNullOrEmpty(id), symbol.ToDisplayString());
 
-            if (_map.TryGetValue(id, out ImmutableArray<SymbolSourceReference> references))
+            if (_map.TryGetValue(id, out ImmutableArray<SymbolReference> references))
             {
-                return ImmutableArray.CreateRange(references, f => new SourceReference(f.Repository.Version, f.GetUrl()));
+                return ImmutableArray.CreateRange(references, f => new SourceReference(f.Repository.Version, f.GetUrl()?.AbsoluteUri));
             }
 
             return ImmutableArray<SourceReference>.Empty;
@@ -33,7 +34,7 @@ namespace Roslynator
 
         public static SourceReferenceProvider Load(IEnumerable<string> paths)
         {
-            ImmutableDictionary<string, ImmutableArray<SymbolSourceReference>.Builder>.Builder dic = ImmutableDictionary.CreateBuilder<string, ImmutableArray<SymbolSourceReference>.Builder>();
+            ImmutableDictionary<string, ImmutableArray<SymbolReference>.Builder>.Builder dic = ImmutableDictionary.CreateBuilder<string, ImmutableArray<SymbolReference>.Builder>();
 
             foreach (string uri in paths)
             {
@@ -42,12 +43,19 @@ namespace Roslynator
                 foreach (XElement repositoryElement in doc.Root.Elements("repository"))
                 {
                     string type = repositoryElement.Attribute("type").Value;
-                    string url = repositoryElement.Attribute("url").Value;
+
+                    string urlString = repositoryElement.Attribute("url").Value;
+
+                    if (!urlString.EndsWith("/", StringComparison.Ordinal))
+                        urlString += "/";
+
+                    var url = new Uri(urlString);
+
                     string version = repositoryElement.Attribute("version").Value;
                     string branch = repositoryElement.Attribute("branch").Value;
                     string commit = repositoryElement.Attribute("commit").Value;
 
-                    var repository = new RepositoryReference(name: type, url: url, version: version, branch: branch, commit: commit);
+                    var repository = new RepositoryInfo(name: type, url: url, version: version, branch: branch, commit: commit);
 
                     XElement membersElements = repositoryElement.Element("members");
 
@@ -62,34 +70,34 @@ namespace Roslynator
                             XElement locationElement = memberElement.Element("locations")?.Element("location");
 
                             string path = null;
-                            int line = -1;
+                            string line = null;
 
                             if (locationElement != null)
                             {
                                 path = locationElement.Attribute("path").Value;
-                                line = int.Parse(locationElement.Attribute("line").Value);
+                                line = locationElement.Attribute("line").Value;
                             }
 
-                            if (!dic.TryGetValue(name, out ImmutableArray<SymbolSourceReference>.Builder builder))
+                            if (!dic.TryGetValue(name, out ImmutableArray<SymbolReference>.Builder builder))
                             {
-                                builder = ImmutableArray.CreateBuilder<SymbolSourceReference>();
+                                builder = ImmutableArray.CreateBuilder<SymbolReference>();
                                 dic[name] = builder;
                             }
 
-                            builder.Add(new SymbolSourceReference(repository, path, line));
+                            builder.Add(new SymbolReference(repository, path, line));
                         }
                     }
                 }
             }
 
-            ImmutableDictionary<string, ImmutableArray<SymbolSourceReference>> map = dic.ToImmutableDictionary(f => f.Key, f => f.Value.ToImmutableArray());
+            ImmutableDictionary<string, ImmutableArray<SymbolReference>> map = dic.ToImmutableDictionary(f => f.Key, f => f.Value.ToImmutableArray());
 
             return new SourceReferenceProvider(map);
         }
 
-        private readonly struct RepositoryReference
+        private class RepositoryInfo
         {
-            public RepositoryReference(string name, string url, string version, string branch, string commit)
+            public RepositoryInfo(string name, Uri url, string version, string branch, string commit)
             {
                 Name = name;
                 Url = url;
@@ -100,7 +108,7 @@ namespace Roslynator
 
             public string Name { get; }
 
-            public string Url { get; }
+            public Uri Url { get; }
 
             public string Version { get; }
 
@@ -108,30 +116,37 @@ namespace Roslynator
 
             public string Commit { get; }
 
-            public string GetUrl(string url)
+            public Uri FullUrl { get; private set; }
+
+            public Uri GetUrl(string url, string line)
             {
-                return $"{Url}/{Branch}/tree/{Commit}{url}";
+                if (FullUrl == null)
+                    FullUrl = new Uri(Url, $"blob/{Commit}/");
+
+                string relativeUrl = (!string.IsNullOrEmpty(line)) ? $"{url}#L{line}" : url;
+
+                return new Uri(FullUrl, relativeUrl);
             }
         }
 
-        private readonly struct SymbolSourceReference
+        private readonly struct SymbolReference
         {
-            public SymbolSourceReference(RepositoryReference repository, string path, int line)
+            public SymbolReference(RepositoryInfo repository, string path, string line)
             {
                 Repository = repository;
                 Path = path;
                 Line = line;
             }
 
-            public RepositoryReference Repository { get; }
+            public RepositoryInfo Repository { get; }
 
             public string Path { get; }
 
-            public int Line { get; }
+            public string Line { get; }
 
-            public string GetUrl()
+            public Uri GetUrl()
             {
-                return (Path != null) ? Repository.GetUrl(Path) : null;
+                return (Path != null) ? Repository.GetUrl(Path, Line) : null;
             }
         }
     }
