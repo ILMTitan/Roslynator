@@ -52,7 +52,7 @@ namespace Roslynator
                     var url = new Uri(urlString);
 
                     string version = repositoryElement.Attribute("version").Value;
-                    string branch = repositoryElement.Attribute("branch").Value;
+                    string branch = repositoryElement.Attribute("branch")?.Value;
                     string commit = repositoryElement.Attribute("commit").Value;
 
                     var repository = new RepositoryInfo(name: type, url: url, version: version, branch: branch, commit: commit);

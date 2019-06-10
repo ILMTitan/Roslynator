@@ -121,7 +121,7 @@ namespace Roslynator.CommandLine
 
                     writer.WriteAttributeString("path", path);
 
-                    int line = tree.GetLineSpan(en.Current.Span, cancellationToken).StartLine();
+                    int line = tree.GetLineSpan(en.Current.Span, cancellationToken).StartLine() + 1;
 
                     writer.WriteAttributeString("line", line.ToString(CultureInfo.InvariantCulture));
 
