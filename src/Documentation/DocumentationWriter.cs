@@ -1108,7 +1108,9 @@ namespace Roslynator.Documentation
         {
             Debug.Assert(sourceReferences.Any(), symbol.ToDisplayString());
 
-            ImmutableArray<SourceReference>.Enumerator en = sourceReferences.GetEnumerator();
+            IEnumerator<SourceReference> en = sourceReferences
+                .OrderByDescending(f => f.Version)
+                .GetEnumerator();
 
             if (en.MoveNext())
             {
@@ -1116,7 +1118,7 @@ namespace Roslynator.Documentation
 
                 while (true)
                 {
-                    WriteLinkOrText(en.Current.Version, en.Current.Url);
+                    WriteLinkOrText(en.Current.Version.ToString(), en.Current.Url);
 
                     if (en.MoveNext())
                     {

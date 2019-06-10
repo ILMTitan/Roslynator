@@ -114,7 +114,7 @@ namespace Roslynator.CommandLine
             foreach (string path in Options.Output)
             {
                 WriteLine($"Save '{path}'", ConsoleColor.DarkGray, Verbosity.Diagnostic);
-
+#if DEBUG
                 string extension = Path.GetExtension(path);
 
                 if (string.Equals(extension, ".xml", StringComparison.OrdinalIgnoreCase))
@@ -129,10 +129,14 @@ namespace Roslynator.CommandLine
                 }
                 else if (string.Equals(extension, ".html", StringComparison.OrdinalIgnoreCase))
                 {
+                    SourceReferenceProvider sourceReferenceProvider = (!string.IsNullOrEmpty(Options.SourceReferences))
+                        ? SourceReferenceProvider.Load(Options.SourceReferences)
+                        : null;
+
                     var xmlWriterSettings = new XmlWriterSettings() { OmitXmlDeclaration = true, Indent = true, IndentChars = "" };
 
                     using (XmlWriter xmlWriter = XmlWriter.Create(path, xmlWriterSettings))
-                    using (SymbolDefinitionWriter writer = new SymbolDefinitionHtmlWriter(xmlWriter, SymbolFilterOptions, format, documentationProvider))
+                    using (SymbolDefinitionWriter writer = new SymbolDefinitionHtmlWriter(xmlWriter, SymbolFilterOptions, format, documentationProvider, sourceReferenceProvider))
                     {
                         writer.WriteDocument(assemblies, cancellationToken);
                     }
@@ -178,6 +182,9 @@ namespace Roslynator.CommandLine
                 {
                     File.WriteAllText(path, text, Encoding.UTF8);
                 }
+#else
+                File.WriteAllText(path, text, Encoding.UTF8);
+#endif
             }
 
 #if DEBUG

@@ -35,6 +35,3 @@ public enum CommentFilter
 | Documentation | 12 | SingleLineDocumentation \| MultiLineDocumentation | Documentation comment \(single\-line or multi\-line\)\. |
 | All | 15 | NonDocumentation \| Documentation | Documentation or non\-documentation comment\. |
 
-## Applies to
-
-[1.0](https://github.com/josefpihrt/roslynator/blob/7c8c2152da1853a45e86d2c62555feadcb384044/src/CSharp/CSharp/Comment%20Filter.cs#L10)

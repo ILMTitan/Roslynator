@@ -282,8 +282,6 @@ namespace Roslynator.CommandLine
             ProjectOrSolution projectOrSolution,
             CancellationToken cancellationToken)
         {
-            ImmutableArray<Compilation>.Builder compilations = ImmutableArray.CreateBuilder<Compilation>();
-
             if (projectOrSolution.IsProject)
             {
                 Project project = projectOrSolution.AsProject();
@@ -292,10 +290,12 @@ namespace Roslynator.CommandLine
 
                 Compilation compilation = await project.GetCompilationAsync(cancellationToken);
 
-                compilations.Add(compilation);
+                return ImmutableArray.Create(compilation);
             }
             else
             {
+                ImmutableArray<Compilation>.Builder compilations = ImmutableArray.CreateBuilder<Compilation>();
+
                 Solution solution = projectOrSolution.AsSolution();
 
                 WriteLine($"Compile solution '{solution.FilePath}'", Verbosity.Minimal);
@@ -319,9 +319,9 @@ namespace Roslynator.CommandLine
                 stopwatch.Stop();
 
                 WriteLine($"Done compiling solution '{solution.FilePath}' in {stopwatch.Elapsed:mm\\:ss\\.ff}", Verbosity.Minimal);
-            }
 
-            return compilations.ToImmutableArray();
+                return compilations.ToImmutableArray();
+            }
         }
 
         protected class ConsoleProgressReporter : IProgress<ProjectLoadProgress>

@@ -37,67 +37,83 @@ namespace Roslynator
             ImmutableDictionary<string, ImmutableArray<SymbolReference>.Builder>.Builder dic = ImmutableDictionary.CreateBuilder<string, ImmutableArray<SymbolReference>.Builder>();
 
             foreach (string uri in paths)
-            {
-                XDocument doc = XDocument.Load(uri);
+                Load(uri, ref dic);
 
-                foreach (XElement repositoryElement in doc.Root.Elements("repository"))
-                {
-                    string type = repositoryElement.Attribute("type").Value;
+            return Load(dic);
+        }
 
-                    string urlString = repositoryElement.Attribute("url").Value;
+        public static SourceReferenceProvider Load(string path)
+        {
+            ImmutableDictionary<string, ImmutableArray<SymbolReference>.Builder>.Builder dic = ImmutableDictionary.CreateBuilder<string, ImmutableArray<SymbolReference>.Builder>();
 
-                    if (!urlString.EndsWith("/", StringComparison.Ordinal))
-                        urlString += "/";
+            Load(path, ref dic);
 
-                    var url = new Uri(urlString);
+            return Load(dic);
+        }
 
-                    string version = repositoryElement.Attribute("version").Value;
-                    string branch = repositoryElement.Attribute("branch")?.Value;
-                    string commit = repositoryElement.Attribute("commit").Value;
-
-                    var repository = new RepositoryInfo(name: type, url: url, version: version, branch: branch, commit: commit);
-
-                    XElement membersElements = repositoryElement.Element("members");
-
-                    if (membersElements != null)
-                    {
-                        foreach (XElement memberElement in membersElements.Elements("member"))
-                        {
-                            Debug.WriteLine(memberElement);
-
-                            string name = memberElement.Attribute("name").Value;
-
-                            XElement locationElement = memberElement.Element("locations")?.Element("location");
-
-                            string path = null;
-                            string line = null;
-
-                            if (locationElement != null)
-                            {
-                                path = locationElement.Attribute("path").Value;
-                                line = locationElement.Attribute("line").Value;
-                            }
-
-                            if (!dic.TryGetValue(name, out ImmutableArray<SymbolReference>.Builder builder))
-                            {
-                                builder = ImmutableArray.CreateBuilder<SymbolReference>();
-                                dic[name] = builder;
-                            }
-
-                            builder.Add(new SymbolReference(repository, path, line));
-                        }
-                    }
-                }
-            }
-
+        private static SourceReferenceProvider Load(ImmutableDictionary<string, ImmutableArray<SymbolReference>.Builder>.Builder dic)
+        {
             ImmutableDictionary<string, ImmutableArray<SymbolReference>> map = dic.ToImmutableDictionary(f => f.Key, f => f.Value.ToImmutableArray());
 
             return new SourceReferenceProvider(map);
         }
 
+        private static void Load(string uri, ref ImmutableDictionary<string, ImmutableArray<SymbolReference>.Builder>.Builder dic)
+        {
+            XDocument doc = XDocument.Load(uri);
+
+            foreach (XElement repositoryElement in doc.Root.Elements("repository"))
+            {
+                string type = repositoryElement.Attribute("type").Value;
+
+                string urlString = repositoryElement.Attribute("url").Value;
+
+                if (!urlString.EndsWith("/", StringComparison.Ordinal))
+                    urlString += "/";
+
+                var url = new Uri(urlString);
+
+                Version version = Version.Parse(repositoryElement.Attribute("version").Value);
+
+                string branch = repositoryElement.Attribute("branch")?.Value;
+                string commit = repositoryElement.Attribute("commit").Value;
+
+                var repository = new RepositoryInfo(name: type, url: url, version: version, branch: branch, commit: commit);
+
+                XElement membersElements = repositoryElement.Element("members");
+
+                if (membersElements != null)
+                {
+                    foreach (XElement memberElement in membersElements.Elements("member"))
+                    {
+                        string name = memberElement.Attribute("name").Value;
+
+                        XElement locationElement = memberElement.Element("locations")?.Element("location");
+
+                        string path = null;
+                        string line = null;
+
+                        if (locationElement != null)
+                        {
+                            path = locationElement.Attribute("path").Value;
+                            line = locationElement.Attribute("line").Value;
+                        }
+
+                        if (!dic.TryGetValue(name, out ImmutableArray<SymbolReference>.Builder builder))
+                        {
+                            builder = ImmutableArray.CreateBuilder<SymbolReference>();
+                            dic[name] = builder;
+                        }
+
+                        builder.Add(new SymbolReference(repository, path, line));
+                    }
+                }
+            }
+        }
+
         private class RepositoryInfo
         {
-            public RepositoryInfo(string name, Uri url, string version, string branch, string commit)
+            public RepositoryInfo(string name, Uri url, Version version, string branch, string commit)
             {
                 Name = name;
                 Url = url;
@@ -110,7 +126,7 @@ namespace Roslynator
 
             public Uri Url { get; }
 
-            public string Version { get; }
+            public Version Version { get; }
 
             public string Branch { get; }
 

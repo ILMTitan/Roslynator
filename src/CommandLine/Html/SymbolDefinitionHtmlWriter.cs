@@ -24,15 +24,19 @@ namespace Roslynator.Documentation.Html
             SymbolFilterOptions filter = null,
             DefinitionListFormat format = null,
             SymbolDocumentationProvider documentationProvider = null,
+            SourceReferenceProvider sourceReferenceProvider = null,
             DocumentationDisplayMode documentationDisplayMode = DocumentationDisplayMode.ToolTip) : base(filter, format, documentationProvider)
         {
             _writer = writer;
+            SourceReferenceProvider = sourceReferenceProvider;
             DocumentationDisplayMode = documentationDisplayMode;
         }
 
         public override bool SupportsMultilineDefinitions => true;
 
         public override bool SupportsDocumentationComments => true;
+
+        public SourceReferenceProvider SourceReferenceProvider { get; }
 
         public DocumentationDisplayMode DocumentationDisplayMode { get; }
 
@@ -334,18 +338,25 @@ namespace Roslynator.Documentation.Html
 
         protected override void WriteDefinitionName(ISymbol symbol)
         {
-            bool isOperator = symbol.IsKind(SymbolKind.Method)
-                && ((IMethodSymbol)symbol).MethodKind.Is(MethodKind.Conversion, MethodKind.UserDefinedOperator);
-
-            WriteStartElement((isOperator) ? "span" : "b");
+            WriteStartElement("b");
 
             if (DocumentationDisplayMode == DocumentationDisplayMode.ToolTip)
                 WriteDocumentationCommentToolTip(symbol);
 
+            string url = SourceReferenceProvider?.GetSourceReferences(symbol).FirstOrDefault().Url;
+
+            if (url != null)
+            {
+                WriteStartElement("a");
+                WriteAttributeString("href", url);
+            }
+
             base.WriteDefinitionName(symbol);
 
-            if (!isOperator)
+            if (url != null)
                 WriteEndElement();
+
+            WriteEndElement();
         }
 
         protected override void WriteSymbol(
