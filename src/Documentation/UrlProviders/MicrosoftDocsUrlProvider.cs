@@ -45,7 +45,7 @@ namespace Roslynator.Documentation
                 if (explicitImplementation != null)
                 {
                     string name = explicitImplementation
-                        .ToDisplayParts(SymbolDisplayFormats.ExplicitImplementationFullName, SymbolDisplayAdditionalMemberOptions.UseItemPropertyName)
+                        .ToDisplayParts(DocumentationDisplayFormats.ExplicitImplementationFullName, SymbolDisplayAdditionalMemberOptions.UseItemPropertyName)
                         .Where(part => part.Kind != SymbolDisplayPartKind.Space)
                         .Select(part => (part.IsPunctuation()) ? part.WithText("-") : part)
                         .ToImmutableArray()

@@ -87,8 +87,6 @@ namespace Roslynator.CommandLine
             if (externalAssemblies != null)
                 assemblies = assemblies.Concat(externalAssemblies);
 
-            TestOutput(compilations, assemblies, format, cancellationToken);
-
             string text = null;
 
             SymbolDocumentationProvider documentationProvider = (Options.Documentation)
@@ -186,6 +184,8 @@ namespace Roslynator.CommandLine
                 File.WriteAllText(path, text, Encoding.UTF8);
 #endif
             }
+
+            TestOutput(compilations, assemblies, format, cancellationToken);
 
 #if DEBUG
             if (ShouldWrite(Verbosity.Normal))

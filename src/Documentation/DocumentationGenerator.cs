@@ -350,7 +350,7 @@ namespace Roslynator.Documentation
 
                 SymbolXmlDocumentation xmlDocumentation = DocumentationModel.GetXmlDocumentation(namespaceSymbol, Options.PreferredCultureName);
 
-                writer.WriteHeading(1, namespaceSymbol, TypeSymbolDisplayFormats.NameAndContainingTypesAndNamespaces, addLink: false, linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
+                writer.WriteHeading(1, namespaceSymbol, TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces, addLink: false, linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
 
                 foreach (NamespaceDocumentationParts part in EnabledAndSortedNamespaceParts)
                 {
@@ -447,7 +447,7 @@ namespace Roslynator.Documentation
                         headingLevel: 2,
                         Resources.GetName(typeKind),
                         Resources.SummaryTitle,
-                        TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters,
+                        TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters,
                         addLink: Options.Depth <= DocumentationDepth.Type);
                 }
 
@@ -557,7 +557,7 @@ namespace Roslynator.Documentation
                 }
 
                 writer.WriteStartHeading(1);
-                writer.WriteLink(typeSymbol, TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters);
+                writer.WriteLink(typeSymbol, TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters);
                 writer.WriteSpace();
                 writer.WriteString(Resources.GetName(typeSymbol.TypeKind));
                 writer.WriteSpace();
@@ -571,7 +571,7 @@ namespace Roslynator.Documentation
                     headingLevel: -1,
                     Resources.ExtensionMethodTitle,
                     Resources.SummaryTitle,
-                    SymbolDisplayFormats.SimpleDeclaration);
+                    DocumentationDisplayFormats.SimpleDeclaration);
 
                 writer.WriteEndDocument();
 
@@ -603,7 +603,7 @@ namespace Roslynator.Documentation
                 writer.WriteHeading(
                     1,
                     typeSymbol,
-                    TypeSymbolDisplayFormats.NameAndContainingTypesAndTypeParameters,
+                    TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters,
                     SymbolDisplayAdditionalMemberOptions.UseItemPropertyName | SymbolDisplayAdditionalMemberOptions.UseOperatorName,
                     addLink: false,
                     linkDestination: (Options.ScrollToContent) ? WellKnownNames.TopFragmentName : null);
@@ -959,7 +959,7 @@ namespace Roslynator.Documentation
 
                             if (isOverloaded)
                             {
-                                SymbolDisplayFormat format = SymbolDisplayFormats.SimpleDeclaration;
+                                SymbolDisplayFormat format = DocumentationDisplayFormats.SimpleDeclaration;
 
                                 const SymbolDisplayAdditionalMemberOptions additionalOptions = SymbolDisplayAdditionalMemberOptions.UseItemPropertyName | SymbolDisplayAdditionalMemberOptions.UseOperatorName;
 

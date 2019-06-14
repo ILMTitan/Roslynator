@@ -343,7 +343,8 @@ namespace Roslynator.Documentation.Html
             if (DocumentationDisplayMode == DocumentationDisplayMode.ToolTip)
                 WriteDocumentationCommentToolTip(symbol);
 
-            string url = SourceReferenceProvider?.GetSourceReferences(symbol).FirstOrDefault().Url;
+            string url = SourceReferenceProvider?.GetSourceReferences(symbol).FirstOrDefault().Url
+                ?? WellKnownExternalUrlProviders.MicrosoftDocs.CreateUrl(symbol).Url;
 
             if (url != null)
             {
@@ -399,7 +400,7 @@ namespace Roslynator.Documentation.Html
             void WriteName()
             {
                 if (symbol.IsKind(SymbolKind.Namespace))
-                    format = SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespaces;
+                    format = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces;
 
                 base.WriteSymbol(symbol, format, removeAttributeSuffix: removeAttributeSuffix);
             }
@@ -683,7 +684,7 @@ namespace Roslynator.Documentation.Html
                                                     }
                                                     else
                                                     {
-                                                        WriteParts(s, s.ToDisplayParts(SymbolDefinitionDisplayFormats.FullName));
+                                                        WriteParts(s, s.ToDisplayParts(TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_GlobalNamespace_TypeParameters));
                                                         WriteSymbol(s);
                                                     }
                                                 }

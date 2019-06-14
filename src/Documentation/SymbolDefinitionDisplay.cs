@@ -1047,15 +1047,15 @@ namespace Roslynator.Documentation
             SymbolDisplayFormat format2;
             if (additionalOptions.HasOption(SymbolDisplayAdditionalOptions.OmitContainingNamespace))
             {
-                format2 = SymbolDefinitionDisplayFormats.TypeNameAndContainingTypes;
+                format2 = TypeSymbolDisplayFormats.Name_ContainingTypes_SpecialTypes;
             }
             else if (format.GlobalNamespaceStyle == SymbolDisplayGlobalNamespaceStyle.Included)
             {
-                format2 = SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespacesAndGlobalNamespace;
+                format2 = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_GlobalNamespace_SpecialTypes;
             }
             else
             {
-                format2 = SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespaces;
+                format2 = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_SpecialTypes;
             }
 
             parts.AddRange(symbol.ToDisplayParts(format2));

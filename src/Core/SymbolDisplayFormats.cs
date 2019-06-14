@@ -6,6 +6,8 @@ namespace Roslynator
 {
     internal static class SymbolDisplayFormats
     {
+        public static SymbolDisplayFormat Empty { get; } = new SymbolDisplayFormat();
+
         public static SymbolDisplayFormat Default { get; } = new SymbolDisplayFormat(
             genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters,
             typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypes,

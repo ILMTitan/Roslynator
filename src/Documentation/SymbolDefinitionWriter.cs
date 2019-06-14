@@ -900,8 +900,8 @@ namespace Roslynator.Documentation
             void WriteSymbol(ISymbol symbol)
             {
                 SymbolDisplayFormat f = (!Format.Includes(SymbolDefinitionPartFilter.ContainingNamespace))
-                    ? SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndTypeParameters
-                    : SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespacesAndTypeParameters;
+                    ? TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters_SpecialTypes
+                    : TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters_SpecialTypes;
 
                 Write(symbol.ToDisplayParts(f));
             }
@@ -939,7 +939,7 @@ namespace Roslynator.Documentation
 
                     if (containingType != null)
                     {
-                        WriteParts(containingType, containingType.ToDisplayParts(SymbolDefinitionDisplayFormats.FullName));
+                        WriteParts(containingType, containingType.ToDisplayParts(TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_GlobalNamespace_TypeParameters));
                         Write(".");
                     }
                 }
@@ -962,7 +962,7 @@ namespace Roslynator.Documentation
 
             if (symbol.IsKind(SymbolKind.Namespace))
             {
-                f = SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespaces;
+                f = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces;
             }
             else if (symbol.IsKind(SymbolKind.NamedType))
             {
@@ -1058,16 +1058,16 @@ namespace Roslynator.Documentation
                 if (symbol.Kind == SymbolKind.Field
                     && symbol.ContainingType?.TypeKind == TypeKind.Enum)
                 {
-                    return SymbolDefinitionDisplayFormats.Default;
+                    return SymbolDisplayFormats.Empty;
                 }
 
                 if (symbol.IsKind(SymbolKind.Namespace)
                     || Format.Includes(SymbolDefinitionPartFilter.ContainingNamespace))
                 {
-                    return SymbolDefinitionDisplayFormats.TypeNameAndContainingTypesAndNamespaces;
+                    return TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_SpecialTypes;
                 }
 
-                return SymbolDefinitionDisplayFormats.TypeNameAndContainingTypes;
+                return TypeSymbolDisplayFormats.Name_ContainingTypes_SpecialTypes;
             }
         }
 
