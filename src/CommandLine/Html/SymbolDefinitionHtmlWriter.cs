@@ -336,8 +336,18 @@ namespace Roslynator.Documentation.Html
             base.WriteDefinition(symbol, format);
         }
 
-        protected override void WriteDefinitionName(ISymbol symbol)
+        protected override void WriteDefinitionName(ISymbol symbol, SymbolDisplayFormat format = null)
         {
+            bool prefixWithContainingNamespace = Layout == SymbolDefinitionListLayout.TypeHierarchy
+                && symbol.IsKind(SymbolKind.NamedType)
+                && !symbol.ContainingNamespace.IsGlobalNamespace;
+
+            if (prefixWithContainingNamespace)
+            {
+                Write(symbol.ContainingNamespace.ToDisplayParts(TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces));
+                Write(".");
+            }
+
             WriteStartElement("b");
 
             if (DocumentationDisplayMode == DocumentationDisplayMode.ToolTip)
@@ -352,7 +362,10 @@ namespace Roslynator.Documentation.Html
                 WriteAttributeString("href", url);
             }
 
-            base.WriteDefinitionName(symbol);
+            if (prefixWithContainingNamespace)
+                format = TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters;
+
+            base.WriteDefinitionName(symbol, format);
 
             if (url != null)
                 WriteEndElement();
@@ -420,9 +433,12 @@ namespace Roslynator.Documentation.Html
                     WriteStartAttribute("title");
                     WriteDocumentationCommentToolTip(element);
                     WriteEndAttribute();
-                    base.WriteParameterName(symbol, part);
-                    WriteEndElement();
                 }
+
+                base.WriteParameterName(symbol, part);
+
+                if (element != null)
+                    WriteEndElement();
             }
             else
             {

@@ -258,7 +258,9 @@ namespace Roslynator.CommandLine
                 ? ImmutableArray.Create<SymbolFilterRule>(new IgnoredNameSymbolFilterRule(ignoredSymbols))
                 : ImmutableArray<SymbolFilterRule>.Empty;
 
-            ImmutableArray<AttributeFilterRule> attributeRules = ImmutableArray.Create<AttributeFilterRule>(new IgnoredAttributeNameFilterRule(ignoredAttributes.AddRange(DocumentationFilterOptions.IgnoredAttributes)));
+            ImmutableArray<AttributeFilterRule> attributeRules = ImmutableArray.Create<AttributeFilterRule>(
+                IgnoredAttributeNameFilterRule.Default,
+                new IgnoredAttributeNameFilterRule(ignoredAttributes));
 
             var symbolFilterOptions = new SymbolFilterOptions(
                 visibility: visibilityFilter,

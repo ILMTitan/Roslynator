@@ -828,7 +828,9 @@ namespace Roslynator.Documentation
                             {
                                 while (true)
                                 {
-                                    WriteSymbol(en.Current.Symbol);
+                                    WriteSymbol(en.Current.Symbol.ContainingType);
+                                    Write(".");
+                                    Write(en.Current.Symbol.Name);
 
                                     if (en.MoveNext())
                                     {
@@ -899,11 +901,11 @@ namespace Roslynator.Documentation
 
             void WriteSymbol(ISymbol symbol)
             {
-                SymbolDisplayFormat f = (!Format.Includes(SymbolDefinitionPartFilter.ContainingNamespace))
-                    ? TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters_SpecialTypes
-                    : TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters_SpecialTypes;
+                SymbolDisplayFormat format = (Format.Includes(SymbolDefinitionPartFilter.ContainingNamespace))
+                    ? TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters_SpecialTypes
+                    : TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters_SpecialTypes;
 
-                Write(symbol.ToDisplayParts(f));
+                this.WriteSymbol(symbol, format);
             }
         }
 
@@ -956,24 +958,25 @@ namespace Roslynator.Documentation
             WriteParts(symbol, parts, startIndex, parts.Length - startIndex);
         }
 
-        protected virtual void WriteDefinitionName(ISymbol symbol)
+        protected virtual void WriteDefinitionName(ISymbol symbol, SymbolDisplayFormat format = null)
         {
-            SymbolDisplayFormat f;
+            if (format == null)
+            {
+                if (symbol.IsKind(SymbolKind.Namespace))
+                {
+                    format = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces;
+                }
+                else if (symbol.IsKind(SymbolKind.NamedType))
+                {
+                    format = _typeDefinitionNameFormat;
+                }
+                else
+                {
+                    format = _memberDefinitionNameFormat;
+                }
+            }
 
-            if (symbol.IsKind(SymbolKind.Namespace))
-            {
-                f = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces;
-            }
-            else if (symbol.IsKind(SymbolKind.NamedType))
-            {
-                f = _typeDefinitionNameFormat;
-            }
-            else
-            {
-                f = _memberDefinitionNameFormat;
-            }
-
-            Write(symbol.ToDisplayParts(f));
+            Write(symbol.ToDisplayParts(format));
         }
 
         protected void WriteParts(ISymbol symbol, ImmutableArray<SymbolDisplayPart> parts)
