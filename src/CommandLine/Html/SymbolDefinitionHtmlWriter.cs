@@ -9,6 +9,7 @@ using System.Threading;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.CodeAnalysis;
+using Roslynator.CSharp;
 using Roslynator.FindSymbols;
 
 namespace Roslynator.Documentation.Html
@@ -67,6 +68,7 @@ namespace Roslynator.Documentation.Html
             _writer.WriteRaw(@"
 <style type=""text/css"">
 * { font-family: Consolas, Courier; }
+.containing-namespace { color: gray; }
 .external-type { color: gray; }
 .type-hierarchy-link { text-decoration: none; }
 </style>
@@ -179,10 +181,52 @@ namespace Roslynator.Documentation.Html
             {
                 WriteLocalRef(typeSymbol);
 
+                bool writeHierarchyLinks = Layout == SymbolDefinitionListLayout.TypeHierarchy
+                    && _typeHierarchy?.Count > 1;
+
+                if (writeHierarchyLinks)
+                {
+                    for (int i = 0; i < _typeHierarchy.Count - 1; i++)
+                    {
+                        TypeHierarchyItem item = _typeHierarchy[i];
+
+                        WriteStartElement("a");
+                        WriteStartAttribute("href");
+                        Write("#");
+                        WriteLocalLink(item.Symbol);
+                        WriteEndAttribute();
+                        WriteStartAttribute("title");
+
+                        if (i == _typeHierarchy.Count - 2)
+                        {
+                            for (int j = 0; j < _typeHierarchy.Count - 1; j++)
+                            {
+                                for (int k = 1; k <= j; k++)
+                                    Write(" ");
+
+                                base.WriteSymbol(_typeHierarchy[j].Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters);
+
+                                if (j < _typeHierarchy.Count - 2)
+                                    _writer.WriteWhitespace(_writer.Settings.NewLineChars);
+                            }
+                        }
+                        else
+                        {
+                            base.WriteSymbol(item.Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters);
+                        }
+
+                        WriteEndAttribute();
+                        WriteAttributeString("class", "type-hierarchy-link");
+                        _writer.WriteRaw("&middot;");
+                        WriteEndElement();
+                        Write(" ");
+                    }
+                }
+
                 bool isExternal = Layout == SymbolDefinitionListLayout.TypeHierarchy
                     && IsExternal(typeSymbol);
 
-                WriteStartCodeElement(isExternal: isExternal);
+                WriteStartCodeElement(indent: !writeHierarchyLinks, isExternal: isExternal);
             }
         }
 
@@ -350,12 +394,9 @@ namespace Roslynator.Documentation.Html
                 && !symbol.ContainingNamespace.IsGlobalNamespace;
 
             if (prefixWithContainingNamespace)
-            {
-                Write(symbol.ContainingNamespace.ToDisplayParts(TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces));
-                Write(".");
-            }
+                WriteContainingNamespace(symbol);
 
-            WriteStartElement("b");
+            WriteStartElement((IsExternal(symbol)) ? "span" : "b");
 
             if (DocumentationDisplayMode == DocumentationDisplayMode.ToolTip)
                 WriteDocumentationCommentToolTip(symbol);
@@ -385,42 +426,70 @@ namespace Roslynator.Documentation.Html
             SymbolDisplayFormat format = null,
             bool removeAttributeSuffix = false)
         {
+            bool shouldWriteContainingNamespace = false;
+
             if (symbol.Kind == SymbolKind.Field
                 && symbol.ContainingType.TypeKind == TypeKind.Enum)
             {
                 base.WriteSymbol(symbol, format);
             }
-            else if (IsExternal(symbol))
+            else
             {
-                string url = WellKnownExternalUrlProviders.MicrosoftDocs.CreateUrl(symbol).Url;
+                shouldWriteContainingNamespace = ShouldWriteContainingNamespace();
 
-                if (url != null)
+                if (IsExternal(symbol))
                 {
-                    WriteStartElement("a");
-                    WriteAttributeString("href", url);
-                    WriteName();
-                    WriteEndElement();
+                    string url = WellKnownExternalUrlProviders.MicrosoftDocs.CreateUrl(symbol).Url;
+
+                    if (url != null)
+                    {
+                        if (shouldWriteContainingNamespace)
+                            WriteContainingNamespace(symbol);
+
+                        WriteStartElement("a");
+                        WriteAttributeString("href", url);
+                        WriteName();
+                        WriteEndElement();
+                    }
+                    else
+                    {
+                        WriteName();
+                    }
                 }
                 else
                 {
+                    if (shouldWriteContainingNamespace)
+                        WriteContainingNamespace(symbol);
+
+                    WriteStartElement("a");
+                    WriteStartAttribute("href");
+                    Write("#");
+                    WriteLocalLink(symbol);
+                    WriteEndAttribute();
                     WriteName();
+                    WriteEndElement();
                 }
             }
-            else
+
+            bool ShouldWriteContainingNamespace()
             {
-                WriteStartElement("a");
-                WriteStartAttribute("href");
-                Write("#");
-                WriteLocalLink(symbol);
-                WriteEndAttribute();
-                WriteName();
-                WriteEndElement();
+                return symbol.IsKind(SymbolKind.NamedType)
+                    && !symbol.ContainingNamespace.IsGlobalNamespace
+                    && Format.Includes(SymbolDefinitionPartFilter.ContainingNamespace)
+                    && !CSharpFacts.IsPredefinedType(((INamedTypeSymbol)symbol).SpecialType)
+                    && (format == null || format.TypeQualificationStyle == SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces);
             }
 
             void WriteName()
             {
                 if (symbol.IsKind(SymbolKind.Namespace))
+                {
                     format = TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces;
+                }
+                else if (shouldWriteContainingNamespace)
+                {
+                    format = TypeSymbolDisplayFormats.Name_ContainingTypes_SpecialTypes;
+                }
 
                 base.WriteSymbol(symbol, format, removeAttributeSuffix: removeAttributeSuffix);
             }
@@ -456,7 +525,7 @@ namespace Roslynator.Documentation.Html
         private void WriteLocalRef(ISymbol symbol)
         {
             WriteStartElement("a");
-            WriteStartAttribute("name");
+            WriteStartAttribute("id");
             WriteLocalLink(symbol);
             WriteEndAttribute();
             WriteEndElement();
@@ -554,11 +623,13 @@ namespace Roslynator.Documentation.Html
             _typeHierarchy.RemoveAt(_typeHierarchy.Count - 1);
         }
 
-        private void WriteStartCodeElement(bool isExternal = false)
+        private void WriteStartCodeElement(bool indent = true, bool isExternal = false)
         {
             WriteStartElement("code");
             WriteAttributeString("class", (isExternal) ? "csharp external-type" : "csharp");
-            WriteIndentation();
+
+            if (indent)
+                WriteIndentation();
         }
 
         private void WriteStartElement(string name)
@@ -610,51 +681,9 @@ namespace Roslynator.Documentation.Html
         {
             _pendingIndentation = false;
 
-            if (Layout == SymbolDefinitionListLayout.TypeHierarchy
-                && _typeHierarchy?.Count > 1
-                && Depth < _typeHierarchy.Count)
+            for (int i = 0; i < Depth; i++)
             {
-                for (int i = 0; i < _typeHierarchy.Count - 1; i++)
-                {
-                    TypeHierarchyItem item = _typeHierarchy[i];
-
-                    WriteStartElement("a");
-                    WriteStartAttribute("href");
-                    Write("#");
-                    WriteLocalLink(item.Symbol);
-                    WriteEndAttribute();
-                    WriteStartAttribute("title");
-
-                    if (i == _typeHierarchy.Count - 2)
-                    {
-                        for (int j = 0; j < _typeHierarchy.Count - 1; j++)
-                        {
-                            for (int k = 1; k <= j; k++)
-                                Write("  ");
-
-                            base.WriteSymbol(_typeHierarchy[j].Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters);
-
-                            _writer.WriteWhitespace(_writer.Settings.NewLineChars);
-                        }
-                    }
-                    else
-                    {
-                        base.WriteSymbol(item.Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters);
-                    }
-
-                    WriteEndAttribute();
-                    WriteAttributeString("class", "type-hierarchy-link");
-                    _writer.WriteRaw("&middot;");
-                    WriteEndElement();
-                    Write(" ");
-                }
-            }
-            else
-            {
-                for (int i = 0; i < Depth; i++)
-                {
-                    Write(Format.IndentChars);
-                }
+                Write(Format.IndentChars);
             }
         }
 
@@ -958,6 +987,15 @@ namespace Roslynator.Documentation.Html
                     while (!isLast);
                 }
             }
+        }
+
+        private void WriteContainingNamespace(ISymbol symbol)
+        {
+            WriteStartElement("span");
+            WriteAttributeString("class", "containing-namespace");
+            Write(symbol.ContainingNamespace.ToDisplayParts(TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces));
+            Write(".");
+            WriteEndElement();
         }
 
         private bool IsExternal(ISymbol symbol)
