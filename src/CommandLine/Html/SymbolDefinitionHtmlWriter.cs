@@ -18,6 +18,7 @@ namespace Roslynator.Documentation.Html
         private XmlWriter _writer;
         private bool _pendingIndentation;
         private ImmutableHashSet<IAssemblySymbol> _assemblies = ImmutableHashSet<IAssemblySymbol>.Empty;
+        private List<TypeHierarchyItem> _typeHierarchy;
 
         public SymbolDefinitionHtmlWriter(
             XmlWriter writer,
@@ -66,6 +67,8 @@ namespace Roslynator.Documentation.Html
             _writer.WriteRaw(@"
 <style type=""text/css"">
 * { font-family: Consolas, Courier; }
+.external-type { color: gray; }
+.type-hierarchy-link { text-decoration: none; }
 </style>
 ");
 #endif
@@ -175,7 +178,11 @@ namespace Roslynator.Documentation.Html
             if (typeSymbol != null)
             {
                 WriteLocalRef(typeSymbol);
-                WriteStartCodeElement();
+
+                bool isExternal = Layout == SymbolDefinitionListLayout.TypeHierarchy
+                    && IsExternal(typeSymbol);
+
+                WriteStartCodeElement(isExternal: isExternal);
             }
         }
 
@@ -383,17 +390,7 @@ namespace Roslynator.Documentation.Html
             {
                 base.WriteSymbol(symbol, format);
             }
-            else if (_assemblies.Contains(symbol.ContainingAssembly))
-            {
-                WriteStartElement("a");
-                WriteStartAttribute("href");
-                Write("#");
-                WriteLocalLink(symbol);
-                WriteEndAttribute();
-                WriteName();
-                WriteEndElement();
-            }
-            else
+            else if (IsExternal(symbol))
             {
                 string url = WellKnownExternalUrlProviders.MicrosoftDocs.CreateUrl(symbol).Url;
 
@@ -408,6 +405,16 @@ namespace Roslynator.Documentation.Html
                 {
                     WriteName();
                 }
+            }
+            else
+            {
+                WriteStartElement("a");
+                WriteStartAttribute("href");
+                Write("#");
+                WriteLocalLink(symbol);
+                WriteEndAttribute();
+                WriteName();
+                WriteEndElement();
             }
 
             void WriteName()
@@ -540,10 +547,17 @@ namespace Roslynator.Documentation.Html
             }
         }
 
-        private void WriteStartCodeElement()
+        internal override void WriteTypeHierarchyItem(TypeHierarchyItem item, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            (_typeHierarchy ?? (_typeHierarchy = new List<TypeHierarchyItem>())).Add(item);
+            base.WriteTypeHierarchyItem(item, cancellationToken);
+            _typeHierarchy.RemoveAt(_typeHierarchy.Count - 1);
+        }
+
+        private void WriteStartCodeElement(bool isExternal = false)
         {
             WriteStartElement("code");
-            WriteAttributeString("class", "csharp");
+            WriteAttributeString("class", (isExternal) ? "csharp external-type" : "csharp");
             WriteIndentation();
         }
 
@@ -596,9 +610,51 @@ namespace Roslynator.Documentation.Html
         {
             _pendingIndentation = false;
 
-            for (int i = 0; i < Depth; i++)
+            if (Layout == SymbolDefinitionListLayout.TypeHierarchy
+                && _typeHierarchy?.Count > 1
+                && Depth < _typeHierarchy.Count)
             {
-                Write(Format.IndentChars);
+                for (int i = 0; i < _typeHierarchy.Count - 1; i++)
+                {
+                    TypeHierarchyItem item = _typeHierarchy[i];
+
+                    WriteStartElement("a");
+                    WriteStartAttribute("href");
+                    Write("#");
+                    WriteLocalLink(item.Symbol);
+                    WriteEndAttribute();
+                    WriteStartAttribute("title");
+
+                    if (i == _typeHierarchy.Count - 2)
+                    {
+                        for (int j = 0; j < _typeHierarchy.Count - 1; j++)
+                        {
+                            for (int k = 1; k <= j; k++)
+                                Write("  ");
+
+                            base.WriteSymbol(_typeHierarchy[j].Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters);
+
+                            _writer.WriteWhitespace(_writer.Settings.NewLineChars);
+                        }
+                    }
+                    else
+                    {
+                        base.WriteSymbol(item.Symbol, TypeSymbolDisplayFormats.Name_ContainingTypes_Namespaces_TypeParameters);
+                    }
+
+                    WriteEndAttribute();
+                    WriteAttributeString("class", "type-hierarchy-link");
+                    _writer.WriteRaw("&middot;");
+                    WriteEndElement();
+                    Write(" ");
+                }
+            }
+            else
+            {
+                for (int i = 0; i < Depth; i++)
+                {
+                    Write(Format.IndentChars);
+                }
             }
         }
 
@@ -902,6 +958,17 @@ namespace Roslynator.Documentation.Html
                     while (!isLast);
                 }
             }
+        }
+
+        private bool IsExternal(ISymbol symbol)
+        {
+            foreach (IAssemblySymbol assembly in _assemblies)
+            {
+                if (symbol.ContainingAssembly.Identity.Equals(assembly.Identity))
+                    return false;
+            }
+
+            return true;
         }
 
         public override void Close()
