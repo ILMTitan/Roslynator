@@ -19,7 +19,7 @@
 | [NumericLiteralExpression(UInt32)](#Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt32_) | |
 | [NumericLiteralExpression(UInt64)](#Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt64_) | |
 
-## NumericLiteralExpression\(Decimal\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Decimal_"></a>
+## NumericLiteralExpression\(Decimal\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Decimal_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(decimal value)
@@ -33,7 +33,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(Double\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Double_"></a>
+## NumericLiteralExpression\(Double\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Double_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(double value)
@@ -47,7 +47,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(Int32\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int32_"></a>
+## NumericLiteralExpression\(Int32\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int32_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(int value)
@@ -61,7 +61,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(Int64\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int64_"></a>
+## NumericLiteralExpression\(Int64\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Int64_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(long value)
@@ -75,7 +75,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(SByte\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_SByte_"></a>
+## NumericLiteralExpression\(SByte\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_SByte_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(sbyte value)
@@ -89,7 +89,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(Single\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Single_"></a>
+## NumericLiteralExpression\(Single\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_Single_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(float value)
@@ -103,7 +103,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(UInt32\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt32_"></a>
+## NumericLiteralExpression\(UInt32\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt32_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(uint value)
@@ -117,7 +117,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax Numer
 
 [LiteralExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.literalexpressionsyntax)
 
-## NumericLiteralExpression\(UInt64\) <a name="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt64_"></a>
+## NumericLiteralExpression\(UInt64\) <a id="Roslynator_CSharp_CSharpFactory_NumericLiteralExpression_System_UInt64_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.LiteralExpressionSyntax NumericLiteralExpression(ulong value)

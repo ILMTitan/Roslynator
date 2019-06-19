@@ -16,7 +16,7 @@
 | [BracesSpan(NamespaceDeclarationSyntax)](#Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_) | The absolute span of the braces, not including leading and trailing trivia\. |
 | [BracesSpan(StructDeclarationSyntax)](#Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_) | The absolute span of the braces, not including its leading and trailing trivia\. |
 
-## BracesSpan\(ClassDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_"></a>
+## BracesSpan\(ClassDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_"></a>
 
 \
 The absolute span of the braces, not including its leading and trailing trivia\.
@@ -33,7 +33,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-## BracesSpan\(EnumDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_EnumDeclarationSyntax_"></a>
+## BracesSpan\(EnumDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_EnumDeclarationSyntax_"></a>
 
 \
 The absolute span of the braces, not including its leading and trailing trivia\.
@@ -50,7 +50,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-## BracesSpan\(InterfaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
+## BracesSpan\(InterfaceDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
 
 \
 The absolute span of the braces, not including it leading and trailing trivia\.
@@ -67,7 +67,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-## BracesSpan\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
+## BracesSpan\(NamespaceDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
 \
 The absolute span of the braces, not including leading and trailing trivia\.
@@ -84,7 +84,7 @@ public static Microsoft.CodeAnalysis.Text.TextSpan BracesSpan(this Microsoft.Cod
 
 [TextSpan](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.text.textspan)
 
-## BracesSpan\(StructDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
+## BracesSpan\(StructDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxExtensions_BracesSpan_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
 
 \
 The absolute span of the braces, not including its leading and trailing trivia\.

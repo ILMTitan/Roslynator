@@ -14,7 +14,7 @@
 | [EnsureUniqueName(String, ImmutableArray\<ISymbol>, Boolean)](#Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Immutable_ImmutableArray_Microsoft_CodeAnalysis_ISymbol__System_Boolean_) | Returns an unique name using the specified list of symbols\. |
 | [EnsureUniqueName(String, SemanticModel, Int32, Boolean)](#Roslynator_NameGenerator_EnsureUniqueName_System_String_Microsoft_CodeAnalysis_SemanticModel_System_Int32_System_Boolean_) | Returns a name that will be unique at the specified position\. |
 
-## EnsureUniqueName\(String, IEnumerable\<String>, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_"></a>
+## EnsureUniqueName\(String, IEnumerable\<String>, Boolean\) <a id="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_"></a>
 
 \
 Returns an unique name using the specified list of reserved names\.
@@ -35,7 +35,7 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Gene
 
 [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-## EnsureUniqueName\(String, ImmutableArray\<ISymbol>, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Immutable_ImmutableArray_Microsoft_CodeAnalysis_ISymbol__System_Boolean_"></a>
+## EnsureUniqueName\(String, ImmutableArray\<ISymbol>, Boolean\) <a id="Roslynator_NameGenerator_EnsureUniqueName_System_String_System_Collections_Immutable_ImmutableArray_Microsoft_CodeAnalysis_ISymbol__System_Boolean_"></a>
 
 \
 Returns an unique name using the specified list of symbols\.
@@ -56,7 +56,7 @@ public abstract string EnsureUniqueName(string baseName, System.Collections.Immu
 
 [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-## EnsureUniqueName\(String, SemanticModel, Int32, Boolean\) <a name="Roslynator_NameGenerator_EnsureUniqueName_System_String_Microsoft_CodeAnalysis_SemanticModel_System_Int32_System_Boolean_"></a>
+## EnsureUniqueName\(String, SemanticModel, Int32, Boolean\) <a id="Roslynator_NameGenerator_EnsureUniqueName_System_String_Microsoft_CodeAnalysis_SemanticModel_System_Int32_System_Boolean_"></a>
 
 \
 Returns a name that will be unique at the specified position\.

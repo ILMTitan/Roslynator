@@ -13,7 +13,7 @@
 | [ArgumentList(ArgumentSyntax)](#Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax_) | |
 | [ArgumentList(ArgumentSyntax\[\])](#Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax___) | |
 
-## ArgumentList\(ArgumentSyntax\) <a name="Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax_"></a>
+## ArgumentList\(ArgumentSyntax\) <a id="Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax ArgumentList(Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentSyntax argument)
@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax ArgumentLi
 
 [ArgumentListSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.argumentlistsyntax)
 
-## ArgumentList\(ArgumentSyntax\[\]\) <a name="Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax___"></a>
+## ArgumentList\(ArgumentSyntax\[\]\) <a id="Roslynator_CSharp_CSharpFactory_ArgumentList_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentSyntax___"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax ArgumentList(params Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentSyntax[] arguments)

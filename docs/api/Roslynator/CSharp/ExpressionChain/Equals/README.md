@@ -13,7 +13,7 @@
 | [Equals(ExpressionChain)](#Roslynator_CSharp_ExpressionChain_Equals_Roslynator_CSharp_ExpressionChain_) | Determines whether this instance is equal to another object of the same type\. \(Implements [IEquatable\<ExpressionChain>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)\) |
 | [Equals(Object)](#Roslynator_CSharp_ExpressionChain_Equals_System_Object_) | Determines whether this instance and a specified object are equal\. \(Overrides [ValueType.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype.equals)\) |
 
-## Equals\(ExpressionChain\) <a name="Roslynator_CSharp_ExpressionChain_Equals_Roslynator_CSharp_ExpressionChain_"></a>
+## Equals\(ExpressionChain\) <a id="Roslynator_CSharp_ExpressionChain_Equals_Roslynator_CSharp_ExpressionChain_"></a>
 
 \
 Determines whether this instance is equal to another object of the same type\.
@@ -38,7 +38,7 @@ true if the current object is equal to the **other** parameter; otherwise, false
 
 * [IEquatable\<ExpressionChain>.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals)
 
-## Equals\(Object\) <a name="Roslynator_CSharp_ExpressionChain_Equals_System_Object_"></a>
+## Equals\(Object\) <a id="Roslynator_CSharp_ExpressionChain_Equals_System_Object_"></a>
 
 \
 Determines whether this instance and a specified object are equal\.

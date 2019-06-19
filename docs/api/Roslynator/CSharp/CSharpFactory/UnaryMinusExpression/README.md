@@ -13,7 +13,7 @@
 | [UnaryMinusExpression(ExpressionSyntax)](#Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_) | |
 | [UnaryMinusExpression(ExpressionSyntax, SyntaxToken)](#Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_) | |
 
-## UnaryMinusExpression\(ExpressionSyntax\) <a name="Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_"></a>
+## UnaryMinusExpression\(ExpressionSyntax\) <a id="Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax UnaryMinusExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax operand)
@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax U
 
 [PrefixUnaryExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.prefixunaryexpressionsyntax)
 
-## UnaryMinusExpression\(ExpressionSyntax, SyntaxToken\) <a name="Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_"></a>
+## UnaryMinusExpression\(ExpressionSyntax, SyntaxToken\) <a id="Roslynator_CSharp_CSharpFactory_UnaryMinusExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax UnaryMinusExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax operand, Microsoft.CodeAnalysis.SyntaxToken operatorToken)

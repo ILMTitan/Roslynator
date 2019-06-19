@@ -16,7 +16,7 @@
 | [IsKind(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind)](#Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_) | Returns true if the symbol is one of the specified kinds\. |
 | [IsKind(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind, SymbolKind)](#Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_) | Returns true if the symbol is one of the specified kinds\. |
 
-## IsKind\(ISymbol, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_"></a>
+## IsKind\(ISymbol, SymbolKind\) <a id="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
 \
 Returns true if the symbol is the specified kind\.
@@ -35,7 +35,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsKind\(ISymbol, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
+## IsKind\(ISymbol, SymbolKind, SymbolKind\) <a id="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
 \
 Returns true if the symbol is one of the specified kinds\.
@@ -56,7 +56,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
+## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind\) <a id="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
 \
 Returns true if the symbol is one of the specified kinds\.
@@ -79,7 +79,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
+## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a id="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
 \
 Returns true if the symbol is one of the specified kinds\.
@@ -104,7 +104,7 @@ public static bool IsKind(this Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a name="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
+## IsKind\(ISymbol, SymbolKind, SymbolKind, SymbolKind, SymbolKind, SymbolKind\) <a id="Roslynator_SymbolExtensions_IsKind_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_Microsoft_CodeAnalysis_SymbolKind_"></a>
 
 \
 Returns true if the symbol is one of the specified kinds\.

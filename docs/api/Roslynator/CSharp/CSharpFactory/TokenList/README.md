@@ -15,7 +15,7 @@
 | [TokenList(SyntaxKind, SyntaxKind)](#Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_) | |
 | [TokenList(SyntaxKind, SyntaxKind, SyntaxKind)](#Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_) | |
 
-## TokenList\(Accessibility\) <a name="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_Accessibility_"></a>
+## TokenList\(Accessibility\) <a id="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_Accessibility_"></a>
 
 \
 Creates a list of modifiers from the specified accessibility\.
@@ -32,7 +32,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-## TokenList\(SyntaxKind\) <a name="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
+## TokenList\(SyntaxKind\) <a id="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAnalysis.CSharp.SyntaxKind kind)
@@ -46,7 +46,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-## TokenList\(SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
+## TokenList\(SyntaxKind, SyntaxKind\) <a id="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAnalysis.CSharp.SyntaxKind kind1, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind2)
@@ -62,7 +62,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAna
 
 [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-## TokenList\(SyntaxKind, SyntaxKind, SyntaxKind\) <a name="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
+## TokenList\(SyntaxKind, SyntaxKind, SyntaxKind\) <a id="Roslynator_CSharp_CSharpFactory_TokenList_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.SyntaxTokenList TokenList(Microsoft.CodeAnalysis.CSharp.SyntaxKind kind1, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind2, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind3)

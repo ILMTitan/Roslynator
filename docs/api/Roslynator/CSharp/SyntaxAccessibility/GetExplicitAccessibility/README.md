@@ -13,7 +13,7 @@
 | [GetExplicitAccessibility(SyntaxNode)](#Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxNode_) | Returns an explicit accessibility of the specified declaration\. |
 | [GetExplicitAccessibility(SyntaxTokenList)](#Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxTokenList_) | Returns an explicit accessibility of the specified modifiers\. |
 
-## GetExplicitAccessibility\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxNode_"></a>
+## GetExplicitAccessibility\(SyntaxNode\) <a id="Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
 \
 Returns an explicit accessibility of the specified declaration\.
@@ -30,7 +30,7 @@ public static Microsoft.CodeAnalysis.Accessibility GetExplicitAccessibility(Micr
 
 [Accessibility](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.accessibility)
 
-## GetExplicitAccessibility\(SyntaxTokenList\) <a name="Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxTokenList_"></a>
+## GetExplicitAccessibility\(SyntaxTokenList\) <a id="Roslynator_CSharp_SyntaxAccessibility_GetExplicitAccessibility_Microsoft_CodeAnalysis_SyntaxTokenList_"></a>
 
 \
 Returns an explicit accessibility of the specified modifiers\.

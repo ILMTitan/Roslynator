@@ -13,7 +13,7 @@
 | [Remove(TNode, SyntaxKind)](#Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_CSharp_SyntaxKind_) | Creates a new node with a modifier of the specified kind removed\. |
 | [Remove(TNode, SyntaxToken)](#Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_SyntaxToken_) | Creates a new node with the specified modifier removed\. |
 
-## Remove\(TNode, SyntaxKind\) <a name="Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
+## Remove\(TNode, SyntaxKind\) <a id="Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_CSharp_SyntaxKind_"></a>
 
 \
 Creates a new node with a modifier of the specified kind removed\.
@@ -32,7 +32,7 @@ public TNode Remove(TNode node, Microsoft.CodeAnalysis.CSharp.SyntaxKind kind)
 
 TNode
 
-## Remove\(TNode, SyntaxToken\) <a name="Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_SyntaxToken_"></a>
+## Remove\(TNode, SyntaxToken\) <a id="Roslynator_CSharp_ModifierList_1_Remove__0_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
 \
 Creates a new node with the specified modifier removed\.

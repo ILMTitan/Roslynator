@@ -14,7 +14,7 @@
 | [Create(NamespaceDeclarationSyntax, TextSpan)](#Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_) | Creates a new [MemberDeclarationListSelection](../README.md) based on the specified namespace declaration and span\. |
 | [Create(TypeDeclarationSyntax, TextSpan)](#Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_) | Creates a new [MemberDeclarationListSelection](../README.md) based on the specified type declaration and span\. |
 
-## Create\(CompilationUnitSyntax, TextSpan\) <a name="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
+## Create\(CompilationUnitSyntax, TextSpan\) <a id="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
 
 \
 Creates a new [MemberDeclarationListSelection](../README.md) based on the specified compilation unit and span\.
@@ -33,7 +33,7 @@ public static Roslynator.CSharp.MemberDeclarationListSelection Create(Microsoft.
 
 [MemberDeclarationListSelection](../README.md)
 
-## Create\(NamespaceDeclarationSyntax, TextSpan\) <a name="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
+## Create\(NamespaceDeclarationSyntax, TextSpan\) <a id="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
 
 \
 Creates a new [MemberDeclarationListSelection](../README.md) based on the specified namespace declaration and span\.
@@ -52,7 +52,7 @@ public static Roslynator.CSharp.MemberDeclarationListSelection Create(Microsoft.
 
 [MemberDeclarationListSelection](../README.md)
 
-## Create\(TypeDeclarationSyntax, TextSpan\) <a name="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
+## Create\(TypeDeclarationSyntax, TextSpan\) <a id="Roslynator_CSharp_MemberDeclarationListSelection_Create_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_Microsoft_CodeAnalysis_Text_TextSpan_"></a>
 
 \
 Creates a new [MemberDeclarationListSelection](../README.md) based on the specified type declaration and span\.

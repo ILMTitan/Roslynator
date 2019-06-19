@@ -14,7 +14,7 @@
 | [IsParameterArrayOf(IParameterSymbol, SpecialType, SpecialType)](#Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_) | Returns true if the parameter was declared as a parameter array that has one of specified element types\. |
 | [IsParameterArrayOf(IParameterSymbol, SpecialType, SpecialType, SpecialType)](#Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_) | Returns true if the parameter was declared as a parameter array that has one of specified element types\. |
 
-## IsParameterArrayOf\(IParameterSymbol, SpecialType\) <a name="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_"></a>
+## IsParameterArrayOf\(IParameterSymbol, SpecialType\) <a id="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_"></a>
 
 \
 Returns true if the parameter was declared as a parameter array that has a specified element type\.
@@ -33,7 +33,7 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType\) <a name="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
+## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType\) <a id="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
 
 \
 Returns true if the parameter was declared as a parameter array that has one of specified element types\.
@@ -54,7 +54,7 @@ public static bool IsParameterArrayOf(this Microsoft.CodeAnalysis.IParameterSymb
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType, SpecialType\) <a name="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
+## IsParameterArrayOf\(IParameterSymbol, SpecialType, SpecialType, SpecialType\) <a id="Roslynator_SymbolExtensions_IsParameterArrayOf_Microsoft_CodeAnalysis_IParameterSymbol_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_Microsoft_CodeAnalysis_SpecialType_"></a>
 
 \
 Returns true if the parameter was declared as a parameter array that has one of specified element types\.

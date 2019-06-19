@@ -15,7 +15,7 @@
 | [ReplaceAt\<TNode>(SeparatedSyntaxList\<TNode>, Int32, TNode)](#Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32___0_) | Creates a new list with a node at the specified index replaced with a new node\. |
 | [ReplaceAt\<TNode>(SyntaxList\<TNode>, Int32, TNode)](#Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32___0_) | Creates a new list with the node at the specified index replaced with a new node\. |
 
-## ReplaceAt\(SyntaxTokenList, Int32, SyntaxToken\) <a name="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_Microsoft_CodeAnalysis_SyntaxToken_"></a>
+## ReplaceAt\(SyntaxTokenList, Int32, SyntaxToken\) <a id="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
 \
 Creates a new [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist) with a token at the specified index replaced with a new token\.
@@ -36,7 +36,7 @@ public static Microsoft.CodeAnalysis.SyntaxTokenList ReplaceAt(this Microsoft.Co
 
 [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-## ReplaceAt\(SyntaxTriviaList, Int32, SyntaxTrivia\) <a name="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_Microsoft_CodeAnalysis_SyntaxTrivia_"></a>
+## ReplaceAt\(SyntaxTriviaList, Int32, SyntaxTrivia\) <a id="Roslynator_SyntaxExtensions_ReplaceAt_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_Microsoft_CodeAnalysis_SyntaxTrivia_"></a>
 
 \
 Creates a new [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist) with a trivia at the specified index replaced with new trivia\.
@@ -57,7 +57,7 @@ public static Microsoft.CodeAnalysis.SyntaxTriviaList ReplaceAt(this Microsoft.C
 
 [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-## ReplaceAt\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, TNode\) <a name="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32___0_"></a>
+## ReplaceAt\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, TNode\) <a id="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32___0_"></a>
 
 \
 Creates a new list with a node at the specified index replaced with a new node\.
@@ -82,7 +82,7 @@ public static Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> ReplaceAt<TNode>
 
 [SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-## ReplaceAt\<TNode>\(SyntaxList\<TNode>, Int32, TNode\) <a name="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32___0_"></a>
+## ReplaceAt\<TNode>\(SyntaxList\<TNode>, Int32, TNode\) <a id="Roslynator_SyntaxExtensions_ReplaceAt__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32___0_"></a>
 
 \
 Creates a new list with the node at the specified index replaced with a new node\.

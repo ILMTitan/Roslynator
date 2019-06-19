@@ -13,7 +13,7 @@
 | [GetAttribute(ISymbol, INamedTypeSymbol)](#Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_) | Returns the attribute for the symbol that matches the specified attribute class, or null if the symbol does not have the specified attribute\. |
 | [GetAttribute(ISymbol, MetadataName)](#Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__) | Returns the attribute for the symbol that matches the specified name, or null if the symbol does not have the specified attribute\. |
 
-## GetAttribute\(ISymbol, INamedTypeSymbol\) <a name="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_"></a>
+## GetAttribute\(ISymbol, INamedTypeSymbol\) <a id="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Microsoft_CodeAnalysis_INamedTypeSymbol_"></a>
 
 \
 Returns the attribute for the symbol that matches the specified attribute class, or null if the symbol does not have the specified attribute\.
@@ -32,7 +32,7 @@ public static Microsoft.CodeAnalysis.AttributeData GetAttribute(this Microsoft.C
 
 [AttributeData](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.attributedata)
 
-## GetAttribute\(ISymbol, MetadataName\) <a name="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__"></a>
+## GetAttribute\(ISymbol, MetadataName\) <a id="Roslynator_SymbolExtensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_Roslynator_MetadataName__"></a>
 
 \
 Returns the attribute for the symbol that matches the specified name, or null if the symbol does not have the specified attribute\.

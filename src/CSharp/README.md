@@ -9,11 +9,11 @@
 
 ## Class Hierarchy
 
-* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)
-* &emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)
-* &emsp; \(Roslynator\.SyntaxListSelection\<TNode>\)
-* &emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)
-* &emsp; \| &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)
+* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="System_Object"></a>
+* &emsp;&emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)<a id="Roslynator_CSharp_ModifierList_1"></a>
+* &emsp;&emsp; \(Roslynator\.SyntaxListSelection\<TNode>\)<a id="Roslynator_SyntaxListSelection_1"></a>
+*  [&middot;](#Roslynator_CSharp_MemberDeclarationListSelection "MemberDeclarationListSelection") &emsp;&emsp; \| &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="Roslynator_CSharp_MemberDeclarationListSelection"></a>
+*  [&middot;](#Roslynator_CSharp_StatementListSelection "StatementListSelection") &emsp;&emsp; \| &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)<a id="Roslynator_CSharp_StatementListSelection"></a>
 
 ## [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md) Namespace
 

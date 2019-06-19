@@ -13,7 +13,7 @@
 | [IsFirst\<TNode>(SeparatedSyntaxList\<TNode>, TNode)](#Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0____0_) | Returns true if the specified node is a first node in the list\. |
 | [IsFirst\<TNode>(SyntaxList\<TNode>, TNode)](#Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SyntaxList___0____0_) | Returns true if the specified node is a first node in the list\. |
 
-## IsFirst\<TNode>\(SeparatedSyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0____0_"></a>
+## IsFirst\<TNode>\(SeparatedSyntaxList\<TNode>, TNode\) <a id="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0____0_"></a>
 
 \
 Returns true if the specified node is a first node in the list\.
@@ -36,7 +36,7 @@ public static bool IsFirst<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxLis
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## IsFirst\<TNode>\(SyntaxList\<TNode>, TNode\) <a name="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SyntaxList___0____0_"></a>
+## IsFirst\<TNode>\(SyntaxList\<TNode>, TNode\) <a id="Roslynator_SyntaxExtensions_IsFirst__1_Microsoft_CodeAnalysis_SyntaxList___0____0_"></a>
 
 \
 Returns true if the specified node is a first node in the list\.

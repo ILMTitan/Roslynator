@@ -13,7 +13,7 @@
 | [BitwiseNotExpression(ExpressionSyntax)](#Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_) | |
 | [BitwiseNotExpression(ExpressionSyntax, SyntaxToken)](#Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_) | |
 
-## BitwiseNotExpression\(ExpressionSyntax\) <a name="Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_"></a>
+## BitwiseNotExpression\(ExpressionSyntax\) <a id="Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax BitwiseNotExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax operand)
@@ -27,7 +27,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax B
 
 [PrefixUnaryExpressionSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.prefixunaryexpressionsyntax)
 
-## BitwiseNotExpression\(ExpressionSyntax, SyntaxToken\) <a name="Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_"></a>
+## BitwiseNotExpression\(ExpressionSyntax, SyntaxToken\) <a id="Roslynator_CSharp_CSharpFactory_BitwiseNotExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_SyntaxToken_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.PrefixUnaryExpressionSyntax BitwiseNotExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax operand, Microsoft.CodeAnalysis.SyntaxToken operatorToken)

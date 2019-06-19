@@ -11,16 +11,16 @@
 
 ## Class Hierarchy
 
-* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)
-* &emsp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)
-* &emsp; \| &emsp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)
-* &emsp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)
-* &emsp; [NameGenerator](Roslynator/NameGenerator/README.md)
-* &emsp; [SeparatedSyntaxListSelection\<TNode>](Roslynator/SeparatedSyntaxListSelection-1/README.md)
-* &emsp; [SyntaxListSelection\<TNode>](Roslynator/SyntaxListSelection-1/README.md)
-* &emsp; \| &emsp; [MemberDeclarationListSelection](Roslynator/CSharp/MemberDeclarationListSelection/README.md)
-* &emsp; \| &emsp; [StatementListSelection](Roslynator/CSharp/StatementListSelection/README.md)
-* &emsp; [TextLineCollectionSelection](Roslynator/Text/TextLineCollectionSelection/README.md)
+* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="System_Object"></a>
+* &emsp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)<a id="System_Collections_Generic_EqualityComparer_1"></a>
+* &emsp; [&middot;](#Roslynator_MetadataNameEqualityComparer_1 "MetadataNameEqualityComparer<TSymbol>") &emsp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)<a id="Roslynator_MetadataNameEqualityComparer_1"></a>
+* &emsp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)<a id="Roslynator_CSharp_ModifierList_1"></a>
+* &emsp; [NameGenerator](Roslynator/NameGenerator/README.md)<a id="Roslynator_NameGenerator"></a>
+* &emsp; [SeparatedSyntaxListSelection\<TNode>](Roslynator/SeparatedSyntaxListSelection-1/README.md)<a id="Roslynator_SeparatedSyntaxListSelection_1"></a>
+* &emsp; [SyntaxListSelection\<TNode>](Roslynator/SyntaxListSelection-1/README.md)<a id="Roslynator_SyntaxListSelection_1"></a>
+* &emsp; [&middot;](#Roslynator_CSharp_MemberDeclarationListSelection "MemberDeclarationListSelection") &emsp; [MemberDeclarationListSelection](Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="Roslynator_CSharp_MemberDeclarationListSelection"></a>
+* &emsp; [&middot;](#Roslynator_CSharp_StatementListSelection "StatementListSelection") &emsp; [StatementListSelection](Roslynator/CSharp/StatementListSelection/README.md)<a id="Roslynator_CSharp_StatementListSelection"></a>
+* &emsp; [TextLineCollectionSelection](Roslynator/Text/TextLineCollectionSelection/README.md)<a id="Roslynator_Text_TextLineCollectionSelection"></a>
 
 ## [Roslynator](Roslynator/README.md) Namespace
 

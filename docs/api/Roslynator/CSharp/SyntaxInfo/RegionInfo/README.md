@@ -13,7 +13,7 @@
 | [RegionInfo(EndRegionDirectiveTriviaSyntax)](#Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EndRegionDirectiveTriviaSyntax_) | Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified endregion directive\. |
 | [RegionInfo(RegionDirectiveTriviaSyntax)](#Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_RegionDirectiveTriviaSyntax_) | Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified region directive\. |
 
-## RegionInfo\(EndRegionDirectiveTriviaSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EndRegionDirectiveTriviaSyntax_"></a>
+## RegionInfo\(EndRegionDirectiveTriviaSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_EndRegionDirectiveTriviaSyntax_"></a>
 
 \
 Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified endregion directive\.
@@ -30,7 +30,7 @@ public static Roslynator.CSharp.Syntax.RegionInfo RegionInfo(Microsoft.CodeAnaly
 
 [RegionInfo](../../Syntax/RegionInfo/README.md)
 
-## RegionInfo\(RegionDirectiveTriviaSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_RegionDirectiveTriviaSyntax_"></a>
+## RegionInfo\(RegionDirectiveTriviaSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_RegionInfo_Microsoft_CodeAnalysis_CSharp_Syntax_RegionDirectiveTriviaSyntax_"></a>
 
 \
 Creates a new [RegionInfo](../../Syntax/RegionInfo/README.md) from the specified region directive\.

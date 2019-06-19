@@ -18,7 +18,7 @@
 | [MemberDeclarationListInfo(SyntaxNode)](#Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_SyntaxNode_) | Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified node\. |
 | [MemberDeclarationListInfo(TypeDeclarationSyntax)](#Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_) | Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\. |
 
-## MemberDeclarationListInfo\(ClassDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_"></a>
+## MemberDeclarationListInfo\(ClassDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\.
@@ -35,7 +35,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(CompilationUnitSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
+## MemberDeclarationListInfo\(CompilationUnitSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified compilation unit\.
@@ -52,7 +52,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(InterfaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
+## MemberDeclarationListInfo\(InterfaceDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_InterfaceDeclarationSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\.
@@ -69,7 +69,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
+## MemberDeclarationListInfo\(NamespaceDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\.
@@ -86,7 +86,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(StructDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
+## MemberDeclarationListInfo\(StructDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_StructDeclarationSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\.
@@ -103,7 +103,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
+## MemberDeclarationListInfo\(SyntaxNode\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified node\.
@@ -120,7 +120,7 @@ public static Roslynator.CSharp.Syntax.MemberDeclarationListInfo MemberDeclarati
 
 [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md)
 
-## MemberDeclarationListInfo\(TypeDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_"></a>
+## MemberDeclarationListInfo\(TypeDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_MemberDeclarationListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_TypeDeclarationSyntax_"></a>
 
 \
 Creates a new [MemberDeclarationListInfo](../../Syntax/MemberDeclarationListInfo/README.md) from the specified declaration\.

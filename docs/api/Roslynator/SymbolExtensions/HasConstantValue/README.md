@@ -25,7 +25,7 @@
 | [HasConstantValue(IFieldSymbol, UInt32)](#Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt32_) | Get a value indicating whether the field symbol has specified constant value\. |
 | [HasConstantValue(IFieldSymbol, UInt64)](#Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt64_) | Get a value indicating whether the field symbol has specified constant value\. |
 
-## HasConstantValue\(IFieldSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Boolean_"></a>
+## HasConstantValue\(IFieldSymbol, Boolean\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Boolean_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -44,7 +44,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Byte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Byte_"></a>
+## HasConstantValue\(IFieldSymbol, Byte\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Byte_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -63,7 +63,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Decimal\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Decimal_"></a>
+## HasConstantValue\(IFieldSymbol, Decimal\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Decimal_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -82,7 +82,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Double\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Double_"></a>
+## HasConstantValue\(IFieldSymbol, Double\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Double_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -101,7 +101,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Char\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Char_"></a>
+## HasConstantValue\(IFieldSymbol, Char\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Char_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -120,7 +120,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Int16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int16_"></a>
+## HasConstantValue\(IFieldSymbol, Int16\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int16_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -139,7 +139,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Int32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int32_"></a>
+## HasConstantValue\(IFieldSymbol, Int32\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int32_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -158,7 +158,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Int64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int64_"></a>
+## HasConstantValue\(IFieldSymbol, Int64\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Int64_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -177,7 +177,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, SByte\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_SByte_"></a>
+## HasConstantValue\(IFieldSymbol, SByte\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_SByte_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -196,7 +196,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, Single\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Single_"></a>
+## HasConstantValue\(IFieldSymbol, Single\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_Single_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -215,7 +215,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, String\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_String_"></a>
+## HasConstantValue\(IFieldSymbol, String\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_String_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -234,7 +234,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, UInt16\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt16_"></a>
+## HasConstantValue\(IFieldSymbol, UInt16\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt16_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -253,7 +253,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, UInt32\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt32_"></a>
+## HasConstantValue\(IFieldSymbol, UInt32\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt32_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.
@@ -272,7 +272,7 @@ public static bool HasConstantValue(this Microsoft.CodeAnalysis.IFieldSymbol fie
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## HasConstantValue\(IFieldSymbol, UInt64\) <a name="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt64_"></a>
+## HasConstantValue\(IFieldSymbol, UInt64\) <a id="Roslynator_SymbolExtensions_HasConstantValue_Microsoft_CodeAnalysis_IFieldSymbol_System_UInt64_"></a>
 
 \
 Get a value indicating whether the field symbol has specified constant value\.

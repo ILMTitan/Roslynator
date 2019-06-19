@@ -15,7 +15,7 @@
 | [MetadataName(ImmutableArray\<String>, ImmutableArray\<String>, String)](#Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_Collections_Immutable_ImmutableArray_System_String__System_String_) | Initializes a new instance of [MetadataName](../README.md)\. |
 | [MetadataName(ImmutableArray\<String>, String)](#Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_String_) | Initializes a new instance of [MetadataName](../README.md)\. |
 
-## MetadataName\(IEnumerable\<String>, IEnumerable\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
+## MetadataName\(IEnumerable\<String>, IEnumerable\<String>, String\) <a id="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
 
 \
 Initializes a new instance of [MetadataName](../README.md)\.
@@ -32,7 +32,7 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 **name** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-## MetadataName\(IEnumerable\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
+## MetadataName\(IEnumerable\<String>, String\) <a id="Roslynator_MetadataName__ctor_System_Collections_Generic_IEnumerable_System_String__System_String_"></a>
 
 \
 Initializes a new instance of [MetadataName](../README.md)\.
@@ -47,7 +47,7 @@ public MetadataName(System.Collections.Generic.IEnumerable<string> containingNam
 
 **name** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-## MetadataName\(ImmutableArray\<String>, ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
+## MetadataName\(ImmutableArray\<String>, ImmutableArray\<String>, String\) <a id="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
 \
 Initializes a new instance of [MetadataName](../README.md)\.
@@ -64,7 +64,7 @@ public MetadataName(System.Collections.Immutable.ImmutableArray<string> containi
 
 **name** &ensp; [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)
 
-## MetadataName\(ImmutableArray\<String>, String\) <a name="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
+## MetadataName\(ImmutableArray\<String>, String\) <a id="Roslynator_MetadataName__ctor_System_Collections_Immutable_ImmutableArray_System_String__System_String_"></a>
 
 \
 Initializes a new instance of [MetadataName](../README.md)\.

@@ -13,7 +13,7 @@
 | [EqualsOrInheritsFrom(ITypeSymbol, ITypeSymbol, Boolean)](#Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_System_Boolean_) | Returns true if the type is equal or inherits from a specified base type\. |
 | [EqualsOrInheritsFrom(ITypeSymbol, MetadataName, Boolean)](#Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_) | Returns true if the type is equal or inherits from a type wit the specified name\. |
 
-## EqualsOrInheritsFrom\(ITypeSymbol, ITypeSymbol, Boolean\) <a name="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_System_Boolean_"></a>
+## EqualsOrInheritsFrom\(ITypeSymbol, ITypeSymbol, Boolean\) <a id="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Microsoft_CodeAnalysis_ITypeSymbol_System_Boolean_"></a>
 
 \
 Returns true if the type is equal or inherits from a specified base type\.
@@ -34,7 +34,7 @@ public static bool EqualsOrInheritsFrom(this Microsoft.CodeAnalysis.ITypeSymbol 
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)
 
-## EqualsOrInheritsFrom\(ITypeSymbol, MetadataName, Boolean\) <a name="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
+## EqualsOrInheritsFrom\(ITypeSymbol, MetadataName, Boolean\) <a id="Roslynator_SymbolExtensions_EqualsOrInheritsFrom_Microsoft_CodeAnalysis_ITypeSymbol_Roslynator_MetadataName__System_Boolean_"></a>
 
 \
 Returns true if the type is equal or inherits from a type wit the specified name\.

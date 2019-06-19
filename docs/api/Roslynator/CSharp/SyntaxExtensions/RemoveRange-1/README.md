@@ -15,7 +15,7 @@
 | [RemoveRange\<TNode>(SeparatedSyntaxList\<TNode>, Int32, Int32)](#Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32_System_Int32_) | Creates a new list with elements in the specified range removed\. |
 | [RemoveRange\<TNode>(SyntaxList\<TNode>, Int32, Int32)](#Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32_System_Int32_) | Creates a new list with elements in the specified range removed\. |
 
-## RemoveRange\(SyntaxTokenList, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_System_Int32_"></a>
+## RemoveRange\(SyntaxTokenList, Int32, Int32\) <a id="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTokenList_System_Int32_System_Int32_"></a>
 
 \
 Creates a new list with tokens in the specified range removed\.
@@ -40,7 +40,7 @@ A number of elements to remove\.
 
 [SyntaxTokenList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtokenlist)
 
-## RemoveRange\(SyntaxTriviaList, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_System_Int32_"></a>
+## RemoveRange\(SyntaxTriviaList, Int32, Int32\) <a id="Roslynator_CSharp_SyntaxExtensions_RemoveRange_Microsoft_CodeAnalysis_SyntaxTriviaList_System_Int32_System_Int32_"></a>
 
 \
 Creates a new list with trivia in the specified range removed\.
@@ -65,7 +65,7 @@ A number of elements to remove\.
 
 [SyntaxTriviaList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.syntaxtrivialist)
 
-## RemoveRange\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32_System_Int32_"></a>
+## RemoveRange\<TNode>\(SeparatedSyntaxList\<TNode>, Int32, Int32\) <a id="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SeparatedSyntaxList___0__System_Int32_System_Int32_"></a>
 
 \
 Creates a new list with elements in the specified range removed\.
@@ -94,7 +94,7 @@ A number of elements to remove\.
 
 [SeparatedSyntaxList](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.separatedsyntaxlist-1)\<TNode>
 
-## RemoveRange\<TNode>\(SyntaxList\<TNode>, Int32, Int32\) <a name="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32_System_Int32_"></a>
+## RemoveRange\<TNode>\(SyntaxList\<TNode>, Int32, Int32\) <a id="Roslynator_CSharp_SyntaxExtensions_RemoveRange__1_Microsoft_CodeAnalysis_SyntaxList___0__System_Int32_System_Int32_"></a>
 
 \
 Creates a new list with elements in the specified range removed\.

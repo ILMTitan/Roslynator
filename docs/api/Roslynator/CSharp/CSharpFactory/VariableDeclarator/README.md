@@ -13,7 +13,7 @@
 | [VariableDeclarator(String, EqualsValueClauseSyntax)](#Roslynator_CSharp_CSharpFactory_VariableDeclarator_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_) | |
 | [VariableDeclarator(SyntaxToken, EqualsValueClauseSyntax)](#Roslynator_CSharp_CSharpFactory_VariableDeclarator_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_) | |
 
-## VariableDeclarator\(String, EqualsValueClauseSyntax\) <a name="Roslynator_CSharp_CSharpFactory_VariableDeclarator_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_"></a>
+## VariableDeclarator\(String, EqualsValueClauseSyntax\) <a id="Roslynator_CSharp_CSharpFactory_VariableDeclarator_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclaratorSyntax VariableDeclarator(string identifier, Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax initializer)
@@ -29,7 +29,7 @@ public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclaratorSyntax Vari
 
 [VariableDeclaratorSyntax](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.syntax.variabledeclaratorsyntax)
 
-## VariableDeclarator\(SyntaxToken, EqualsValueClauseSyntax\) <a name="Roslynator_CSharp_CSharpFactory_VariableDeclarator_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_"></a>
+## VariableDeclarator\(SyntaxToken, EqualsValueClauseSyntax\) <a id="Roslynator_CSharp_CSharpFactory_VariableDeclarator_Microsoft_CodeAnalysis_SyntaxToken_Microsoft_CodeAnalysis_CSharp_Syntax_EqualsValueClauseSyntax_"></a>
 
 ```csharp
 public static Microsoft.CodeAnalysis.CSharp.Syntax.VariableDeclaratorSyntax VariableDeclarator(Microsoft.CodeAnalysis.SyntaxToken identifier, Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax initializer)

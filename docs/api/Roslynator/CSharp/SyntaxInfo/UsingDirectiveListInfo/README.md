@@ -14,7 +14,7 @@
 | [UsingDirectiveListInfo(NamespaceDeclarationSyntax)](#Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_) | Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified declaration\. |
 | [UsingDirectiveListInfo(SyntaxNode)](#Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_SyntaxNode_) | Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified node\. |
 
-## UsingDirectiveListInfo\(CompilationUnitSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
+## UsingDirectiveListInfo\(CompilationUnitSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_"></a>
 
 \
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified compilation unit\.
@@ -31,7 +31,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
 
-## UsingDirectiveListInfo\(NamespaceDeclarationSyntax\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
+## UsingDirectiveListInfo\(NamespaceDeclarationSyntax\) <a id="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_CSharp_Syntax_NamespaceDeclarationSyntax_"></a>
 
 \
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified declaration\.
@@ -48,7 +48,7 @@ public static Roslynator.CSharp.Syntax.UsingDirectiveListInfo UsingDirectiveList
 
 [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md)
 
-## UsingDirectiveListInfo\(SyntaxNode\) <a name="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
+## UsingDirectiveListInfo\(SyntaxNode\) <a id="Roslynator_CSharp_SyntaxInfo_UsingDirectiveListInfo_Microsoft_CodeAnalysis_SyntaxNode_"></a>
 
 \
 Creates a new [UsingDirectiveListInfo](../../Syntax/UsingDirectiveListInfo/README.md) from the specified node\.
