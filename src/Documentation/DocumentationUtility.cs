@@ -12,8 +12,6 @@ namespace Roslynator.Documentation
         {
             StringBuilder sb = StringBuilderCache.GetInstance();
 
-            sb.Append("Global_");
-
             int count = 0;
 
             INamespaceSymbol n = symbol.ContainingNamespace;
