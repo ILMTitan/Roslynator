@@ -1159,7 +1159,6 @@ namespace Roslynator.Documentation
             INamedTypeSymbol baseType,
             IEnumerable<INamedTypeSymbol> types,
             bool includeContainingNamespace = false,
-            bool addBaseType = true,
             int maxItems = -1,
             string allItemsHeading = null,
             string allItemsLinkTitle = null)
@@ -1180,7 +1179,7 @@ namespace Roslynator.Documentation
                 }
             }
 
-            int level = (addBaseType) ? 0 : -1;
+            var baseTypes = new List<INamedTypeSymbol>();
             int count = 0;
             bool isMaxReached = false;
 
@@ -1202,41 +1201,42 @@ namespace Roslynator.Documentation
                     ? ImmutableHashSet<INamedTypeSymbol>.Empty
                     : GetSymbolDisplayDuplicates(derivedTypes);
 
-                if (level >= 0)
+                WriteStartBulletItem();
+
+                for (int i = 0; i < baseTypes.Count; i++)
                 {
-                    WriteStartBulletItem();
-
-                    for (int i = 0; i < level; i++)
+                    if (i > 0)
                     {
-                        if (i > 0)
-                        {
-                            WriteSpace();
-                            WriteString("|");
-                            WriteSpace();
-                        }
-
-                        WriteEntityRef("emsp");
+                        WriteSpace();
+                        WriteStartLink();
+                        WriteEntityRef("bull");
+                        WriteEndLink("#" + DocumentationUtility.CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
+                        WriteSpace();
                     }
 
-                    if (level >= 1)
-                        WriteSpace();
-
-                    bool isExternal = DocumentationModel.IsExternal(baseType);
-
-                    if (isExternal)
-                        WriteString("(");
-
-                    WriteTypeListItem(baseType, duplicates, includeContainingNamespace: includeContainingNamespace);
-
-                    if (isExternal)
-                        WriteString(")");
-
-                    WriteEndBulletItem();
-
-                    count++;
+                    WriteEntityRef("emsp");
                 }
 
-                level++;
+                if (baseTypes.Count >= 1)
+                    WriteSpace();
+
+                bool isExternal = DocumentationModel.IsExternal(baseType);
+
+                if (isExternal)
+                    WriteString("(");
+
+                WriteTypeListItem(baseType, duplicates, includeContainingNamespace: includeContainingNamespace);
+
+                if (isExternal)
+                    WriteString(")");
+
+                WriteLinkDestination(DocumentationUtility.CreateLocalLink(baseType));
+
+                WriteEndBulletItem();
+
+                count++;
+
+                baseTypes.Add(baseType);
 
                 using (List<INamedTypeSymbol>.Enumerator en = derivedTypes.GetEnumerator())
                 {
@@ -1275,7 +1275,7 @@ namespace Roslynator.Documentation
                     }
                 }
 
-                level--;
+                baseTypes.RemoveAt(baseTypes.Count - 1);
             }
 
             void WriteEllipsis()

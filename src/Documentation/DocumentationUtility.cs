@@ -12,38 +12,60 @@ namespace Roslynator.Documentation
         {
             StringBuilder sb = StringBuilderCache.GetInstance();
 
-            int cnc = 0;
+            sb.Append("Global_");
 
-            INamespaceSymbol cn = symbol.ContainingNamespace;
+            int count = 0;
 
-            while (cn?.IsGlobalNamespace == false)
+            INamespaceSymbol n = symbol.ContainingNamespace;
+
+            while (n?.IsGlobalNamespace == false)
             {
-                cn = cn.ContainingNamespace;
-                cnc++;
+                n = n.ContainingNamespace;
+                count++;
             }
 
-            while (cnc > 0)
+            while (count > 0)
             {
-                sb.Append(GetContainingNamespace(cnc).Name);
+                int c = count;
+
+                n = symbol.ContainingNamespace;
+
+                while (c > 1)
+                {
+                    n = n.ContainingNamespace;
+                    c--;
+                }
+
+                sb.Append(n.Name);
                 sb.Append("_");
-                cnc--;
+                count--;
             }
 
-            INamedTypeSymbol ct = symbol.ContainingType;
+            count = 0;
 
-            int ctc = 0;
+            INamedTypeSymbol t = symbol.ContainingType;
 
-            while (ct != null)
+            while (t != null)
             {
-                ct = ct.ContainingType;
-                ctc++;
+                t = t.ContainingType;
+                count++;
             }
 
-            while (ctc > 0)
+            while (count > 0)
             {
-                AppendType(GetContainingType(ctc));
+                int c = count;
+
+                t = symbol.ContainingType;
+
+                while (count > 1)
+                {
+                    t = t.ContainingType;
+                    count--;
+                }
+
+                AppendType(t);
                 sb.Append("_");
-                ctc--;
+                count--;
             }
 
             if (symbol.IsKind(SymbolKind.NamedType))
@@ -56,32 +78,6 @@ namespace Roslynator.Documentation
             }
 
             return StringBuilderCache.GetStringAndFree(sb);
-
-            INamespaceSymbol GetContainingNamespace(int count)
-            {
-                INamespaceSymbol n = symbol.ContainingNamespace;
-
-                while (count > 1)
-                {
-                    n = n.ContainingNamespace;
-                    count--;
-                }
-
-                return n;
-            }
-
-            INamedTypeSymbol GetContainingType(int count)
-            {
-                INamedTypeSymbol t = symbol.ContainingType;
-
-                while (count > 1)
-                {
-                    t = t.ContainingType;
-                    count--;
-                }
-
-                return t;
-            }
 
             void AppendType(INamedTypeSymbol typeSymbol)
             {
