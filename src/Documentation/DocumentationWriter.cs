@@ -1205,19 +1205,18 @@ namespace Roslynator.Documentation
 
                 for (int i = 0; i < baseTypes.Count; i++)
                 {
-                    if (i > 0)
-                        WriteSpace();
+                    WriteEntityRef("ensp");
+                    WriteSpace();
 
                     WriteStartLink();
                     WriteEntityRef("bull");
                     WriteEndLink("#" + DocumentationUtility.CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
                     WriteSpace();
 
-                    WriteEntityRef("emsp");
                 }
 
-                if (baseTypes.Count >= 1)
-                    WriteSpace();
+                WriteEntityRef("ensp");
+                WriteSpace();
 
                 bool isExternal = DocumentationModel.IsExternal(baseType);
 
