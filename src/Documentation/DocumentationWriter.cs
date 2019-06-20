@@ -1206,13 +1206,12 @@ namespace Roslynator.Documentation
                 for (int i = 0; i < baseTypes.Count; i++)
                 {
                     if (i > 0)
-                    {
                         WriteSpace();
-                        WriteStartLink();
-                        WriteEntityRef("bull");
-                        WriteEndLink("#" + DocumentationUtility.CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
-                        WriteSpace();
-                    }
+
+                    WriteStartLink();
+                    WriteEntityRef("bull");
+                    WriteEndLink("#" + DocumentationUtility.CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
+                    WriteSpace();
 
                     WriteEntityRef("emsp");
                 }
