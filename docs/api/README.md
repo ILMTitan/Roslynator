@@ -11,16 +11,16 @@
 
 ## Class Hierarchy
 
-* &ensp; \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="System_Object"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)<a id="System_Collections_Generic_EqualityComparer_1"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [&bull;](#System_Collections_Generic_EqualityComparer_1 "EqualityComparer<T>") &ensp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)<a id="Roslynator_MetadataNameEqualityComparer_1"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)<a id="Roslynator_CSharp_ModifierList_1"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [NameGenerator](Roslynator/NameGenerator/README.md)<a id="Roslynator_NameGenerator"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [SeparatedSyntaxListSelection\<TNode>](Roslynator/SeparatedSyntaxListSelection-1/README.md)<a id="Roslynator_SeparatedSyntaxListSelection_1"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [SyntaxListSelection\<TNode>](Roslynator/SyntaxListSelection-1/README.md)<a id="Roslynator_SyntaxListSelection_1"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [&bull;](#Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [MemberDeclarationListSelection](Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="Roslynator_CSharp_MemberDeclarationListSelection"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [&bull;](#Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [StatementListSelection](Roslynator/CSharp/StatementListSelection/README.md)<a id="Roslynator_CSharp_StatementListSelection"></a>
-* &ensp; [&bull;](#System_Object "Object") &ensp; [TextLineCollectionSelection](Roslynator/Text/TextLineCollectionSelection/README.md)<a id="Roslynator_Text_TextLineCollectionSelection"></a>
+* &ensp; \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="class-hierarchy-System_Object"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)<a id="class-hierarchy-System_Collections_Generic_EqualityComparer_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-System_Collections_Generic_EqualityComparer_1 "EqualityComparer<T>") &ensp; [MetadataNameEqualityComparer\<TSymbol>](Roslynator/MetadataNameEqualityComparer-1/README.md)<a id="class-hierarchy-Roslynator_MetadataNameEqualityComparer_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [ModifierList\<TNode>](Roslynator/CSharp/ModifierList-1/README.md)<a id="class-hierarchy-Roslynator_CSharp_ModifierList_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [NameGenerator](Roslynator/NameGenerator/README.md)<a id="class-hierarchy-Roslynator_NameGenerator"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [SeparatedSyntaxListSelection\<TNode>](Roslynator/SeparatedSyntaxListSelection-1/README.md)<a id="class-hierarchy-Roslynator_SeparatedSyntaxListSelection_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [SyntaxListSelection\<TNode>](Roslynator/SyntaxListSelection-1/README.md)<a id="class-hierarchy-Roslynator_SyntaxListSelection_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [MemberDeclarationListSelection](Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="class-hierarchy-Roslynator_CSharp_MemberDeclarationListSelection"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [StatementListSelection](Roslynator/CSharp/StatementListSelection/README.md)<a id="class-hierarchy-Roslynator_CSharp_StatementListSelection"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [TextLineCollectionSelection](Roslynator/Text/TextLineCollectionSelection/README.md)<a id="class-hierarchy-Roslynator_Text_TextLineCollectionSelection"></a>
 
 ## [Roslynator](Roslynator/README.md) Namespace
 

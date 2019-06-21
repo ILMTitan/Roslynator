@@ -8,9 +8,12 @@ namespace Roslynator.Documentation
 {
     internal static class DocumentationUtility
     {
-        public static string CreateLocalLink(ISymbol symbol)
+        public static string CreateLocalLink(ISymbol symbol, string prefix = null)
         {
             StringBuilder sb = StringBuilderCache.GetInstance();
+
+            if (prefix != null)
+                sb.Append(prefix);
 
             int count = 0;
 

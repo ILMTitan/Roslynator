@@ -1207,12 +1207,10 @@ namespace Roslynator.Documentation
                 {
                     WriteEntityRef("ensp");
                     WriteSpace();
-
                     WriteStartLink();
                     WriteEntityRef("bull");
-                    WriteEndLink("#" + DocumentationUtility.CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
+                    WriteEndLink("#" + CreateLocalLink(baseTypes[i]), baseTypes[i].ToDisplayString(TypeSymbolDisplayFormats.Name_ContainingTypes_TypeParameters));
                     WriteSpace();
-
                 }
 
                 WriteEntityRef("ensp");
@@ -1228,7 +1226,7 @@ namespace Roslynator.Documentation
                 if (isExternal)
                     WriteString(")");
 
-                WriteLinkDestination(DocumentationUtility.CreateLocalLink(baseType));
+                WriteLinkDestination(CreateLocalLink(baseType));
 
                 WriteEndBulletItem();
 
@@ -1288,6 +1286,11 @@ namespace Roslynator.Documentation
                 {
                     WriteBulletItem(Resources.Ellipsis);
                 }
+            }
+
+            string CreateLocalLink(ISymbol symbol)
+            {
+                return DocumentationUtility.CreateLocalLink(symbol, "class-hierarchy-");
             }
         }
 

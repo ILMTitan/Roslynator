@@ -9,11 +9,11 @@
 
 ## Class Hierarchy
 
-* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="System_Object"></a>
-* &emsp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)<a id="Roslynator_CSharp_ModifierList_1"></a>
-* &emsp; \(Roslynator\.SyntaxListSelection\<TNode>\)<a id="Roslynator_SyntaxListSelection_1"></a>
-* &emsp; [&bull;](#Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &emsp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="Roslynator_CSharp_MemberDeclarationListSelection"></a>
-* &emsp; [&bull;](#Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &emsp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)<a id="Roslynator_CSharp_StatementListSelection"></a>
+* &ensp; \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="class-hierarchy-System_Object"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [ModifierList\<TNode>](../../docs/api/Roslynator/CSharp/ModifierList-1/README.md)<a id="class-hierarchy-Roslynator_CSharp_ModifierList_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; \(Roslynator\.SyntaxListSelection\<TNode>\)<a id="class-hierarchy-Roslynator_SyntaxListSelection_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [MemberDeclarationListSelection](../../docs/api/Roslynator/CSharp/MemberDeclarationListSelection/README.md)<a id="class-hierarchy-Roslynator_CSharp_MemberDeclarationListSelection"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-Roslynator_SyntaxListSelection_1 "SyntaxListSelection<TNode>") &ensp; [StatementListSelection](../../docs/api/Roslynator/CSharp/StatementListSelection/README.md)<a id="class-hierarchy-Roslynator_CSharp_StatementListSelection"></a>
 
 ## [Roslynator.CSharp](../../docs/api/Roslynator/CSharp/README.md) Namespace
 

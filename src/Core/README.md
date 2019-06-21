@@ -9,13 +9,13 @@
 
 ## Class Hierarchy
 
-* \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="System_Object"></a>
-* &emsp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)<a id="System_Collections_Generic_EqualityComparer_1"></a>
-* &emsp; [&bull;](#System_Collections_Generic_EqualityComparer_1 "EqualityComparer<T>") &emsp; [MetadataNameEqualityComparer\<TSymbol>](../../docs/api/Roslynator/MetadataNameEqualityComparer-1/README.md)<a id="Roslynator_MetadataNameEqualityComparer_1"></a>
-* &emsp; [NameGenerator](../../docs/api/Roslynator/NameGenerator/README.md)<a id="Roslynator_NameGenerator"></a>
-* &emsp; [SeparatedSyntaxListSelection\<TNode>](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/README.md)<a id="Roslynator_SeparatedSyntaxListSelection_1"></a>
-* &emsp; [SyntaxListSelection\<TNode>](../../docs/api/Roslynator/SyntaxListSelection-1/README.md)<a id="Roslynator_SyntaxListSelection_1"></a>
-* &emsp; [TextLineCollectionSelection](../../docs/api/Roslynator/Text/TextLineCollectionSelection/README.md)<a id="Roslynator_Text_TextLineCollectionSelection"></a>
+* &ensp; \([Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)\)<a id="class-hierarchy-System_Object"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; \([EqualityComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.equalitycomparer-1)\)<a id="class-hierarchy-System_Collections_Generic_EqualityComparer_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [&bull;](#class-hierarchy-System_Collections_Generic_EqualityComparer_1 "EqualityComparer<T>") &ensp; [MetadataNameEqualityComparer\<TSymbol>](../../docs/api/Roslynator/MetadataNameEqualityComparer-1/README.md)<a id="class-hierarchy-Roslynator_MetadataNameEqualityComparer_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [NameGenerator](../../docs/api/Roslynator/NameGenerator/README.md)<a id="class-hierarchy-Roslynator_NameGenerator"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [SeparatedSyntaxListSelection\<TNode>](../../docs/api/Roslynator/SeparatedSyntaxListSelection-1/README.md)<a id="class-hierarchy-Roslynator_SeparatedSyntaxListSelection_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [SyntaxListSelection\<TNode>](../../docs/api/Roslynator/SyntaxListSelection-1/README.md)<a id="class-hierarchy-Roslynator_SyntaxListSelection_1"></a>
+* &ensp; [&bull;](#class-hierarchy-System_Object "Object") &ensp; [TextLineCollectionSelection](../../docs/api/Roslynator/Text/TextLineCollectionSelection/README.md)<a id="class-hierarchy-Roslynator_Text_TextLineCollectionSelection"></a>
 
 ## [Roslynator](../../docs/api/Roslynator/README.md) Namespace
 
